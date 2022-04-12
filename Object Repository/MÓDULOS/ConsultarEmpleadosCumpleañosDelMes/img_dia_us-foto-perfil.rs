@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_dia_us-foto-perfil</name>
+   <tag></tag>
+   <elementGuidId>e06a1762-0b2c-48c3-97ce-80d6f3c2d908</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[10]/td/table/tbody/tr/td/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/PortalSara/image/c2fc68c6fc6dc65c2fc67c75c69c73c65c6cc6cc2ec64c69c61c7ac2fc75c6ec69c6fc6ec77c65c62c31c34c2fc66c6fc74c6fc73c68c6fc6ac61c76c69c64c61c2fc33c30c31c32c2ec6ac70c67?defecto=resources/general/imagenes/employee.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-foto-perfil</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formCalendarioCumpleanos:hojas_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd fila_tabla_ace&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/img[@class=&quot;us-foto-perfil&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/ConsultarEmpleadosCumpleañosDelMes/iframe_Mis Cesantas_7F07D451709D4B45813735F_1cc0f7</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formCalendarioCumpleanos:hojas_data']/tr[10]/td/table/tbody/tr/td/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[10]/td/table/tbody/tr/td/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/PortalSara/image/c2fc68c6fc6dc65c2fc67c75c69c73c65c6cc6cc2ec64c69c61c7ac2fc75c6ec69c6fc6ec77c65c62c31c34c2fc66c6fc74c6fc73c68c6fc6ac61c76c69c64c61c2fc33c30c31c32c2ec6ac70c67?defecto=resources/general/imagenes/employee.jpg']</value>
+   </webElementXpaths>
+</WebElementEntity>

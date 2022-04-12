@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default_Weblogic</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Aqui la ruta de Weblogic</description>
+      <initValue>'http://192.168.2.11:7001/PortalSara/sitio/portalEmpleados/acceso'</initValue>
+      <name>G_Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/home/gtorresilla/git/Pruebas_Portal_Sara/1.Requerimiento/DocumentosPruebas/'</initValue>
+      <name>g_rutaarchivos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'saraadmin'</initValue>
+      <name>G_UsuarioFun</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'90798514'</initValue>
+      <name>G_UsuarioJefe</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'80769954'</initValue>
+      <name>G_UsuarioEmpleado</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Aqui la URL de Sara para requerimientos</description>
+      <initValue>'http://192.168.2.19:8380/saraweb/webcommon/acceso.jsf'</initValue>
+      <name>G_LoginSara</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
