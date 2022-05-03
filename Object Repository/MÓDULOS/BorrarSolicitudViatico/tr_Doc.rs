@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tr_Doc</name>
+   <tag></tag>
+   <elementGuidId>3efb25b8-8b5a-46cf-85e9-39d357c57575</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;form_listadoviaticos:j_idt71&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>tr</value>
+      <webElementGuid>86e43c2c-4315-45f8-8e5f-d4545e25ccbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Año
+
+</value>
+      <webElementGuid>c21e119e-8f03-4f93-929c-e2054720ecf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_listadoviaticos:panelFiltroMultiple_content&quot;)/table[1]/tbody[1]/tr[4]/td[3]/table[1]/tbody[1]/tr[1]</value>
+      <webElementGuid>b441d65f-2dab-4cc1-9f23-6e13117bbab5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[4]/td[3]/table/tbody/tr</value>
+      <webElementGuid>fe967337-174e-4f02-b70c-7a78e0cfecc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/following::tr[1]</value>
+      <webElementGuid>73eb7232-1169-434e-a306-2d144453d86c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::tr[2]</value>
+      <webElementGuid>83eb735a-bb1e-4e93-a337-a5f8e495cd86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documento'])[2]/preceding::tr[2]</value>
+      <webElementGuid>c7da6fa1-ac3b-4cd6-85b6-0241b16006b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/table/tbody/tr</value>
+      <webElementGuid>a0f8a702-30e1-4a5e-ac03-f7510d1148ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//tr[(text() = '
+Año
+
+' or . = '
+Año
+
+')]</value>
+      <webElementGuid>a79a0c19-8dab-4e5b-bf9f-7d28992a0b7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

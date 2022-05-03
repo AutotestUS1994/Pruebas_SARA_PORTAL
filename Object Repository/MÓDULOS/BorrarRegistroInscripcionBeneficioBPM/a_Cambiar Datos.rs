@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_DatosBeneficio:j_idt459']</value>
+         <value>//a[contains(text(),'Cambiar Datos')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>ab758bc8-f28e-4e16-8d27-c9b9df0e9198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_DatosBeneficio:j_idt459</value>
+      <webElementGuid>b7016033-1e42-42db-a93a-e9a139a630ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>d5f61f33-e204-44d6-9ce5-d42d3757bec8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>b3110ce7-22ba-4ab9-9daa-780f96a71a44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_DatosBeneficio:j_idt459&quot;,f:&quot;form_DatosBeneficio&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>16f3b7f5-c4e9-46b3-af7b-9b3927b28875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cambiar Datos</value>
+      <webElementGuid>92ddc874-178b-4499-86e1-f14e7a9d3531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_DatosBeneficio:j_idt459&quot;)</value>
+      <webElementGuid>96e94182-6f92-4d51-b874-e7bfa36d32b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_DatosBeneficio:j_idt459']</value>
+      <webElementGuid>18f996e7-5470-4b7f-8599-f46fccd6e70f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_DatosBeneficio']/table[4]/tbody/tr/td[2]/a</value>
+      <webElementGuid>339e4147-9977-4d45-a53d-fd91f8e56ee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cambiar Datos')]</value>
+      <webElementGuid>5422b967-6368-4584-b443-78ba22eb4e5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/following::a[2]</value>
+      <webElementGuid>aa1ea69c-8d22-4d04-ab11-f78739459fa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Documento Anexo'])[1]/following::a[2]</value>
+      <webElementGuid>54f2b405-6181-43f6-b167-df3ff005e3d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entidad Beneficio'])[1]/preceding::a[4]</value>
+      <webElementGuid>71f540f7-ab53-4021-8e0b-e6f89fcbdb47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Razón Social *'])[1]/preceding::a[4]</value>
+      <webElementGuid>8bfee633-30da-4e5a-a16e-29ff9ff4c182</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cambiar Datos']/parent::*</value>
+      <webElementGuid>24563dab-ca8c-4251-98c4-05305a9e2ce7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[80]</value>
+      <webElementGuid>e7388ac3-7df0-4582-a81e-993e7330365d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[4]/tbody/tr/td[2]/a</value>
+      <webElementGuid>76b18847-a4dd-4043-ad84-dffb8bf6de3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_DatosBeneficio:j_idt459' and @href = '#' and (text() = 'Cambiar Datos' or . = 'Cambiar Datos')]</value>
+      <webElementGuid>314fecf0-e258-4097-984b-18c58f60eb6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

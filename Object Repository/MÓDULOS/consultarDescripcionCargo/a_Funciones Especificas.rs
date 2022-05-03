@@ -6,11 +6,11 @@
    <elementGuidId>a074bb42-d58e-4325-a45d-e5b67a2c8bce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[13]/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[3]/div/form/table/tbody/tr/td[1]/table/tbody/tr[1]/td/table/tbody/tr[1]/td/div/div[2]/table[13]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>07a2a7c8-893c-4c97-be32-c6bf3816f321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>descripcionCargo_form:j_idt76:j_idt78:j_idt1070</value>
+      <webElementGuid>12ed2d5c-4a61-464d-b7c3-8d3c4fec1241</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>926a3c22-a69c-4ba1-8039-7dc418442b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>5652ad5f-ec21-4926-a97c-2ef81c4e2441</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;descripcionCargo_form:j_idt76:j_idt78:j_idt1070&quot;,f:&quot;descripcionCargo_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>16f7ff47-6f52-4c80-a611-f085fef0e8b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Funciones Especificas </value>
+      <webElementGuid>c8d26206-5f9e-476f-bcc3-af564c4d67a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;descripcionCargo_form:j_idt76:j_idt78:j_idt1070&quot;)</value>
+      <webElementGuid>d3e0a63e-68f0-46ba-b3c2-a36a038846a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/consultarDescripcionCargo/iframe_Mis Cesantas_descripcionCargo813735F_498b2a</value>
+      <webElementGuid>ff495b33-ecce-4898-a5d9-a837022b800e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='descripcionCargo_form:j_idt76:j_idt78:j_idt1070']</value>
+      <webElementGuid>bd0454d9-cd25-44f4-860f-9bc234c78825</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='descripcionCargo_form:j_idt76:j_idt78:j_idt1005']/table[13]/tbody/tr/td/a</value>
+      <webElementGuid>a6eb99fe-7e3b-4dde-a09b-ea9a75ed89c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Funciones Especificas')]</value>
+      <webElementGuid>0f436128-0dbd-46ad-917b-7de08434e547</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú'])[1]/following::a[13]</value>
+      <webElementGuid>17e1c7ed-f642-42be-8ec8-3f6e79af0c41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripcion del Cargo'])[1]/following::a[13]</value>
+      <webElementGuid>e1babc7a-577a-4dfa-91e5-c01302ce1c27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratos'])[1]/preceding::a[2]</value>
+      <webElementGuid>ca46bc77-8fb2-4635-92f7-8c3b57178d67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/preceding::a[3]</value>
+      <webElementGuid>9331a2d2-34fa-40b6-83e1-889a7c9c5114</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Funciones Especificas']/parent::*</value>
+      <webElementGuid>84641683-c805-4996-b76f-a003aa6a3867</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[13]</value>
+      <webElementGuid>d82047d1-2423-4355-b54f-a6eac988ee43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[13]/tbody/tr/td/a</value>
+      <webElementGuid>e3cd6b65-f73a-4beb-97cc-11bc424c6ba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'descripcionCargo_form:j_idt76:j_idt78:j_idt1070' and @href = '#' and (text() = 'Funciones Especificas ' or . = 'Funciones Especificas ')]</value>
+      <webElementGuid>87810d6f-13b8-44c5-aa92-54e9b6900dca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

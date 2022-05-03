@@ -6,12 +6,11 @@
    <elementGuidId>2d859afd-b007-497c-8ef5-be7caae60a90</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_popupcostoviaticos:j_idt1030']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>b1029953-4c5c-403e-993f-2273e9901838</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupcostoviaticos:j_idt1030</value>
+      <webElementGuid>be60c914-0701-431f-9de5-0828cdf191ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>9160b3de-6e82-4da7-af53-97f0e34e426d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-eliminar</value>
+      <webElementGuid>fe903ff2-1059-4658-8c4e-7c010baa3a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupcostoviaticos:j_idt1030&quot;,f:&quot;form_popupcostoviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>294d6514-e882-4714-abe5-5da401b912f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
+      <webElementGuid>577cefc4-f1bc-441a-a903-ab20acbba870</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupcostoviaticos:j_idt1030&quot;)</value>
+      <webElementGuid>c121bc5d-0a5b-481a-98b8-4b847521beeb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupcostoviaticos:j_idt1030']</value>
+      <webElementGuid>d0e60364-de71-4b76-8201-371aae4c23a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupcostoviaticos:j_idt928_content']/table/tbody/tr[3]/td/a[2]</value>
+      <webElementGuid>3fa98b19-3f14-49c9-8abc-63eade7bfbc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Eliminar')]</value>
+      <webElementGuid>bcefaa45-dd85-4a56-969e-69cdb7d893cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[2]</value>
+      <webElementGuid>171534c8-9ff0-4851-ab42-95af222793af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Resolución'])[1]/following::a[2]</value>
+      <webElementGuid>35dc1c8a-d276-42ad-acf7-b7b89ef13949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'form_popupcostoviaticos:j_idt1030', '&quot;', ')')])[1]/preceding::a[2]</value>
+      <webElementGuid>e89006c9-a030-4f44-ab4b-441abaa3be4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::a[3]</value>
+      <webElementGuid>3e228e2f-8f45-4f6f-8d5a-349182ee4652</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Eliminar']/parent::*</value>
+      <webElementGuid>80e920d0-3413-400b-9cb9-37a763abe218</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[91]</value>
+      <webElementGuid>db91ebae-e00c-476b-bba6-4561862efa37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
+      <webElementGuid>56840e8c-e458-4a73-b85f-ab76032111bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_popupcostoviaticos:j_idt1030' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+      <webElementGuid>a31aa0cf-221b-437c-aada-b99480bf3122</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

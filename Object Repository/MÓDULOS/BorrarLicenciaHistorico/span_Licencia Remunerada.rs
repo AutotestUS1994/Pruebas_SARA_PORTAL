@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Inscribirse</name>
+   <name>span_Licencia Remunerada</name>
    <tag></tag>
-   <elementGuidId>3729b006-cbbd-4790-aa60-ce96ab53d60f</elementGuidId>
+   <elementGuidId>819b5460-1b34-4a6b-bc19-f93c1df457f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.us-boton.btn-acepto</value>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td > span.valor_campo</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Inscribirse' or . = 'Inscribirse')]</value>
+         <value>//div[2]/table/tbody/tr/td/div/div/table/tbody/tr/td/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>542bc530-9308-493d-8e18-9809c754bcaf</webElementGuid>
+      <webElementGuid>68b1324e-f4d8-4360-94e0-bb8d477db0bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-acepto</value>
-      <webElementGuid>3471da06-6329-4150-a5c5-d1e9e996c83c</webElementGuid>
+      <value>valor_campo</value>
+      <webElementGuid>b11f4077-1bed-45c5-84fa-f65c4bf57daf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Inscribirse</value>
-      <webElementGuid>3eea988a-5945-4e30-8497-febbd54a9490</webElementGuid>
+      <value>Licencia Remunerada</value>
+      <webElementGuid>7c01390f-f771-4fb5-85fc-a62538acdc7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formDetalleConvocatoria:j_idt75&quot;)/span[@class=&quot;us-boton btn-acepto&quot;]</value>
-      <webElementGuid>544b56f7-5375-4fbd-869a-91ecc65f7905</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/MÓDULOS/Proceso Seleccion/InscribirseConvocatoriaProcesoSeleccion/iframe_Convocatorias vigentes_B7B969ED535F4_be212a</value>
-      <webElementGuid>5dda61fb-44e7-4f1a-bd1f-269f5f5c0b49</webElementGuid>
+      <value>id(&quot;form_licenciaEmpleado:tabsLicencias:j_idt2565_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>61b1f818-660e-4c19-9654-5af636f81a96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='formDetalleConvocatoria:j_idt75']/span</value>
-      <webElementGuid>31c6c415-62fb-4e12-b770-8dcbdb6ebc91</webElementGuid>
+      <value>//tbody[@id='form_licenciaEmpleado:tabsLicencias:j_idt2565_data']/tr/td/span</value>
+      <webElementGuid>66c0c7b3-31c2-4055-af8e-76c4d4356d05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Proceso Selección Etapa Proceso'])[1]/following::span[3]</value>
-      <webElementGuid>d40ca18e-3b45-4980-a6a3-102f203c392d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liquidado'])[1]/following::span[1]</value>
+      <webElementGuid>ba4a0e34-63ff-40b6-8e0f-9fffda4b7133</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratación'])[1]/following::span[5]</value>
-      <webElementGuid>fe03f347-0fbb-4896-be5b-0f1f299c629c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Termina'])[1]/following::span[2]</value>
+      <webElementGuid>3f6f48ee-13e4-4c44-b58b-0ab5f34d16f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
-      <webElementGuid>230a9a1c-d5b6-4664-9d72-114bbdced7d7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recuperar Incapacidad'])[1]/preceding::span[6]</value>
+      <webElementGuid>6844c4cb-9986-4b77-ae9c-c8d4595afbbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
-      <webElementGuid>1b90d5c0-7b2b-447a-b7fd-ac8282681970</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::span[6]</value>
+      <webElementGuid>5f22688b-5555-4a00-9f2b-63696679ac0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Inscribirse']/parent::*</value>
-      <webElementGuid>13a6d2c3-72f8-4785-945f-e214f7dfb8e1</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Licencia Remunerada']/parent::*</value>
+      <webElementGuid>5d46a1a2-989d-4173-9133-09db760f5057</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/span</value>
-      <webElementGuid>a17e0043-3dc9-4c3d-af52-92242296ff7f</webElementGuid>
+      <value>//div[2]/table/tbody/tr/td/div/div/table/tbody/tr/td/span</value>
+      <webElementGuid>4b6319ab-9b69-49e1-9c90-39eab5b74c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Inscribirse' or . = 'Inscribirse')]</value>
-      <webElementGuid>963579e7-33f5-4a3b-83a0-68d73c36c9f5</webElementGuid>
+      <value>//span[(text() = 'Licencia Remunerada' or . = 'Licencia Remunerada')]</value>
+      <webElementGuid>d6d308aa-1d87-4ddd-beba-13aa60e1b639</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

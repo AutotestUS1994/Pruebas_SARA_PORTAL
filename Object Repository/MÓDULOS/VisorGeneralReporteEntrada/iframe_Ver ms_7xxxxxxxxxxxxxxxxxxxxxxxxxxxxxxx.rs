@@ -3,15 +3,15 @@
    <description></description>
    <name>iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</name>
    <tag></tag>
-   <elementGuidId>ee35386c-5d7c-4417-a742-e52f44d83bc6</elementGuidId>
+   <elementGuidId>6176f6e5-b3e2-4c11-93cc-af44dd1ad679</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//iframe[@id='ifrm_component_C_0']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#ifrm_component_C_0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe[@id='ifrm_component_C_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
+      <webElementGuid>7a701d8a-1271-4775-972d-2a0922fed299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ifrm_component_C_0</value>
+      <webElementGuid>13e3d362-ba35-4c8b-bdfc-ce7f8f1255d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSara/webcommonAutoServicio/funcionalidades/login.xhtml?us_id=us-interfaz-tl7d</value>
+      <webElementGuid>c7296f5c-6b66-4bf3-b74e-4094b8b6e71d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
+      <webElementGuid>d60518c0-2359-49bd-b30f-aac125890cae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+      <webElementGuid>e19fdac6-d2d1-41e9-8319-f069613fdc83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>0b4bad99-96d7-4ef6-81e2-6f06e5d45aee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>da27af7f-7bae-4e39-b519-5ab7eaa0f868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>33016078-0e61-450a-b098-93d55c609253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
+      <webElementGuid>a3119514-94d3-4c09-8e26-77dc44e161dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>eb7905dc-75b7-4f7e-8262-b779ef92c0ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>bef5a09c-96d3-4644-9220-75f46ece2537</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>9cf3275d-0455-4952-be2f-838b07e0b968</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ifrm_component_C_0&quot;)</value>
+      <webElementGuid>72e3795b-223c-414b-b2b9-afe102a21508</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='ifrm_component_C_0']</value>
+      <webElementGuid>0762df4e-2176-4825-9ca8-8f7abebe7076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div[2]/div[2]/div/iframe</value>
+      <webElementGuid>1d408412-18f9-4f00-8d9a-d5b198dd8d83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
+      <webElementGuid>dea55451-2f43-439b-aca4-82f8c7f22a4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'ifrm_component_C_0' and @src = '/PortalSara/webcommonAutoServicio/funcionalidades/login.xhtml?us_id=us-interfaz-tl7d' and @name = '7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx']</value>
+      <webElementGuid>0270b783-9c87-475d-aa1c-ceddbba48b6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

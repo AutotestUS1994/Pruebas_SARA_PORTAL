@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</name>
+   <name>iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</name>
    <tag></tag>
-   <elementGuidId>4088089f-73ee-48f7-b0ca-e55e9f614b82</elementGuidId>
+   <elementGuidId>8f0e903e-4f65-47d0-8d1b-75d3d042c0f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ifrm_component_A_1</value>
+         <value>#ifrm_component_A_4</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@src='/PortalSara/compensacion/ausentismos/uiAplicacionNovedad.xhtmll?us_id=us-interfaz-3eej']</value>
+         <value>//iframe[@id='ifrm_component_A_4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>42e7980a-5976-4344-94cb-b4760d8a8596</webElementGuid>
+      <webElementGuid>227c835a-d4c2-457d-ade1-383d119957b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ifrm_component_A_1</value>
-      <webElementGuid>111faca8-a40d-48ee-a4dd-2ae1ee24d8da</webElementGuid>
+      <value>ifrm_component_A_4</value>
+      <webElementGuid>f7fc115a-adda-4f09-9821-1dd6a3bd6406</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/PortalSara/compensacion/ausentismos/uiAplicacionNovedad.xhtmll?us_id=us-interfaz-3eej</value>
-      <webElementGuid>3afc6037-e83a-4487-ae60-67201d171c52</webElementGuid>
+      <value>/PortalSara/Funcionalidades/visorreporte/visorGeneralReporte.xhtml?us_id=us-interfaz-64z1</value>
+      <webElementGuid>c0b11437-b7aa-4a52-91f1-19195646befb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>f3e915c4-3ddd-4e74-95cf-f8f7c22c7294</webElementGuid>
+      <webElementGuid>7553588b-d433-439f-8af9-bb766d5b03d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>7F07D451F09D6B35813735F552B36402</value>
-      <webElementGuid>ad9467fc-ec68-4586-965c-1e8e319888c6</webElementGuid>
+      <value>SPW7D451709D4B45813735F552B36005</value>
+      <webElementGuid>e46be364-8f5e-4c3c-9182-d46473e89e54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>2c79ef28-7d9d-4df0-a54f-c6cd8679e0b3</webElementGuid>
+      <webElementGuid>0410cc44-31d1-4cdf-8c77-f2dafeca6b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>2dee043a-c911-4092-8e11-ce11deb55cd3</webElementGuid>
+      <webElementGuid>9f138bcb-487a-4596-98f0-b011085306a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>aff8c4e7-137a-42b7-8c17-658cadfa4387</webElementGuid>
+      <webElementGuid>2c8631b6-62a5-41ee-9d2a-67c843e76a7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
-      <webElementGuid>1f2c2474-a3fc-4992-a808-66ee971c5429</webElementGuid>
+      <webElementGuid>7f4d1368-6884-46c9-ad3d-2d2f8133e334</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0be43d2f-0916-42fd-939e-8cbf0765678c</webElementGuid>
+      <webElementGuid>4c9c51ca-0e64-4bf8-9488-7f16bf6cb70d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>957f5595-cd04-47c2-92e2-c80f1f8c0f53</webElementGuid>
+      <webElementGuid>8fb68c7c-471c-445e-b4f4-6974fe673eb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,46 +110,46 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>47e272ed-4eae-45d6-81c6-764602b2291f</webElementGuid>
+      <webElementGuid>b594d9d0-23d1-4f73-896b-1361e3922ef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ifrm_component_A_1&quot;)</value>
-      <webElementGuid>9b6b2b94-efc6-4dcd-b95c-ddc5c2896470</webElementGuid>
+      <value>id(&quot;ifrm_component_A_4&quot;)</value>
+      <webElementGuid>718ba88f-14f5-45d7-a60d-e4768ceb5b87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='ifrm_component_A_1']</value>
-      <webElementGuid>a0d47872-3bc4-4e6b-b6c6-967946870d6b</webElementGuid>
+      <value>//iframe[@id='ifrm_component_A_4']</value>
+      <webElementGuid>b77beaff-9b9d-442c-86a6-1645c2ed9541</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/iframe</value>
-      <webElementGuid>fde0d93f-591d-4784-ae3f-d1f22f39bcd5</webElementGuid>
+      <value>//div[@id='areaAplicacion']/div/div/div/div/div[5]/iframe</value>
+      <webElementGuid>4c8e1294-4afe-4379-ac33-9c5b79680363</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
-      <webElementGuid>0750113e-7c3a-4f4a-a1ca-6b3a7e4a307b</webElementGuid>
+      <value>//div[5]/iframe</value>
+      <webElementGuid>8d753754-8f5b-4bb7-8e62-cbb191ab2dd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//iframe[@id = 'ifrm_component_A_1' and @src = '/PortalSara/compensacion/ausentismos/uiAplicacionNovedad.xhtmll?us_id=us-interfaz-3eej' and @name = '7F07D451F09D6B35813735F552B36402']</value>
-      <webElementGuid>4a96410b-a8c2-4e6c-842a-f7bb13f7e4a9</webElementGuid>
+      <value>//iframe[@id = 'ifrm_component_A_4' and @src = '/PortalSara/Funcionalidades/visorreporte/visorGeneralReporte.xhtml?us_id=us-interfaz-64z1' and @name = 'SPW7D451709D4B45813735F552B36005']</value>
+      <webElementGuid>ae7d2cdd-17e8-48eb-a65b-b04f9646ed05</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

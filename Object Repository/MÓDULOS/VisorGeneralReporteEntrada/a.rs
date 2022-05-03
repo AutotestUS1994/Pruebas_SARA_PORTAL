@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ingresar</name>
+   <name>a</name>
    <tag></tag>
-   <elementGuidId>85ef9c65-c61a-4bc1-9566-2f26c8e38402</elementGuidId>
+   <elementGuidId>3abd67d0-e2d0-4374-a65c-d4fa938e9e3a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
+         <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[12]/div/figure/figcaption/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,110 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login:linkenviar</value>
+      <webElementGuid>2055d67b-3c21-47fd-9459-dda6e16c2223</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>jsf.util.chain(this,event,';convertirClave(\'cc114b70fc3a36765a2ad827346dfad137decd62d172c0bb6ff3747b04abdada122f8ea8ac3337aa40311d1fd32e07808a2d\',\'10001\');','mojarra.jsfcljs(document.getElementById(\'login\'),{\'login:linkenviar\':\'login:linkenviar\'},\'\')');return false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>us-btn-primario us-login</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Ingresar</value>
+      <value>/PortalSara/sitio/portalEmpleados/solicitudpunto-calidad</value>
+      <webElementGuid>9eae7555-2588-46e6-9fb4-deb3d5e1e6db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:linkenviar&quot;)</value>
+      <value>id(&quot;areaAplicacion&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-md-offset-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-lg-12&quot;]/div[@class=&quot;container-fluid-prime&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-4 col-lg-3&quot;]/div[@class=&quot;grid&quot;]/figure[@class=&quot;effect-bubba&quot;]/figcaption[1]/a[1]</value>
+      <webElementGuid>34d760b8-7fe2-4cc0-a1de-88b9c6a2c346</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='login:linkenviar']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div/div[3]/div[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Ingresar')]</value>
+      <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[12]/div/figure/figcaption/a</value>
+      <webElementGuid>603a0849-737e-4b86-97d2-4309662d970c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Olvide Mi Clave'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisa tus solicitudes'])[1]/following::a[1]</value>
+      <webElementGuid>acc84caf-4a73-45f8-8035-536bb85c1b0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'login:linkenviar', '&quot;', ')')])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Puntaje Docente'])[1]/following::a[1]</value>
+      <webElementGuid>978438dc-6a4e-4252-8643-43a47a9e6b64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Punto'])[1]/preceding::a[1]</value>
+      <webElementGuid>d954553a-87a6-4d67-a9e1-f2af90781131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisa tus solicitudes'])[2]/preceding::a[1]</value>
+      <webElementGuid>acd99d75-8476-4edc-8270-0bd180a74512</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>//a[contains(@href, '/PortalSara/sitio/portalEmpleados/solicitudpunto-calidad')]</value>
+      <webElementGuid>990bc850-75f4-4c9b-81fd-fbd18c9f5a43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//div[12]/div/figure/figcaption/a</value>
+      <webElementGuid>a75e8458-2330-4941-b1b3-8bb122a99475</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'login:linkenviar' and @href = '#' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
+      <value>//a[@href = '/PortalSara/sitio/portalEmpleados/solicitudpunto-calidad']</value>
+      <webElementGuid>c624d9bc-7010-4ebd-9522-216b433e07d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

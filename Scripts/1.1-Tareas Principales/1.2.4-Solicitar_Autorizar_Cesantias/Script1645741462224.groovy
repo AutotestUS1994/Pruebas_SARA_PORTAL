@@ -54,7 +54,7 @@ if (confi == 'SE PROCESARÁ SU SOLICITUD') {
 
     String sol = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/td_solicitud  1552 EMPLEADO'))
 
-    if ((soli == 'Solicitudes') && (sol == 'solicitud 1552 EMPLEADO')) {
+    if ((soli == 'Solicitudes') && (sol == 'solicitud 1552 EMPLEADO PPRUEBA')) {
         WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/td_solicitud  1552 EMPLEADO'))
 
         WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/a_Autorizar'))

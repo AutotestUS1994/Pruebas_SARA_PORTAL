@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</name>
+   <name>input_Empresa 1_form_templatej_idt24_input</name>
    <tag></tag>
-   <elementGuidId>0b4490b6-364e-4f0c-8571-75c1f0b90e18</elementGuidId>
+   <elementGuidId>09833dc5-b99e-43d3-b6e2-4850bddc145a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ifrm_component_C_0</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='ifrm_component_C_0']</value>
+         <value>//input[@id='form_template:j_idt24_input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,118 +21,135 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>input</value>
+      <webElementGuid>5f9f5b89-6012-4b3f-ac37-7e39867a1b3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ifrm_component_C_0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/PortalSara/webcommonAutoServicio/funcionalidades/login.xhtml?us_id=us-interfaz-tl7d</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>scrolling</name>
-      <type>Main</type>
-      <value>no</value>
+      <value>form_template:j_idt24_input</value>
+      <webElementGuid>c7e1a95c-c446-4bd5-89a4-735a7013db45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+      <value>form_template:j_idt24_input</value>
+      <webElementGuid>f3455637-68d0-4d97-b6cb-bc6e7c380642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>9f76c7b0-690d-4e03-9249-ce2c5128928b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginheight</name>
+      <name>class</name>
       <type>Main</type>
-      <value>5</value>
+      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
+      <webElementGuid>1199bc4e-cefa-4f5e-909c-9ecb04a9b3c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginwidth</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>5</value>
+      <value>off</value>
+      <webElementGuid>265290dc-1a9f-4c90-8a3a-6c327101a924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>size</name>
       <type>Main</type>
-      <value>0</value>
+      <value>305</value>
+      <webElementGuid>8591351c-51fd-402f-9cc5-4f9007eee551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onload</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>resizeIframe(this); </value>
+      <value>this.value='';</value>
+      <webElementGuid>996f9fe0-efe7-43f0-8dc6-2550957397be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>allowfullscreen</name>
+      <name>role</name>
       <type>Main</type>
-      <value>true</value>
+      <value>textbox</value>
+      <webElementGuid>c8214e8f-d11e-47af-8ac6-9262b5e25f86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>webkitallowfullscreen</name>
+      <name>aria-readonly</name>
       <type>Main</type>
-      <value>true</value>
+      <value>false</value>
+      <webElementGuid>ecec45bb-875b-4e28-9120-b6ba0c77e2d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>mozallowfullscreen</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>true</value>
+      <value>false</value>
+      <webElementGuid>1b16a987-449a-4394-b7e5-741ffef7ce27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-autocomplete</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>fc452746-eb5c-4dbf-af53-b019f6cb2992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ifrm_component_C_0&quot;)</value>
+      <value>id(&quot;form_template:j_idt24_input&quot;)</value>
+      <webElementGuid>976737b0-9d5d-4390-a77a-4876fe0af1f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='ifrm_component_C_0']</value>
+      <value>//input[@id='form_template:j_idt24_input']</value>
+      <webElementGuid>e464fb70-ff86-4209-8813-0ecc587521d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='areaAplicacion']/div[2]/div[2]/div/iframe</value>
+      <value>//span[@id='form_template:j_idt24']/input</value>
+      <webElementGuid>8c8c178d-79f8-41c0-845a-723c8010374b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//span/input</value>
+      <webElementGuid>514756c1-10e7-445c-ae30-485d2e9c0048</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//iframe[@id = 'ifrm_component_C_0' and @src = '/PortalSara/webcommonAutoServicio/funcionalidades/login.xhtml?us_id=us-interfaz-tl7d' and @name = '7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx']</value>
+      <value>//input[@id = 'form_template:j_idt24_input' and @name = 'form_template:j_idt24_input' and @type = 'text']</value>
+      <webElementGuid>3db389a9-6e01-4846-b9a4-053dbbf535ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

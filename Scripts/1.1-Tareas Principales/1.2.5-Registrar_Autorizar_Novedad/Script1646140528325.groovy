@@ -62,7 +62,7 @@ if (nov == 'Novedad') {
 
         String aproNov1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/td_Novedad'))
 
-        if ((aproNov == 'novedad 1552 Mendoza 1502 Empleado') && (aproNov1 == 'Novedad')) {
+        if ((aproNov == 'novedad 1552 Mendoza 1502 Empleado Pprueba') && (aproNov1 == 'Novedad')) {
             WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/td_Novedad'))
 
             WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/a_Autorizar'))

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_listadoBeneficio:j_idt77']</value>
+         <value>//a[contains(text(),'Filtrar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>17b2c7ed-2d7d-492a-bc40-aa0f271a1034</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoBeneficio:j_idt77</value>
+      <webElementGuid>9f4f4963-7a04-441b-9a24-cd00a232266f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b5a55581-34c8-4747-82ef-3826ac7748fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-filtrar</value>
+      <webElementGuid>238f403e-223a-46fb-b59c-78ea10801c4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_listadoBeneficio:j_idt77&quot;,f:&quot;form_listadoBeneficio&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>885cd72d-02f1-49e6-9de1-1cac380eecf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Filtrar</value>
+      <webElementGuid>586ce292-b0fa-477c-8a98-a2ae28a8d001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoBeneficio:j_idt77&quot;)</value>
+      <webElementGuid>49ecb113-c2e6-4920-9a72-810756999483</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_listadoBeneficio:j_idt77']</value>
+      <webElementGuid>97bb6bcd-fe88-4658-9c07-e37bff54454f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoBeneficio:panelFiltro_content']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>416f0cff-20b5-4496-9530-c6b818e7e315</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Filtrar')]</value>
+      <webElementGuid>142734a0-2194-40cb-9e3f-188340026180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[1]/following::a[1]</value>
+      <webElementGuid>586ae319-a9d4-4f6e-a187-bebf07bb3f76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inicial'])[1]/following::a[1]</value>
+      <webElementGuid>1ef9a2a1-5f22-40e5-a7e0-b96076d3838d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[2]/preceding::a[2]</value>
+      <webElementGuid>7121ac9a-ac36-40c4-98bf-7b161b9199a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Beneficio'])[2]/preceding::a[2]</value>
+      <webElementGuid>0366842a-f7e8-4fec-81ac-0314d78ef975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Filtrar']/parent::*</value>
+      <webElementGuid>bb4b06eb-28ac-4869-8234-4ae6ad24aaa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[81]</value>
+      <webElementGuid>473ddcc9-73c3-4003-bd6e-a589c4613a05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
+      <webElementGuid>7156c6b0-83a5-4c52-bf13-354cdfd17d8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_listadoBeneficio:j_idt77' and @href = '#' and (text() = 'Filtrar' or . = 'Filtrar')]</value>
+      <webElementGuid>e40f5eeb-09d9-419d-885f-4260ce67ca3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

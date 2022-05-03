@@ -6,12 +6,11 @@
    <elementGuidId>cce6cf28-72b7-4835-b2d0-0abe52f15557</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='grupoEvento:j_idt592']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>9532b48a-f2cf-4ab9-a5ce-cf4d68c6728e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grupoEvento:j_idt592</value>
+      <webElementGuid>c0eeb88b-614e-4305-8d5f-06ebe30811fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>17d55b26-01dd-4022-a388-0165e3630b3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-eliminar</value>
+      <webElementGuid>87c9cb78-b9e5-4d8f-b291-4c886f9e3f37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;grupoEvento:j_idt592&quot;,f:&quot;grupoEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>f8421ad6-96ad-4101-9da1-c7a84db8b1ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;grupoEvento:j_idt592&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+      <webElementGuid>cb908cef-31db-44a7-a151-f14bebf87405</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
+      <webElementGuid>11b751e5-8836-4528-a30b-8052e4678575</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:j_idt592&quot;)</value>
+      <webElementGuid>bf32f645-d9d5-4967-9407-79e4a87782e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='grupoEvento:j_idt592']</value>
+      <webElementGuid>a9b6ea5d-7939-4068-b577-f8a7de70f128</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grupoEvento:j_idt385_content']/div[2]/table[2]/tbody/tr/td[2]/a</value>
+      <webElementGuid>268da5d0-a0e4-49e1-8388-cd1900e0b735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Eliminar')]</value>
+      <webElementGuid>d458ca11-dfdd-41d5-922b-c512e76fe467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente *'])[1]/following::a[2]</value>
+      <webElementGuid>df2adb7d-ba57-4fd9-8bdf-970d40a7d540</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::a[2]</value>
+      <webElementGuid>a2575f7c-8767-45ae-9ae9-05c7798ae589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::a[5]</value>
+      <webElementGuid>759319b3-60b0-4b99-932c-8d4d53839cbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[5]</value>
+      <webElementGuid>1676ff5a-94c4-46fc-bf87-4142e9937183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Eliminar']/parent::*</value>
+      <webElementGuid>5883744a-c5a5-4faf-9ed5-738f23edb20c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[105]</value>
+      <webElementGuid>0cc28ed1-7adf-411d-9efb-b3b98def7a61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td[2]/a</value>
+      <webElementGuid>d00094dc-ccab-462b-b0d4-3892c689cd84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'grupoEvento:j_idt592' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+      <webElementGuid>7038b343-7233-4ac4-ae76-a0fdffa82276</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

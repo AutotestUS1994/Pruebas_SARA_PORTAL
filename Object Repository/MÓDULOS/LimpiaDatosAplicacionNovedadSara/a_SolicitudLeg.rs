@@ -6,12 +6,11 @@
    <elementGuidId>e85a6f31-52df-4561-8830-17da4c996f95</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='aplicaNovedadProceso:j_idt115:j_idt117:j_idt133']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Solicitud')])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>5b7d81eb-1a0b-4e79-982b-4f9ef8b16303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>aplicaNovedadProceso:j_idt115:j_idt117:j_idt133</value>
+      <webElementGuid>1a5bb4d9-f3d8-4bea-b93b-46f3c64c174f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>aa55fc7f-3a9b-4472-a3ff-aab0876809ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>b5ee8cf7-015a-4206-ae69-97b4ad4b0869</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;aplicaNovedadProceso:j_idt115:j_idt117:j_idt133&quot;,f:&quot;aplicaNovedadProceso&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>25dcea50-e013-40a4-9293-6874c4589210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitud </value>
+      <webElementGuid>81d25ce5-578f-4320-8b4f-6c9ea559e6c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;aplicaNovedadProceso:j_idt115:j_idt117:j_idt133&quot;)</value>
+      <webElementGuid>cc4cf7b1-f510-499e-8f2c-328af585f1eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='aplicaNovedadProceso:j_idt115:j_idt117:j_idt133']</value>
+      <webElementGuid>ecd8a8cd-8f27-4fe3-a7d6-2d99c3549bc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='aplicaNovedadProceso:j_idt115:j_idt117:j_idt118']/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>64e37b30-13ee-43d4-a29a-8b768e586b65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Solicitud')])[6]</value>
+      <webElementGuid>d95fb310-15a5-4ce5-91fd-32ff670e9d89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Legalizar'])[1]/following::a[3]</value>
+      <webElementGuid>54fe3e23-a558-416d-822a-cb1a188decc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Autorizar'])[1]/following::a[7]</value>
+      <webElementGuid>82c91840-5a5f-4e11-bb97-74cd67f50ba3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ausentismos Por Legalizar'])[1]/preceding::a[4]</value>
+      <webElementGuid>68295a88-e1ee-4dba-8ab3-c65dc4aec86d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato:'])[1]/preceding::a[4]</value>
+      <webElementGuid>3920ad7a-4d5b-4d5c-aab6-47e5180045c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[87]</value>
+      <webElementGuid>79799dd7-cc54-4c29-95e2-49aa56b549d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/div/div[2]/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>e68867e6-de91-42d5-89a7-30944f3a2a33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'aplicaNovedadProceso:j_idt115:j_idt117:j_idt133' and @href = '#' and (text() = 'Solicitud ' or . = 'Solicitud ')]</value>
+      <webElementGuid>8e6c943d-2d0a-4956-a6cd-76f6a6add503</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

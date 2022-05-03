@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Solicitud Viatico'), [:], FailureHandling.STOP_ON_FAILURE)
 
 iniciar()
@@ -109,7 +110,11 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
 
     WebUI.click(findTestObject('MÓDULOS/SolicitarViatico/a_agregarRegistroCostos'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'))
+    WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'), 1)
+
+    WebUI.scrollToElement(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'), 0)
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
 
     if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Se ha enviado la solicitud de viatico correctamente')) {
@@ -160,6 +165,7 @@ def a() {
     WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
 
     WebUI.click(findTestObject('Login/a_Ingresar'))
-	
+
     WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
 }
+

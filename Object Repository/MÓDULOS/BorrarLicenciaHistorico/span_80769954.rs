@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Inscribirse</name>
+   <name>span_80769954</name>
    <tag></tag>
-   <elementGuidId>3729b006-cbbd-4790-aa60-ce96ab53d60f</elementGuidId>
+   <elementGuidId>54a24249-a80f-4b3a-9748-662b2fbe82ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.us-boton.btn-acepto</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Inscribirse' or . = 'Inscribirse')]</value>
+         <value>//div[2]/table/tbody/tr/td[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>542bc530-9308-493d-8e18-9809c754bcaf</webElementGuid>
+      <webElementGuid>1110a00d-db46-4634-b770-31d564c05c10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-acepto</value>
-      <webElementGuid>3471da06-6329-4150-a5c5-d1e9e996c83c</webElementGuid>
+      <value>valor_campo</value>
+      <webElementGuid>70903b8f-b367-4a38-9628-ae1e7dbf511f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Inscribirse</value>
-      <webElementGuid>3eea988a-5945-4e30-8497-febbd54a9490</webElementGuid>
+      <value>80769954</value>
+      <webElementGuid>76ce50a6-3755-4993-833e-0680fabbc26c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formDetalleConvocatoria:j_idt75&quot;)/span[@class=&quot;us-boton btn-acepto&quot;]</value>
-      <webElementGuid>544b56f7-5375-4fbd-869a-91ecc65f7905</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/MÓDULOS/Proceso Seleccion/InscribirseConvocatoriaProcesoSeleccion/iframe_Convocatorias vigentes_B7B969ED535F4_be212a</value>
-      <webElementGuid>5dda61fb-44e7-4f1a-bd1f-269f5f5c0b49</webElementGuid>
+      <value>id(&quot;listadoEmpleado:tablaEmpleados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>2deccf00-c04b-4675-9e8f-c455619b1e8c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='formDetalleConvocatoria:j_idt75']/span</value>
-      <webElementGuid>31c6c415-62fb-4e12-b770-8dcbdb6ebc91</webElementGuid>
+      <value>//tbody[@id='listadoEmpleado:tablaEmpleados_data']/tr/td[2]/span</value>
+      <webElementGuid>b2e3b2ad-be4a-4d0a-9a81-06d6ec0275bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Proceso Selección Etapa Proceso'])[1]/following::span[3]</value>
-      <webElementGuid>d40ca18e-3b45-4980-a6a3-102f203c392d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Turno'])[2]/following::span[2]</value>
+      <webElementGuid>6d0bd3b9-88e5-4c72-affd-c67d92aaa863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratación'])[1]/following::span[5]</value>
-      <webElementGuid>fe03f347-0fbb-4896-be5b-0f1f299c629c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado Laboral'])[1]/following::span[3]</value>
+      <webElementGuid>9ca61fee-6434-4f01-bbef-29c08ecf72ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
-      <webElementGuid>230a9a1c-d5b6-4664-9d72-114bbdced7d7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza 1502 Empleado Pprueba'])[1]/preceding::span[1]</value>
+      <webElementGuid>65bc9fca-5840-464b-bd3d-4df1d9287949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
-      <webElementGuid>1b90d5c0-7b2b-447a-b7fd-ac8282681970</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/preceding::span[5]</value>
+      <webElementGuid>a0e6ae82-6984-46d2-9aaa-226f3d89ec15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Inscribirse']/parent::*</value>
-      <webElementGuid>13a6d2c3-72f8-4785-945f-e214f7dfb8e1</webElementGuid>
+      <value>//*/text()[normalize-space(.)='80769954']/parent::*</value>
+      <webElementGuid>c15329ba-196b-4986-9354-0f322963e4eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/span</value>
-      <webElementGuid>a17e0043-3dc9-4c3d-af52-92242296ff7f</webElementGuid>
+      <value>//div[2]/table/tbody/tr/td[2]/span</value>
+      <webElementGuid>49f7a2b4-2558-49d2-8803-ed308a66e448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Inscribirse' or . = 'Inscribirse')]</value>
-      <webElementGuid>963579e7-33f5-4a3b-83a0-68d73c36c9f5</webElementGuid>
+      <value>//span[(text() = '80769954' or . = '80769954')]</value>
+      <webElementGuid>f5b1d872-8979-4e63-a48f-3773410d7337</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
