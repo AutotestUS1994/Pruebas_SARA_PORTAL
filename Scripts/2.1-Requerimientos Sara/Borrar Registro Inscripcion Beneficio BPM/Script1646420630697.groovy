@@ -43,22 +43,29 @@ if (conv == 'CONVOCATORIA BENEFICIO PRUEBA PORTAL') {
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Beneficiarios'))
 
-    String emp = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'))
+    if(WebUI.waitForElementClickable(findTestObject('MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'), 
+        1)) {
 
-    if (emp == 'MENDOZA 1502 EMPLEADO') {
-        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'))
-
-        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Cambiar Datos'))
-
-        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Eliminar'))
-
-        String borrar = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/label_Desea eliminar el registro'))
-
-        if (borrar == 'Desea eliminar el registro') {
-            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Aceptar'))
-
-            WebUI.closeBrowser()
-        }
-    }
+	    String emp = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'))
+	
+	    if (emp == 'MENDOZA 1502 EMPLEADO PPRUEBA') {
+	        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'))
+	
+	        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Cambiar Datos'))
+	
+	        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Eliminar'))
+	
+	        String borrar = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/label_Desea eliminar el registro'))
+	
+	        if (borrar == 'Desea eliminar el registro') {
+	            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Aceptar'))
+	
+	            WebUI.closeBrowser()
+	        }
+	    }
+	} else {
+		WebUI.closeBrowser()
+	}
+	
 }
 

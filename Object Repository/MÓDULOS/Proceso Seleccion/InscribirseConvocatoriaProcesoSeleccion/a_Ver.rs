@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='formListadoConvocatoria:tabla_ventana:4:j_idt35']</value>
+         <value>(//a[contains(text(),'Ver')])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>0d5cccdd-e54c-4292-b719-1105ead0af55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoConvocatoria:tabla_ventana:4:j_idt35</value>
+      <webElementGuid>6d52dcaa-7b2a-4e8b-a0a5-c8b53a73a98b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>8390c35f-8826-4002-848a-33ff66c0643a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-enviar</value>
+      <webElementGuid>005393ac-ca88-4997-b03b-f5cf1ecff796</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formListadoConvocatoria:tabla_ventana:4:j_idt35&quot;,f:&quot;formListadoConvocatoria&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>72b10020-049d-430f-9ef8-4a9ac755ad90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ver</value>
+      <webElementGuid>c5a9f4ab-d62a-44d6-8f85-221bd8c95afa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoConvocatoria:tabla_ventana:4:j_idt35&quot;)</value>
+      <webElementGuid>0f913d03-5b4b-4239-bbda-79e7f558f8cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/Proceso Seleccion/InscribirseConvocatoriaProcesoSeleccion/iframe_Convocatorias vigentes_B7B969ED535F4_be212a</value>
+      <webElementGuid>59e13b97-3852-4348-8f2e-72510547b955</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formListadoConvocatoria:tabla_ventana:4:j_idt35']</value>
+      <webElementGuid>946fb8fc-0647-465e-9c81-81432035e7c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formListadoConvocatoria:tabla_ventana_data']/tr[5]/td[2]/a</value>
+      <webElementGuid>617b3a04-a78b-4b13-86cc-9912e4b73bd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Ver')])[5]</value>
+      <webElementGuid>a10c9222-059b-4be5-8343-36f7d25c091f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Experiencia minina:'])[1]/following::a[1]</value>
+      <webElementGuid>acf23e6a-8baa-4b3d-afba-37db87a9d7ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estudios:'])[1]/following::a[1]</value>
+      <webElementGuid>6b75f74b-c77c-448e-9bbc-26314ca7a0d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>12aa01fa-591b-405d-b917-9bbff60c0d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>0fd91929-1fb6-4fbf-acc6-5b9193a98b76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>d77cc719-a8cc-453c-bea0-96f708fbea68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[2]/a</value>
+      <webElementGuid>df87debd-4020-4d9d-9306-a7dc63a49aa1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'formListadoConvocatoria:tabla_ventana:4:j_idt35' and @href = '#' and (text() = 'Ver' or . = 'Ver')]</value>
+      <webElementGuid>6a21b7a5-168f-4213-878d-f5542378935b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

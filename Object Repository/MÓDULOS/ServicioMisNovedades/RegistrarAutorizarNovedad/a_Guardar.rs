@@ -6,12 +6,11 @@
    <elementGuidId>58cc194d-37ba-4100-906a-416bdf15d71b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>8744833b-f967-4622-8f86-39436e3a0795</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565</value>
+      <webElementGuid>90f71169-894b-4530-9fee-365d10ce3c10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>c4d9cd48-c2e3-4a6e-ac3a-5b894094a1a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>de567600-4319-4374-9508-a2141c8c0854</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565&quot;,f:&quot;form_novedadesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>03235f9e-41e8-4bad-89a8-bfa7dcafff82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>8742571f-52f3-4c43-9e92-3e445a64b865</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565&quot;)</value>
+      <webElementGuid>e4ef380b-b8c9-41c5-930e-e7497c3ed1ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/iframe_Mis novedades_7F07D451F09D4B45813735_588fb0</value>
+      <webElementGuid>74f1f6d2-36f1-4152-b763-2524ba2c6d5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565']</value>
+      <webElementGuid>ea3d235b-ead2-4df6-aa33-cde316bc5477</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_novedadesEmpleado:tabsNovedadesDetalle:j_idt143']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>4fade960-fae7-4c4d-ad2f-01febe67fb7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>ecf3990f-0d7a-4709-be71-c7a8ea64cbd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ESTADO NO DEFINIDO'])[1]/following::a[1]</value>
+      <webElementGuid>d79f9ed4-7309-4109-9365-0ef7fcea7500</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::a[1]</value>
+      <webElementGuid>8c91cc7c-6d2e-46a7-b4f5-05e7ea513a25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565', '&quot;', ')')])[1]/preceding::a[3]</value>
+      <webElementGuid>8a6e1b86-89c7-418c-b1a4-ab5376736e52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[3]</value>
+      <webElementGuid>a54e26c8-ce06-493f-8f8b-14b26c8b684a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>1c35122f-96f8-4b57-aead-bd994b37493f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>f33ae6a4-4a11-424c-8c5a-0cbf18d9aca8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>1b24a183-0c81-4306-965e-733753693977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_novedadesEmpleado:tabsNovedadesDetalle:j_idt1565' and @href = '#' and (text() = 'Guardar' or . = 'Guardar')]</value>
+      <webElementGuid>bd638d06-3bac-4569-99b9-27d6b34999b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

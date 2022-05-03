@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ingresar</name>
+   <name>a_Aceptar</name>
    <tag></tag>
-   <elementGuidId>f69bcba6-f255-476e-9577-58fc675d172c</elementGuidId>
+   <elementGuidId>e5ed4adf-8da2-449e-97da-09ae25d03fb7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Aceptar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f933e994-015d-43a6-adb3-6988b7c36db7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login:linkenviar</value>
+      <value>popupConfirmacionDialog:j_idt1465</value>
+      <webElementGuid>63dc3229-6063-48b9-8801-ce73116afb6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,110 +38,126 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>jsf.util.chain(this,event,';convertirClave(\'74030ca778db3c4c6407f13fe584ae6e2bd6d29cd3508a95af079036c1ba3a220818e149368c7beeda97a4dd6bdbbc996bef\',\'10001\');limpiarCampos(\'login:password\');obtenerUrlPadre();','mojarra.jsfcljs(document.getElementById(\'login\'),{\'login:linkenviar\':\'login:linkenviar\'},\'\')');return false</value>
+      <webElementGuid>227c48c0-5ccc-42a3-832c-3ba5ffd6faf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-login</value>
+      <value>ui-commandlink ui-widget us-btn-si us-btn-popup</value>
+      <webElementGuid>d748f928-734b-4285-952e-eb6bd96ae635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;popupConfirmacionDialog:j_idt1465&quot;,f:&quot;popupConfirmacionDialog&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>bb11878f-f630-4e72-9040-7c0edf8ec92b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ingresar</value>
+      <value>Aceptar</value>
+      <webElementGuid>180ec58e-ca8d-4b98-9423-fd50bfab5057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:linkenviar&quot;)</value>
+      <value>id(&quot;popupConfirmacionDialog:j_idt1465&quot;)</value>
+      <webElementGuid>bd674497-d796-47b8-8c54-ba080d81df78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='login:linkenviar']</value>
+      <value>//a[@id='popupConfirmacionDialog:j_idt1465']</value>
+      <webElementGuid>957883fd-0cff-4732-ba7f-a63e69b98a07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div[3]/a</value>
+      <value>//div[@id='popupConfirmacionDialog:j_idt1458_content']/div[3]/a</value>
+      <webElementGuid>6046d130-f093-40a4-9600-3f8c61e7408e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Ingresar')]</value>
+      <value>//a[contains(text(),'Aceptar')]</value>
+      <webElementGuid>1620d628-4555-4e3b-aac0-755ab7496168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clave'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea eliminar el registro'])[1]/following::a[1]</value>
+      <webElementGuid>c90fc704-73c0-4d30-9771-e775c21c130d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario Portal'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
+      <webElementGuid>b3c9acb1-9830-4828-89a9-e6c72f77056b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'popupConfirmacionDialog:j_idt1465', '&quot;', ')')])[1]/preceding::a[2]</value>
+      <webElementGuid>a307128a-94bf-4e57-9ce1-4ee8cb1bcec0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato'])[2]/preceding::a[3]</value>
+      <webElementGuid>98fbf437-2483-449e-8cad-3f0c23c89db6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>b43743b0-1b86-419f-9812-958c4724a735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>(//a[contains(@href, '#')])[121]</value>
+      <webElementGuid>fbb54a0f-6872-4afc-83ad-2894b9ccb61e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//div[3]/a</value>
+      <webElementGuid>b7a21dc6-1b92-4cbe-92da-29830f5ccbb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'login:linkenviar' and @href = '#' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
+      <value>//a[@id = 'popupConfirmacionDialog:j_idt1465' and @href = '#' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>2330d164-01b3-4967-9ddf-383c878ec906</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

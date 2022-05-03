@@ -6,12 +6,12 @@
    <elementGuidId>3dc9f186-f6c4-44ab-b4c9-e26f5e35ac2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='j_idt1763']/div/ul/li/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-messages-info-detail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>d763c17b-d717-4d58-8927-2adfd0d744d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>f35ccb9d-0da5-40a4-b54a-d7f123b4d4af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Registro guardado</value>
+      <webElementGuid>47a82d55-23b4-4725-ac97-bcb48c5a13d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt1763&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>d1fcb470-9284-4838-b829-7c62a8c0ecdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/iframe_Mis novedades_7F07D451F09D4B45813735_588fb0</value>
+      <webElementGuid>bf03068d-097d-4667-be2a-a8b657d32093</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt1763']/div/ul/li/span[2]</value>
+      <webElementGuid>53af799f-2859-4607-bff4-7eff98c0dfed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>35de05d7-5e89-46c8-8eb0-38f6d2f734e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Autorizador BPM'])[1]/following::span[5]</value>
+      <webElementGuid>8059af15-91bf-4168-85d2-c3eb8063bafb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::span[2]</value>
+      <webElementGuid>2c8260e0-ebf5-459c-a21f-7425c8f8aa11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[3]</value>
+      <webElementGuid>183a580c-ab45-4f0b-ba9b-e3d8b5a09b20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Registro guardado']/parent::*</value>
+      <webElementGuid>c931b4e2-4ce5-40ca-8bdf-cb84db7a4d45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/span[2]</value>
+      <webElementGuid>9bc49637-d91d-4622-9648-e4f3f091af76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Registro guardado' or . = 'Registro guardado')]</value>
+      <webElementGuid>45f5b877-57b8-4142-8bcf-1aec8cfb9e63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

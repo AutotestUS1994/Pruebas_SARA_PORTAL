@@ -6,12 +6,11 @@
    <elementGuidId>6e29f1e3-4b13-4bf5-80d5-f7c9a34a8307</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='grupoEvento:j_idt594']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Cambiar Datos')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f19b9d83-9b61-430e-a45e-15ae06c4d49a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grupoEvento:j_idt594</value>
+      <webElementGuid>fafec46f-0d73-4b1c-b3c3-c134ee64818d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>015bab68-d995-4dc0-9c80-8348ece9d468</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>c847a3b4-84a3-4324-85b8-1ee86ceac7f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;grupoEvento:j_idt594&quot;,f:&quot;grupoEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>484a09a2-94a9-4b17-8cd1-d9137614ca0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cambiar Datos</value>
+      <webElementGuid>e42d1873-8a64-4317-ba76-77968a59405d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:j_idt594&quot;)</value>
+      <webElementGuid>ff1c9cbe-b280-4621-956b-1019c5586fd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='grupoEvento:j_idt594']</value>
+      <webElementGuid>2b139bbf-c893-4c58-9b67-93bd442c6508</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grupoEvento:j_idt385_content']/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>4edb39b5-5835-408e-b641-f684dfbde12e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cambiar Datos')]</value>
+      <webElementGuid>3a6da925-7fe8-4442-91bd-51edc5208ac7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente *'])[1]/following::a[1]</value>
+      <webElementGuid>1b2b6b77-ece3-477a-9653-6b430cb7aeed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::a[1]</value>
+      <webElementGuid>fd5b88e4-5613-4ca6-a1f2-c284cc1b6b1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::a[4]</value>
+      <webElementGuid>4e9e8b2a-d917-4979-a3be-2fed1f228cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[4]</value>
+      <webElementGuid>48cbe9d4-62d7-45ff-981f-f82998ed9be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cambiar Datos']/parent::*</value>
+      <webElementGuid>e79128b3-518c-4e80-ae42-843b589a3f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[103]</value>
+      <webElementGuid>e7a95815-e3b8-427a-a22b-7c79e3f4c051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>5e8af048-1999-4342-b720-799d1747302b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'grupoEvento:j_idt594' and @href = '#' and (text() = 'Cambiar Datos' or . = 'Cambiar Datos')]</value>
+      <webElementGuid>61ee7ba5-6b73-4e7a-85e4-2c3d5f2967dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

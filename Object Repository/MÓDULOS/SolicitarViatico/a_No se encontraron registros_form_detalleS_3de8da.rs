@@ -6,12 +6,11 @@
    <elementGuidId>e453a54e-cb79-46fa-bd77-2d74a0c02158</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_detalleSolicitudViatico:tablaProductos:10:tablaCostos:j_idt247']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tfoot/tr/td/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>80e95220-937b-4984-9862-5493e2e36cd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleSolicitudViatico:tablaProductos:10:tablaCostos:j_idt247</value>
+      <webElementGuid>0792da2f-272f-4288-9e3a-40ba220ccf6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b52fd6b8-8f5d-45c2-9a3b-108053703ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>ba5f38ce-f675-4990-ac59-22e26a0b91b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>buscaPosicion(this.id);;PrimeFaces.ab({s:&quot;form_detalleSolicitudViatico:tablaProductos:10:tablaCostos:j_idt247&quot;,f:&quot;form_detalleSolicitudViatico&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>89b52540-0896-49d3-b877-2ad3f0af05e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleSolicitudViatico:tablaProductos:10:tablaCostos:j_idt247&quot;)</value>
+      <webElementGuid>18743ae6-8298-4926-9ea0-37d92b2dc807</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
+      <webElementGuid>5de8d4d5-bc8a-4086-9c2a-b64cc4216ae6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleSolicitudViatico:tablaProductos:10:tablaCostos:j_idt247']</value>
+      <webElementGuid>6b124f42-625c-4dd3-8cf5-62d9812c96c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='form_detalleSolicitudViatico:tablaProductos:10:tablaCostos_foot']/tr/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>33197620-386d-49b1-a0d8-67d9f06a3a85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[7]</value>
+      <webElementGuid>59e12082-7a39-4dd7-bb42-d53afd8954fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tfoot/tr/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>2c2d3936-55b5-4bdb-83f3-2283df55e373</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_detalleSolicitudViatico:tablaProductos:10:tablaCostos:j_idt247' and @href = '#']</value>
+      <webElementGuid>5a81d5dc-c7ed-494f-908b-1c5c500906da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

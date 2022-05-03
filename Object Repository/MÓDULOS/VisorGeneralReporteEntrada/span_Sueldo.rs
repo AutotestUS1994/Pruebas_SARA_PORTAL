@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ingresar</name>
+   <name>span_Sueldo</name>
    <tag></tag>
-   <elementGuidId>faa8770a-c156-48a0-a84d-1a33f54e41cc</elementGuidId>
+   <elementGuidId>a0916f32-29d2-4dde-887a-6aba87c9c26a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[@id='from_visorreporte:lista_reporte:j_idt530']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login:linkenviar</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>jsf.util.chain(this,event,';convertirClave(\'6ddf9fe418a1b185f12313da54beae7ed9688d97ca90f64e9d9da6f0869c17aab51524d5168d2df51657401926d55b649241\',\'10001\');','mojarra.jsfcljs(document.getElementById(\'login\'),{\'login:linkenviar\':\'login:linkenviar\'},\'\')');return false</value>
+      <value>span</value>
+      <webElementGuid>a187b42f-ae3e-4170-bff9-b7ef424ca857</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-btn-primario us-login</value>
+      <value>ui-column-title</value>
+      <webElementGuid>60b43a5a-85d1-46ae-9543-12d0821a5dc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ingresar</value>
+      <value>Sueldo</value>
+      <webElementGuid>b4436922-4850-4e4c-bf24-159f50da5de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:linkenviar&quot;)</value>
+      <value>id(&quot;from_visorreporte:lista_reporte:j_idt530&quot;)/span[@class=&quot;ui-column-title&quot;]</value>
+      <webElementGuid>79752bbc-5a25-49b8-a97f-c8fbf923bec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
+      <webElementGuid>d65fe656-5b56-4de4-bbce-b43e367fe43c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='login:linkenviar']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div/div[3]/div[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Ingresar')]</value>
+      <value>//th[@id='from_visorreporte:lista_reporte:j_idt530']/span</value>
+      <webElementGuid>fcd430ee-a0ab-4c10-9b63-dafb9aa4a033</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Olvide Mi Clave'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargo'])[1]/following::span[1]</value>
+      <webElementGuid>94f1c72b-8051-496f-9b89-1d9dfeb6c2ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'login:linkenviar', '&quot;', ')')])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lineacosto'])[1]/following::span[2]</value>
+      <webElementGuid>b2a1ed41-2cef-49a3-a63f-2bf4e021f171</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sueldoantes'])[1]/preceding::span[1]</value>
+      <webElementGuid>8018b925-8dff-431c-9bef-81ff42aa15af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombreddddddds'])[1]/preceding::span[2]</value>
+      <webElementGuid>917e04f5-5ef9-40d4-824c-f56954c316f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sueldo']/parent::*</value>
+      <webElementGuid>16a46538-7c3d-4eb7-bb43-479b46a5199f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//th[10]/span</value>
+      <webElementGuid>3141355f-00fb-4d80-a416-5a6a9e0cb428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'login:linkenviar' and @href = '#' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
+      <value>//span[(text() = 'Sueldo' or . = 'Sueldo')]</value>
+      <webElementGuid>7c312632-c086-4fa6-a25f-fa4ea9e10d6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

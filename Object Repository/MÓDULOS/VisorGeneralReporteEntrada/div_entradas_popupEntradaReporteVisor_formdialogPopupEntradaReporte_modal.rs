@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Usuario Portal_loginusuario</name>
+   <name>div_entradas_popupEntradaReporteVisor_formdialogPopupEntradaReporte_modal</name>
    <tag></tag>
-   <elementGuidId>a7ad8c2a-accd-4279-8af2-b851acf5bc4a</elementGuidId>
+   <elementGuidId>50b3307c-7f40-431b-9432-fdc47a93a15c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login:usuario']</value>
+         <value>/html/body/div[1]/div/div[1]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
+      <webElementGuid>fce87ac3-398f-48eb-89e9-26620bf8120c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login:usuario</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login:usuario</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
+      <value>popupEntradaReporteVisor_form:dialogPopupEntradaReporte_modal</value>
+      <webElementGuid>c46a5c3c-2930-4778-b2b8-235fd8563f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>valor_campo_estandar us-campo-flexible</value>
+      <value>ui-widget-overlay ui-dialog-mask</value>
+      <webElementGuid>058e14d7-73df-47a9-823e-72ed4825c0e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:usuario&quot;)</value>
+      <value>id(&quot;popupEntradaReporteVisor_form:dialogPopupEntradaReporte_modal&quot;)</value>
+      <webElementGuid>b0fce323-a368-4a9c-b3ee-9239a77e0e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/RegistrarNecesidadCapacitacion/iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+      <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
+      <webElementGuid>22bd080a-6041-47a5-9954-6db3cc03e632</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login:usuario']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='login']/div/div/input</value>
+      <value>//div[@id='popupEntradaReporteVisor_form:dialogPopupEntradaReporte_modal']</value>
+      <webElementGuid>00f291ab-d94e-4ab1-ba88-137f47a9b9cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
+      <value>//div[4]</value>
+      <webElementGuid>5da1e7f2-10f3-4431-bdc1-ad62c8bbef9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'login:usuario' and @type = 'text' and @name = 'login:usuario']</value>
+      <value>//div[@id = 'popupEntradaReporteVisor_form:dialogPopupEntradaReporte_modal']</value>
+      <webElementGuid>3e4fb0d0-011b-4148-b635-7ec265378086</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

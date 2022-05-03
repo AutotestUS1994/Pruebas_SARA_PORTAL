@@ -83,7 +83,7 @@ def a() {
 	
 	String soli = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Mendoza 1502 Empleado Port'))
 	
-	if ((desc == 'Beneficio 1552 Beneficio Prueba Portal') && (soli == 'Beneficio 1552 Mendoza 1502 Empleado')) {
+	if ((desc == 'Beneficio 1552 Beneficio Prueba Portal') && (soli == 'Beneficio 1552 Mendoza 1502 Empleado Pprueba')) {
 		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Mendoza 1502 Empleado Port'))
 	
 		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Autorizar'))

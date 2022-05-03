@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ingresar</name>
+   <name>a_Licencia</name>
    <tag></tag>
-   <elementGuidId>3ffe9cd5-77c2-4ef9-ad09-f4f45c55d56e</elementGuidId>
+   <elementGuidId>202e0322-179b-4652-84c6-d3681f86e932</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Licencia')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>e60c7f46-5086-4ca0-893f-7caaeff6e60f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login:linkenviar</value>
+      <value>form_menuEmpleado:j_idt1517:j_idt1519:j_idt1540</value>
+      <webElementGuid>476d5bb3-8d78-4f2f-91c6-769a3ab242f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,117 +38,126 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>jsf.util.chain(this,event,';convertirClave(\'8ca993e7fd3512795282bc8df28e193307321d6ea8e57703b1b6e8663bdb6dd3cba38216152c9b9cb0b05e46a927793a4233\',\'10001\');limpiarCampos(\'login:password\');obtenerUrlPadre();','mojarra.jsfcljs(document.getElementById(\'login\'),{\'login:linkenviar\':\'login:linkenviar\'},\'\')');return false</value>
+      <webElementGuid>72545192-b7ad-4f79-8357-e37aa8bc701f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-login</value>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>987e5559-2b1b-49ee-95b5-131e37e4abb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_menuEmpleado:j_idt1517:j_idt1519:j_idt1540&quot;,f:&quot;form_menuEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>69112d2c-0da6-4329-8b42-a93ce20b385a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ingresar</value>
+      <value>Licencia </value>
+      <webElementGuid>3f727c3b-30c9-4e27-bf37-000006af25b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:linkenviar&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+      <value>id(&quot;form_menuEmpleado:j_idt1517:j_idt1519:j_idt1540&quot;)</value>
+      <webElementGuid>51524e62-31fa-42e9-a814-5dcc2b763323</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='login:linkenviar']</value>
+      <value>//a[@id='form_menuEmpleado:j_idt1517:j_idt1519:j_idt1540']</value>
+      <webElementGuid>f669e263-5eec-4313-9e30-837c124c4917</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div[3]/a</value>
+      <value>//div[@id='form_menuEmpleado:j_idt1517:j_idt1519:j_idt1520']/table[4]/tbody/tr/td/a</value>
+      <webElementGuid>07350ba8-2cea-4247-9a0a-8438799ff02d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Ingresar')]</value>
+      <value>//a[contains(text(),'Licencia')]</value>
+      <webElementGuid>4ccf76c6-4322-4824-b1f7-ef311743a700</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clave'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/following::a[4]</value>
+      <webElementGuid>4d563041-7234-440e-b635-aed13117de1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario Portal'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros Solicitudes'])[1]/following::a[8]</value>
+      <webElementGuid>622f820c-aa90-46ad-bbb6-db2c8f6d54ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historicos'])[1]/preceding::a[21]</value>
+      <webElementGuid>0305a7b9-5d64-4039-b338-cecf9481f0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza 1502 Empleado Pprueba'])[1]/preceding::a[29]</value>
+      <webElementGuid>2c78147a-070d-4caf-9155-8bdd1cb7efd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Licencia']/parent::*</value>
+      <webElementGuid>0222ee14-ea66-463b-a829-446a7dba4f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>(//a[contains(@href, '#')])[83]</value>
+      <webElementGuid>3bfe0b1b-e62a-4974-ab0d-81c4be1eff8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//table[4]/tbody/tr/td/a</value>
+      <webElementGuid>177f0d90-5803-48cb-85ca-8123a0c621ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'login:linkenviar' and @href = '#' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
+      <value>//a[@id = 'form_menuEmpleado:j_idt1517:j_idt1519:j_idt1540' and @href = '#' and (text() = 'Licencia ' or . = 'Licencia ')]</value>
+      <webElementGuid>eeb80227-2343-4bf8-ba90-b8efbd4d0639</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

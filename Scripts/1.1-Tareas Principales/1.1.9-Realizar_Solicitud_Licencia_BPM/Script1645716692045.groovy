@@ -61,6 +61,8 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
 
         WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Limpiar Datos Aplicacion Novedad Sara'), [:], FailureHandling.STOP_ON_FAILURE)
 
+        WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Licencia Historico'), [:], FailureHandling.STOP_ON_FAILURE)
+
         WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/a'))

@@ -28,6 +28,8 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Nuevo'
 if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL')).equals('BRASIL')) {
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL'))
 
+    WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Continuar'), 1)
+
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Continuar'))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/input_Numero_form_detalleSolicitudViaticota_54fae5'), 
@@ -116,8 +118,8 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
         WebUI.closeBrowser()
     } else if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Registro guardado')) {
-		WebUI.acceptAlert()
-	}
+        WebUI.acceptAlert()
+    }
 }
 
 def iniciar() {

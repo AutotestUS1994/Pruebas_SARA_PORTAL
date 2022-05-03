@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continuar</name>
+   <name>a_2</name>
    <tag></tag>
-   <elementGuidId>02c326c8-c5c6-480f-83a1-574300ab3c3a</elementGuidId>
+   <elementGuidId>7bce3417-1aa9-49f7-b633-719b692407f0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>a.ui-paginator-page.ui-state-default.ui-corner-all.ui-state-hover.ui-state-focus</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[3]/td/a</value>
+         <value>//div[@id='from_visorreporte:lista_reporte_paginator_bottom']/span/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,13 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>0710d9b9-2220-4154-9b01-938d0952517a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>form_popupcostoviaticos:j_idt513</value>
+      <value>ui-paginator-page ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
+      <webElementGuid>49cad2f7-7bdf-4759-8233-7bae2abde95d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>47800dee-7efa-4cc8-961a-e82abb678372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,97 +46,87 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>d476cb82-45bf-4737-b0a8-10cddabc936c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-boton btn-continuar</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;form_popupcostoviaticos:j_idt513&quot;,f:&quot;form_popupcostoviaticos&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <value>Page 2</value>
+      <webElementGuid>9609348d-9f2d-40d0-806e-3f942c05c726</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Continuar</value>
+      <value>2</value>
+      <webElementGuid>12d3af0a-e83a-49d9-909f-14164d0aa970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_popupcostoviaticos:j_idt513&quot;)</value>
+      <value>id(&quot;from_visorreporte:lista_reporte_paginator_bottom&quot;)/span[@class=&quot;ui-paginator-pages&quot;]/a[@class=&quot;ui-paginator-page ui-state-default ui-corner-all ui-state-hover ui-state-focus&quot;]</value>
+      <webElementGuid>dbe234da-c130-4868-baad-253264b31c90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
+      <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
+      <webElementGuid>951cf8d4-a550-4dfe-963a-170b77656ca8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='form_popupcostoviaticos:j_idt513']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='form_popupcostoviaticos:panelDatos']/tbody/tr[3]/td/a</value>
+      <value>//div[@id='from_visorreporte:lista_reporte_paginator_bottom']/span/a[2]</value>
+      <webElementGuid>4a2821ba-34db-4a6f-b8c6-6e27bf1700e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Continuar')]</value>
+      <value>//a[contains(text(),'2')]</value>
+      <webElementGuid>b40b1eb3-6a92-4dc0-842b-c8bc93b58987</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NACIONAL'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[1]/following::a[2]</value>
+      <webElementGuid>ca45e7ce-6c6f-4c19-85ae-48af926a2657</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mexico'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/following::a[3]</value>
+      <webElementGuid>93f2bfb8-bb4c-4026-8180-00703e2adc9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'form_popupcostoviaticos:j_idt513', '&quot;', ')')])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N'])[1]/preceding::a[2]</value>
+      <webElementGuid>4ff2e9cc-b663-42bb-ad2f-57a5d6c3fde6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/preceding::a[3]</value>
+      <webElementGuid>b1b9ba92-ea15-4339-a577-a91e0eea1138</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,19 +134,22 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>7c6e86b7-6af9-4c63-85c0-cd795efe5ac2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td/a</value>
+      <value>//span/a[2]</value>
+      <webElementGuid>802c06db-f679-49a1-8bae-7cd9595fab35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'form_popupcostoviaticos:j_idt513' and @href = '#' and (text() = 'Continuar' or . = 'Continuar')]</value>
+      <value>//a[@href = '#' and (text() = '2' or . = '2')]</value>
+      <webElementGuid>1a3148a9-e76c-49e4-9679-1e1d5f0a5390</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

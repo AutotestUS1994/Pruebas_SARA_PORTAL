@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Olvide Mi Clave_loginpassword</name>
+   <name>input_Identificacin_listadoEmpleadoIdentifi_d1d6ab</name>
    <tag></tag>
-   <elementGuidId>46640217-f8fb-4823-a10a-ab9c424bcee4</elementGuidId>
+   <elementGuidId>d991de61-76bd-4a51-9bf0-a7607150e22d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='login:password']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='listadoEmpleado:IdentificacionEmpleado']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,96 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>f81d1e83-c447-4d9c-808e-b8ebd77714dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login:password</value>
+      <value>listadoEmpleado:IdentificacionEmpleado</value>
+      <webElementGuid>f89ad1c1-3dd3-420c-806b-df8d5801ad31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>text</value>
+      <webElementGuid>4641bb47-d5ce-4d8c-a31c-dfe7c4230fe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>login:password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>100</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeydown</name>
-      <type>Main</type>
-      <value>return submitOnEnter(this,event);</value>
+      <value>listadoEmpleado:IdentificacionEmpleado</value>
+      <webElementGuid>897958b1-ac57-4e3d-b901-5ecf3e272240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-input-login</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Clave</value>
+      <value>caja_texto</value>
+      <webElementGuid>659aa839-d2a8-48f0-bdc4-e8b70312d9d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>off</value>
+      <value>16</value>
+      <webElementGuid>c83da0b5-bbb5-48d7-b43d-661cd5c2825b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;listadoEmpleado&quot;,p:&quot;listadoEmpleado:IdentificacionEmpleado&quot;,u:&quot;listadoEmpleado&quot;});</value>
+      <webElementGuid>52b5c75b-2f42-435e-8b72-7a54ae3f2986</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:password&quot;)</value>
+      <value>id(&quot;listadoEmpleado:IdentificacionEmpleado&quot;)</value>
+      <webElementGuid>5386623d-ba0a-42b7-a86a-eaae7f73ece2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login:password']</value>
+      <value>//input[@id='listadoEmpleado:IdentificacionEmpleado']</value>
+      <webElementGuid>a7a53bb5-7c63-46f3-a638-fafa2d262a2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div/div[3]/div[2]/input</value>
+      <value>//div[@id='listadoEmpleado:panelFiltro_content']/table/tbody/tr/td[4]/table/tbody/tr/td/input</value>
+      <webElementGuid>d4ce1798-52a9-4b9d-b05e-96be4b3d500b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//td[4]/table/tbody/tr/td/input</value>
+      <webElementGuid>01d58055-6235-43ca-badb-8ae448f4a6ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'login:password' and @type = 'password' and @name = 'login:password' and @placeholder = 'Clave']</value>
+      <value>//input[@id = 'listadoEmpleado:IdentificacionEmpleado' and @type = 'text' and @name = 'listadoEmpleado:IdentificacionEmpleado']</value>
+      <webElementGuid>d2fa8c4c-0f9c-4999-8d19-0b801b3f617d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

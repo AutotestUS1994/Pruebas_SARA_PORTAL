@@ -40,6 +40,14 @@ WebUI.setText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/
 
 WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/input_Ao_form_listadoviaticosanio'), Keys.chord(
         Keys.ENTER))
+/*Ingresar No. documento al filtro*/
+WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'))
+
+WebUI.setText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'), '2549')
+
+WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'), Keys.chord(
+		Keys.ENTER))
+
 if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_No se encontr registros'),1)
  && WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_No se encontr registros')).equals("No se encontró registros")) {
 	WebUI.closeBrowser()
@@ -82,6 +90,9 @@ if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/Borrar
 			
 			if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/p_El registro ha sido eliminado correctamente')).equals("El registro ha sido eliminado correctamente")) {
 				WebUI.closeBrowser()
+			} else {
+				/*Aqui agregar la modificacion*/
+				
 			}
 		}
 	}

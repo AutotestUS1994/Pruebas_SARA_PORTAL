@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ingresar</name>
+   <name>a_Ejecutar</name>
    <tag></tag>
-   <elementGuidId>071b21fe-4828-406b-86b6-73793cb4b5e5</elementGuidId>
+   <elementGuidId>82173ab8-cd83-4446-8b9e-af34973de688</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
+         <value>//a[@id='popupEntradaReporteVisor_form:j_idt98']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>345a70cd-b77b-4655-bc1f-055e4b6be28c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login:linkenviar</value>
+      <value>popupEntradaReporteVisor_form:j_idt98</value>
+      <webElementGuid>2643495c-2d49-4355-80f4-79d17bd03e6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,117 +38,134 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>jsf.util.chain(this,event,';convertirClave(\'695a6fe939a58fca2773913c1e34e80f35fde3c9ce0eed2133f9e723de26b9a105b51693e4b578b8fc6be2237c15a4773ec9\',\'10001\');limpiarCampos(\'login:password\');obtenerUrlPadre();','mojarra.jsfcljs(document.getElementById(\'login\'),{\'login:linkenviar\':\'login:linkenviar\'},\'\')');return false</value>
+      <webElementGuid>834b7fbb-b235-4378-b09c-c3214e480a6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-login</value>
+      <value>ui-commandlink ui-widget us-boton btn-ejecutar</value>
+      <webElementGuid>b7e633a3-7054-404f-9ccb-38b3c60e2e69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;popupEntradaReporteVisor_form:j_idt98&quot;,f:&quot;popupEntradaReporteVisor_form&quot;,p:&quot;popupEntradaReporteVisor_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();}});return false;</value>
+      <webElementGuid>6a122312-1052-4e7e-b11f-e1aa3ac24c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ingresar</value>
+      <value>Ejecutar</value>
+      <webElementGuid>2b1073a2-6b36-491b-a5fe-afa64fb68956</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:linkenviar&quot;)</value>
+      <value>id(&quot;popupEntradaReporteVisor_form:j_idt98&quot;)</value>
+      <webElementGuid>1e569e8f-0b2d-460a-a90e-272bd02976c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/RegistrarNecesidadCapacitacion/iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+      <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
+      <webElementGuid>5a5ebe33-70fb-4013-93b3-209b3c8932bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='login:linkenviar']</value>
+      <value>//a[@id='popupEntradaReporteVisor_form:j_idt98']</value>
+      <webElementGuid>bdfbc3b2-7ec5-4b99-aabc-36ce58bc1b99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div[3]/a</value>
+      <value>//table[@id='popupEntradaReporteVisor_form:panelTabla']/tbody/tr/td/a</value>
+      <webElementGuid>2a982cff-868d-4d08-a025-d54110ec273f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Ingresar')]</value>
+      <value>//a[contains(text(),'Ejecutar')]</value>
+      <webElementGuid>a1a92788-34a8-4ec7-8260-0201e479f42e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clave'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='��entradas!!'])[2]/following::a[1]</value>
+      <webElementGuid>2bd8d30f-469a-4de6-b58e-fd14ac347fd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario Portal'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[3]</value>
+      <webElementGuid>4478e839-6ce2-4edb-971e-6fb4215343c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>6d70832c-dbca-4a41-ace3-0249b5bcf1da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>fbbded21-a6ba-4e83-92f1-003875de08d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Ejecutar']/parent::*</value>
+      <webElementGuid>36ed0a88-94ba-48f1-9483-b91b0769c979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>(//a[contains(@href, '#')])[7]</value>
+      <webElementGuid>018cdb05-ffcd-40c8-be50-fb61903db406</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//div[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>8533056e-8ea9-440d-9e7e-eb02e8990644</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'login:linkenviar' and @href = '#' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
+      <value>//a[@id = 'popupEntradaReporteVisor_form:j_idt98' and @href = '#' and (text() = 'Ejecutar' or . = 'Ejecutar')]</value>
+      <webElementGuid>4d7d4f57-48be-4a01-83fd-12b3e83c607a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

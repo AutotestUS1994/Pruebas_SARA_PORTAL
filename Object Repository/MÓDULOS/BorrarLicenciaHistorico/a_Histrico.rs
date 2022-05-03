@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ir</name>
+   <name>a_Histrico</name>
    <tag></tag>
-   <elementGuidId>123a9cc9-6d68-46db-bb5d-9bbb02242b10</elementGuidId>
+   <elementGuidId>dc87dab6-0b95-439c-82f4-bb82bf6a1330</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='j_idt62:1:j_idt66']</value>
+         <key>CSS</key>
+         <value>li.ui-tabs-header.ui-state-default.ui-corner-top.ui-state-hover > a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Histórico')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,120 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>j_idt62:1:j_idt66</value>
+      <webElementGuid>2a8cafbe-edab-4e94-8550-53eac7fb5f24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
+      <value>#form_licenciaEmpleado:tabsLicencias:j_idt2563</value>
+      <webElementGuid>e4b26492-6354-4edf-9b1f-d715fc1eae6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget us-link-modcard us-background-linkcard</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;j_idt62:1:j_idt66&quot;,f:&quot;form_inicio&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>-1</value>
+      <webElementGuid>0d57e6a5-30a1-4f4a-a536-fcaadc81b99b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ir
-									</value>
+      <value>Histórico</value>
+      <webElementGuid>7b38e324-e421-439c-829a-dbe882238449</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt62:1:j_idt66&quot;)</value>
+      <value>id(&quot;form_licenciaEmpleado:tabsLicencias&quot;)/ul[@class=&quot;ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all&quot;]/li[@class=&quot;ui-tabs-header ui-state-default ui-corner-top ui-state-hover&quot;]/a[1]</value>
+      <webElementGuid>d4e88459-a8b2-4f55-837a-ce43227d17b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='j_idt62:1:j_idt66']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='form_inicio']/div/div[2]/div/div/a</value>
+      <value>//div[@id='form_licenciaEmpleado:tabsLicencias']/ul/li[2]/a</value>
+      <webElementGuid>c75b2110-d1c1-441e-a985-543efc8bf82c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Ir')])[2]</value>
+      <value>//a[contains(text(),'Histórico')]</value>
+      <webElementGuid>a1777a6b-5ae3-4e4d-8503-c667b4ebfc82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administración Compensación'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Licencia'])[3]/following::a[1]</value>
+      <webElementGuid>8c1b259d-1d8f-49b4-988b-1ba897b3d34c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Licencia'])[2]/following::a[2]</value>
+      <webElementGuid>b1d07032-ccef-40af-b32a-976564cd2e32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bienestar'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pasivo'])[1]/preceding::a[1]</value>
+      <webElementGuid>514ae8df-1fe3-4e94-903e-c6ca71a20fc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capacitación'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes'])[1]/preceding::a[2]</value>
+      <webElementGuid>d4c1d1e7-24d7-4fe2-9496-3e1e92c8cbdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Histórico']/parent::*</value>
+      <webElementGuid>1531a1dc-4a96-410c-bce8-3acf2b4a643e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[6]</value>
+      <value>//a[contains(@href, '#form_licenciaEmpleado:tabsLicencias:j_idt2563')]</value>
+      <webElementGuid>7b6ace3c-c897-4a67-98dd-5964bec27a6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/a</value>
+      <value>//div[2]/ul/li[2]/a</value>
+      <webElementGuid>ced660ff-99ea-428b-b5bf-712c7372b4c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'j_idt62:1:j_idt66' and @href = '#' and (text() = 'Ir
-									' or . = 'Ir
-									')]</value>
+      <value>//a[@href = '#form_licenciaEmpleado:tabsLicencias:j_idt2563' and (text() = 'Histórico' or . = 'Histórico')]</value>
+      <webElementGuid>54cf0863-365b-45de-8f43-9a4eea69e0f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
