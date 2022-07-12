@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 
 if (GlobalVariable.G_UsuarioFun.equals('weblogic')) {
     WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
+//	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))
 } else {
     WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))
+//	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
 }
 

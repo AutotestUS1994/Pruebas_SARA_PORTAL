@@ -6,12 +6,11 @@
    <elementGuidId>6b4c7069-f872-4af2-9b5b-bd2345f80b7b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt605']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Regresar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>c29e3268-09e5-432a-89c8-24cc844df6c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_vacacionesEmpleado:tabsVacaciones:j_idt605</value>
+      <webElementGuid>adcdcaad-11b0-4127-9055-3093c87bcae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>885c2857-df2f-422b-b8b4-7ded70e2bda9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-regresar</value>
+      <webElementGuid>1814f57a-d63e-47b3-9db9-729d66b7925e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_vacacionesEmpleado:tabsVacaciones:j_idt605&quot;,f:&quot;form_vacacionesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>0400f4f3-8adc-406d-a964-e42b9a3301ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Regresar</value>
+      <webElementGuid>29b55615-f393-43a2-a465-3975df364f2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_vacacionesEmpleado:tabsVacaciones:j_idt605&quot;)</value>
+      <webElementGuid>910fe95f-9e7d-4edd-844f-29a7a47504d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/iframe_Mis Cesantas_7F07D451F09D4B35813735F_85b2a2</value>
+      <webElementGuid>ae500750-016e-4117-9227-5cd3989a6590</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt605']</value>
+      <webElementGuid>b3d03e43-9d29-4e2d-9c90-4e18d1bab235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt112']/div/a</value>
+      <webElementGuid>bb4ea538-753c-4297-b582-1dbdc6b40f85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Regresar')]</value>
+      <webElementGuid>17632807-a839-4ea7-8828-e05438233d64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Origen'])[1]/following::a[1]</value>
+      <webElementGuid>94e5ce03-8170-41b1-a121-8702613354f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Días*'])[1]/following::a[1]</value>
+      <webElementGuid>38a96e28-2428-431f-a452-28ba85e586df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>4a953d76-cc3d-4635-a9dd-c8c8b95801e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>01c887ec-add2-427a-85e1-44333ec4a266</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Regresar']/parent::*</value>
+      <webElementGuid>4d969292-9146-4412-89c2-0be50c00bdd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>9d6bbccb-7d4c-4b39-a595-62ebe55bd7f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
+      <webElementGuid>dfc49961-ec8f-43ff-9d28-96311aa58c55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_vacacionesEmpleado:tabsVacaciones:j_idt605' and @href = '#' and (text() = 'Regresar' or . = 'Regresar')]</value>
+      <webElementGuid>37efffe2-06b1-443d-8269-d92bd13ce5c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

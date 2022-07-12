@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input']</value>
+         <value>//td[4]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>e430c819-5cd6-4490-9be4-2e0127a7de75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input</value>
+      <webElementGuid>adcdf3e6-ed1c-4e24-975e-c13e6c699f28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input</value>
+      <webElementGuid>6ae2e5f5-ea3c-41f5-92c0-2e5dc05f4711</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>4e0a682f-09a9-4ceb-b238-96e6dbeaff6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>b3719b22-3ee6-439c-96ee-0ed18508d5b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>97f27283-b2bf-4e7c-a224-5e382c5d7af4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b492fbf8-3872-45d0-b261-ac89a44451fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>23854938-e2b4-4e84-a4ac-046b7a361a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input&quot;)</value>
+      <webElementGuid>2b87405c-d822-4427-b860-a65e33e65fc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,6 +93,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
+      <webElementGuid>dc37778a-8547-4223-9f98-47126b484b9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input']</value>
+      <webElementGuid>8536726e-4573-4cae-b013-587b646e8bcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial']/input</value>
+      <webElementGuid>d2b2c5dd-a880-4e2c-ae76-8a3a72c531f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/span/input</value>
+      <webElementGuid>67c0742e-7cba-4345-a293-e0d76339fbb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input' and @name = 'form_detalleSolicitudViatico:tablaProductos:9:tablaProgramacion:fechaInicial_input' and @type = 'text']</value>
+      <webElementGuid>955824e8-dca6-42d7-89b3-725fb801fee1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

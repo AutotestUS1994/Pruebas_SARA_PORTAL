@@ -64,10 +64,11 @@ def a() {
     WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ingresar'))
 
     WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ir'))
-
+/*
     WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'), 
         'Aplicacion Nov. Empleado')
 
     WebUI.click(findTestObject('Object Repository/Login/LoginModificado/LoginSara/span_Aplicacion Nov. Empleado'))
+*/
 }
 

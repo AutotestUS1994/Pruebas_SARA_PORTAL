@@ -6,12 +6,12 @@
    <elementGuidId>331751c8-4508-478f-905c-d91a151fb8ba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:11:j_idt167']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:11:j_idt167&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[12]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>8f625cf5-9c37-48cb-a6a1-40537d2c7cb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>a8c71086-8d15-42be-b500-e2464d5acdad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:11:j_idt167</value>
+      <webElementGuid>54279fff-ef7f-4880-9006-05a615bce74c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>86f8ccd9-15c3-4e6a-906e-51ba946a8c3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>22</value>
+      <webElementGuid>729647fd-a75e-4258-a4cf-a1ee20b37f65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>this.value = cambiarPuntos(event,this.value);return decimal(event,this.value);</value>
+      <webElementGuid>93754595-fc69-4ac1-8db5-0237a35af650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>size</name>
       <type>Main</type>
       <value>22</value>
+      <webElementGuid>cfc526db-0d56-475a-bb10-1e1f343b0014</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_solicitudesEmpleado:j_idt152:0:tablaCamHijo&quot;)/tbody[1]/tr[12]/td[2]/input[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>92960396-316c-4e00-a462-3592bd047aff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,6 +86,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/iframe_Mis Cesantas_FB1846019F574996BB0A814_6cece9</value>
+      <webElementGuid>2155a4b9-e965-476f-8feb-83b16216083a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:11:j_idt167']</value>
+      <webElementGuid>9bd9f11e-126b-4499-be5f-ef881688c997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_solicitudesEmpleado:j_idt152:0:tablaCamHijo']/tbody/tr[12]/td[2]/input</value>
+      <webElementGuid>76c4e19a-c021-42f3-83f3-18c93510cb18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[12]/td[2]/input</value>
+      <webElementGuid>5bca8398-fc70-4fb5-86a5-2ca774954e76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:11:j_idt167']</value>
+      <webElementGuid>ac448cdb-8489-4917-bf97-c18bc5cd38bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>b7d18d29-376d-4002-be02-69bc50168435</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id = 'aplicaNovedadProceso:j_idt525' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d4f36c53-9bba-4602-b840-a3e4417d7875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>aplicaNovedadProceso:j_idt525</value>
+      <webElementGuid>df73f090-0bd6-424f-8cb4-53438e394f7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>81e9bd32-70c0-41e5-8345-c2319cf192a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-eliminar</value>
+      <webElementGuid>09da7e0a-d69f-4f9c-9daf-aa402adb3a1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;aplicaNovedadProceso:j_idt525&quot;,f:&quot;aplicaNovedadProceso&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>3166f61b-03a3-48a7-a303-1eb1570b1810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;aplicaNovedadProceso:j_idt525&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+      <webElementGuid>5ea26909-37ff-46d8-a2f0-193ea3d356f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
+      <webElementGuid>b25c7d0e-60e5-4c02-8422-9c49229f80d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;aplicaNovedadProceso:j_idt525&quot;)</value>
+      <webElementGuid>05cb0044-3cb4-48a1-8876-a3486c8489b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='aplicaNovedadProceso:j_idt525']</value>
+      <webElementGuid>978e0fa4-ef6f-4133-afda-70504414a8ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='aplicaNovedadProceso:idPanelSolicitud']/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[4]/a</value>
+      <webElementGuid>6814a090-50ef-44e5-8ef4-23f20a862d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Eliminar')]</value>
+      <webElementGuid>8314d03e-021b-4b92-9256-77aedfa3a966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='lista'])[1]/following::a[4]</value>
+      <webElementGuid>c115f7b5-1a65-4715-930e-b3fe0ad8598c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PKS'])[1]/following::a[4]</value>
+      <webElementGuid>9374d352-db10-4dcd-91e7-968b27dcda22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>8e50640a-8163-479e-bf2b-f3d599a1a094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Eliminar']/parent::*</value>
+      <webElementGuid>ab41f5d9-9225-4a79-93fc-a58fb11264b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[94]</value>
+      <webElementGuid>6f7b92db-d6fc-4b8e-9b6b-2a2a15435c09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/a</value>
+      <webElementGuid>3222df0f-d00a-4983-a723-3cdf1e7b94a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'aplicaNovedadProceso:j_idt525' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+      <webElementGuid>987ebad3-6fbe-44ac-aee3-8f2fd4756a14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

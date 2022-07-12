@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Desea eliminar el registro</name>
+   <tag></tag>
+   <elementGuidId>b57dbb63-a6bf-4ae8-8857-836487d2d7cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popupConfirmacionDialog:j_idt4247_content']/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-margin-popup > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f5ef8fc9-ec61-45b5-b208-f9c8130bed07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Desea eliminar el registro</value>
+      <webElementGuid>c1858e2b-0455-448d-a4fa-969700d05d55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupConfirmacionDialog:j_idt4247_content&quot;)/div[@class=&quot;us-margin-popup&quot;]/label[1]</value>
+      <webElementGuid>3c17550c-aa78-4c9d-a393-324fb165126d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupConfirmacionDialog:j_idt4247_content']/div[2]/label</value>
+      <webElementGuid>f6390836-b6af-4b84-9564-35a88e0a23be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::label[1]</value>
+      <webElementGuid>fa738e7e-1ef6-4689-a22c-6c01368fa2ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::label[2]</value>
+      <webElementGuid>d85ccccc-9411-4130-ad9e-69771113ba8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
+      <webElementGuid>eb4a3771-ef8a-4e43-b496-a97f8d0691d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Desea eliminar el registro']/parent::*</value>
+      <webElementGuid>a507141b-388e-471e-8c0e-476d9cd11b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>78916f10-1153-4a0f-8b5c-6f22a2493c43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Desea eliminar el registro' or . = 'Desea eliminar el registro')]</value>
+      <webElementGuid>0c421a8a-ac3e-4d3d-b232-0402092d1cb5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>d1664162-8f4b-4201-a614-108f62b5f58e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt173:2:j_idt217']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt173:2:j_idt217&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[3]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>dfb42511-cafd-42e4-b2d8-a6fc3abf7d1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>a4736168-a9ca-4144-a190-87250f74cb85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt173:2:j_idt217</value>
+      <webElementGuid>bc3c5c31-f74e-45e4-9858-59cf9a0407ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar  </value>
+      <webElementGuid>f39fb978-5d0a-4c4f-a55d-d605b229c67e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>0b482902-4798-41a4-8cc5-0390af61489b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return timeImput(event,this);</value>
+      <webElementGuid>f74b6df1-0a09-4152-be40-4c49167be44e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>c95d346c-1885-47ab-af38-bcaae5ca25c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>3</value>
+      <webElementGuid>4fa8c252-1e14-40aa-9570-467ea9dbdaff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt135&quot;)/table[2]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>75656cea-f555-4bb6-948f-07a1fcf620b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,6 +94,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/iframe_Mis Cesantas_7F07D451F09D4B35813735F_666b9f</value>
+      <webElementGuid>a35e38c6-d676-4f3f-aa88-c6d3a5abee10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt173:2:j_idt217']</value>
+      <webElementGuid>e9ba41bb-9bd4-423a-8de4-d751cbd242de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt135']/table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[3]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>202da0a0-090b-4682-9e08-c2eb8b593a58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>5ef649c0-f224-4efc-960c-95a1acb1dac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:j_idt173:2:j_idt217']</value>
+      <webElementGuid>fa6d6522-311c-4ec3-91fe-982700da5611</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

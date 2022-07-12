@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt743']/div</value>
+         <value>//td[5]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>fc98e065-abda-4c7b-9069-ffd78f0d9aae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-cell-editor-output</value>
+      <webElementGuid>79a9ed71-4104-4a30-a4f7-0fcaced07e53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No Diligenciada</value>
+      <webElementGuid>683eccbf-ac63-4685-a3aa-ee40de6c45cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt743&quot;)/div[@class=&quot;ui-cell-editor-output&quot;]</value>
+      <webElementGuid>c9c82ae5-6055-480f-9845-b08a64e45d98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt743']/div</value>
+      <webElementGuid>48fb7cbe-3b84-4ba7-b066-22356680c59c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación Capacitación'])[2]/following::div[2]</value>
+      <webElementGuid>c95da046-88fe-4f5e-bd41-fe8453f1a131</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Programa'])[1]/preceding::div[5]</value>
+      <webElementGuid>1a17b5c5-0feb-4990-820c-93a4051a4bf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[1]/preceding::div[6]</value>
+      <webElementGuid>00bbdc2f-a985-478a-aa2c-f60f3bdde3b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/div/div</value>
+      <webElementGuid>1435d86b-0e3b-4588-a69a-852f7ef872ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'No Diligenciada' or . = 'No Diligenciada')]</value>
+      <webElementGuid>0d6e07c6-2a12-44e3-9174-ca058c497e28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

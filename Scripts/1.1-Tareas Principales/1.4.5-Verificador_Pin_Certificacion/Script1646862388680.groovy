@@ -34,6 +34,8 @@ if(GlobalVariable.G_UsuarioFun.equals("weblogic")) {
 {
 	WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/acceso')
 	
+	/*WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/acceso')*/
+	
 	WebUI.setText(findTestObject('MÓDULOS/VerificadorPinCertificacion/input_Identificacin_from_validarcertificaci_a5efec'),
 		'90798514')
 	WebUI.setText(findTestObject('MÓDULOS/VerificadorPinCertificacion/input_Pin_from_validarcertificaciconpin'), '24-220210307')

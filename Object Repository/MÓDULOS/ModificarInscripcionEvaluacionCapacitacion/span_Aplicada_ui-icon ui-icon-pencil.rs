@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt757']/a/span</value>
+         <value>//td[9]/div/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ed125797-6dcc-4902-9805-746d2b8adcdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-pencil</value>
+      <webElementGuid>190b055e-c9e6-42c7-a218-3a4e8ed374a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt757&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
+      <webElementGuid>0aafe6fa-99ea-4388-adec-f21b362b1e71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt757']/a/span</value>
+      <webElementGuid>9d2f245a-bebe-4a78-9fb8-b5eb9ff720aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[9]/div/a/span</value>
+      <webElementGuid>8a0af7b1-b72d-4f6e-8637-62967d4acc3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

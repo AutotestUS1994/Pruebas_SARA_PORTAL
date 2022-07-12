@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='actividades_form:TabDatBasEmpresa:tabla_roles:0:j_idt36']/div[2]</value>
+         <value>//td/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>216eac3c-699c-4d1c-a97a-9288c1611a4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover</value>
+      <webElementGuid>4a66192d-415d-4f9b-9853-fac7af05097c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;actividades_form:TabDatBasEmpresa:tabla_roles:0:j_idt36&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]</value>
+      <webElementGuid>6fa8d575-54cd-4b3b-b115-26ddb87fd661</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/iframe_Mis aprobaciones_7F07D451709D4B45813_70d15d</value>
+      <webElementGuid>034e726b-3279-4ebf-9f3b-c58409af7236</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='actividades_form:TabDatBasEmpresa:tabla_roles:0:j_idt36']/div[2]</value>
+      <webElementGuid>7ab4dc66-fc10-4d03-a3d9-de303cf680e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inicio Actividad'])[1]/following::div[3]</value>
+      <webElementGuid>53421613-e80e-43ba-b8c7-a05953cc1b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Limite'])[1]/following::div[3]</value>
+      <webElementGuid>ca1f6b47-6a6f-4541-a11b-22cf44b75a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes'])[2]/preceding::div[1]</value>
+      <webElementGuid>7c69d3fb-9cd4-442b-8aae-e954cecdfda0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BPM Solicitudes 1552'])[1]/preceding::div[1]</value>
+      <webElementGuid>b652be37-bfbe-4855-aa29-06bccb325dc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div[2]</value>
+      <webElementGuid>3b529c13-7263-4fef-809b-65ff3d28a476</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='j_idt653:j_idt654:j_idt656:j_idt657_header']</value>
+         <value>//form/table/tbody/tr/td/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>e3ac6870-76df-4264-ba29-333b21e8e31a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt653:j_idt654:j_idt656:j_idt657_header</value>
+      <webElementGuid>5820a474-5fd2-4aee-97f6-196212c6e947</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-state-hover ui-tabs-outline</value>
+      <webElementGuid>eac71743-992c-43ca-8637-c80a67e1e828</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
+      <webElementGuid>63236d99-437e-4c8c-af85-d781e162cf24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>2d70660d-f240-46c9-9187-9e16302a9cb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>cd70abb3-2ea1-4a35-9641-80a1fa0e7794</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>2dcd46bb-76b3-4b77-bec2-3bba7ef9dd4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceso</value>
+      <webElementGuid>bf4a12cd-0f2e-4e0d-842b-d6fe6b9af90c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt653:j_idt654:j_idt656:j_idt657_header&quot;)</value>
+      <webElementGuid>23cadb61-d8b6-4d36-88e8-8e7afea120e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='j_idt653:j_idt654:j_idt656:j_idt657_header']</value>
+      <webElementGuid>044526ff-0be3-4e0c-ba71-b5a92a7a6e7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt653:j_idt654:j_idt656']/div</value>
+      <webElementGuid>95f31f07-8208-48a6-a894-72b67bc9163e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros Solicitudes'])[1]/following::div[8]</value>
+      <webElementGuid>f14a2fde-72f3-4397-8645-dd96269f5a5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros Generales'])[1]/following::div[8]</value>
+      <webElementGuid>e658876f-1822-481d-9e48-b806ede9918d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidato'])[1]/preceding::div[2]</value>
+      <webElementGuid>99e7ca48-07d6-4a52-a881-af8ed2846253</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Citacion'])[1]/preceding::div[4]</value>
+      <webElementGuid>8a555c14-b4ee-4119-b2f9-ca8c2506b62d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proceso']/parent::*</value>
+      <webElementGuid>cca5c295-8ed0-402f-a3f9-1fe2eff5559a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/table/tbody/tr/td/div/div</value>
+      <webElementGuid>54f6a61a-fc03-4cce-a073-d2ed49e5640c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'j_idt653:j_idt654:j_idt656:j_idt657_header' and (text() = 'Proceso' or . = 'Proceso')]</value>
+      <webElementGuid>687a7eff-3f76-4686-8e76-7f9df0db3bb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

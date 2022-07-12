@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Eliminar Directo_1</name>
+   <tag></tag>
+   <elementGuidId>a5ba69c8-7589-4edf-af19-4e4779b5adf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar Directo')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d6d24dca-69c5-4b2d-8fb4-e96c449e80d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_vacacionesEmpleado:tabsVacaciones:j_idt3609</value>
+      <webElementGuid>0400cbe4-8e38-46d8-8fa1-17f9d62a705e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>3b936973-e6a1-4bb8-a64a-551cd7f70344</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-eliminarExtendido</value>
+      <webElementGuid>f4c06689-6b61-4ea6-8b82-d5e8e98b8c7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_vacacionesEmpleado:tabsVacaciones:j_idt3609&quot;,f:&quot;form_vacacionesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>b7e6dd2c-f982-440b-9e81-b27135675c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Eliminar Directo</value>
+      <webElementGuid>7dc4a725-74d5-4fb8-a195-c14ac290ae9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_vacacionesEmpleado:tabsVacaciones:j_idt3609&quot;)</value>
+      <webElementGuid>b9604bbe-9f67-4bc9-8cdc-48b3759381b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt3609']</value>
+      <webElementGuid>bb56c011-3065-47ed-a624-1c58dfb2f4fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt3279']/div/table/tbody/tr[8]/td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>96e00beb-6999-42d2-957e-589167e61920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Eliminar Directo')]</value>
+      <webElementGuid>a07c93f9-7a43-42eb-a7fb-7ca09f35e246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[3]</value>
+      <webElementGuid>df049706-e7b5-4a11-9826-512f214a7b80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autorizador BPM'])[1]/following::a[3]</value>
+      <webElementGuid>f61fedf8-a11c-4dc1-80ee-f0b3a81aeea0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recuperar Incapacidad'])[1]/preceding::a[3]</value>
+      <webElementGuid>3a1946b9-e2e9-4303-8cbc-6a1405fb811d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::a[3]</value>
+      <webElementGuid>f17c01e3-4e75-44c0-a4d8-0068326e07a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Eliminar Directo']/parent::*</value>
+      <webElementGuid>0a575841-e200-4328-8548-ca3a7ef57d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[116]</value>
+      <webElementGuid>8bcf4aa1-86bc-4e0d-95f6-f33940b96586</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>9aebfdab-756f-4560-bfdb-c779ae9431be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_vacacionesEmpleado:tabsVacaciones:j_idt3609' and @href = '#' and (text() = 'Eliminar Directo' or . = 'Eliminar Directo')]</value>
+      <webElementGuid>42608074-96e0-486f-8f6c-eadad0cd55bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

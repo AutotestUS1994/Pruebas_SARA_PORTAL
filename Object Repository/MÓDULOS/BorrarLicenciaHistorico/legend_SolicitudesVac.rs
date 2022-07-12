@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>legend_SolicitudesVac</name>
+   <tag></tag>
+   <elementGuidId>3f631a35-204b-4c05-a3be-6a84da4d29bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//legend[(text() = 'Solicitudes' or . = 'Solicitudes')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>legend</value>
+      <webElementGuid>d26988a5-d2de-4be9-a142-b16c5bdcd210</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-fieldset-legend ui-corner-all ui-state-default</value>
+      <webElementGuid>792cc69a-6ce4-4201-a271-6a2caacbf10b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Solicitudes</value>
+      <webElementGuid>08b70eb7-a4ff-4702-84f6-97ce8c7aebb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_vacacionesEmpleado:tabsVacaciones:j_idt3301&quot;)/legend[@class=&quot;ui-fieldset-legend ui-corner-all ui-state-default&quot;]</value>
+      <webElementGuid>2131f5a8-b973-40f8-908e-2a5cbff4e129</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt3301']/legend</value>
+      <webElementGuid>bad5634d-4a84-4260-bf85-2a41ff883bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::legend[1]</value>
+      <webElementGuid>28f48891-9ef8-429a-90b8-eb9cccfc9e45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programacion De Vacaciones'])[2]/following::legend[1]</value>
+      <webElementGuid>1d778963-8e61-4af0-aec8-cd4bc1a582e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interrupción'])[1]/preceding::legend[1]</value>
+      <webElementGuid>54c7c101-e874-4f0e-8279-bd39a0efda00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recuperar Incapacidad'])[1]/preceding::legend[2]</value>
+      <webElementGuid>0ed4d6ab-0b2c-42cc-8c9f-da1986d8cf93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Solicitudes']/parent::*</value>
+      <webElementGuid>63a57b55-2cc1-4402-9e37-68f145f08993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[2]/legend</value>
+      <webElementGuid>6934c10b-c5fd-417d-8f08-cc00f355c83b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//legend[(text() = 'Solicitudes' or . = 'Solicitudes')]</value>
+      <webElementGuid>5d528f98-380b-4d03-9655-7663addb5b8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

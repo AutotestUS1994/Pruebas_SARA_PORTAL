@@ -6,12 +6,12 @@
    <elementGuidId>0402bddb-cdcd-45da-8cdc-aaf31be13be2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='contratosEmpleado:j_idt46:0:j_idt64']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.btn-hoja.us-icon-card-img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>e94293c7-68b2-4003-a3b1-918482d6a372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-hoja us-icon-card-img</value>
+      <webElementGuid>ad8bfbf4-ed18-4e0d-89ae-6987961052af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contratosEmpleado:j_idt46:0:j_idt64&quot;)/span[@class=&quot;btn-hoja us-icon-card-img&quot;]</value>
+      <webElementGuid>a2b3b272-a5aa-4c3f-8c7c-6da56fa0a848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</value>
+      <webElementGuid>941d0b06-a734-493f-920b-4151cc160d9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='contratosEmpleado:j_idt46:0:j_idt64']/span</value>
+      <webElementGuid>93de6d77-703b-4064-ac27-f6006bbdd0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/span</value>
+      <webElementGuid>e74d1f7b-099d-4e5c-ba83-63b594344bc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

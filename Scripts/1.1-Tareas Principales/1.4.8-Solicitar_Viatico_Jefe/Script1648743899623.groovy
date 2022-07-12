@@ -73,11 +73,17 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
 
     WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_FechaSalida'), '30/03/2030')
 
-    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), '05')
+    /*Cambio de hora*/
+    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), '05:00')
+
+    WebUI.sendKeys(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), Keys.chord(Keys.ENTER))
 
     WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_FechaRegreso'), '15/04/2030')
 
-    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraRegreso'), '06')
+    /*Cambio de hora*/
+    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraRegreso'), '06:00')
+
+    WebUI.sendKeys(findTestObject('MÓDULOS/SolicitarViatico/input_HoraRegreso'), Keys.chord(Keys.ENTER))
 
     WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/select_--- Seleccione Ambito --EXTERIOR 1EX_e17976_1'), 
         1, FailureHandling.STOP_ON_FAILURE)
@@ -169,5 +175,7 @@ def a() {
     WebUI.callTestCase(findTestCase('Elegir Empresa/Elegir_Empresa'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
+	
+//	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
 }
 

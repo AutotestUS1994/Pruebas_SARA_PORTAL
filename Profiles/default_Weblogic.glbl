@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Aqui la ruta de Weblogic</description>
-      <initValue>'http://192.168.2.11:7001/PortalSara/sitio/portalEmpleados/acceso'</initValue>
+      <initValue>'http://192.168.2.19:7001/PortalSara/sitio/portalEmpleados/acceso'</initValue>
       <name>G_Login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
