@@ -6,12 +6,11 @@
    <elementGuidId>c34585b9-44df-4bdb-9ce4-d8ad4c07bcd5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_licenciaEmpleado:tabsLicencias:j_idt149']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Nuevo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>eefe94d9-3a73-4313-946e-f47810d4d32f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_licenciaEmpleado:tabsLicencias:j_idt149</value>
+      <webElementGuid>68006a7b-8c7d-4d70-8703-75ca77c4f01b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6e55a14b-78ea-44c0-a812-441fa8b6c8c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton us-large btn-nuevo</value>
+      <webElementGuid>6d9d79b7-11d6-4958-9d32-6eda48bb5e1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_licenciaEmpleado:tabsLicencias:j_idt149&quot;,f:&quot;form_licenciaEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){resizeWindow();;}});return false;</value>
+      <webElementGuid>c99b3c0b-2dec-417b-97b9-da448cf56725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nuevo</value>
+      <webElementGuid>19f505d3-19f5-4383-9546-63fcdee6df7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_licenciaEmpleado:tabsLicencias:j_idt149&quot;)</value>
+      <webElementGuid>ce56c8d1-736e-441c-ab40-034ae02b74bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/iframe_Codigo QR_7F07D451F09D4B35813735F552B36437</value>
+      <webElementGuid>d15deae8-02a8-49cc-a450-41dc9f40f5fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_licenciaEmpleado:tabsLicencias:j_idt149']</value>
+      <webElementGuid>239f9ea5-c67f-4edc-80c0-6fea5fc9da3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='form_licenciaEmpleado:tabsLicencias:j_idt134']/div/table/tbody/tr/td/a</value>
+      <webElementGuid>28b946c4-f88d-427a-9164-7000e2bc57a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Nuevo')]</value>
+      <webElementGuid>e741f2e2-5d19-40dd-8433-9b5e14d963b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes'])[1]/following::a[1]</value>
+      <webElementGuid>41ab3696-9134-4796-bb27-23f811e9dc9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Histórico'])[1]/following::a[1]</value>
+      <webElementGuid>56612010-9065-48c9-a269-fa3ee20d2469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>29759414-3c6b-44d0-a5f1-23eae3e4367d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>28f1c568-adaf-4f8e-be65-14ea54c49270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
+      <webElementGuid>452e3811-0e75-4b08-ae47-4529c12f7cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>14caed94-3c6c-4856-aa77-75bc94124db3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
+      <webElementGuid>dea7b02a-3183-4fad-a696-db986d9b33af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_licenciaEmpleado:tabsLicencias:j_idt149' and @href = '#' and (text() = 'Nuevo' or . = 'Nuevo')]</value>
+      <webElementGuid>01daca58-f319-496a-a993-e0fc98384bc5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

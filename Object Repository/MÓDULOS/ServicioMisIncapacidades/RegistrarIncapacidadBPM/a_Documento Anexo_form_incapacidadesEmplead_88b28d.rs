@@ -6,12 +6,11 @@
    <elementGuidId>2cbc66f9-249e-45fc-b6be-0966c7521617</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn:0:j_idt266']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[8]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>a574fcef-3a71-4466-8e14-79c654d3845f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn:0:j_idt266</value>
+      <webElementGuid>8a0885ce-76aa-4203-81b7-951c67a4d44d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ea4e28a0-9a12-4853-94cb-743b71620b0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <webElementGuid>82e0d699-e942-4e87-816e-b7274b672838</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn:0:j_idt266&quot;,f:&quot;form_incapacidadesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>3657758f-d9ef-4256-9009-c0f17740b40c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn:0:j_idt266&quot;)</value>
+      <webElementGuid>b25b288b-5df1-43aa-a29e-73c3d8bfe6ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/iframe_Mis Cesantas_7F07D451F09D4B35813735F_666b9f</value>
+      <webElementGuid>e55ac444-faba-4f0c-9e2e-e4300bda80ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn:0:j_idt266']</value>
+      <webElementGuid>918f17ea-29bc-4109-86ce-37dd71f8b3fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn_data']/tr/td[8]/a</value>
+      <webElementGuid>3228f8b4-6f0f-4a3a-a7dc-675b494bed20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>34b30da8-7073-44a2-bfdc-fe7164cf2a00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]/a</value>
+      <webElementGuid>f5049357-e64d-4d52-9f82-69d7175ece45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_incapacidadesEmpleado:tabsIncapacidades:panelIncapacidad:documentosIn:0:j_idt266' and @href = '#']</value>
+      <webElementGuid>2e7fd3ff-6ffc-43f2-b198-6b7c3a073fe1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

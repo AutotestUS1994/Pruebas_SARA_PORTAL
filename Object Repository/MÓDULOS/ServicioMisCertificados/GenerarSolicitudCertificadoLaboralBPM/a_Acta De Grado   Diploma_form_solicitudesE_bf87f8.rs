@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_solicitudesEmpleado:listaDocumentos:0:j_idt358']</value>
+         <value>//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>a3954139-d07e-4fbb-93f2-53e114dad675</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_solicitudesEmpleado:listaDocumentos:0:j_idt358</value>
+      <webElementGuid>0b224692-5a90-42bd-a712-f749dc6e8a81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>c96bfd12-cf4d-4f19-b117-b0de91eb0553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <webElementGuid>06af62ec-f56d-4693-a282-e03846224f63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_solicitudesEmpleado:listaDocumentos:0:j_idt358&quot;,f:&quot;form_solicitudesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>60eeee95-aa5d-4529-a4d1-19d3a8566c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_solicitudesEmpleado:listaDocumentos:0:j_idt358&quot;)</value>
+      <webElementGuid>6080a79b-0ea8-4b7f-8b47-d483d634a2ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/iframe_Mis Cesantas_FB1846019F574996BB0A814_6cece9</value>
+      <webElementGuid>54b29a76-432a-4fbb-b9d2-c986190697cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_solicitudesEmpleado:listaDocumentos:0:j_idt358']</value>
+      <webElementGuid>45ea81f4-1735-4d72-aade-46b9dffe873e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_solicitudesEmpleado:listaDocumentos_data']/tr/td[8]/a</value>
+      <webElementGuid>8473205f-ef19-4863-8fc1-422ffe865e9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>d18b237a-78d3-4c6f-b156-b1f84c2849e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
+      <webElementGuid>93b15961-8346-45d3-9560-872affeeeb2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_solicitudesEmpleado:listaDocumentos:0:j_idt358' and @href = '#']</value>
+      <webElementGuid>f9e2be10-8390-4a72-914e-4dd3d7a66542</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>1744d80b-8628-478c-8716-1edfcf290a75</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt210:3:j_idt254']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt210:3:j_idt254&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>a3e35f70-f203-49bb-9a19-f0337ee8fdd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>865b70d8-3857-444b-b08f-d6a22319cb79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt210:3:j_idt254</value>
+      <webElementGuid>b05af7b0-1244-49b8-824b-39cfddc0c4a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>value</name>
       <type>Main</type>
       <value>00:00</value>
+      <webElementGuid>d851ce6b-6ee2-4980-9e5a-803a1ec834c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar  </value>
+      <webElementGuid>23dd47b4-e350-42c5-8d5e-8ba249469726</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>f3854737-edf0-46f4-9e7d-2a0749b7a7f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return timeImput(event,this);</value>
+      <webElementGuid>206eb2f2-b528-4880-a26c-c8b8be75750b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>883e70f0-ddf6-4791-ab6b-7a529555c122</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>3</value>
+      <webElementGuid>194acb4a-532a-4a75-8476-6ba2e13eeb6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt177&quot;)/table[4]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[4]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>bf8e0f04-cbcc-42ad-8221-878e64684748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,6 +102,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/iframe_Codigo QR_7F07D451F09D4B35813735F552B36437</value>
+      <webElementGuid>74d05879-5fec-4f08-961b-e326a0298201</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt210:3:j_idt254']</value>
+      <webElementGuid>811d5087-f5de-4771-ad67-926f616d243b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt177']/table[4]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>d344570e-a48a-4a3f-9e17-d215bd6bcd6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>e61e81c3-c084-4475-b222-a279789446e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt210:3:j_idt254']</value>
+      <webElementGuid>23731b03-b863-45ea-9c26-1eff89c38752</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

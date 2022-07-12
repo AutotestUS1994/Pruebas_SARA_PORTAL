@@ -6,11 +6,11 @@
    <elementGuidId>6fd51c2a-860b-4f6c-bcae-d01f1c819403</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo'])[1]/preceding::a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>a7892441-68c6-4b28-9087-eda200160530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>requerimientoPersonalPM_form:j_idt749</value>
+      <webElementGuid>aa1118e3-b76b-48aa-b82b-a3e5ffe6969d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>9409d401-40e6-4eba-a52c-4026716ddcb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-continuar</value>
+      <webElementGuid>c5ef59aa-4055-4a41-9d42-f08e8c49df14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;requerimientoPersonalPM_form:j_idt749&quot;,f:&quot;requerimientoPersonalPM_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>f93b9207-5888-4fe7-b764-8f3455d00400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continuar</value>
+      <webElementGuid>5e8d16e0-dee6-4ac7-942e-093c4ba871e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;requerimientoPersonalPM_form:j_idt749&quot;)</value>
+      <webElementGuid>4d9b9972-2357-48cb-a083-a310109011db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/iframe_Nuevo cargo_7F07D451F09D4B35813735F5_66e4dc</value>
+      <webElementGuid>bfa25493-a9cb-423c-98da-4570f7280502</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='requerimientoPersonalPM_form:j_idt749']</value>
+      <webElementGuid>9c584160-a79d-431e-ba4a-2b3aa00a7f58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='requerimientoPersonalPM_form']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/div/table[2]/tbody/tr[6]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>6af6fde4-449a-4150-99e4-cc2e2dcceff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Convocatoria'])[1]/following::a[2]</value>
+      <webElementGuid>8107cfa9-7eeb-4b12-8db9-4533bbf8b340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo'])[1]/preceding::a[2]</value>
+      <webElementGuid>68867d06-d99d-4087-95c3-783ce0281368</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[18]</value>
+      <webElementGuid>10021148-1c45-4fc9-84f3-028c4824eff7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>78f25ad5-a3cb-4fb5-a250-63a469a4fc41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'requerimientoPersonalPM_form:j_idt749' and @href = '#' and (text() = 'Continuar' or . = 'Continuar')]</value>
+      <webElementGuid>0ac0cb10-984b-4027-9a47-660a109fef88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>0803b52a-8a86-4b66-aac2-ab19ae49850e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>1667bfb0-ed7e-4b75-b7a4-3daefb05d18c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupInfoDialog:j_idt531</value>
+      <webElementGuid>4aa5fa89-a1fb-45cf-96e2-029a5105754f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>31ed1fde-949e-4fa5-812c-31b3b6013c29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-btn-si us-btn-popup</value>
+      <webElementGuid>b5e8628c-c6e9-4aa5-a561-b720175b796d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupInfoDialog:j_idt531&quot;,f:&quot;popupInfoDialog&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){resizeWindow();;}});return false;</value>
+      <webElementGuid>41b09d27-d862-425c-908f-d4080cfd2806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aceptar</value>
+      <webElementGuid>37084101-b196-4184-b875-6d9cec0d7a3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupInfoDialog:j_idt531&quot;)</value>
+      <webElementGuid>265de6e7-2800-4be0-b8d2-9a20b691897d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/GenerarImprimirHojaVida/iframe_HojaVida</value>
+      <webElementGuid>aae001a8-b4f5-4903-b9a3-89a2b6bad834</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupInfoDialog:j_idt531']</value>
+      <webElementGuid>58974e1d-6730-4ff6-994c-1f6be140383a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupInfoDialog:j_idt523_content']/div[3]/a</value>
+      <webElementGuid>355be982-c737-49b2-94bd-d532e22c553b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Aceptar')]</value>
+      <webElementGuid>5e09d176-d937-49ed-8fc2-cf7bade88f51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sus datos han sido Actualizados correctamente'])[1]/following::a[1]</value>
+      <webElementGuid>62c8dd68-cbcf-44d0-bcc5-59b1bc525e2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información'])[1]/following::a[1]</value>
+      <webElementGuid>b6233c93-41ec-4b69-842b-6e30bbac46e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'popupInfoDialog:j_idt531', '&quot;', ')')])[1]/preceding::a[1]</value>
+      <webElementGuid>9c3f8b8a-4850-47d9-94c8-6adca663af4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLEADO2'])[1]/preceding::a[1]</value>
+      <webElementGuid>a2a95437-8d01-4ad0-b570-7b98397f2985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>8c17925d-f152-425a-9d89-bc186532fe72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[11]</value>
+      <webElementGuid>b77d062f-82ab-47d3-a2c0-d19c5caf5db1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
+      <webElementGuid>b9a74208-0779-416c-ab7f-0db28b01fd75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupInfoDialog:j_idt531' and @href = '#' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>2f363951-6097-4b1c-9054-64193e7398cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

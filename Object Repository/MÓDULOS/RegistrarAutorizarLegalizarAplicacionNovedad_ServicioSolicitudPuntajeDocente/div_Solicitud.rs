@@ -6,12 +6,11 @@
    <elementGuidId>a8f77fcb-319e-475f-9431-dffdfdde4f90</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='aplicaNovedadProceso:j_idt65:j_idt67:j_idt68_header']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td/table/tbody/tr/td/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>796e759f-d821-4535-80bb-9cea1d7d436c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>aplicaNovedadProceso:j_idt65:j_idt67:j_idt68_header</value>
+      <webElementGuid>9e012f09-c8c5-4801-9717-1285221bafba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top ui-tabs-outline</value>
+      <webElementGuid>d0ae09da-4e30-4f78-89ee-a9fc5a3e9771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
+      <webElementGuid>45d386ca-9127-4505-b8ec-21a1226bcbe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>cbebba1b-72f0-4172-b099-15a464eb584a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>69c629c7-4c1c-46e6-b866-270f20d704bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>7c368cbf-f6f8-45c2-a88c-ef26e2e0145b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitud</value>
+      <webElementGuid>ccc66c7a-67b5-4ebb-aa53-b848605e6995</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;aplicaNovedadProceso:j_idt65:j_idt67:j_idt68_header&quot;)</value>
+      <webElementGuid>4756c761-0f78-41e1-ba3c-7572705f9f72</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='aplicaNovedadProceso:j_idt65:j_idt67:j_idt68_header']</value>
+      <webElementGuid>d8c7aded-8586-4745-b70b-3cd17247f516</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='aplicaNovedadProceso:j_idt65:j_idt67']/div</value>
+      <webElementGuid>84798c42-59fc-4376-a43c-d54ff84c5ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::div[8]</value>
+      <webElementGuid>3c28d727-8549-41bd-8381-558f6f033417</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[1]/following::div[8]</value>
+      <webElementGuid>0d11e695-c128-4652-8a12-dcd0190a79cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Autorizar'])[1]/preceding::div[2]</value>
+      <webElementGuid>e5f1cb7d-2745-4086-a1c0-8d505506259b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Legalizar'])[1]/preceding::div[5]</value>
+      <webElementGuid>0891d5d6-3cd7-49d7-8fd8-7b47acec6ee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Solicitud']/parent::*</value>
+      <webElementGuid>226953b4-0f7c-4917-ae4d-d5055f49acde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td/div/div</value>
+      <webElementGuid>a9b5ede3-7042-4859-9ae7-733e8df2655a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'aplicaNovedadProceso:j_idt65:j_idt67:j_idt68_header' and (text() = 'Solicitud' or . = 'Solicitud')]</value>
+      <webElementGuid>d94e86e8-da34-4e20-9361-3bef73e5a156</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

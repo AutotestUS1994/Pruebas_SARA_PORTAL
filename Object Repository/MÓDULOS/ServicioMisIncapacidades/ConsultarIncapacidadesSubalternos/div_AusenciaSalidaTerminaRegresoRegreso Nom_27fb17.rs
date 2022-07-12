@@ -6,12 +6,11 @@
    <elementGuidId>4792b93c-b8b9-435a-8257-c58a2f9eaf9a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form_incapacidadesEmpleado:tabsIncapacidades:j_idt116']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>752d43bd-c170-4637-b696-b8bede3818ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_incapacidadesEmpleado:tabsIncapacidades:j_idt116</value>
+      <webElementGuid>7527e474-540b-4082-a2d8-37e3f7a7b7c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-datatable ui-widget</value>
+      <webElementGuid>c7e01c0e-0d49-43e0-b72a-b89e670abecc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AusenciaSalidaTerminaRegresoRegreso NominaEstadoMensajeMaternidad/paternidad20/04/202219/05/202220/05/202220/05/2022Autorizada</value>
+      <webElementGuid>930edb98-12ee-4d3d-bf06-d6fab47ddbb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_incapacidadesEmpleado:tabsIncapacidades:j_idt116&quot;)</value>
+      <webElementGuid>cde98a0d-5ab2-475c-883e-e89e1b43d1d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/ConsultarIncapacidadesSubalternos/iframe_Mis Cesantas_7F07D451709D4B45813735F_dab634</value>
+      <webElementGuid>a31c0a9d-575e-442d-91a6-0d1d99885569</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='form_incapacidadesEmpleado:tabsIncapacidades:j_idt116']</value>
+      <webElementGuid>c719d97c-79f4-4abf-9e8d-884f9056c548</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='form_incapacidadesEmpleado:tabsIncapacidades:j_idt114']/div/table/tbody/tr/td/div</value>
+      <webElementGuid>37a5ec97-6dc9-4d82-94da-e52b1d8fbe8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes'])[1]/following::div[2]</value>
+      <webElementGuid>1ce16019-0e12-47d0-979f-f953b71fabe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Histórico'])[1]/following::div[5]</value>
+      <webElementGuid>5ee16280-01a1-4ece-a90c-80c88539444a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div</value>
+      <webElementGuid>bf415f18-f810-4191-aeb5-9cfa82ec0e38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'form_incapacidadesEmpleado:tabsIncapacidades:j_idt116' and (text() = 'AusenciaSalidaTerminaRegresoRegreso NominaEstadoMensajeMaternidad/paternidad20/04/202219/05/202220/05/202220/05/2022Autorizada' or . = 'AusenciaSalidaTerminaRegresoRegreso NominaEstadoMensajeMaternidad/paternidad20/04/202219/05/202220/05/202220/05/2022Autorizada')]</value>
+      <webElementGuid>908bac8e-e6f2-4204-adc4-13a2445ea628</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

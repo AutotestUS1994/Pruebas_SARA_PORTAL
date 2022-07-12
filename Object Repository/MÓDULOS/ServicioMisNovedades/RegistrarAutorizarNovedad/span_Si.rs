@@ -6,12 +6,11 @@
    <elementGuidId>e406d50d-6534-47c2-b736-1d76074224ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='j_idt510:j_idt513']/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>bff2e7c2-f62a-4a50-8e19-53dc8dcfdd83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button-text ui-c</value>
+      <webElementGuid>4960f9d4-95db-4a3e-a7a2-278202d9a3c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>343f150f-e81a-4557-946c-1a0e51654654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt510:j_idt513&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>048c64c2-a56f-4bbf-92d0-99e76f955dfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/iframe_Mis aprobaciones_7F07D451709D4B45813_70d15d</value>
+      <webElementGuid>3bcd26c8-cb56-49e8-ad0e-1b19d512ea7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='j_idt510:j_idt513']/span</value>
+      <webElementGuid>f46b6aaa-cf99-4d73-a59e-b8c78946eec4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::span[1]</value>
+      <webElementGuid>10d620db-9c9e-43e6-ba26-0a835031ad61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DESEA CONFIRMAR'])[1]/following::span[2]</value>
+      <webElementGuid>2183c72a-5e2f-4afd-8667-6ef2964d4cef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>23df5a2b-56ab-4734-a187-f5584f883454</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span</value>
+      <webElementGuid>3bacf4a2-ace9-4387-95b2-4b1f7a5b78db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Si' or . = 'Si')]</value>
+      <webElementGuid>4d028bf4-2567-41d4-a68c-bf92bf5167be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

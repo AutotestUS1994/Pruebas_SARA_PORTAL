@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Solicitud Viatico'), [:], FailureHandling.STOP_ON_FAILURE)
 
 iniciar()
@@ -72,11 +71,23 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
 
     WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_FechaSalida'), '30/03/2030')
 
-    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), '05')
+    WebUI.sendKeys(findTestObject('MÓDULOS/SolicitarViatico/input_FechaSalida'), Keys.chord(Keys.TAB))
+
+    /*Cambio Fecha*/
+    WebUI.click(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), '05:00')
+
+    WebUI.sendKeys(findTestObject('MÓDULOS/SolicitarViatico/input_HoraSalida'), Keys.chord(Keys.TAB))
 
     WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_FechaRegreso'), '15/04/2030')
 
-    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraRegreso'), '06')
+    WebUI.sendKeys(findTestObject('MÓDULOS/SolicitarViatico/input_FechaRegreso'), Keys.chord(Keys.TAB))
+
+    /*Cambio Fecha*/
+    WebUI.setText(findTestObject('MÓDULOS/SolicitarViatico/input_HoraRegreso'), '06:00')
+
+    WebUI.sendKeys(findTestObject('MÓDULOS/SolicitarViatico/input_HoraRegreso'), Keys.chord(Keys.ENTER))
 
     WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/select_--- Seleccione Ambito --EXTERIOR 1EX_e17976_1'), 
         1, FailureHandling.STOP_ON_FAILURE)
@@ -166,6 +177,8 @@ def a() {
 
     WebUI.click(findTestObject('Login/a_Ingresar'))
 
-    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
+	WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
+	
+//	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
 }
 

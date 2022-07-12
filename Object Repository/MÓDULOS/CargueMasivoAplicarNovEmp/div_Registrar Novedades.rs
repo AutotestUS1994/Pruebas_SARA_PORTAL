@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Registrar Novedades</name>
+   <tag></tag>
+   <elementGuidId>a14d44e6-8996-4744-9d0e-e128470fabaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='aplicaNovedadProceso']/table/tbody/tr/td[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.tituloEnmcarca</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0c6c5f2d-ce9a-4a67-8d39-7327db60c44d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tituloEnmcarca</value>
+      <webElementGuid>5f33567f-0b9f-44ee-b16a-19a0ef850003</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Registrar Novedades</value>
+      <webElementGuid>7ffacff6-6657-4299-acd4-038b1097c2c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;aplicaNovedadProceso&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;arribaCont&quot;]/div[@class=&quot;caja_contenido&quot;]/div[@class=&quot;tituloEnmcarca&quot;]</value>
+      <webElementGuid>cacd98c1-b334-4dd5-9e7d-070d7c131571</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
+      <webElementGuid>c36377b1-64e8-44a5-b2fd-be6bdb708e00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aplicaNovedadProceso']/table/tbody/tr/td[2]/div/div</value>
+      <webElementGuid>df0502c8-7e2e-4830-8572-7264f5a6ffd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Legalizar'])[1]/following::div[3]</value>
+      <webElementGuid>cba5f021-292e-45ae-9400-a809b8b38e50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Autorizar'])[1]/following::div[6]</value>
+      <webElementGuid>f59b159f-4b88-4636-ac71-de1163a92720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Novedad'])[1]/preceding::div[1]</value>
+      <webElementGuid>f3d0ebad-f004-402d-a26c-5d749c56ee8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Funcionario'])[1]/preceding::div[2]</value>
+      <webElementGuid>885ba0a0-ccb6-4942-a60c-0e79de74d0a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Registrar Novedades']/parent::*</value>
+      <webElementGuid>f7e76ba4-ce0b-4284-90a0-c9d5668efa56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div</value>
+      <webElementGuid>679e4b36-5412-46a6-938e-ca2ed9a21ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Registrar Novedades' or . = 'Registrar Novedades')]</value>
+      <webElementGuid>36d06d2f-68e6-4f69-8429-e389f7808e0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_solicitudesEmpleado:listaDocumentos:0:j_idt358']</value>
+         <value>//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>79e61f2c-539f-43ad-804e-3ba09cf357af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_solicitudesEmpleado:listaDocumentos:0:j_idt358</value>
+      <webElementGuid>c4cc4b20-922e-49b5-87d4-15d006f39247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>eeedad9d-089f-48c9-bb2d-a5eb022855f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <webElementGuid>cab42358-a1d1-4241-a98d-b620d01667f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_solicitudesEmpleado:listaDocumentos:0:j_idt358&quot;,f:&quot;form_solicitudesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>60bed0f6-9421-453b-8c70-3911b6cb09ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_solicitudesEmpleado:listaDocumentos:0:j_idt358&quot;)</value>
+      <webElementGuid>88b55264-a84c-4845-98f7-93d1af383d53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/iframe_Mis Cesantas_FB1846019F574996BB0A814_6cece9</value>
+      <webElementGuid>218cc1ad-b2a3-40a2-b0b3-9aa0f6bcfefa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_solicitudesEmpleado:listaDocumentos:0:j_idt358']</value>
+      <webElementGuid>25794cd2-47dc-4bf6-8dfd-511da6295585</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_solicitudesEmpleado:listaDocumentos_data']/tr/td[8]/a</value>
+      <webElementGuid>bfd5740c-4237-4136-b9ab-d19e87c93b78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>dda9f468-ff87-41da-91a7-0d5afeb04526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
+      <webElementGuid>47fe1f9f-0e7c-4e87-b184-9c7cc9d23563</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_solicitudesEmpleado:listaDocumentos:0:j_idt358' and @href = '#']</value>
+      <webElementGuid>eea330c1-c1cb-4c56-9bac-8710d85441c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

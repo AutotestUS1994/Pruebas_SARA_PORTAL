@@ -6,12 +6,12 @@
    <elementGuidId>1165001f-d2d2-411d-ab48-f12cfd7e67c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='j_idt463']/div/ul/li/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-messages-info-detail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>c9a9ed02-ed7f-4be5-9a92-edbebca38064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>251a4496-708c-436c-a843-4f9ef98680c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Se elimino el registro correctamente</value>
+      <webElementGuid>d47517d4-b0bb-4985-a8dc-cc49a8f307bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt463&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>1ea08e97-a6ed-447b-a66d-11a466b8e10f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoPuesto/iframe_Puesto de trabajo_7F07D451F09D4B3581_e1732d</value>
+      <webElementGuid>a6412129-98b6-42ec-b6d7-dfc92ca5d52a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt463']/div/ul/li/span[2]</value>
+      <webElementGuid>a3ebf6ec-416a-4463-8e5f-918347b5cd6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>d19454ad-26f4-4c11-aa74-6f94c7f31311</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PUESTO DE TRABAJO'])[1]/following::span[4]</value>
+      <webElementGuid>132b5807-7593-4a77-8b09-13d3f75caade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
+      <webElementGuid>28d2273f-5b08-43c3-af98-b87c08ebf69b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
+      <webElementGuid>6135c759-9572-4fe7-97e3-d2465374b950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Se elimino el registro correctamente']/parent::*</value>
+      <webElementGuid>3bf3015a-22b0-4138-abda-6dd164002130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
+      <webElementGuid>7e79b68b-4c57-45f2-8f3d-086b04f6c503</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Se elimino el registro correctamente' or . = 'Se elimino el registro correctamente')]</value>
+      <webElementGuid>a21614ae-6078-4cc9-9159-96a9bd2b26bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

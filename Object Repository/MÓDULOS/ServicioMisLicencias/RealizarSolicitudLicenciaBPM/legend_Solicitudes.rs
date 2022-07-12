@@ -6,12 +6,12 @@
    <elementGuidId>0e468973-5ef0-4f54-b07a-dddb7c793045</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='form_licenciaEmpleado:tabsLicencias:j_idt134']/legend</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>legend.ui-fieldset-legend.ui-corner-all.ui-state-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//legend</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>legend</value>
+      <webElementGuid>b309ed3b-ed09-446e-bf69-4c6d6e97829d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-fieldset-legend ui-corner-all ui-state-default</value>
+      <webElementGuid>76136cca-2d16-4e15-ba34-755dddeaa19d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitudes</value>
+      <webElementGuid>786230a6-4c6c-4de1-9d66-113fb52f81fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_licenciaEmpleado:tabsLicencias:j_idt134&quot;)/legend[@class=&quot;ui-fieldset-legend ui-corner-all ui-state-default&quot;]</value>
+      <webElementGuid>c5e0d26c-6c24-4d98-8153-efd8fff0b92a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/iframe_Codigo QR_7F07D451F09D4B35813735F552B36437</value>
+      <webElementGuid>c4d1ab3a-99c4-4ea7-80ea-07773e6ee0cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='form_licenciaEmpleado:tabsLicencias:j_idt134']/legend</value>
+      <webElementGuid>4db16a73-0f27-47db-8a1a-24b561c97117</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Histórico'])[1]/following::legend[1]</value>
+      <webElementGuid>a2fc7ac8-5469-4ec3-9425-c4a58407187b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Licencia'])[3]/following::legend[1]</value>
+      <webElementGuid>78d54b0d-e050-4b46-8639-03e7c1ca436f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::legend[1]</value>
+      <webElementGuid>005065fc-e402-47e5-9cc0-aefa49e48f92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::legend[1]</value>
+      <webElementGuid>4ed17817-d7b6-485f-abc5-184a3ca0489b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Solicitudes']/parent::*</value>
+      <webElementGuid>49d63085-d2a9-4dca-9409-74f9cae7f492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//legend</value>
+      <webElementGuid>cc61ae5d-be2d-47a5-b798-6d8cfbf1b12f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//legend[(text() = 'Solicitudes' or . = 'Solicitudes')]</value>
+      <webElementGuid>69e1a9d0-91f8-4b76-bd37-d8599fe614d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

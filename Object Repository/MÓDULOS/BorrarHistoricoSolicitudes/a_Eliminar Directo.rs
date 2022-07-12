@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Eliminar Directo</name>
+   <tag></tag>
+   <elementGuidId>ed8133b9-1755-4ba6-a0c4-e6aabdac63d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='aplicaNovedadProceso:j_idt2398']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a35d45b5-3900-47ed-9eaf-af9fceed0b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>aplicaNovedadProceso:j_idt2398</value>
+      <webElementGuid>f6b2ae52-0b32-4cb1-b187-2f8d3a8615c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>d6ab3964-7d7f-46e9-a69d-8eae8f9700f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-eliminarExtendido</value>
+      <webElementGuid>19ce3e3e-3c6a-4342-8584-6edb8bba2d55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;aplicaNovedadProceso:j_idt2398&quot;,f:&quot;aplicaNovedadProceso&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>5f725ac5-bfcb-4bf6-b43b-cca0a4fdb4b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Eliminar Directo</value>
+      <webElementGuid>8407ed9d-8fd1-4180-bfcf-5180dc96750f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;aplicaNovedadProceso:j_idt2398&quot;)</value>
+      <webElementGuid>2c93f1fe-2c75-4ab0-8307-c3aa19cda1d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='aplicaNovedadProceso:j_idt2398']</value>
+      <webElementGuid>d41cdcca-d06a-4a28-8541-5fb9342366e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aplicaNovedadProceso']/table/tbody/tr/td[2]/div/table[3]/tbody/tr/td/div/table/tbody/tr[8]/td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>511cdfe2-d824-41d9-915b-0e59cee3dca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Eliminar Directo')]</value>
+      <webElementGuid>21b6613b-1364-48f0-8fc6-0749a134eadd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[3]</value>
+      <webElementGuid>29a2c6f8-17a6-4d1c-ae31-6b04abc3c4c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autorizador BPM'])[1]/following::a[3]</value>
+      <webElementGuid>293ccc65-c311-4426-8ca4-bc324c1a6590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'aplicaNovedadProceso:j_idt2398', '&quot;', ')')])[1]/preceding::a[2]</value>
+      <webElementGuid>f4ca8f28-9e57-4e14-949b-6dbba404f8a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Eliminar Directo']/parent::*</value>
+      <webElementGuid>a70cba66-35a6-4c40-ae86-0717a5b64715</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[94]</value>
+      <webElementGuid>cdf96fb8-c251-4b01-8dbe-26777332cd17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>a3744400-e1d2-440e-bdc2-67fb1f281bc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'aplicaNovedadProceso:j_idt2398' and @href = '#' and (text() = 'Eliminar Directo' or . = 'Eliminar Directo')]</value>
+      <webElementGuid>c414e826-9f8c-45bf-889c-413f1746e9b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

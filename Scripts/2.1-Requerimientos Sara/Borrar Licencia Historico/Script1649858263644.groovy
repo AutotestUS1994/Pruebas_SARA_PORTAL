@@ -32,20 +32,46 @@ WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistoric
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/span_80769954'))
 
-WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Licencia'))
+WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Licencia'))
 
-WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Histrico'))
+String sol = WebUI.getText(findTestObject('MÓDULOS/BorrarLicenciaHistorico/legend_Solicitudes'))
 
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'), 
-    1)) {
-
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'))
+if(sol == 'Solicitudes' && WebUI.waitForElementVisible(findTestObject('MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'), 1)) {
 	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Eliminar'))
+	WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'))
 	
-	WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/label_Desea eliminar el registro'))
+	WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Eliminar Directo'))
 	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
-} else {
-	WebUI.closeBrowser()
+	WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
 }
+
+WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Histrico'))
+
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'), 
+    1)) {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Eliminar'))
+
+    WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/label_Desea eliminar el registro'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
+} else {
+    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Vacacin'))
+
+    String sol1 = WebUI.getText(findTestObject('MÓDULOS/BorrarLicenciaHistorico/legend_SolicitudesVac'))
+
+    
+    if(sol1=='Solicitudes' && WebUI.waitForElementVisible(findTestObject('MÓDULOS/BorrarLicenciaHistorico/td_11032022'), 1)) {
+
+	    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/td_11032022'))
+	
+	    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Eliminar Directo_1'))
+	
+	    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
+		
+    } else {
+		WebUI.closeBrowser()
+    }
+}
+

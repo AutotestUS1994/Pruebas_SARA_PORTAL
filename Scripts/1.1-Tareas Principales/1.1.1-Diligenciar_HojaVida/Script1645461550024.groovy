@@ -21,6 +21,22 @@ WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/Login_Servicio_Hoja
 
 WebUI.setText(findTestObject('MÓDULOS/ServicioHojaVida/DiligenciarHojaVida/input__hojaVidanombresTexto'), 'EMPLEADO PPrueba')
 
+WebUI.click(findTestObject('MÓDULOS/DiligenciarHV/a__hojaVidaseccionj_idt11910j_idt159'))
+
+WebUI.setText(findTestObject('MÓDULOS/DiligenciarHV/input_Ubicacin Geogrfica_formPopUpUbicacion_29375f'), 'Bogo')
+
+WebUI.sendKeys(findTestObject('MÓDULOS/DiligenciarHV/input_Ubicacin Geogrfica_formPopUpUbicacion_29375f'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('MÓDULOS/DiligenciarHV/td_COLO      COLOMBIA'))
+
+WebUI.click(findTestObject('MÓDULOS/DiligenciarHV/a__hojaVidaseccionj_idt11911j_idt159'))
+
+WebUI.setText(findTestObject('MÓDULOS/DiligenciarHV/input_Nacionalidad_j_idt744j_idt749'), 'Colombiana')
+
+WebUI.sendKeys(findTestObject('MÓDULOS/DiligenciarHV/input_Nacionalidad_j_idt744j_idt749'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('MÓDULOS/DiligenciarHV/span_Colombiana'))
+
 WebUI.click(findTestObject('MÓDULOS/ServicioHojaVida/DiligenciarHojaVida/a_Guardar'))
 
 String avisoExitoso = WebUI.getText(findTestObject('MÓDULOS/ServicioHojaVida/DiligenciarHojaVida/label_confirmacion'))

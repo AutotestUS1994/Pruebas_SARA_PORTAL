@@ -145,6 +145,8 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
 
             WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_Guardar_1'))
 
+            WebUI.delay(5)
+
             WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
 
             WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_1'))

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='faseGestionHoja:j_idt985']</value>
+         <value>//a[contains(text(),'Salir')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>1ec9693f-63e0-4853-b797-dee23b9ccc80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>faseGestionHoja:j_idt985</value>
+      <webElementGuid>bd07dd6a-8266-473d-9c76-2f1bc6b98302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>0bec0e4b-a6e3-41bf-a744-a2c3ff468dcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-cancelar</value>
+      <webElementGuid>1b870d86-aa28-4e99-909d-a8a91a7248d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;faseGestionHoja:j_idt985&quot;,f:&quot;faseGestionHoja&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>341bbd04-e9f8-4935-9c74-0762cddc44ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Salir</value>
+      <webElementGuid>7df78238-3e4f-494c-a340-6c67e875bb76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;faseGestionHoja:j_idt985&quot;)</value>
+      <webElementGuid>26572791-65e2-4ac8-a390-0ac5800e33ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/AutoevaluacionTalentoHumano/RealizarAutoevaluacionTalentoHumano/iframe_Mis evaluaciones_spw7d451709d4b45813_3c2e8b</value>
+      <webElementGuid>b393afb2-c427-4e58-94ee-dffc4b0519d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='faseGestionHoja:j_idt985']</value>
+      <webElementGuid>8a05ba32-24e9-4941-863c-1a9debc495b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='faseGestionHoja']/div/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>f3c6330b-0193-40f7-978b-ed8025af09af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Salir')]</value>
+      <webElementGuid>6608650d-7204-4a06-8ec7-b72455a6f65d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='de'])[1]/following::a[1]</value>
+      <webElementGuid>c7ff37c9-f72f-4362-9427-52637375eaf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Peso'])[1]/following::a[1]</value>
+      <webElementGuid>5f7e373c-cd06-4305-8779-9eea71d0d4ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Competencia'])[1]/preceding::a[2]</value>
+      <webElementGuid>bdd952d7-fe1f-4de8-a9df-2ade5de3a2e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Competencia'])[2]/preceding::a[2]</value>
+      <webElementGuid>7541ddde-777e-43d0-ad4f-f89e5a24f568</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Salir']/parent::*</value>
+      <webElementGuid>d88d16e0-1a11-4b9c-a767-e91e554e434f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
+      <webElementGuid>ce3322a3-74d2-4ecc-88b5-3704eaf96887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
+      <webElementGuid>b22a688c-1f66-4b82-b36e-5e19807a6ee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'faseGestionHoja:j_idt985' and @href = '#' and (text() = 'Salir' or . = 'Salir')]</value>
+      <webElementGuid>53474a96-f40d-4bc3-bf71-ed39cbbe0a6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

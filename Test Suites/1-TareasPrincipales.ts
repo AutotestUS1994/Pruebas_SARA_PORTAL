@@ -271,10 +271,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff119161-ad2c-43fa-8e4b-9d7520cd78cd</guid>
+      <guid>2ee5ba02-f868-4251-8e96-0113f1da79a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.4.6-Visualizar_Reporte_Visor_General_Reportes</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.2-CargueMasivoAplicarNovEmp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

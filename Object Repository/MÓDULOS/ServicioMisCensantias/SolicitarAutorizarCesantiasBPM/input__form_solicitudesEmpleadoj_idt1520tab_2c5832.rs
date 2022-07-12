@@ -6,12 +6,11 @@
    <elementGuidId>1e3b8ad9-d20c-4e8a-b987-a01569d3e781</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[3]/td[2]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>9773790b-7191-4618-a7a1-7eade7107d86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input</value>
+      <webElementGuid>d015289d-62e2-4426-9fbb-3ec931b39fd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input</value>
+      <webElementGuid>52c7d012-b43d-4d42-a439-dc7dae5755c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>88275e36-d202-4518-855b-fff192e9fec7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>e01a608b-41a6-4894-974a-046476015b7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>b937a059-af8c-49b2-a75e-d7d3f076be97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>8573c960-121f-41b6-8f6d-c7f2aa2f6c12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>321bb9b1-12ad-4892-878d-7752e499df29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input&quot;)</value>
+      <webElementGuid>f0aa1b86-7385-4598-8290-21329058816b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,6 +93,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/iframe_Mis Cesantas_FB1846019F574996BB0A814_6cece9</value>
+      <webElementGuid>b7b1c891-5a7a-4242-acf9-ed7e2b414d20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input']</value>
+      <webElementGuid>3f7be6c1-a53e-46ff-bfe5-86a71518f903</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha']/input</value>
+      <webElementGuid>ab82512d-fcd0-46fc-ba9b-4deb5e9e560a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/span/input</value>
+      <webElementGuid>7058c322-5376-4669-bc74-81f61cdda2f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input' and @name = 'form_solicitudesEmpleado:j_idt152:0:tablaCamHijo:2:fecha_input' and @type = 'text']</value>
+      <webElementGuid>7c66c0c8-4eb3-44ac-a7d2-f164fa4ea336</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

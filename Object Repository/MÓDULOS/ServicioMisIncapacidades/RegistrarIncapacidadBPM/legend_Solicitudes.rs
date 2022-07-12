@@ -6,12 +6,12 @@
    <elementGuidId>9a97a3c8-2d23-4ecc-9f1b-ed20741b72ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='form_incapacidadesEmpleado:tabsIncapacidades:j_idt114']/legend</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>legend.ui-fieldset-legend.ui-corner-all.ui-state-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//legend</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>legend</value>
+      <webElementGuid>6e2588d2-c4c0-4f73-866d-8d5792b3fb39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-fieldset-legend ui-corner-all ui-state-default</value>
+      <webElementGuid>a8db46e7-460f-42dc-a8a4-f26effb4e1d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitudes</value>
+      <webElementGuid>8760515b-b78f-48ff-8b26-e6b897d5fe5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_incapacidadesEmpleado:tabsIncapacidades:j_idt114&quot;)/legend[@class=&quot;ui-fieldset-legend ui-corner-all ui-state-default&quot;]</value>
+      <webElementGuid>1d762452-eb50-4f01-9afc-dfe4e4fe1561</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/iframe_Mis Cesantas_7F07D451F09D4B35813735F_666b9f</value>
+      <webElementGuid>2d953ff3-78d4-4e70-bf04-942cd7a8e53d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='form_incapacidadesEmpleado:tabsIncapacidades:j_idt114']/legend</value>
+      <webElementGuid>0ba262df-1ac7-4a60-9875-db061b717bac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Histórico'])[1]/following::legend[1]</value>
+      <webElementGuid>9683da47-0b43-4e1a-b477-bd820c7113ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incapacidad'])[2]/following::legend[1]</value>
+      <webElementGuid>531d296a-4936-4aa2-8674-0c3a0b78d670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recuperar Incapacidad'])[1]/preceding::legend[1]</value>
+      <webElementGuid>ad2c69d8-ebf2-4b50-bf13-98f8804432a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::legend[1]</value>
+      <webElementGuid>4983e4d4-775d-4533-888d-809b3e1ead6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Solicitudes']/parent::*</value>
+      <webElementGuid>83731151-8f59-444b-8314-e6b1486e7a2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//legend</value>
+      <webElementGuid>dab35a1e-eb69-4e7e-a5da-ce0e20facbf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//legend[(text() = 'Solicitudes' or . = 'Solicitudes')]</value>
+      <webElementGuid>7cf4784e-ac7a-4068-baa2-f059c582bf13</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

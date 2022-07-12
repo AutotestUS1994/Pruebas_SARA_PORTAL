@@ -90,10 +90,7 @@ if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/Borrar
 			
 			if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/p_El registro ha sido eliminado correctamente')).equals("El registro ha sido eliminado correctamente")) {
 				WebUI.closeBrowser()
-			} else {
-				/*Aqui agregar la modificacion*/
-				
-			}
+			} 
 		}
 	}
 }

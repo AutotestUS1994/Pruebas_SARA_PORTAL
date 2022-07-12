@@ -109,7 +109,14 @@ if (guardado == 'Registro guardado') {
 
         if (fin == 'Se ha realizado el proceso') {
             WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
-
+			
+			/*Se agrego ir a la tarea*/
+			WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'),
+				'Aplicacion Nov. Empleado')
+			
+			WebUI.click(findTestObject('Object Repository/Login/LoginModificado/LoginSara/span_Aplicacion Nov. Empleado'))
+			/*****************************/
+			
             String solicitud1 = WebUI.getText(findTestObject('MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/div_Solicitud'))
 
             if (solicitud1 == 'Solicitud') {

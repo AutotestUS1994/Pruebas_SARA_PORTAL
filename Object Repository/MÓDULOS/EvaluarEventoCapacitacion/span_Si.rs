@@ -6,12 +6,11 @@
    <elementGuidId>94538039-423c-49ae-a987-bc744767a867</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='j_idt183:j_idt186']/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>a9dfc231-480b-4a63-b15c-b1e5b98e03c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button-text ui-c</value>
+      <webElementGuid>4a923f09-46e0-4d32-981a-e8a117c576d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>b9d4382d-8eca-4dee-9fac-0c318feca5f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt183:j_idt186&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>6a121ead-8830-428c-97b3-172817fd62aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/EvaluarEventoCapacitacion/iframe_Evaluaciones de capacitacin_7F07D451_2549c9</value>
+      <webElementGuid>c29c4434-2675-4574-8427-98c8e9b880f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='j_idt183:j_idt186']/span</value>
+      <webElementGuid>663b5f7d-9c5c-402a-9b5c-7517dd97e311</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::span[1]</value>
+      <webElementGuid>2a457b2e-9ddc-4407-841b-2ca761781e76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DESEA CONFIRMAR'])[1]/following::span[2]</value>
+      <webElementGuid>9c91503a-14b3-4e61-80af-2dca4fb97e1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'j_idt183:j_idt186', '&quot;', ')/span[@class=', '&quot;', 'ui-button-text ui-c', '&quot;', ']')])[1]/preceding::span[1]</value>
+      <webElementGuid>77e7b8ec-0f59-4b46-9a53-083404fd7bb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>e3272844-e5b2-4b99-92fb-0f0d2fb78bf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span</value>
+      <webElementGuid>428fd43b-be7a-4135-b834-92005d00bb84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Si' or . = 'Si')]</value>
+      <webElementGuid>65cc9c94-c43c-4aaa-8771-ac1593e10cd5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mendoza 1502 Empleado Pprueba</name>
+   <tag></tag>
+   <elementGuidId>c06ba369-6b02-446b-b456-d302d4b4e554</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='form_popupEmpleado:tabla_empleados_data']/tr/td[3]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>43d84e81-d383-4630-a40e-c82dff2773cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>e59ddb02-b3d5-44ea-b038-671c6c06b1d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mendoza 1502 Empleado Pprueba</value>
+      <webElementGuid>f5b2a6ea-dbdb-4a58-a0ce-20fcf5100cc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupEmpleado:tabla_empleados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[3]/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>1f1e6626-4505-4760-a69e-08e4f7089fc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_popupEmpleado:tabla_empleados_data']/tr/td[3]/span</value>
+      <webElementGuid>7fdd0196-e151-41c3-bd3d-8f559d7d0d9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación'])[1]/following::span[4]</value>
+      <webElementGuid>20973bec-b89b-4aec-8370-09b114e2cd4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Ingreso'])[1]/following::span[5]</value>
+      <webElementGuid>799ec664-7ce1-4410-a53d-55c4d2372021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/preceding::span[1]</value>
+      <webElementGuid>5c41f7cc-b3de-4b0f-9868-7682703b23a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aprendiz Etapa Productiva'])[1]/preceding::span[2]</value>
+      <webElementGuid>308a623b-3b95-43f1-84f4-1174528f260d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/table/tbody/tr/td[3]/span</value>
+      <webElementGuid>209808c2-7783-40ec-b774-1594346d2745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mendoza 1502 Empleado Pprueba' or . = 'Mendoza 1502 Empleado Pprueba')]</value>
+      <webElementGuid>da0a7b1f-4949-43dc-9f0b-f7b21e6e549a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

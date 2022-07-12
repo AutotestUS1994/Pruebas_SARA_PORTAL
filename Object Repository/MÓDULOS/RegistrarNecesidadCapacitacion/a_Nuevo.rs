@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form:j_idt67']</value>
+         <value>//a[contains(text(),'Nuevo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d321775b-9a1c-4deb-b747-a911f471dd86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form:j_idt67</value>
+      <webElementGuid>3271b14e-1ee8-48f5-b3ac-9f69731194d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ca95e874-eff7-41a2-9867-53d1917a866d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
+      <webElementGuid>b0682d0e-64e1-4331-8438-dde5e7ee2648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form:j_idt67&quot;,f:&quot;form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>15304ce4-d3fd-4fe1-83c9-edcf5a61f285</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nuevo</value>
+      <webElementGuid>7eebeb7a-45c0-4df0-8a76-aff65b00edc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form:j_idt67&quot;)</value>
+      <webElementGuid>cf95916f-51ab-4e0b-8eb9-a9bd0b474feb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RegistrarNecesidadCapacitacion/iframe_Evaluaciones de capacitacin_7F07D451_c77421</value>
+      <webElementGuid>4036355b-3ca6-4a45-aabe-00e40b1313e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form:j_idt67']</value>
+      <webElementGuid>b80b7a7c-621d-4f74-b21b-77f496f7fa66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form']/table/tbody/tr[3]/td/table/tbody/tr/td/a</value>
+      <webElementGuid>f36303c4-8a3c-4a41-b81e-3b7c8e1346bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Nuevo')]</value>
+      <webElementGuid>dbc1b2a2-c1cf-4d7b-80e6-ef2ceaa77d1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLICITADO'])[2]/following::a[1]</value>
+      <webElementGuid>e059362e-ed69-41b1-ac94-1ec29cdfb63f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tecnologia'])[1]/following::a[1]</value>
+      <webElementGuid>32120618-1274-4b20-b5ba-ebc691c56eed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>a4f33103-adcc-49c1-bee5-82570699b984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>067db286-538d-428f-81b0-fff8eee73679</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
+      <webElementGuid>72f1cbaa-c7cc-460a-8e1d-57690cb5fbc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>48b70106-c083-412b-b8b2-a7015559f86e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/table/tbody/tr/td/a</value>
+      <webElementGuid>5b599034-2d97-4bb1-bef3-61b53986bbcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form:j_idt67' and @href = '#' and (text() = 'Nuevo' or . = 'Nuevo')]</value>
+      <webElementGuid>30d52b23-21b2-4158-9572-a87e3ed72055</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

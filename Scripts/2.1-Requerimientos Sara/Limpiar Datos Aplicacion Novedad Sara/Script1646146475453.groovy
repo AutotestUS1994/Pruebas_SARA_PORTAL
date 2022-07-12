@@ -21,6 +21,11 @@ WebUI.comment('ESTA PRUEBA DEBERIA EJECUTARSE ANTES DE EMPEZAR LAS PRUEBAS, SOLO
 
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'),
+	'Aplicacion Nov. Empleado')
+
+WebUI.click(findTestObject('Object Repository/Login/LoginModificado/LoginSara/span_Aplicacion Nov. Empleado'))
+
 WebUI.comment('Por Autorizar Novedad')
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Novedad'))
@@ -132,10 +137,11 @@ String novLeg = WebUI.getText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNove
 
 while (novLeg != 'No se encontró registros') {
     WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954_reg'))
-
+	//Antes era Eliminar el xpath, se cambio a "No Legalizar"
     WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Eliminar'))
 
-    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
+    //Antes era Aceptar el xpath, se cambio a "Cancelar"
+	WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
 
     String novLeg1 = WebUI.getText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_No se encontr registros'))
 

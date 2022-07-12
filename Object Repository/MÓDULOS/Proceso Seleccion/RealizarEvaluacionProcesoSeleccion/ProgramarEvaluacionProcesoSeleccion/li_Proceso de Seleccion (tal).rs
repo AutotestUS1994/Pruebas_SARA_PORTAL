@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_template:j_idt24_panel']/ul/li[2]</value>
+         <value>//span/ul/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
+      <webElementGuid>268e7ad6-6d83-48e1-8c75-81a25e70399e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>ddb1c658-3b05-4a7f-a810-cac738c8dd14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-item-label</name>
       <type>Main</type>
       <value>Proceso de Seleccion (tal)</value>
+      <webElementGuid>44e963a8-7723-4af9-8ce0-b63872866651</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-item-value</name>
       <type>Main</type>
       <value>Proceso de Seleccion (tal)</value>
+      <webElementGuid>ab080d9a-5d05-4fa1-a14a-48e3867bac26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
+      <webElementGuid>1abeee82-9880-4bf8-978f-94a48b9b9c2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceso de Seleccion (tal)</value>
+      <webElementGuid>bb839096-841f-46c9-8db5-d6483130c4ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>b3136443-a712-4dc3-889a-8dd7bb743bac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li[2]</value>
+      <webElementGuid>4d2ff7b0-6411-47b4-a51b-a470a864bfa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso de'])[1]/following::li[1]</value>
+      <webElementGuid>e529b8b5-df1d-488b-8536-a42d2acaee98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::li[1]</value>
+      <webElementGuid>9ceeef0d-d78b-4aa2-8bd5-47f7ce8f6857</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Seleccion (tal)']/parent::*</value>
+      <webElementGuid>2eae06ca-8f13-43cd-b8e7-6f6cd1904d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li[2]</value>
+      <webElementGuid>deac846b-4d47-4766-b7e5-c159de4b4626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Proceso de Seleccion (tal)' or . = 'Proceso de Seleccion (tal)')]</value>
+      <webElementGuid>bbc8c9df-585b-4386-bc01-cdc2480388b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

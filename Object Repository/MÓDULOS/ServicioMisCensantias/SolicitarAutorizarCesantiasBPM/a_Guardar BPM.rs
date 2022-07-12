@@ -6,12 +6,11 @@
    <elementGuidId>92326d27-c757-42c6-afb9-057e84fcab73</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_solicitudesEmpleado:j_idt363']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar BPM')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>bc1d09da-67a4-4fb3-9d32-43e5f04171a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_solicitudesEmpleado:j_idt363</value>
+      <webElementGuid>2dbe9f67-2f22-4ff6-bf80-357488e7585e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>090df404-12c8-4ff6-98da-e211ea7a24cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-guardar</value>
+      <webElementGuid>929c3f38-cf7d-43cd-9941-9827c838c851</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_solicitudesEmpleado:j_idt363&quot;,f:&quot;form_solicitudesEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>9afba78e-fc9a-4ca3-892c-e13dba0bed2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar BPM</value>
+      <webElementGuid>23fc39c7-8b4b-46f2-b89f-19856f8d2de4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_solicitudesEmpleado:j_idt363&quot;)</value>
+      <webElementGuid>cc375bb8-4859-44c6-b688-a45b37b00aab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/iframe_Mis Cesantas_FB1846019F574996BB0A814_6cece9</value>
+      <webElementGuid>48340fb7-59d6-4dd7-9db6-8f5d48ce7cb8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_solicitudesEmpleado:j_idt363']</value>
+      <webElementGuid>f42e7907-338f-456b-b799-c73938a6f68b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_solicitudesEmpleado:idPanelSolicitud']/tbody/tr[4]/td/table/tbody/tr/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>991ec59d-2be6-40d8-9180-42afd33b4e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar BPM')]</value>
+      <webElementGuid>a195a843-d3ea-4527-985d-f100fd74339b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='lista'])[1]/following::a[2]</value>
+      <webElementGuid>de9821ff-fb25-42ec-a6ad-116804871768</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Observaciones'])[1]/following::a[2]</value>
+      <webElementGuid>20ef5862-47c3-48c5-b818-842d9b6f5563</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
+      <webElementGuid>7c9ca4f0-78b1-43e4-bac7-b924033151e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
+      <webElementGuid>1eddbb80-9c82-4abc-8ddc-1ef4f2b4d880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar BPM']/parent::*</value>
+      <webElementGuid>e6467e09-043d-4475-8c2f-20976619805f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
+      <webElementGuid>aaa8d088-98a9-4396-8aef-8ca4e98bc2e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
+      <webElementGuid>7d101882-fb75-4445-89b3-2a15b9965842</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_solicitudesEmpleado:j_idt363' and @href = '#' and (text() = 'Guardar BPM' or . = 'Guardar BPM')]</value>
+      <webElementGuid>d014366d-8394-4cee-bfc2-0c4665bd9f93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

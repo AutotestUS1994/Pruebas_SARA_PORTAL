@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_354968431354101546370</name>
+   <tag></tag>
+   <elementGuidId>a97e19f1-a3ef-46df-955d-49ca44ebf287</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='formImportarFuente:tabla_cargue_bd_data']/tr/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>0806ebce-f647-471e-b526-0c2c62ab44c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>d20f6f27-8511-4a9e-af9f-29e9d1bdaddc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>354968431354	101546370</value>
+      <webElementGuid>752c70f3-faee-4811-97b3-9734470bf4bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formImportarFuente:tabla_cargue_bd_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even&quot;]/td[2]</value>
+      <webElementGuid>118afe10-0171-48cf-8ad7-5faba38b1769</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
+      <webElementGuid>b2c89720-96e6-48b3-a445-dc0b4fec3265</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formImportarFuente:tabla_cargue_bd_data']/tr/td[2]</value>
+      <webElementGuid>652ae74d-c90c-4221-8ca5-62313b31754f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::td[2]</value>
+      <webElementGuid>7b05ad6f-e7ec-4d33-ad98-711732fa29a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Línea'])[1]/following::td[2]</value>
+      <webElementGuid>f3c9c1bb-79fa-40f3-926e-cb164fe42698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td[2]</value>
+      <webElementGuid>d40ff481-74c0-452c-9fc6-9507d0c9bd8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '354968431354	101546370' or . = '354968431354	101546370')]</value>
+      <webElementGuid>3f8f07ab-d2d2-489d-9c6e-0c655125ac5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
