@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Espaol Tipo Hoja Empleado</name>
+   <tag></tag>
+   <elementGuidId>d953e501-264d-46dc-a9b4-1f1872821285</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[1]/div[4]/div[5]/table/tbody/tr[3]/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2f7a7f1f-6938-4f55-9350-a8dfa3c17151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657918766139</value>
+      <webElementGuid>6c669bb1-91a4-45b4-8975-31bea257f8ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/InscripcionPortal/iframe_component_b_0</value>
+      <webElementGuid>7072a253-f863-46b2-922e-30ce45eb4eb7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
