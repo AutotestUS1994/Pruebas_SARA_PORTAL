@@ -20,7 +20,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-String correo = WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.0-Inscripcion_Portal'), [:], FailureHandling.STOP_ON_FAILURE)
+String correo = WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.0-Inscripción_Portal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 println(correo)
 

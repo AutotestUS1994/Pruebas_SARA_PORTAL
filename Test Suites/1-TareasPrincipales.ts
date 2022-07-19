@@ -15,14 +15,14 @@
       <guid>26bf4d48-4253-4ede-8d83-f255401c3f40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.0-Inscripcion_Portal</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.0-Inscripción_Portal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5140a32e-25e6-4528-891c-e031b4bf033e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.1-Inscripcion_convocatorias</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.1-Inscripción_convocatorias</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
