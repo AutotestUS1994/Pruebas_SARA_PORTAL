@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_contrasea</name>
+   <tag></tag>
+   <elementGuidId>3961971e-d500-4a01-8621-44581f2e1d48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//*[@id=&quot;autoregistro:passwordNuevo&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>217da7c9-8dae-469f-a293-65d3dfa4b9ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657918652684</value>
+      <webElementGuid>35b5d767-93b3-4c4e-81c0-ec1a13f69054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/InscripcionPortal/iframe_component_b_0</value>
+      <webElementGuid>ecffc1f8-1afa-4bee-bdb4-7178771155ba</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

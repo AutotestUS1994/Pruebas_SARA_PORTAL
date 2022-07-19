@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Span_UNAD UNIVERSIDAD NACIONAL ABIERTA Y A DISTACIA</name>
+   <tag></tag>
+   <elementGuidId>dec9928a-d4b0-497b-bb47-4448a90707bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/table[2]/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr[7]/td/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>aa09b6a6-b1f4-43f0-ad0e-f9a5677a0ae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1658153017142</value>
+      <webElementGuid>5ee88c70-001e-44d7-ae0a-032b6ac72e2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/InscripcionPortal/iframe_ifrm_component_A_2</value>
+      <webElementGuid>6e42f4b5-5886-40d3-9451-4a92f8c7bf34</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

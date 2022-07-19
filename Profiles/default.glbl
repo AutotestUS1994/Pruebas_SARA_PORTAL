@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/home/gtorresilla/git/Pruebas_SARA_PORTAL/1.Requerimiento/DocumentosPruebas/'</initValue>
+      <initValue>'C:\\Users\\diego.rojas\\git\\Pruebas_Portal_Sara\\Pruebas_SARA_PORTAL\\1.Requerimiento\\DocumentosPruebas\\'</initValue>
       <name>g_rutaarchivos</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe_component_A_1</name>
+   <tag></tag>
+   <elementGuidId>0bbff290-6b3f-4bb2-a674-c9c5628e2069</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ifrm_component_A_1&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>IFRAME</value>
+      <webElementGuid>726f9752-1b88-48c7-9db6-4c2641aeffe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1657920200967</value>
+      <webElementGuid>29e4e826-cefb-4071-aa54-b9d7926b719d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
