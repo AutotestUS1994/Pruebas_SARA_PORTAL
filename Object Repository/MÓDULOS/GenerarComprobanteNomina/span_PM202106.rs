@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_2021  Comprobante de nmina</name>
+   <name>span_PM202106</name>
    <tag></tag>
-   <elementGuidId>4fad454e-2ce8-4792-bb6f-ee3bd20fd923</elementGuidId>
+   <elementGuidId>169d0ffd-a396-4ae0-b79c-c636b1728b90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/div[3]/div/form/table/tbody/tr[2]/td/div/div/table/tbody/tr/td</value>
+         <value>//tbody[@id='formPopupPeriodo:tabla_ventanaPeriodo_data']/tr[3]/td/span</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td > span.valor_campo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,8 +21,8 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>fff51731-34ef-4c18-be2a-3066bfc8ff08</webElementGuid>
+      <value>span</value>
+      <webElementGuid>a9952176-bec4-41e9-b4fb-9721fb3d97f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,86 +30,86 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>665a8efd-be01-461b-9c6f-bfd825772b47</webElementGuid>
+      <webElementGuid>4f831213-59f6-4df1-ae29-2a3bd5561191</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>2021  Comprobante de nómina</value>
-      <webElementGuid>6c4c37a2-2887-44ec-9915-6b45049435c7</webElementGuid>
+      <value>PM202106</value>
+      <webElementGuid>eb9edb2b-d183-4e5f-8a82-648b906c394d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_publicacioneEmpleado:tablaAtributoFiltro_data&quot;)/tr[@class=&quot;ui-rowgroup-header ui-datatable-headerrow ui-widget-header&quot;]/td[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>a90ff3f5-81b6-4eed-b2de-d1ea94629452</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/iframe_Mis Cesantas_7F07D451F09D4B45813735F_96da16</value>
-      <webElementGuid>3023f889-2fad-4363-a5d0-a7809f22fb2a</webElementGuid>
+      <value>id(&quot;formPopupPeriodo:tabla_ventanaPeriodo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>9969ccc6-a079-4b61-93ed-9a909102a287</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='form_publicacioneEmpleado:tablaAtributoFiltro_data']/tr[20]/td</value>
-      <webElementGuid>a4d608b8-01ff-44f8-a05c-8d8bb6c9632b</webElementGuid>
+      <value>//tbody[@id='formPopupPeriodo:tabla_ventanaPeriodo_data']/tr[3]/td/span</value>
+      <webElementGuid>a3448080-80dc-4009-b057-ca0dce59febf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CIR'])[2]/following::td[1]</value>
-      <webElementGuid>135a2941-1435-4f9f-b353-ef14a4bdb792</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[2]/following::span[1]</value>
+      <webElementGuid>b150da67-4ba4-43d1-9b4e-9b810b04deeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CIR'])[1]/following::td[2]</value>
-      <webElementGuid>f09a04d0-bd4c-4036-9f0e-368d37b1d5be</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P. MensualJulio2021'])[1]/following::span[2]</value>
+      <webElementGuid>85855dff-b51a-4dbf-896c-054fdb3b92de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Nomina PM202106-P. MensualJunio2021'])[1]/preceding::td[1]</value>
-      <webElementGuid>863bc6f9-779b-48e7-a2df-4aeea554c175</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P. MensualJunio2021'])[1]/preceding::span[1]</value>
+      <webElementGuid>3d526508-7bde-410b-a374-e58a2f540d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[3]</value>
-      <webElementGuid>f1d82cf2-194b-444d-8184-e4959fdba731</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[3]/preceding::span[2]</value>
+      <webElementGuid>1fbabe76-6a32-47c6-a549-81f8ab72d040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PM202106']/parent::*</value>
+      <webElementGuid>4c2e4dda-8e0f-4caa-981c-95baeaf1fefe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[20]/td</value>
-      <webElementGuid>a5486533-1357-4a7a-8694-928ea126dc9c</webElementGuid>
+      <value>//tr[3]/td/span</value>
+      <webElementGuid>7f3ca294-a868-4c39-828f-80ef0870393b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '2021  Comprobante de nómina' or . = '2021  Comprobante de nómina')]</value>
-      <webElementGuid>2596382b-15f3-4238-a658-b9a75e6896a5</webElementGuid>
+      <value>//span[(text() = 'PM202106' or . = 'PM202106')]</value>
+      <webElementGuid>0ec15d50-015b-4ed7-adf8-79979c949fa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
