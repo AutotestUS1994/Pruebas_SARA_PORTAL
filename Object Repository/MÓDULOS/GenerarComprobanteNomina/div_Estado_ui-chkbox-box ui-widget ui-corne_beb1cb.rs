@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Estado_ui-chkbox-box ui-widget ui-corne_beb1cb</name>
+   <tag></tag>
+   <elementGuidId>20f57f59-dd26-45f4-bfc4-31ca67d43316</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table/tbody/tr/td/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default.ui-state-hover</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cd2d7706-a027-4e59-8ba0-0038b0269ff7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover</value>
+      <webElementGuid>256e99fc-bbbf-45cb-a8c8-7332a8b1f4f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;LiquidacionNomina:tabla_ln:0:j_idt156&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]</value>
+      <webElementGuid>1a04f2ed-f4ec-4036-afa8-df7fe295369c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='LiquidacionNomina:tabla_ln:0:j_idt156']/div[2]</value>
+      <webElementGuid>8f90f7a4-34af-4aaa-a3fa-ae6b7d136a30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::div[3]</value>
+      <webElementGuid>0ac23b1f-af98-45f9-bfa9-2c6b3e6f0115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación'])[2]/following::div[3]</value>
+      <webElementGuid>92e62914-841e-4b4b-b67c-641ff690e25c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza 1502 Empleado Pprueba'])[1]/preceding::div[1]</value>
+      <webElementGuid>4bf6cce8-cbd2-4a72-84c9-79a67b59b696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aprendiz Etapa Productiva'])[1]/preceding::div[1]</value>
+      <webElementGuid>06a855f2-f60c-449f-bd7c-501336222651</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td/div/div[2]</value>
+      <webElementGuid>dfeb127b-08e1-455f-8065-a2030f41e150</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

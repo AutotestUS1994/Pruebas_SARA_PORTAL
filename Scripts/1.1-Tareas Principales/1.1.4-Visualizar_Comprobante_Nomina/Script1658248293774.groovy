@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandli
 WebUI.click(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/a'))
 
 String P = WebUI.getText(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/td_2021  Comprobante de nmina'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 if (P == '2021 COMPROBANTE DE NÓMINA') {
     WebUI.click(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/td_Periodo Nomina PM202106-P. MensualJunio2021'))
@@ -30,5 +30,22 @@ if (P == '2021 COMPROBANTE DE NÓMINA') {
     WebUI.click(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/span_Periodo Nomina PM202106-P. MensualJunio2021'))
 
     WebUI.closeBrowser()
+} else {
+    WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Generar Comprobante de nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/a'))
+	
+	String P1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/td_2021  Comprobante de nmina'),
+		FailureHandling.CONTINUE_ON_FAILURE)
+	
+	if (P1 == '2021 COMPROBANTE DE NÓMINA') {
+		WebUI.click(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/td_Periodo Nomina PM202106-P. MensualJunio2021'))
+	
+		WebUI.click(findTestObject('MÓDULOS/ServicioMiComprobantePago/VisualizarComprobanteNomina/span_Periodo Nomina PM202106-P. MensualJunio2021'))
+	
+		WebUI.closeBrowser()
+	}
 }
 
