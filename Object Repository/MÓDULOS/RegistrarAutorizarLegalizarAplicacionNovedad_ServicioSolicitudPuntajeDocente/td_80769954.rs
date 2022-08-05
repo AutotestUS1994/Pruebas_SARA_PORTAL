@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>039bda9e-a018-4fb1-ac49-58d39a37af07</webElementGuid>
+      <webElementGuid>10477c40-79dd-447e-b0b2-37184850209e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>06c4b5bb-7d62-4ce4-8f5b-b0409eb44fec</webElementGuid>
+      <webElementGuid>77c37d46-ea92-4a92-b003-3983c62fa45a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>80769954</value>
-      <webElementGuid>5faec2d5-8d5f-44d6-b0aa-eee842e314e6</webElementGuid>
+      <webElementGuid>0f0069da-d846-4076-8d34-3d4be8457cfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;aplicaNovedadProceso:tablaFiltro_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>d6d3145d-122a-4e7c-b6c5-a3969361f46c</webElementGuid>
+      <webElementGuid>5e387e82-a904-4364-a221-b6f10cf3273d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
-      <webElementGuid>0d1cf8ce-2144-4134-8b16-b3e340d4836d</webElementGuid>
+      <webElementGuid>4ceea8b5-a011-458e-b59b-f519ddf07319</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='aplicaNovedadProceso:tablaFiltro_data']/tr/td[2]</value>
-      <webElementGuid>bf1d3ab4-841e-4132-8d5a-5c328654c8f9</webElementGuid>
+      <webElementGuid>8ea06ab7-4313-4ff8-afac-9f6a2d9c0efd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::td[2]</value>
-      <webElementGuid>7e1de5d3-57d3-44a6-ab5e-c81ebd333931</webElementGuid>
+      <webElementGuid>c83900cb-c1dc-4d32-9ee8-70a497a3b273</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen'])[1]/following::td[2]</value>
-      <webElementGuid>b6d8ad92-c7c6-4c06-89d8-5ef2d07351c1</webElementGuid>
+      <webElementGuid>acbcad2a-ac11-4dcc-8d05-b0e553879a68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza 1502 Empleado'])[1]/preceding::td[2]</value>
-      <webElementGuid>8d0efce1-e44a-4edd-ab07-5f28c67d56b0</webElementGuid>
+      <webElementGuid>a49752b0-12f8-46c8-b81e-3b17e956c2c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='HORA EXTRA NOCTURNA'])[1]/preceding::td[3]</value>
-      <webElementGuid>4c85677a-e0b0-4ae6-84d6-89b1b1018683</webElementGuid>
+      <webElementGuid>44b657dc-a318-4c68-a3bf-30ffa0fc7f26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>8e221be4-0328-4d36-b346-30a22449d320</webElementGuid>
+      <webElementGuid>d4cbe6e0-53eb-4ee6-b587-ee0ba8bf0438</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '80769954' or . = '80769954')]</value>
-      <webElementGuid>8465e358-3872-4330-9d72-1b2b3de79b9b</webElementGuid>
+      <webElementGuid>7daca4bb-a768-4e1a-8d24-b0537d05d184</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

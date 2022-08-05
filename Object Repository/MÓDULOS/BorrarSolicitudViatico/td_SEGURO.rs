@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='form_detalleviaticos:j_idt282_data']/tr/td[3]</value>
+         <value>//td[(text() = 'SEGURO' or . = 'SEGURO')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>2a766866-3174-4831-a340-ee30a206ba15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>f4a1683f-beeb-4db4-9cf4-e1585f95afa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEGURO</value>
+      <webElementGuid>bd642471-656e-4919-8fb0-8fdda750cd6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:j_idt282_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]</value>
+      <webElementGuid>0afc0884-f3f4-4bc6-9910-03cef77dc44a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_detalleviaticos:j_idt282_data']/tr/td[3]</value>
+      <webElementGuid>3c2455ff-4c08-4b27-9b6e-dd59e5f6b0ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MENDOZA 1502 EMPLEADO'])[1]/following::td[1]</value>
+      <webElementGuid>67c27868-ad14-40f3-9258-b38cc0d65ea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modificación'])[1]/following::td[3]</value>
+      <webElementGuid>b3886ef9-18b2-40b7-9810-4da23c7ad5e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::td[4]</value>
+      <webElementGuid>ad0d08a1-c955-4ea3-81e1-f0dc7f8cb44a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>92a30c24-cd8a-4cb1-a9ab-b828e079b326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'SEGURO' or . = 'SEGURO')]</value>
+      <webElementGuid>835a4932-9e2b-4dc8-91bf-4727943e64cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

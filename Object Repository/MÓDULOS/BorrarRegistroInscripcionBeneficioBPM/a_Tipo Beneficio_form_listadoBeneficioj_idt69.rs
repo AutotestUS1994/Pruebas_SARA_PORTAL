@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_listadoBeneficio:j_idt69']</value>
+         <value>//td[4]/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>98c43154-90e7-447d-8801-a5a206320900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoBeneficio:j_idt69</value>
+      <webElementGuid>30744a08-d52a-48ab-bb10-3d9548eaf19a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>3990d2da-ffb3-416e-9340-0a1c0804c6c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>84f12b09-6b71-428e-a3e1-5075f9a539df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_listadoBeneficio:j_idt69&quot;,f:&quot;form_listadoBeneficio&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>e9302dbd-6795-4a76-a9bc-7119817bc0cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoBeneficio:j_idt69&quot;)</value>
+      <webElementGuid>bb82af80-a579-4144-9638-32bb411c5e7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_listadoBeneficio:j_idt69']</value>
+      <webElementGuid>e721fb44-86f4-48ff-9ca0-cc6532601bb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoBeneficio:panelFiltro_content']/table/tbody/tr/td[4]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>4f4e268c-946a-443e-ab53-e0680c6dae64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[79]</value>
+      <webElementGuid>3576a5d5-1265-42dd-9850-2a853b9a4af9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>d60045fa-b6dc-49cd-9d42-ec87108b76d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_listadoBeneficio:j_idt69' and @href = '#']</value>
+      <webElementGuid>33a53bf4-60f1-4a8b-8d1e-8a57665ba102</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

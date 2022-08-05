@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a/span</value>
+         <value>/html/body/div[1]/div/div[2]/div/span/form[7]/div/div[1]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>dbdf1d22-c162-42b5-9984-507d211689ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>35be686d-10e3-400f-9e0c-6dc6a2ab06bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;confirmacionGenerar:j_idt664&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>1d2ed4bc-7670-4b24-95df-76186f96c9a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioHojaVida/GenerarImprimirHojaVida/iframe_HojaVida</value>
+      <webElementGuid>0ed48364-bb60-4f14-8e44-e0d58901d633</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='confirmacionGenerar:j_idt664']/div/a/span</value>
+      <webElementGuid>58d54372-f3fa-4fc7-8fce-ca65cc5d8848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span</value>
+      <webElementGuid>47d19654-2544-447e-91b3-f3cad72a39ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

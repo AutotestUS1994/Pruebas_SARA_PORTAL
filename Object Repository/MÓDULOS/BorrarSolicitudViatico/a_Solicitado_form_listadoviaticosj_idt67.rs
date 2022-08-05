@@ -6,12 +6,11 @@
    <elementGuidId>e0facad2-45a4-43d4-b3de-df1e73d1da30</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_listadoviaticos:j_idt67']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[2]/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>ef1dcd6f-41b6-4222-83e1-5c924b11c9bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoviaticos:j_idt67</value>
+      <webElementGuid>c1e0b5eb-b0b1-4cfa-8c77-9f15bf5ff0e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>5dd5e10b-1d42-4ed3-bd9f-6683152bfa75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>7f55f944-6169-4b8d-9133-5a7c6f170c86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_listadoviaticos:j_idt67&quot;,f:&quot;form_listadoviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>0ca77431-274c-49dd-a521-97e38f2bced2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:j_idt67&quot;)</value>
+      <webElementGuid>ee316cab-5407-4371-a472-6272949847a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_listadoviaticos:j_idt67']</value>
+      <webElementGuid>089314a4-ea07-44d5-b97d-5b7770db5abc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>41402a0c-50f6-4f4b-abbf-d9c8bd976772</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[81]</value>
+      <webElementGuid>237e2ff9-fdf9-49ea-81a5-2be2a7299e79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>3324fcb3-bdb9-406c-9811-d7c278bb072c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_listadoviaticos:j_idt67' and @href = '#']</value>
+      <webElementGuid>b383f377-69e9-44ae-b629-1975deff3e5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
