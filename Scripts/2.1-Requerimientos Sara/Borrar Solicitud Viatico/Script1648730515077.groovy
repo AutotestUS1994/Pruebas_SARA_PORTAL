@@ -32,6 +32,9 @@ WebUI.setText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/
 WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/input_Filtro Hoja de Vida_formPopupHojaVida_be4f32'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/input_Filtro Hoja de Vida_formPopupHojaVida_be4f32'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_Mendoza 1502 Empleado'))
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Ao'))
@@ -40,57 +43,60 @@ WebUI.setText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/
 
 WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/input_Ao_form_listadoviaticosanio'), Keys.chord(
         Keys.ENTER))
+
 /*Ingresar No. documento al filtro*/
 WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'))
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'), '2549')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'), Keys.chord(
-		Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/tr_Doc'), Keys.chord(Keys.ENTER))
 
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_No se encontr registros'),1)
- && WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_No se encontr registros')).equals("No se encontró registros")) {
-	WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_No se encontr registros'), 
+    1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_No se encontr registros')).equals(
+    'No se encontró registros')) {
+    WebUI.closeBrowser()
 } else {
-	String emp = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Mendoza 1502 Empleado'))
-	if (emp=='Mendoza 1502 Empleado' || emp=='Mendoza 1502 Empleado Pprueba') {
-		
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Mendoza 1502 Empleado'))
-		
-		if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Costos')).equals("Costos")) {
-		
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Costos'))
-			
-			if(WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_SEGURO'),1)) {
-			
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_SEGURO'))
-				
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Eliminar'))
-			}
-		}
-		if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Programacin')).equals("Programación")) {
-		
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Programacin'))
-			if(WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_MENDOZA 1502 EMPLEADO (1)'),1)){
-				
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_MENDOZA 1502 EMPLEADO (1)'))
-				
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Eliminar_1'))
-				
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Si'))
-			}
-		}
-		if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Registro')).equals("Registro")) {
-		
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Registro'))
-			
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Eliminar_1_2'))
-			
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Si'))
-			
-			if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/p_El registro ha sido eliminado correctamente')).equals("El registro ha sido eliminado correctamente")) {
-				WebUI.closeBrowser()
-			} 
-		}
-	}
+    String emp = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Mendoza 1502 Empleado'))
+
+    if ((emp == 'Mendoza 1502 Empleado') || (emp == 'Hojavida. 1502 Empleado Prueba')) {
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Mendoza 1502 Empleado'))
+
+        if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Costos')).equals('Costos')) {
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Costos'))
+
+            if (WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_SEGURO'), 
+                1)) {
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_SEGURO'))
+
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Eliminar'))
+            }
+        }
+        
+        if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Programacin')).equals('Programación')) {
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Programacin'))
+
+            if (WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_MENDOZA 1502 EMPLEADO (1)'), 
+                1)) {
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/td_MENDOZA 1502 EMPLEADO (1)'))
+
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Eliminar_1'))
+
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Si'))
+            }
+        }
+        
+        if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Registro')).equals('Registro')) {
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Registro'))
+
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Eliminar_1_2'))
+
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Si'))
+
+            if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/p_El registro ha sido eliminado correctamente')).equals(
+                'El registro ha sido eliminado correctamente')) {
+                WebUI.closeBrowser()
+            }
+        }
+    }
 }
+

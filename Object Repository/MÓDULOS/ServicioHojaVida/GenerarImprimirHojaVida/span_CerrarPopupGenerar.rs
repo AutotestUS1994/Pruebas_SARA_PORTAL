@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a/span</value>
+         <value>/html/body/div[1]/div/div[2]/div/table[2]/tbody/tr/td/form/div/div[1]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>810c37be-9d8e-4afc-8262-2767cf709bdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>03e421d1-8de3-458e-bdd3-72e41fa77ade</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt701:dialog_impresionHoja&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>91eb8848-9ee4-4b99-a4de-19305b502987</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioHojaVida/GenerarImprimirHojaVida/iframe_HojaVida</value>
+      <webElementGuid>694dfcd8-1333-466a-a921-1bc27f8995e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt701:dialog_impresionHoja']/div/a/span</value>
+      <webElementGuid>9f8d4db0-31f2-4420-9890-bafd85d79e2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span</value>
+      <webElementGuid>4714a8e7-4120-4f2e-a08a-5f169d2fe0b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
