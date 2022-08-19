@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[2]</value>
+         <value>//span[(text() = 'Gracias' or . = 'Gracias')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>34b030c8-10f3-4d9f-ab99-ca017c107246</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>235ec3c1-a0c1-4e46-ad71-3786a9e85cb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Gracias</value>
+      <webElementGuid>0cb59244-c295-4930-b53e-74d477062c72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt500&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>41fa4ec7-de87-4201-bcde-d690bcf3c550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/iframe_Mis aprobaciones_7F07D451709D4B45813_70d15d</value>
+      <webElementGuid>0a01742b-a08e-45bf-a6cf-ac7e4f7b2ab2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt500']/div/ul/li/span[2]</value>
+      <webElementGuid>512c2e57-307c-4d34-96f3-a00ddac49799</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>d2afa4b2-9e4d-4828-a593-69e0e21fb392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::span[4]</value>
+      <webElementGuid>ecd327b1-97a6-4305-a2ee-428b95ea0da7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
+      <webElementGuid>9b101064-d255-4553-b9dd-242df9fa9a25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
+      <webElementGuid>0b10e962-a061-4b97-8e3a-1cc7fe995ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Gracias']/parent::*</value>
+      <webElementGuid>19ff2fba-8541-40f2-9379-379a70f6fbc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
+      <webElementGuid>ed0aa7ab-ac6a-4f84-8176-642eb472173d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Gracias' or . = 'Gracias')]</value>
+      <webElementGuid>e48010db-51a5-4996-882c-f5dbd7cbe625</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

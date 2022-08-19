@@ -84,7 +84,7 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
 
                 String soliVacaciones = WebUI.getText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
-                if (soliVacaciones == 'Vacaciones 1552 MENDOZA 1502 EMPLEADO PPRUEBA') {
+                if (soliVacaciones == 'Vacaciones 1552 HOJAVIDA. 1502 EMPLEADO PPRUEBA') {
                     WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
                     WebUI.selectOptionByValue(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/select_SeleccionarSiNo'), 
@@ -112,7 +112,7 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
 
             String soliVacaciones = WebUI.getText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
-            if (soliVacaciones == 'Vacaciones 1552 MENDOZA 1502 EMPLEADO PPRUEBA') {
+            if (soliVacaciones == 'Vacaciones 1552 HOJAVIDA. 1502 EMPLEADO PPRUEBA') {
                 WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
                 WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/select_SeleccionarSiNo'), 
