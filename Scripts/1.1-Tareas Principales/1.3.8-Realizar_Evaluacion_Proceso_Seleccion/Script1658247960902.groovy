@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Citacion Evaluacion Y Candidato Proceso Seleccion'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.2.9-Inscribirse_Convocatoria_Proceso_Seleccion'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/a_RRHH'))
@@ -72,10 +77,11 @@ def realizar() {
     WebUI.click(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/a_Guardar'))
 
     WebUI.click(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/span_Si'))
-	String termino = WebUI.getText(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/a_Regresar'))
-	
-	if(termino == 'Regresar') {
-		WebUI.closeBrowser()
-	}
+
+    String termino = WebUI.getText(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/a_Regresar'))
+
+    if (termino == 'Regresar') {
+        WebUI.closeBrowser()
+    }
 }
 

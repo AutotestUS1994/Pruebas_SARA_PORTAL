@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='LiquidacionNomina:j_idt96:j_idt98:j_idt2307']</value>
+         <value>//a[contains(text(),'Generar Comprobante')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2745c0ab-5a26-49c8-ac56-105b7cd98dc2</webElementGuid>
+      <webElementGuid>c8fff34f-8a50-4f61-ac40-c8acecff6671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>LiquidacionNomina:j_idt96:j_idt98:j_idt2307</value>
-      <webElementGuid>21165222-0411-4424-a808-73e06b66bd7e</webElementGuid>
+      <webElementGuid>18e433d6-ebc5-408b-89fd-12377a977fa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>b5068836-e5b5-42a7-9463-cd98fda3b014</webElementGuid>
+      <webElementGuid>e3a66792-4d5f-435c-8147-eb68fd95ff55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
-      <webElementGuid>b9c319dc-c447-49cc-8d57-0791d9b07553</webElementGuid>
+      <webElementGuid>64250acf-7c32-4ea8-a9ac-bae41f8df1e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;LiquidacionNomina:j_idt96:j_idt98:j_idt2307&quot;,f:&quot;LiquidacionNomina&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
-      <webElementGuid>696b321e-fb02-4647-b6d6-ac3f75847d71</webElementGuid>
+      <webElementGuid>d10a620c-cb40-452d-8aa0-5a00f71abde9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generar Comprobante </value>
-      <webElementGuid>8bdca71c-ec6e-4475-b645-330f229f3e5b</webElementGuid>
+      <webElementGuid>acac31d1-cf81-44a5-a303-4bd8b3843b36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiquidacionNomina:j_idt96:j_idt98:j_idt2307&quot;)</value>
-      <webElementGuid>7c001c1d-4b26-4ed3-a819-12e881adc990</webElementGuid>
+      <webElementGuid>d9a913e0-37a5-4e74-b461-987225a7718b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='LiquidacionNomina:j_idt96:j_idt98:j_idt2307']</value>
-      <webElementGuid>4ba5972a-1bf7-464d-ae51-88f06a27cfeb</webElementGuid>
+      <webElementGuid>d3aa0214-7e0a-4b1b-ad4f-5a5210346384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='LiquidacionNomina:j_idt96:j_idt98:j_idt99']/table[8]/tbody/tr/td/a</value>
-      <webElementGuid>acc51745-7957-42c4-bdf2-bddda517386b</webElementGuid>
+      <webElementGuid>8c990209-5617-449a-8c85-9f3413e5d9f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Generar Comprobante')]</value>
-      <webElementGuid>87b2eafd-4902-4976-bb3b-7b3a760f6986</webElementGuid>
+      <webElementGuid>109e7a77-365a-4e3d-817a-a4035ad46145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/following::a[8]</value>
-      <webElementGuid>584c56f8-2af3-43e7-88a0-9975cc518c40</webElementGuid>
+      <webElementGuid>1512906e-ee6d-4f28-900b-6738a9f407d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciclo'])[1]/following::a[8]</value>
-      <webElementGuid>fb084afb-8a63-42e0-8128-fb22e7d8482c</webElementGuid>
+      <webElementGuid>2c8922e3-a307-4e8b-ae04-d28fa7eedc3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro'])[1]/preceding::a[9]</value>
-      <webElementGuid>a4aa2583-5456-44b4-886a-e97448b677e5</webElementGuid>
+      <webElementGuid>1127f6c3-0fae-4835-97fc-bfe6857bda5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Persona'])[1]/preceding::a[10]</value>
-      <webElementGuid>abc34ff9-fc4d-4caa-b9a0-4f0674e37c5d</webElementGuid>
+      <webElementGuid>badabbea-4110-4874-9395-a436208fbfca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Generar Comprobante']/parent::*</value>
-      <webElementGuid>24d2a7dd-0f2a-41bb-9784-d8a46083c71e</webElementGuid>
+      <webElementGuid>47158fb5-fb71-4d54-94ea-ba261d48a983</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[88]</value>
-      <webElementGuid>1364ef15-a609-4cab-8ec7-e4f1336423c9</webElementGuid>
+      <webElementGuid>e554f5b3-f316-4015-ab54-41b7d15e9568</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[8]/tbody/tr/td/a</value>
-      <webElementGuid>37666534-a087-4ea5-b10b-fa8a44aaa6a7</webElementGuid>
+      <webElementGuid>55c4160f-b240-4643-8920-e1d1c6a279b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'LiquidacionNomina:j_idt96:j_idt98:j_idt2307' and @href = '#' and (text() = 'Generar Comprobante ' or . = 'Generar Comprobante ')]</value>
-      <webElementGuid>84ff88a8-017b-4a8d-8cca-d60ab5104313</webElementGuid>
+      <webElementGuid>26372032-a9ca-4c8b-87ef-d8c9342efa12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

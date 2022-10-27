@@ -179,7 +179,7 @@ def fecha() {
         println(fecha)
     } else if ((Dia < 10) && (Mes < 10)) {
         String fecha = ((((('0' + Dia) + '/') + '0') + Mes) + '/') + Año
-    } else if (Mes <= 10) {
+    } else if (Mes < 10) {
         String fecha = ((((Dia + '/') + '0') + Mes) + '/') + Año
     } else {
         String fecha = (((Dia + '/') + Mes) + '/') + Año

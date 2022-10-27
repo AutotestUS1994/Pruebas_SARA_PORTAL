@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0b060993-0199-461f-8da8-c8477f131ef2</testSuiteGuid>
    <testCaseLink>
+      <guid>2ee5ba02-f868-4251-8e96-0113f1da79a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.3-CargueMasivoAplicarNovEmp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>26bf4d48-4253-4ede-8d83-f255401c3f40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -282,13 +289,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.2-Visor_General_Reporte_Entrada</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ee5ba02-f868-4251-8e96-0113f1da79a3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.3-CargueMasivoAplicarNovEmp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
