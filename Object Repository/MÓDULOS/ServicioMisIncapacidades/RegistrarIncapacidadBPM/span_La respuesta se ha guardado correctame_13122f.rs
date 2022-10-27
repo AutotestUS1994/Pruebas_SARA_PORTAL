@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[2]</value>
+         <value>//span[(text() = 'La respuesta se ha guardado correctamente. Autorizar.' or . = 'La respuesta se ha guardado correctamente. Autorizar.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>63301d7b-037c-4d63-8c58-582c1c61e3b5</webElementGuid>
+      <webElementGuid>55bab097-1319-410a-a600-92d8e9c309c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
-      <webElementGuid>be6a4607-a1e9-4de3-bb0b-2de2e583e56f</webElementGuid>
+      <webElementGuid>6f365cb6-d8b1-4ff4-a532-cfef3c2b0d3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>La respuesta se ha guardado correctamente. Autorizar.</value>
-      <webElementGuid>77f1ba98-e6c9-448e-8b7d-3bd02bbe1663</webElementGuid>
+      <webElementGuid>c7f2a2e2-6b60-4936-b0f1-d7ec54ba88d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt500&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
-      <webElementGuid>1c0e9612-2e9d-4b93-81f6-77d2855726b1</webElementGuid>
+      <webElementGuid>9e923901-0d13-4b56-956b-b954fa0d1005</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/iframe_Mis aprobaciones_7F07D451709D4B45813_70d15d</value>
-      <webElementGuid>0a33f8e5-26f0-4ea5-bdaa-5c6b87b0407b</webElementGuid>
+      <webElementGuid>07895dd7-1cf0-4bf2-ba63-b18ddbc8812a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt500']/div/ul/li/span[2]</value>
-      <webElementGuid>8188cac8-d74a-4d4c-b768-67f29ee6a2e9</webElementGuid>
+      <webElementGuid>b831c0dc-be41-4f8b-917c-7b0cd1e65465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
-      <webElementGuid>9341b47a-080f-4710-9e55-d1afe58ca470</webElementGuid>
+      <webElementGuid>1e7f2a40-5501-4031-9f21-4e584455c823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::span[4]</value>
-      <webElementGuid>631b847c-7368-48cc-81c0-2cd22021205a</webElementGuid>
+      <webElementGuid>4f8bfeb1-04d0-4217-9c3b-5a4adfdd4d59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
-      <webElementGuid>830e6b11-5414-437d-bd46-a67391ae7ff6</webElementGuid>
+      <webElementGuid>d63b271a-7c32-4817-beb1-8b54b5917750</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
-      <webElementGuid>d3b8d5d5-6daa-435d-8fdc-6efea1c14b30</webElementGuid>
+      <webElementGuid>d692d091-9182-4e77-9c55-3034935fa9b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='La respuesta se ha guardado correctamente. Autorizar.']/parent::*</value>
-      <webElementGuid>36c9e725-b89b-42a6-9214-7f5ed6d836e1</webElementGuid>
+      <webElementGuid>5cd0d1b4-1ae1-417e-bbbf-bc53abbeb9f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
-      <webElementGuid>abbad488-6944-4aba-bbf1-3263f2820078</webElementGuid>
+      <webElementGuid>6ef82a87-fdec-4510-b5a1-10fbcaac4f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'La respuesta se ha guardado correctamente. Autorizar.' or . = 'La respuesta se ha guardado correctamente. Autorizar.')]</value>
-      <webElementGuid>53bd04cf-5d20-4341-9a27-48a50be2f15c</webElementGuid>
+      <webElementGuid>438ffcdb-2227-4bae-bb2d-17d965b49896</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

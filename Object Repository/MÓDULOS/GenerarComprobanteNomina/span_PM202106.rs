@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='formPopupPeriodo:tabla_ventanaPeriodo_data']/tr[3]/td/span</value>
+         <value>//span[(text() = 'PM202106' or . = 'PM202106')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a9952176-bec4-41e9-b4fb-9721fb3d97f8</webElementGuid>
+      <webElementGuid>5b69b878-4899-491d-a973-46168129f400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>4f831213-59f6-4df1-ae29-2a3bd5561191</webElementGuid>
+      <webElementGuid>192c6c77-6e1a-417b-9351-ff3501f39af3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PM202106</value>
-      <webElementGuid>eb9edb2b-d183-4e5f-8a82-648b906c394d</webElementGuid>
+      <webElementGuid>d58cb6f5-6d0d-4406-8b2f-e9e3cdc4a47b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupPeriodo:tabla_ventanaPeriodo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>9969ccc6-a079-4b61-93ed-9a909102a287</webElementGuid>
+      <webElementGuid>b99fbb97-5ec2-4b30-bd8f-3a41d08e5ec8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formPopupPeriodo:tabla_ventanaPeriodo_data']/tr[3]/td/span</value>
-      <webElementGuid>a3448080-80dc-4009-b057-ca0dce59febf</webElementGuid>
+      <webElementGuid>4099c3b9-d004-4a45-85da-c5752c5ecb34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[2]/following::span[1]</value>
-      <webElementGuid>b150da67-4ba4-43d1-9b4e-9b810b04deeb</webElementGuid>
+      <webElementGuid>6ced7a92-5481-4891-b891-6b16785072d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='P. MensualJulio2021'])[1]/following::span[2]</value>
-      <webElementGuid>85855dff-b51a-4dbf-896c-054fdb3b92de</webElementGuid>
+      <webElementGuid>a2ef8cf7-6d4d-4c09-9a85-8725ff74f233</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='P. MensualJunio2021'])[1]/preceding::span[1]</value>
-      <webElementGuid>3d526508-7bde-410b-a374-e58a2f540d5e</webElementGuid>
+      <webElementGuid>c4956657-956d-4821-a5ac-67f60192ad78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[3]/preceding::span[2]</value>
-      <webElementGuid>1fbabe76-6a32-47c6-a549-81f8ab72d040</webElementGuid>
+      <webElementGuid>f9fa8875-ce8e-4b88-8637-50fe2dc2b3ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PM202106']/parent::*</value>
-      <webElementGuid>4c2e4dda-8e0f-4caa-981c-95baeaf1fefe</webElementGuid>
+      <webElementGuid>0cb9fdf1-ca86-4e9e-be68-19ddbf352e68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/span</value>
-      <webElementGuid>7f3ca294-a868-4c39-828f-80ef0870393b</webElementGuid>
+      <webElementGuid>2fb9b0bc-8c2f-4fee-a2a7-dea4cf7de4a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'PM202106' or . = 'PM202106')]</value>
-      <webElementGuid>0ec15d50-015b-4ed7-adf8-79979c949fa4</webElementGuid>
+      <webElementGuid>f121561c-d1a2-4711-a213-d12bcf6ca0ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

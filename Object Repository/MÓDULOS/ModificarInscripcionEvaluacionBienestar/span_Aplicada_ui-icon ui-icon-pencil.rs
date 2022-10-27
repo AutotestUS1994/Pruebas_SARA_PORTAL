@@ -6,12 +6,12 @@
    <elementGuidId>9efee798-26ca-48a7-993b-20b443757038</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[9]/div/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-pencil</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/fieldset/div/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[9]/div/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>066e84da-db06-4328-a17d-bacf0be3f008</webElementGuid>
+      <webElementGuid>2ca67a5d-3366-42d5-99e7-2296bbfe484e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-pencil</value>
-      <webElementGuid>f1cc22f2-2a42-4435-9d89-669debca8d63</webElementGuid>
+      <webElementGuid>6fd531eb-cc27-4e7a-b79d-12984f31b849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt861&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
-      <webElementGuid>f1d0976e-c11b-46a2-b809-90adeaea98c8</webElementGuid>
+      <webElementGuid>c7df4523-6936-4315-a479-2a2c7270a028</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt861']/a/span</value>
-      <webElementGuid>8b8797d9-86d7-4434-8535-4fd5562a397a</webElementGuid>
+      <webElementGuid>f876eeeb-48c9-4222-bf95-c46d77ed3866</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[9]/div/a/span</value>
-      <webElementGuid>5d3108da-8dcf-415e-aff9-9700a9c14f14</webElementGuid>
+      <webElementGuid>fc1bb0ac-34c8-4b1b-b9d2-e3940c592b2c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

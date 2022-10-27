@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/span/form[6]/div/div[2]/div[2]/div/div/div/table/tbody/tr/td</value>
+         <value>//td[(text() = 'Actualizar Jefe Proceso Aplicacion' or . = 'Actualizar Jefe Proceso Aplicacion')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>982fcca8-d245-45d0-a7db-64621ec1fb77</webElementGuid>
+      <webElementGuid>a711da15-8d40-4d5b-aae2-08e624f31e0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>faf104ef-9f2d-4202-96d0-1457e300608a</webElementGuid>
+      <webElementGuid>4b32c9ac-ce69-4563-a1e0-a77567326be4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Actualizar Jefe Proceso Aplicacion</value>
-      <webElementGuid>686229ae-dde9-43a8-9089-8aadd8be750c</webElementGuid>
+      <webElementGuid>3e83eb3e-0d1b-4d13-8e02-24ed317e3fc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formFuentes:tablaFuentes_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
-      <webElementGuid>ec885110-1935-4784-b911-2217189dba63</webElementGuid>
+      <webElementGuid>2ebf6462-0f76-4ee8-a9f7-1496b278f3fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
-      <webElementGuid>5523b810-ab47-4888-93a5-5899dd778fa4</webElementGuid>
+      <webElementGuid>78b389fa-b99f-46f2-9abd-bebc1a907973</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formFuentes:tablaFuentes_data']/tr/td</value>
-      <webElementGuid>41927b29-3d84-4667-ace2-99652754df0c</webElementGuid>
+      <webElementGuid>35d8d1ea-d9f8-4135-a09a-8760d0b2edad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporte'])[1]/following::td[1]</value>
-      <webElementGuid>a4067b37-5602-43dd-b6e2-ec89b5507b19</webElementGuid>
+      <webElementGuid>4c86713c-2b1a-4ce5-ad66-7c75cb0818b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fuente'])[1]/following::td[2]</value>
-      <webElementGuid>ecafdeea-8cfe-4246-8ab4-60d48d8f0452</webElementGuid>
+      <webElementGuid>10ec5de5-ff38-4c30-80ee-6d46a2b58cbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[1]</value>
-      <webElementGuid>b8a92cc2-2906-400d-8c15-ef254720e6d1</webElementGuid>
+      <webElementGuid>d0d05e2f-cbbc-45be-9e06-4837acdc2520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::td[1]</value>
-      <webElementGuid>ee67f577-aa88-4a61-bb3c-4a50a44b1056</webElementGuid>
+      <webElementGuid>9ca61c6e-f972-42bd-a454-da5d21561e29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Actualizar Jefe Proceso Aplicacion']/parent::*</value>
-      <webElementGuid>6b55ca48-1245-4c8d-b928-6cb4abf24804</webElementGuid>
+      <webElementGuid>f42f9cfa-bdd8-40de-94fa-9e3784cc16e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/table/tbody/tr/td</value>
-      <webElementGuid>7146feed-b1a9-421d-8549-ba7878cebf77</webElementGuid>
+      <webElementGuid>3afa4e23-3b6a-442e-a6b9-38a5b503a456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Actualizar Jefe Proceso Aplicacion' or . = 'Actualizar Jefe Proceso Aplicacion')]</value>
-      <webElementGuid>9a3c5633-3ba7-4caf-89e7-39ea03a577c1</webElementGuid>
+      <webElementGuid>05bd80ef-713a-4b5b-a4f1-fdc2fe5e15bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

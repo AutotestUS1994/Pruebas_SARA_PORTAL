@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='LiquidacionNomina:j_idt68']</value>
+         <value>//td[2]/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3e21cf20-220c-4468-b62b-9c5359c3378b</webElementGuid>
+      <webElementGuid>dc154eaa-f378-4532-9130-569806ff53b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>LiquidacionNomina:j_idt68</value>
-      <webElementGuid>b74bacf0-aca1-417c-bbc6-8ddebf329fbe</webElementGuid>
+      <webElementGuid>e61d4b86-77e5-4f23-bd13-64fca36c886c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>ff2d47ad-a726-47b7-a1c3-2baceb8d06e3</webElementGuid>
+      <webElementGuid>cf2793d3-4745-488a-be8d-fc88df87c6fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
-      <webElementGuid>5773d967-3312-49bf-a7e0-b7f34858581f</webElementGuid>
+      <webElementGuid>439cff29-ec62-490a-a3cf-288bff2c8f54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;LiquidacionNomina:j_idt68&quot;,f:&quot;LiquidacionNomina&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>a36067a7-e7aa-46f5-8987-8cc6fcb220dc</webElementGuid>
+      <webElementGuid>e6c459a2-f127-4476-8cec-b4380aeca4df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiquidacionNomina:j_idt68&quot;)</value>
-      <webElementGuid>1c017094-78fc-47e6-ba6a-a3439ccbb28c</webElementGuid>
+      <webElementGuid>57bdcbc5-9a11-416a-9c8f-262c6dd1b1e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='LiquidacionNomina:j_idt68']</value>
-      <webElementGuid>cb1397eb-e3cc-4beb-b46c-8e2508d9190e</webElementGuid>
+      <webElementGuid>c604a3a9-0d55-4b0c-a8f5-c3a150c1df53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='LiquidacionNomina']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>80c82f90-9006-4e8a-ae34-8d91f013e7a1</webElementGuid>
+      <webElementGuid>d5f92d2b-4059-4696-a152-45f3340cd3b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[80]</value>
-      <webElementGuid>e5bddefe-bdac-4ef1-a9ec-2fcfe36b25de</webElementGuid>
+      <webElementGuid>0e1151e8-3be6-4fca-a475-93c7d90edf14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>44937a49-58ba-4297-9131-2fae6b6bb9b6</webElementGuid>
+      <webElementGuid>fcad76c9-4c1b-4359-91ff-afbb2a5c955e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'LiquidacionNomina:j_idt68' and @href = '#']</value>
-      <webElementGuid>b8ea0490-1047-4756-b33e-bb58d7f277cc</webElementGuid>
+      <webElementGuid>5c069585-7f38-4483-9068-3d622a21317b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

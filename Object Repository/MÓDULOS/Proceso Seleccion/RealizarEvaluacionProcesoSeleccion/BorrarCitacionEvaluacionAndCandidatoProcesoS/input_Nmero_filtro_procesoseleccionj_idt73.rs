@@ -6,12 +6,11 @@
    <elementGuidId>cd1332db-e525-47b4-85b2-cd696d2fd333</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[6]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='filtro_procesoseleccion:j_idt73']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>48d507b5-5eb0-4058-9f04-5a8dee334057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:j_idt73</value>
+      <webElementGuid>e0fcb12b-625d-497c-aabe-c534ac8571fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ade6d33e-8e0f-4afe-9ca8-2216951bc409</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:j_idt73</value>
+      <webElementGuid>8b08fd8c-a24d-45e9-8550-fbc7a215e6d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>4f9be7c5-29a5-48cb-a85a-4565ae8ac77a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>07dbebcb-dcbb-45bf-a67f-40375d5ba50b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>abb5521d-4dde-4091-a9e9-33c4765ec7bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;filtro_procesoseleccion&quot;,p:&quot;filtro_procesoseleccion:j_idt73&quot;,u:&quot;filtro_procesoseleccion:tabla&quot;});</value>
+      <webElementGuid>12695d9b-7ce3-46cc-92b6-717d8b693dd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtro_procesoseleccion:j_idt73&quot;)</value>
+      <webElementGuid>1aeb8754-fa35-452b-b624-65e57a76ad66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='filtro_procesoseleccion:j_idt73']</value>
+      <webElementGuid>2bd6779e-877b-4d5c-beaf-ba77216ac984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='filtro_procesoseleccion:formPanel_content']/table/tbody/tr/td[6]/input</value>
+      <webElementGuid>12d14e1e-19ed-4827-a15c-7a5555ae1beb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[6]/input</value>
+      <webElementGuid>5090e346-507e-4bc4-9e9c-95e85c32c394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'filtro_procesoseleccion:j_idt73' and @type = 'text' and @name = 'filtro_procesoseleccion:j_idt73']</value>
+      <webElementGuid>e1cebf16-7cb2-4297-9f7d-bcd22138860c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
