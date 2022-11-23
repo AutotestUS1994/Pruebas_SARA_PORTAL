@@ -6,11 +6,11 @@
    <elementGuidId>82dd85ec-df1a-4d2d-80dd-f68721feb103</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Plan De Sucesion')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>c2f0f7e5-dc74-481c-893b-531cc7e7432d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>descripcionCargo_form:j_idt89:j_idt91:j_idt1084</value>
+      <webElementGuid>a47edf92-4dcf-4671-a3f5-3bc401784416</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>1e03f575-f637-46b0-b0d9-38185af27572</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>0745c71a-cd3c-4faf-92f8-d73d89b5f529</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;descripcionCargo_form:j_idt89:j_idt91:j_idt1084&quot;,f:&quot;descripcionCargo_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>525c4162-3129-4d58-965a-6750775e51c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Plan De Sucesion </value>
+      <webElementGuid>74dc3e42-0e5c-49e8-a334-aed04c25e6f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,13 +69,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;descripcionCargo_form:j_idt89:j_idt91:j_idt1084&quot;)</value>
+      <webElementGuid>1c4e76b8-7066-406e-a2c8-328744449bcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</value>
+      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</value>
+      <webElementGuid>8447a0fc-d3dc-4709-b90d-d1f13eb17539</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='descripcionCargo_form:j_idt89:j_idt91:j_idt1084']</value>
+      <webElementGuid>f741c202-4148-4535-8d66-ca2413f4956e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='descripcionCargo_form:j_idt89:j_idt91:j_idt1079']/table/tbody/tr/td/a</value>
+      <webElementGuid>395f6024-22e8-4d35-9ff5-917a459dbe16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Plan De Sucesion')]</value>
+      <webElementGuid>0dd6f29f-9165-444a-bf82-60b5d1150979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/following::a[1]</value>
+      <webElementGuid>20a6dd55-f516-41ed-b3c6-a9c9dc3c2f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratos'])[1]/following::a[2]</value>
+      <webElementGuid>0be85a63-2602-470a-8ae0-d74602f62992</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calidad'])[1]/preceding::a[5]</value>
+      <webElementGuid>08349d7a-8a96-42a0-aa94-8d72a9c4a13b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Número Cargos :0'])[1]/preceding::a[5]</value>
+      <webElementGuid>13b1186f-185e-4214-a083-a991c512ed9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Plan De Sucesion']/parent::*</value>
+      <webElementGuid>4e24eddf-99ab-48a7-9631-fcf3c010f0dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[16]</value>
+      <webElementGuid>e45646f2-9931-483a-aefb-8e708625eb0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/table/tbody/tr/td/div/div[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>f4459145-8928-48b9-9672-96c500075cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'descripcionCargo_form:j_idt89:j_idt91:j_idt1084' and @href = '#' and (text() = 'Plan De Sucesion ' or . = 'Plan De Sucesion ')]</value>
+      <webElementGuid>bfdbf1fa-c0fd-4794-83b5-dcb5e94019fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Aplicada_ui-icon ui-icon-check ui-c</name>
+   <name>span_Aplicada_ui-icon ui-icon-check ui-c - Copy</name>
    <tag></tag>
-   <elementGuidId>2d164a20-f94a-4d18-9037-a896495c6264</elementGuidId>
+   <elementGuidId>fc35b52e-0eb0-4b00-aa8e-9f7952595665</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/fieldset/div/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[9]/div/a[2]/span
-</value>
+         <value>
+
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/fieldset/div/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[1]/div/div[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +24,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>53512700-e32a-4a7f-893e-5567c933c718</webElementGuid>
+      <webElementGuid>57717d84-d489-4abf-8d2f-69310b01e32a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +32,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-check ui-c</value>
-      <webElementGuid>2f618b4a-ef0e-4e20-9de4-9851f0045a19</webElementGuid>
+      <webElementGuid>df0cf30e-606e-4323-8513-99f2e6e43e30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +40,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt861&quot;)/a[@class=&quot;ui-row-editor-check ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-check ui-c&quot;]</value>
-      <webElementGuid>12655e76-0ba0-4cf3-90a1-9690083392a6</webElementGuid>
+      <webElementGuid>9df712e6-e5df-47c4-88c5-a1532c24a106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/EvaluarEventoBienestar/iframe_Evaluaciones de bienestar_7F07D451F0_5a1a05</value>
+      <webElementGuid>561c42bb-8b7b-400e-baf8-fa17c6a35e97</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt861']/a[2]/span</value>
-      <webElementGuid>9bd7b05a-c9c3-4ed0-b079-9edb0fedfe9b</webElementGuid>
+      <webElementGuid>ca328389-ecc1-4af6-8517-66a7e5f60b31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +64,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/span</value>
-      <webElementGuid>ddbbdfb2-bbc3-45df-a91c-048dc70bab5e</webElementGuid>
+      <webElementGuid>b9742307-607b-43b1-aa01-dc038e4a14ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

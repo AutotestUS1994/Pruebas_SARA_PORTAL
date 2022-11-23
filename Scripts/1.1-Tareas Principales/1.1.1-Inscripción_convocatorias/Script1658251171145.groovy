@@ -176,7 +176,8 @@ if (Result0 == 'Se ha inscrito correctamente.') {
 
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Si'))
     }
-	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+    
+    WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 }
 
 def identificacion() {

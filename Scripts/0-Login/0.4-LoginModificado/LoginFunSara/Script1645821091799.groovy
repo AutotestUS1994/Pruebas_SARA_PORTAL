@@ -50,9 +50,14 @@ if (flag) {
     a( //    break
         //} else {
         //    println('No conecta a: ' + i)
-        ) //aqui coloca el wait y el clic a l modulo Actos
-    //TODO: revisar y quitar esto
-}
+        //aqui coloca el wait y el clic a l modulo Actos
+        ) //TODO: revisar y quitar esto
+} /*
+    WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'), 
+        'Aplicacion Nov. Empleado')
+
+    WebUI.click(findTestObject('Object Repository/Login/LoginModificado/LoginSara/span_Aplicacion Nov. Empleado'))
+*/
 
 def a() {
     WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), GlobalVariable.G_UsuarioFun)
@@ -63,12 +68,9 @@ def a() {
 
     WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ingresar'))
 
+    if(WebUI.waitForElementVisible(findTestObject('Login/LoginModificado/LoginSara/a_Ir'), 1))
+    {
     WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ir'))
-/*
-    WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'), 
-        'Aplicacion Nov. Empleado')
-
-    WebUI.click(findTestObject('Object Repository/Login/LoginModificado/LoginSara/span_Aplicacion Nov. Empleado'))
-*/
+    }
 }
 

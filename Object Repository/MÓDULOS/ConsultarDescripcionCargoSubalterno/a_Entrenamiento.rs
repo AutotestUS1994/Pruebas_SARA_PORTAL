@@ -6,11 +6,11 @@
    <elementGuidId>fbd7a47b-dac9-4c14-ab9e-92044d5eeebd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Entrenamiento')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>cfbeb9c7-1374-44d3-8da6-6b62bfd2fad8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>descripcionCargo_form:j_idt75:j_idt77:j_idt1055</value>
+      <webElementGuid>5c3d2ba8-2a1f-4005-9e1d-0e40552efcf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6568b2bd-968e-4fb0-aaa1-a2e1477b4149</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>5f46dd2c-ddd1-4f1e-8858-5795290ffb54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;descripcionCargo_form:j_idt75:j_idt77:j_idt1055&quot;,f:&quot;descripcionCargo_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>2d328587-38d9-4bb3-977c-92154c912b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Entrenamiento </value>
+      <webElementGuid>a6b6d497-72d7-403c-beee-502d08a7aee8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,13 +69,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;descripcionCargo_form:j_idt75:j_idt77:j_idt1055&quot;)</value>
+      <webElementGuid>92b75244-f347-455d-989c-1d4310c03c75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</value>
+      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</value>
+      <webElementGuid>c68ceaa7-9f34-44c8-a87b-74b86bbe3a3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='descripcionCargo_form:j_idt75:j_idt77:j_idt1055']</value>
+      <webElementGuid>40dd3eae-068f-47ae-8862-485cbe3d38dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='descripcionCargo_form:j_idt75:j_idt77:j_idt1005']/table[10]/tbody/tr/td/a</value>
+      <webElementGuid>9087de25-4f65-401d-bf52-1c9c51875d41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Entrenamiento')]</value>
+      <webElementGuid>3de60f90-c2ab-4870-a920-c2b028535281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú'])[1]/following::a[10]</value>
+      <webElementGuid>f4e38544-fab3-41d6-aee2-42bf4ccafcdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción Cargo Sub Alterno'])[1]/following::a[10]</value>
+      <webElementGuid>8a4a9faa-2be0-4d0b-a68e-2245d29a935c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratos'])[1]/preceding::a[5]</value>
+      <webElementGuid>e9e43140-491e-41fb-afc1-e6c769d43048</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/preceding::a[6]</value>
+      <webElementGuid>cc5f902e-f227-4d4b-988f-644c24029f1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Entrenamiento']/parent::*</value>
+      <webElementGuid>1aa89ccc-a89f-43c9-8192-cf03f3a3104e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[10]</value>
+      <webElementGuid>74b81511-fb02-487a-b3d9-1f17fb3bcbf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[10]/tbody/tr/td/a</value>
+      <webElementGuid>6f44bbd1-85ee-432a-8a12-ad6a7172f99c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'descripcionCargo_form:j_idt75:j_idt77:j_idt1055' and @href = '#' and (text() = 'Entrenamiento ' or . = 'Entrenamiento ')]</value>
+      <webElementGuid>771c222e-cbd5-4690-9ae8-eab99db3a09a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

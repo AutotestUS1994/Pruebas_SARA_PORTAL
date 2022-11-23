@@ -6,11 +6,11 @@
    <elementGuidId>b1f7939c-0d7f-4a19-af6d-581d53b4cd60</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Titulo Adicional Campo Perfil')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>8332276f-be7f-4d3b-8763-c372a2e7b2c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>descripcionCargo_form:j_idt75:j_idt77:j_idt1045</value>
+      <webElementGuid>e24b62f0-59b2-4994-9e8d-3bcb2e317195</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>5b5334a0-45ad-4c9d-982d-48534bed3932</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>70a1bfad-59b6-4dff-b4ac-60bf46a1c45a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;descripcionCargo_form:j_idt75:j_idt77:j_idt1045&quot;,f:&quot;descripcionCargo_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>5463c5a9-c3ea-4da8-8ca1-a601b7a82e18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Titulo Adicional Campo Perfil </value>
+      <webElementGuid>38bfb01c-4c3b-4aa8-8815-e40667d66f59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,13 +69,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;descripcionCargo_form:j_idt75:j_idt77:j_idt1045&quot;)</value>
+      <webElementGuid>8770972d-525e-402c-a9ec-d0066121473b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</value>
+      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</value>
+      <webElementGuid>c6c74109-ea0a-4eb8-bdc9-6427ba9493b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='descripcionCargo_form:j_idt75:j_idt77:j_idt1045']</value>
+      <webElementGuid>6c3dec9a-02a9-4361-b6c6-e366863435b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='descripcionCargo_form:j_idt75:j_idt77:j_idt1005']/table[8]/tbody/tr/td/a</value>
+      <webElementGuid>b7ac515f-f40e-4117-b7e4-5e622c007b62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Titulo Adicional Campo Perfil')]</value>
+      <webElementGuid>0904f356-d21d-4e8f-84d7-e5b380ce065b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú'])[1]/following::a[8]</value>
+      <webElementGuid>2bb56690-12a2-4c58-b3f4-799f31dbbfb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción Cargo Sub Alterno'])[1]/following::a[8]</value>
+      <webElementGuid>b0087c12-d2a5-4342-945b-e2555b60af5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratos'])[1]/preceding::a[7]</value>
+      <webElementGuid>d6eaf17e-a233-4111-b410-ada24874e1d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/preceding::a[8]</value>
+      <webElementGuid>117705ee-65dc-45d1-9bb1-0782220f3957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Titulo Adicional Campo Perfil']/parent::*</value>
+      <webElementGuid>a9b5158a-fbe1-4431-9c31-e07fad147e07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>60da4927-4b98-489e-9933-450e6995678f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[8]/tbody/tr/td/a</value>
+      <webElementGuid>09adcf47-9208-4322-84a3-ed187e6be82e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'descripcionCargo_form:j_idt75:j_idt77:j_idt1045' and @href = '#' and (text() = 'Titulo Adicional Campo Perfil ' or . = 'Titulo Adicional Campo Perfil ')]</value>
+      <webElementGuid>96c362fe-3caf-4a3d-be2a-5bc6df358cee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

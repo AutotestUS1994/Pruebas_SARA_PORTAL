@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:editEstado']</value>
+         <value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/fieldset/div/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[5]/div[1]/div[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>25a632c3-0481-45f4-a72a-36d63aa04d25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formEventoEvaluacion:panel_evento:tablaEvaluacion:0:editEstado</value>
+      <webElementGuid>439481de-ee72-46ac-82dc-43f285b6fcf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formEventoEvaluacion:panel_evento:tablaEvaluacion:0:editEstado</value>
+      <webElementGuid>fe9a6e29-2481-4cb9-a9b7-339bea58bb55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>e1b26db0-3b11-4401-a260-d307e5ed2cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>b38e6403-e753-4bea-8042-b0c28dacf01a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,6 +64,7 @@
       <value>	Diligenciada Parcialmente
 	No Diligenciada
 </value>
+      <webElementGuid>ff7349bf-f780-4e62-82e3-a32c45a451fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,6 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:editEstado&quot;)</value>
+      <webElementGuid>78513a28-4e06-4df0-9135-eb04132415c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,6 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:editEstado']</value>
+      <webElementGuid>543fa5ae-d1db-4ea4-8cf2-e895c292c15b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt847']/div[2]/select</value>
+      <webElementGuid>a47f9e7f-ba50-4dde-8d73-7984a7797786</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicada'])[2]/following::select[1]</value>
+      <webElementGuid>61e8b756-0c6b-49b8-bc86-12ffaab09fe5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::select[1]</value>
+      <webElementGuid>11889674-4164-441d-983b-06b38c8e3ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::select[1]</value>
+      <webElementGuid>728f4a1a-86db-4a5d-8981-e9e00e913c2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/select</value>
+      <webElementGuid>01f87a49-6b30-4974-81b5-e69ca34d7875</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +132,6 @@
 ' or . = '	Diligenciada Parcialmente
 	No Diligenciada
 ')]</value>
+      <webElementGuid>5c808e5c-d705-41c6-ad3e-8f139843ada8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

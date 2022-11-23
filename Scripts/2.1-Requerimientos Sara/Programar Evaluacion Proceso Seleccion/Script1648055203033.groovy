@@ -99,8 +99,6 @@ if (consecutivo == 'BOG-2022-0001') {
 
         WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_Continuar'))
 
-        WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/span_Nombre_ui-chkbox-icon ui-icon ui-icon-_8bdca5'))
-
         WebUI.setText(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/input_Notificar Citacin_popupCitacion_formj_d4bc1e'), 
             'Realizar Evaluacion Proceso Seleccion Portal')
 
@@ -110,7 +108,7 @@ if (consecutivo == 'BOG-2022-0001') {
 
         if (confirm == 'Las citaciones han sido generadas correctamente') {
             WebUI.closeBrowser()
-        }
+        }else {WebUI.acceptAlert()}
     }
 }
 

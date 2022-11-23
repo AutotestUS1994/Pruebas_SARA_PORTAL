@@ -7,7 +7,9 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td/a</value>
+         <value>
+/html/body/div[1]/div/div[2]/div/div[3]/table/tbody/tr/td/form/table/tbody/tr/td[1]/table/tbody/tr[5]/td/table/tbody/tr/td/div/ul/li[3]/a/span[2]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>fbfa445a-0609-4943-982c-dc6a389fc438</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hojaVida:j_idt47:j_idt49:j_idt60</value>
+      <webElementGuid>03e2d81c-16ca-47af-9b12-dca72e75d986</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>e264a133-1549-4549-94aa-f603b6639052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>ace88997-dbba-41bf-b1e3-b6213c96dfe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +55,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;hojaVida:j_idt47:j_idt49:j_idt60&quot;,f:&quot;hojaVida&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>4fbca118-a404-4939-8c05-7c5b1e6c44e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Imprimir </value>
+      <webElementGuid>6eb8aa1c-50c2-475f-b262-f1619b8dfaf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hojaVida:j_idt47:j_idt49:j_idt60&quot;)</value>
+      <webElementGuid>f022e2b9-37e0-497b-a15c-865c776fba6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,6 +79,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioHojaVida/GenerarImprimirHojaVida/iframe_HojaVida</value>
+      <webElementGuid>4d8333d1-6a5a-4fb8-bc57-98b3e361fefc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='hojaVida:j_idt47:j_idt49:j_idt60']</value>
+      <webElementGuid>90dbeef7-60c6-45d5-8f5a-0109669b8173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='hojaVida:j_idt47:j_idt49:j_idt50']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>1f8e0a6a-4ea0-4754-bb51-1d74f14e2cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +103,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Imprimir')]</value>
+      <webElementGuid>5c731131-fef9-4d81-b4a3-7f266f570ab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='HOJA'])[1]/following::a[2]</value>
+      <webElementGuid>50a98379-5884-4652-a64a-481eb324af27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos Básicos'])[1]/following::a[2]</value>
+      <webElementGuid>80283f4f-48dc-4cfa-a924-5453e54b0330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLEADO MENDOZA 1502'])[1]/preceding::a[1]</value>
+      <webElementGuid>40b78b26-9dde-4d21-8887-fe8d4170f2d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos Básicos'])[2]/preceding::a[1]</value>
+      <webElementGuid>51ad69a3-83c6-4982-9a16-d37e2a6dcca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +143,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Imprimir']/parent::*</value>
+      <webElementGuid>a361677e-701f-41f8-98a8-9b67aa8f5a16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +151,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>e58f0567-22d4-45d6-bc8a-6de675def3e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +159,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
+      <webElementGuid>4c23d1ef-c5cd-403e-8b1d-19e06594ccaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +167,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'hojaVida:j_idt47:j_idt49:j_idt60' and @href = '#' and (text() = 'Imprimir ' or . = 'Imprimir ')]</value>
+      <webElementGuid>cc4164b9-7470-40b0-af96-f19940e58d9b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

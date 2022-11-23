@@ -6,11 +6,11 @@
    <elementGuidId>7d686467-1b4c-4290-9494-e987dd88777d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Perfil Del Cargo Campo Perfil')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>074a2dee-e21b-426a-a171-de5f5d83eb61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>descripcionCargo_form:j_idt75:j_idt77:j_idt1065</value>
+      <webElementGuid>2276dbb8-835d-49f0-879b-fc33b3266daf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>4de1e79e-65c6-45cd-84ca-5f4b870f6b9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>a6ae7b3c-143e-41e1-9ef2-2e597719198d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;descripcionCargo_form:j_idt75:j_idt77:j_idt1065&quot;,f:&quot;descripcionCargo_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>90ef4c60-a9f3-4a05-adc2-7c05d2b3b3b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Perfil Del Cargo Campo Perfil </value>
+      <webElementGuid>68393233-0248-47bf-b9bd-72d54d9d5acd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,13 +69,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;descripcionCargo_form:j_idt75:j_idt77:j_idt1065&quot;)</value>
+      <webElementGuid>944394f9-aea6-47b3-9b9b-f14ff6446d8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</value>
+      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</value>
+      <webElementGuid>ce2f19ec-d3ac-419f-99fb-8d6c4b875aa7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='descripcionCargo_form:j_idt75:j_idt77:j_idt1065']</value>
+      <webElementGuid>5dbb8122-f795-464e-8ac0-80e47a768724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='descripcionCargo_form:j_idt75:j_idt77:j_idt1005']/table[12]/tbody/tr/td/a</value>
+      <webElementGuid>27744264-40b1-4dbc-80f9-b535fb8edd73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Perfil Del Cargo Campo Perfil')]</value>
+      <webElementGuid>0abd97af-b8f6-4152-9f80-3d7ca678264a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú'])[1]/following::a[12]</value>
+      <webElementGuid>5d8ba4f4-2030-4fd5-a3e1-9b03816299c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción Cargo Sub Alterno'])[1]/following::a[12]</value>
+      <webElementGuid>1cfe5dd9-4bbb-4b3e-aafc-2cba8c30769b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratos'])[1]/preceding::a[3]</value>
+      <webElementGuid>49f5ef0a-cce4-4700-988d-e95bc53a791b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/preceding::a[4]</value>
+      <webElementGuid>06baeb69-d689-413f-9370-3bc6f53a3c74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Perfil Del Cargo Campo Perfil']/parent::*</value>
+      <webElementGuid>ef7d3914-381d-4dbc-99de-02217643f9d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
+      <webElementGuid>bd461514-358d-41f0-9590-07fbafbd8e20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[12]/tbody/tr/td/a</value>
+      <webElementGuid>a7dd8ec7-c75b-4ad7-816a-3638292a4d9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'descripcionCargo_form:j_idt75:j_idt77:j_idt1065' and @href = '#' and (text() = 'Perfil Del Cargo Campo Perfil ' or . = 'Perfil Del Cargo Campo Perfil ')]</value>
+      <webElementGuid>c59b4740-7fc9-4432-9332-62e7f46bbeba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

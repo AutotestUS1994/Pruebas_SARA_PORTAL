@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+         <value>
+//body/div[1]/div/div[2]/div/span/form[7]/div/div[2]/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>849fffe2-3d02-4fa2-9bdd-d1bce4f8c22c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/PortalSara/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc39c38c39c35c35c31c38c62c33c32c33c35c34c30c32c36c39c61c61c32c30c31c64c34c36c30c38c34c39c32c37c30&amp;E=</value>
+      <webElementGuid>ac47b3a8-b17a-475a-b12c-9b89f73a5d10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_black</value>
+      <webElementGuid>1b391a7a-e4ff-4b32-978a-b51b1a1cb7ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-descargar</value>
+      <webElementGuid>5a5280be-790a-4609-a413-34209d26f069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>7cf2d895-c4d0-4653-b471-bc5e527ae21f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;confirmacionGenerar:j_idt664_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-descargar&quot;]</value>
+      <webElementGuid>5cb48d72-1d8b-45bf-b30a-d111bc45d323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +71,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioHojaVida/GenerarImprimirHojaVida/iframe_HojaVida</value>
+      <webElementGuid>aef37a4c-969a-4502-b67b-6e6cc63952ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='confirmacionGenerar:j_idt664_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>e090b79c-c085-4bac-b539-f8b18ff14a6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Si')]</value>
+      <webElementGuid>152bb922-68e0-4d49-b093-024258badc5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea Descargar el formato unico de hoja de vida'])[1]/following::a[1]</value>
+      <webElementGuid>e68cae00-498c-445f-8d04-ebc483f65665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
+      <webElementGuid>6de420d0-cc22-4686-a2e0-e1a05a7b922a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLEADO portal'])[1]/preceding::a[1]</value>
+      <webElementGuid>07ba9181-963a-4f2f-a3bc-f29bc0325ed5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>84f8db43-b8bc-456b-8139-4c8a7a0e6547</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>39bc6552-6bd3-4727-97e0-6b67c1f0aef8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/PortalSara/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc39c38c39c35c35c31c38c62c33c32c33c35c34c30c32c36c39c61c61c32c30c31c64c34c36c30c38c34c39c32c37c30&amp;E=')]</value>
+      <webElementGuid>6d4d11fb-7741-4743-b945-2e64ce2f13d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>f806e169-0f4b-4bfa-8051-4d4b6940a599</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +151,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/PortalSara/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc39c38c39c35c35c31c38c62c33c32c33c35c34c30c32c36c39c61c61c32c30c31c64c34c36c30c38c34c39c32c37c30&amp;E=' and (text() = 'Si' or . = 'Si')]</value>
+      <webElementGuid>c6284eba-442a-43ca-a542-4cdd51cc8738</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

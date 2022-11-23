@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</name>
+   <name>iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</name>
    <tag></tag>
-   <elementGuidId>fc4431c3-4763-4024-b5ae-4f27e086069c</elementGuidId>
+   <elementGuidId>a930268d-5891-4cee-8091-bad7761859b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='ifrm_component_A_2']</value>
+         <value>//iframe[@id='ifrm_component_A_1']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>0819fd85-1e64-4a3d-9d43-de4c0be56752</webElementGuid>
+      <webElementGuid>4de667e2-7d31-4d33-9df8-9f61e6ec53b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ifrm_component_A_2</value>
-      <webElementGuid>996303e3-28fc-4c74-9a6f-c62a3f5c9386</webElementGuid>
+      <webElementGuid>9f07ca7c-07bb-4fa2-9631-3bf5243f2a63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSara/talento/descripcioncargo/uiDescripcionCargoSubAlterno.xhtml?us_id=us-interfaz-q44y</value>
-      <webElementGuid>ef2b390d-46ba-49b6-a9c7-420269a5d718</webElementGuid>
+      <webElementGuid>8794122b-d342-4c5e-adb3-78515caf05de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>d7873bef-2f56-48fa-a696-2dfa525aa3fd</webElementGuid>
+      <webElementGuid>924357c1-5ccb-4098-bed7-cb12e7ba9a2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>descripcionCargoSubAlternoB36402</value>
-      <webElementGuid>e7c45490-591e-4003-9d9b-40d8cb7dbae3</webElementGuid>
+      <webElementGuid>9c4ca83e-b076-4efa-bad7-0d3c05c47a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>5f550d99-521e-4b88-acf8-258526368b9e</webElementGuid>
+      <webElementGuid>e7f3ff02-e943-47ae-9ccc-7d57220f732d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>eca5e4f0-a22d-400a-96a4-b14053162076</webElementGuid>
+      <webElementGuid>02c62432-821a-4c93-9da7-afaa78104d19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>9af13add-efac-4c88-b643-a36505bba086</webElementGuid>
+      <webElementGuid>35c4c4f4-d5fa-4ddc-9755-ae2c623a5ba3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
-      <webElementGuid>8164e21a-e19d-4d49-834b-73357e648eb1</webElementGuid>
+      <webElementGuid>9e536125-3b08-445d-907d-8d3a55769a50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>08e127d7-715b-441c-9ae4-faf2e6ad07c3</webElementGuid>
+      <webElementGuid>2d45fa74-901b-44bf-a9b5-3d0784fbef29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ae05eafd-559d-4b7f-b376-a374e37f6478</webElementGuid>
+      <webElementGuid>ccb8b5de-648c-4c81-a4ed-a1d01573243a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d79dd8be-3f93-4ed4-b643-dc8612cd3548</webElementGuid>
+      <webElementGuid>500b6e8d-eaab-4bfc-ba5c-30533a4431d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ifrm_component_A_2&quot;)</value>
-      <webElementGuid>7ac285b7-7d4a-4693-aa7a-50f0d584550a</webElementGuid>
+      <webElementGuid>56caa7dd-6c19-4058-97d2-ada7601b72c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='ifrm_component_A_2']</value>
-      <webElementGuid>61459c1a-0a68-41ba-8223-37cfb791717a</webElementGuid>
+      <webElementGuid>7b9a638a-2740-447c-8a88-cbb3aac00e8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div/div/div[3]/iframe</value>
-      <webElementGuid>702ffe0f-4b18-48ec-b027-022e3e63d3f0</webElementGuid>
+      <webElementGuid>d947f6b2-49a4-4280-8595-e5cf26366d80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/iframe</value>
-      <webElementGuid>d50f40a5-d623-42f6-9391-06dbf1f104e8</webElementGuid>
+      <webElementGuid>c8f257ef-645e-41c6-a9dd-968eb034b5c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'ifrm_component_A_2' and @src = '/PortalSara/talento/descripcioncargo/uiDescripcionCargoSubAlterno.xhtml?us_id=us-interfaz-q44y' and @name = 'descripcionCargoSubAlternoB36402']</value>
-      <webElementGuid>d5526123-891b-4f2c-914b-11d35b033a9f</webElementGuid>
+      <webElementGuid>29d83457-99cb-4bc0-b5be-2f25ae860b20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

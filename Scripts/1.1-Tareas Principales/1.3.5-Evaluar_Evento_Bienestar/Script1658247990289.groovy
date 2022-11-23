@@ -38,8 +38,15 @@ if (registros == 'No se encontró registros') {
 
     WebUI.switchToWindowIndex(1)
 
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoBienestar/td_Promocion y prevencion de la salud portal'))
+    if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/EvaluarEventoBienestar/td_Promocion y prevencion de la salud portal'), 
+        1)) {
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoBienestar/td_Promocion y prevencion de la salud portal'))
+    } else {
+        WebUI.click(findTestObject('MÓDULOS/EvaluarEventoBienestar/a_check_Activo'))
 
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoBienestar/td_Promocion y prevencion de la salud portal'))
+    }
+    
     WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoBienestar/label_8'))
 
     WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/EvaluarEventoBienestar/select_--Seleccione--SINO'), 
