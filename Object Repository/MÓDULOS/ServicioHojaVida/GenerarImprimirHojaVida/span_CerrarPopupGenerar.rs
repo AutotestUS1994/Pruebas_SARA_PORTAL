@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div/div[2]/div/table[2]/tbody/tr/td/form/div/div[1]/a/span</value>
+         <value>/html/body/div[1]/div/div[2]/div/table[2]/tbody/tr/td/form/div/div[1]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4af89897-be20-4dc5-a18f-9ec80f8e3725</webElementGuid>
+      <webElementGuid>810c37be-9d8e-4afc-8262-2767cf709bdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
-      <webElementGuid>54022010-9549-4072-be8c-37f5d913c548</webElementGuid>
+      <webElementGuid>03e421d1-8de3-458e-bdd3-72e41fa77ade</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt701:dialog_impresionHoja&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
-      <webElementGuid>49cd9b35-c913-492a-9bf3-00c797d98824</webElementGuid>
+      <webElementGuid>91eb8848-9ee4-4b99-a4de-19305b502987</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioHojaVida/GenerarImprimirHojaVida/iframe_HojaVida</value>
-      <webElementGuid>cf428081-a0cd-48ee-9432-d1510037ceb9</webElementGuid>
+      <webElementGuid>694dfcd8-1333-466a-a921-1bc27f8995e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt701:dialog_impresionHoja']/div/a/span</value>
-      <webElementGuid>87ad766c-a028-4b19-bf27-b156ab9a2bcd</webElementGuid>
+      <webElementGuid>9f8d4db0-31f2-4420-9890-bafd85d79e2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span</value>
-      <webElementGuid>0f18fa7d-88d4-486e-9c1d-7b1d545baa1a</webElementGuid>
+      <webElementGuid>4714a8e7-4120-4f2e-a08a-5f169d2fe0b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

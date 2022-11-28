@@ -6,12 +6,11 @@
    <elementGuidId>03dace87-aa57-44f6-a79b-f5898461d840</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='listadoHerramienta:j_idt91']
-</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//td/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d0b82ad9-b1c2-4bdb-af82-f82f63c8cca5</webElementGuid>
+      <webElementGuid>98842f70-e883-4c3b-9be5-e3d08f349427</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>listadoHerramienta:j_idt90</value>
-      <webElementGuid>9961f3d7-1ed3-418b-a882-4939eceaeeb6</webElementGuid>
+      <webElementGuid>faed8bb0-df7a-4b70-963d-7571c0c95f9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>listadoHerramienta:j_idt90</value>
-      <webElementGuid>2b6aa677-57f9-4222-bf5e-580593806481</webElementGuid>
+      <webElementGuid>16ec3bc1-6cba-450d-8d5f-2e9f6180c2c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>54d2e99a-b55d-4f00-904a-c4ea2b65135e</webElementGuid>
+      <webElementGuid>5b5ac8e4-2293-4c4c-ab6e-f0283687fc3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all valor_campo ui-state-hover ui-state-focus</value>
-      <webElementGuid>370dc0b2-5bb5-49e6-8d73-80a3b7b98c7c</webElementGuid>
+      <webElementGuid>e9e31e49-8430-4f51-b166-bb525a278877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>size</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>5428af60-011c-4d2f-bf59-dac644ecbc4e</webElementGuid>
+      <webElementGuid>38684142-f9f7-43d5-9df6-bfe9900b94b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;listadoHerramienta:j_idt90&quot;,e:&quot;valueChange&quot;,f:&quot;listadoHerramienta&quot;,p:&quot;listadoHerramienta:j_idt90&quot;,u:&quot;listadoHerramienta&quot;});</value>
-      <webElementGuid>6ff1d064-4508-4012-9111-5f865a6951fe</webElementGuid>
+      <webElementGuid>464a104c-938f-4512-936d-5907c49d7992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>56c67f62-1a3d-41f2-a7a8-164ba6782d64</webElementGuid>
+      <webElementGuid>5c0656fb-f135-4541-8477-752ee3706ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2d9750cc-6e7a-4c98-acd4-551f733927a7</webElementGuid>
+      <webElementGuid>7023e64b-0260-47b3-8443-2dd0141d04b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7de71cd6-2f37-4170-9ea7-6c094e4a711d</webElementGuid>
+      <webElementGuid>4a27b6ce-e1ee-474a-bf9e-c465b6d8971d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listadoHerramienta:j_idt90&quot;)</value>
-      <webElementGuid>0fa9e336-218a-4b36-91a6-ee9b77936576</webElementGuid>
+      <webElementGuid>f28d263e-965e-43ce-8ed0-bcdcaf1ae59e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='listadoHerramienta:j_idt90']</value>
-      <webElementGuid>fc0c260c-caf5-49fd-9ce2-88a62c62ff3a</webElementGuid>
+      <webElementGuid>aaa21a30-cc53-4431-a4f6-c714debc5e1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='listadoHerramienta:panelFiltro_content']/table/tbody/tr/td[4]/table/tbody/tr/td/input</value>
-      <webElementGuid>88c47c4d-3dd9-4a51-8771-f0e8c848b813</webElementGuid>
+      <webElementGuid>e6e25199-2209-4eaa-99b0-2461b3bb99cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/input</value>
-      <webElementGuid>c4cc9966-d9d0-4390-a1d4-e36f1126b4f8</webElementGuid>
+      <webElementGuid>d1e3c050-2528-4c61-ada4-2394f8dff5e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'listadoHerramienta:j_idt90' and @name = 'listadoHerramienta:j_idt90' and @type = 'text']</value>
-      <webElementGuid>20ae55b5-a4f2-45b9-9ac2-5af6d34b1a8f</webElementGuid>
+      <webElementGuid>03fb7732-b54a-4340-b2ad-b5a0f579c7ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

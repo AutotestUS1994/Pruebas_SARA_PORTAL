@@ -6,12 +6,11 @@
    <elementGuidId>273ccd3f-c3da-4f39-90ad-764f2899fa10</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Cargue Masivo')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[3]/div/form/table/tbody/tr/td[1]/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>341b8b34-597f-4384-b114-f90e212e269d</webElementGuid>
+      <webElementGuid>d0365969-8686-43e3-97c2-f093d2acdfa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>aplicaNovedadProceso:j_idt104:j_idt109</value>
-      <webElementGuid>903f196e-cf72-418a-b7bb-326ae44ac129</webElementGuid>
+      <webElementGuid>2f4d4365-dc22-4b96-b05a-cac2d02079d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>a8674ace-aa2e-4f5e-b84d-ad16b25a688b</webElementGuid>
+      <webElementGuid>342e93dd-1d4e-4381-9c63-aae1c9b0207a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-cargue</value>
-      <webElementGuid>173c54fb-c168-4886-8fde-0e5f3863f59d</webElementGuid>
+      <webElementGuid>73896bdf-6dcb-4134-87de-83fc7d3d69c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;aplicaNovedadProceso:j_idt104:j_idt109&quot;,f:&quot;aplicaNovedadProceso&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>7cf6c7c4-b1f8-415a-8712-dfee310bdce3</webElementGuid>
+      <webElementGuid>bd06a6fc-c85f-45a3-86b7-6edfbc500b05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cargue Masivo</value>
-      <webElementGuid>5666f44a-f0c5-4f03-8f05-1660fda2ded2</webElementGuid>
+      <webElementGuid>273bfe97-8c10-43fe-80a0-f070aef78a6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;aplicaNovedadProceso:j_idt104:j_idt109&quot;)</value>
-      <webElementGuid>4385e744-9533-4e65-9a99-5dbb229e7b78</webElementGuid>
+      <webElementGuid>29b67d55-6650-4529-97aa-04e85f576bed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
-      <webElementGuid>7e3279a7-a439-4fa6-901c-4c876eb0bf0c</webElementGuid>
+      <webElementGuid>1fc13159-eb4a-4835-8d22-be1b127befc2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='aplicaNovedadProceso:j_idt104:j_idt109']</value>
-      <webElementGuid>a318890d-6255-4327-a459-85d6c18b65a4</webElementGuid>
+      <webElementGuid>1c2110d7-ce99-48d7-b59a-a7242beb4dd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='aplicaNovedadProceso']/table/tbody/tr/td/table/tbody/tr[4]/td/table/tbody/tr/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>91e041aa-4e71-4e6e-9bf2-a984c72ba857</webElementGuid>
+      <webElementGuid>2b4f4695-c91f-46de-bf07-c49b39d90900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cargue Masivo')]</value>
-      <webElementGuid>33c16387-d43e-4cc5-9001-1ab8c518ae24</webElementGuid>
+      <webElementGuid>4043c933-2ad8-4325-9a64-0ff301b8108c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Legalizar'])[1]/following::a[6]</value>
-      <webElementGuid>f5033ac6-ca77-4321-bf1c-5a14e605326f</webElementGuid>
+      <webElementGuid>b9e76928-d2c0-4bf5-b71f-d5fb63bed946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Autorizar'])[1]/following::a[10]</value>
-      <webElementGuid>ac2a9600-8af4-478f-9486-f66a8501e539</webElementGuid>
+      <webElementGuid>cb18d6ad-bf53-4735-a2f4-462932207415</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrar Novedades'])[1]/preceding::a[1]</value>
-      <webElementGuid>eea97113-c3a2-437f-a671-ce6da506063a</webElementGuid>
+      <webElementGuid>3bbf6b07-2dd3-467a-b86a-7bf53647a0c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Novedad'])[1]/preceding::a[1]</value>
-      <webElementGuid>f6167777-d74e-4c8c-a97a-44dd71af1f0c</webElementGuid>
+      <webElementGuid>ffe62699-5dee-42c9-910d-1e99dffbdf3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cargue Masivo']/parent::*</value>
-      <webElementGuid>9e65b883-3338-4fa0-9a11-7ca6bbcfc5e7</webElementGuid>
+      <webElementGuid>0d24509c-9196-4297-91ff-34c80504fb97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
-      <webElementGuid>e53d4744-1d58-44e7-8dbf-7f1cada6b491</webElementGuid>
+      <webElementGuid>bd751086-a474-4ae8-8381-f4071fd4970b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
-      <webElementGuid>93504ec3-f3b7-4f47-ba29-630513e68885</webElementGuid>
+      <webElementGuid>44d2468d-73d5-4da1-af83-8e060849a5b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'aplicaNovedadProceso:j_idt104:j_idt109' and @href = '#' and (text() = 'Cargue Masivo' or . = 'Cargue Masivo')]</value>
-      <webElementGuid>7154aa16-decf-46cb-b76d-df980bf7d678</webElementGuid>
+      <webElementGuid>46343498-f456-43b8-9005-91a0661e6d1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

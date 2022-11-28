@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='j_idt661:j_idt662:j_idt815']</value>
+         <value>//a[contains(text(),'Regresar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6712d7a1-847d-47ca-b571-aa57bfbbbab9</webElementGuid>
+      <webElementGuid>38670ed7-5c0f-4220-a295-85d091c19238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt661:j_idt662:j_idt815</value>
-      <webElementGuid>c28d0a84-71f7-4a3b-bea6-df1a4087c61a</webElementGuid>
+      <webElementGuid>bf338722-691b-4f16-a478-626e00a609cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>2d6a4907-632f-4cd5-83a0-b0ab4507510b</webElementGuid>
+      <webElementGuid>af6129e1-f5a3-47ab-b140-261fb7ad765c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
-      <webElementGuid>fc9becfd-e95e-44d9-90c3-12bdfd823587</webElementGuid>
+      <webElementGuid>e7e09558-23dc-4707-b062-50968bf20a16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;j_idt661:j_idt662:j_idt815&quot;,f:&quot;j_idt661&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
-      <webElementGuid>ad7c1d4e-099b-4f38-8665-03aee6da8732</webElementGuid>
+      <webElementGuid>5e9d2a21-76a6-4661-a0bf-7dac9aebe645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Regresar</value>
-      <webElementGuid>6e2d87b7-e4f9-49f6-806f-454ed173e565</webElementGuid>
+      <webElementGuid>08aa48ce-2f07-4021-9e56-5a1b8da34a2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt661:j_idt662:j_idt815&quot;)</value>
-      <webElementGuid>b3ad83e6-c880-4a87-bca5-95ea0349bb85</webElementGuid>
+      <webElementGuid>fb52f729-e358-435b-96de-834fdb637436</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt661:j_idt662:j_idt815']</value>
-      <webElementGuid>624a179f-5250-4217-b44e-84d8e6bada15</webElementGuid>
+      <webElementGuid>7b168a85-72b6-466d-bf12-fc707e19ab72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='j_idt661']/table/tbody/tr[2]/td/div/a</value>
-      <webElementGuid>8d4db95f-3125-4b57-aa4d-466b3b12a4c2</webElementGuid>
+      <webElementGuid>1c66da19-60ca-4f39-9be1-9d4ea7bc91bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Regresar')]</value>
-      <webElementGuid>c976e5a8-1e33-4e7f-96e0-35095b429913</webElementGuid>
+      <webElementGuid>387e5670-c0d6-47e1-8cd7-ce1c418a2ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes'])[1]/following::a[4]</value>
-      <webElementGuid>8cf2bd07-4c6e-49f1-923c-46dda956789a</webElementGuid>
+      <webElementGuid>2bf0069a-5770-4768-9a01-c5f6a3877147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Citacion'])[1]/following::a[12]</value>
-      <webElementGuid>731ef463-2368-48df-b184-3b46be559fed</webElementGuid>
+      <webElementGuid>f0d99478-495b-48ea-9fc8-6ead9d76def4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa'])[1]/preceding::a[1]</value>
-      <webElementGuid>7d6b3f2a-5977-4c13-af9c-36253dd08c6f</webElementGuid>
+      <webElementGuid>3e8e67c1-fc86-4e34-bf0c-80a6f09009f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Número'])[1]/preceding::a[1]</value>
-      <webElementGuid>f2c27291-3fda-4044-a0f1-2a08aafb2639</webElementGuid>
+      <webElementGuid>fa0aaffa-242f-4260-9b33-e697be13cc40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Regresar']/parent::*</value>
-      <webElementGuid>8774e701-b3ca-459a-a25d-505ace8222b6</webElementGuid>
+      <webElementGuid>c95cc149-a2a8-42bf-98d2-374da453008a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[48]</value>
-      <webElementGuid>01830d6b-6e0c-4b4b-b2ca-f252d43dfcbe</webElementGuid>
+      <webElementGuid>2aa255fa-5277-4d75-a643-2df6f7bd9e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/a</value>
-      <webElementGuid>254a9921-8316-49e1-b74c-6f57550f6fbe</webElementGuid>
+      <webElementGuid>8ada3c29-41e0-4aed-adfe-b1088885809b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'j_idt661:j_idt662:j_idt815' and @href = '#' and (text() = 'Regresar' or . = 'Regresar')]</value>
-      <webElementGuid>ae053f64-c906-4219-8c73-7b903a98da98</webElementGuid>
+      <webElementGuid>d9937f1f-20d7-4133-ad6f-aa57190b534b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>3efb25b8-8b5a-46cf-85e9-39d357c57575</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[1]/div[2]/table[1]/tbody/tr[4]/td[3]/table/tbody/tr/td[2]/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[1]/div[2]/table[1]/tbody/tr[1]/td[4]/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>tr</value>
-      <webElementGuid>8086fe7e-4d45-472b-b3cb-7053f616b572</webElementGuid>
+      <webElementGuid>05e0527f-01ad-492d-bd1c-0c67c0dc0704</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,7 +32,7 @@
 Año
 
 </value>
-      <webElementGuid>a37deb43-9499-4a49-8eb6-6517faddaa02</webElementGuid>
+      <webElementGuid>fa4e634d-2fc6-4b79-901e-11f008e09655</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +40,7 @@ Año
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:panelFiltroMultiple_content&quot;)/table[1]/tbody[1]/tr[4]/td[3]/table[1]/tbody[1]/tr[1]</value>
-      <webElementGuid>2773a71a-0456-4185-bb4e-390fbc3150a8</webElementGuid>
+      <webElementGuid>685d1ea9-d484-4ed5-a476-342067d81cba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +48,7 @@ Año
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[4]/td[3]/table/tbody/tr</value>
-      <webElementGuid>41673fd4-216d-4c7a-80ee-ba98fbbf9e87</webElementGuid>
+      <webElementGuid>33b59895-8f30-430c-8cc2-6bcee99c7de8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +56,7 @@ Año
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/following::tr[1]</value>
-      <webElementGuid>7e720329-9086-4dcb-adf0-2b210cf8c4b8</webElementGuid>
+      <webElementGuid>3624a0c9-7662-44fd-b478-c958b29fe46b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +64,7 @@ Año
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::tr[2]</value>
-      <webElementGuid>4666f1b1-29af-4617-8d27-2764082f9d79</webElementGuid>
+      <webElementGuid>4160147f-6b5c-4829-b436-9ff6a0ca38a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@ Año
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Documento'])[2]/preceding::tr[2]</value>
-      <webElementGuid>cf9877d6-4da5-4353-9a69-a432cfcad6e7</webElementGuid>
+      <webElementGuid>91ec565a-bd54-49d1-9b34-805f1c380d6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@ Año
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/table/tbody/tr</value>
-      <webElementGuid>b1d24de8-4c37-44fd-9c61-7c73d41a79aa</webElementGuid>
+      <webElementGuid>40b0a6ba-88bc-4468-b8d2-351a47e37e18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +94,6 @@ Año
 Año
 
 ')]</value>
-      <webElementGuid>dd4c6189-f3ef-4936-addf-404f174f2eb6</webElementGuid>
+      <webElementGuid>b8b16d9a-c2ce-4957-aa95-0f6bd9e507dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

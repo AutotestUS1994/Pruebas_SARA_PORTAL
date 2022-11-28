@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div/div[2]/div/span/form[7]/div/div[1]/a</value>
+         <value>/html/body/div[1]/div/div[2]/div/span/form[7]/div/div[1]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0b8b038d-2989-45b9-9f13-a75002b858a6</webElementGuid>
+      <webElementGuid>dbdf1d22-c162-42b5-9984-507d211689ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
-      <webElementGuid>1379e01b-8528-47c3-93d0-48c9df1e3699</webElementGuid>
+      <webElementGuid>35be686d-10e3-400f-9e0c-6dc6a2ab06bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;confirmacionGenerar:j_idt664&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
-      <webElementGuid>f0f5591d-d51e-4f8c-8528-6e4fd70f676d</webElementGuid>
+      <webElementGuid>1d2ed4bc-7670-4b24-95df-76186f96c9a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioHojaVida/GenerarImprimirHojaVida/iframe_HojaVida</value>
-      <webElementGuid>d85851fb-e9a0-4e9a-a0a0-4c30a8dc3794</webElementGuid>
+      <webElementGuid>0ed48364-bb60-4f14-8e44-e0d58901d633</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='confirmacionGenerar:j_idt664']/div/a/span</value>
-      <webElementGuid>35ffc61b-0749-44b7-b04b-33c654e26c51</webElementGuid>
+      <webElementGuid>58d54372-f3fa-4fc7-8fce-ca65cc5d8848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span</value>
-      <webElementGuid>f9c9dfee-5546-4248-b1c9-eb2fcfab8fc6</webElementGuid>
+      <webElementGuid>47d19654-2544-447e-91b3-f3cad72a39ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

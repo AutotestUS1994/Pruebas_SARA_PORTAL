@@ -44,46 +44,43 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp
 
 String cargo = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Se cargo el archivo'))
 
-if(cargo == 'Se cargo el archivo') {
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Continuar'))
-	
-	if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354101546370')).equals('354968431354 101546370')) {
-		
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Ejecutar'))
-		
-		String t1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Ejecutando los Servicios'))
-		
-		String t2 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Se ejecuto'))
-		
-		if(t1=='Ejecutando los Servicios' || t2 == 'Se ejecuto') {
-			
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Continuar'))
-			
-			if(WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_1')).equals('1')) {
-							
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Regresar'))
-			
-				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Regresar'))
-			}
-		}
-	}
+if (cargo == 'Se cargo el archivo') {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Continuar'))
+
+    if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354101546370')).equals(
+        '354968431354 101546370')) {
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Ejecutar'))
+
+        String t1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Ejecutando los Servicios'))
+
+        String t2 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Se ejecuto'))
+
+        if ((t1 == 'Ejecutando los Servicios') || (t2 == 'Se ejecuto')) {
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Continuar'))
+
+            if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_1')).equals('1')) {
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Regresar'))
+
+                WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Regresar'))
+            }
+        }
+    }
 } else {
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 }
 
 WebUI.comment('Cargue Actualizar Jefe Proceso Aplicacion')
-
+ 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 'Actualizar Jefe Proceso Aplicacion')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'),
+	Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'),1)
+WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), 1)
 
 WebUI.uploadFile(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), ruta)
 
@@ -91,68 +88,60 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp
 
 String a = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Se cargo el archivo'))
 
-if(a.equals('Se cargo el archivo') || a.equals('procesando el archivo')) {
-	
+if (a.equals('Se cargo el archivo') || a.equals('procesando el archivo')) {
 	WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Continuar'))
-	
+
 	WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Ver_formImportarFuentelistagrupo0j_idt4168'))
-	
+
 	WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_1_1'))
-	
-	if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354'), 1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354')).equals('354968431354')) {
-		
+
+	if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354'),
+		1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354')).equals(
+		'354968431354')) {
 		WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Servicio'))
-		
+
 		WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_No se encontr registros_btn_popupInformacion'))
-		
-		if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato'),
-				1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato')).equals('parametros:contrato')) {
-			
+
+		if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato'),
+			1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato')).equals(
+			'parametros:contrato')) {
 			WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Ejecutar'))
-			
+
 			String b = WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Se Ejecuto el proceso correctamente Lin_c8377c'))
-			
-			if(b.equals('Ejecutando los Servicios') || b.equals('Se Ejecuto el proceso correctamente: Lineas Cargadas: 1 Lineas con Errores: 0')) {
-				
+
+			if (b.equals('Ejecutando los Servicios') || b.equals('Se Ejecuto el proceso correctamente: Lineas Cargadas: 1 Lineas con Errores: 0')) {
 				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Continuar'))
-				
+
 				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Ver_formImportarFuentelistagrupo0j_idt4168'))
-				
+
 				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Lnea'))
-				
+
 				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_1_1'))
-				
+
 				WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Lnea'))
-				
-				if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354'), 1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354')).equals('354968431354')) {
-					
+
+				if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354'),
+					1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_354968431354')).equals(
+					'354968431354')) {
 					WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Servicio'))
-					
+
 					WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_No se encontr registros_btn_popupInformacion'))
-					
-					if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato'),
-							1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato')).equals('parametros:contrato')) {
-												
+
+					if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato'),
+						1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_parametroscontrato')).equals(
+						'parametros:contrato')) {
 						WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Regresar'))
-						
+
 						WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Regresar'))
-						
-						if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Registrar Novedades'),
-							1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Registrar Novedades')).equals('Registrar Novedades')) {
+
+						if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Registrar Novedades'),
+							1) && WebUI.getText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/div_Registrar Novedades')).equals(
+							'Registrar Novedades')) {
 							WebUI.closeBrowser()
 						}
-												
 					}
-					
 				}
-				
 			}
-						
 		}
-		
 	}
-	
 }
-
-
-
