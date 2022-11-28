@@ -21,10 +21,10 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginJefeCambioContraseña'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'saraadmin2')
+WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'SoloAutomaticas20222')
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 
-    'MkG4/TYiCFBY97LGcUg2WA==')
+    'SlAwMcyRKqrwbnzhAs8HhfEDgSL1u5w8')
 
 WebUI.click(findTestObject('MÓDULOS/RealizarCambioContraseña/a_Actualizar'))
 
@@ -35,14 +35,14 @@ if (WebUI.waitForElementNotVisible(findTestObject('MÓDULOS/RealizarCambioContra
     WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
 
     WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
-        'saraadmin1')
+        'SoloAutomaticas2022')
 } else {
     WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
-        'saraadmin1')
+        'SoloAutomaticas2022')
 }
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 
-    'MkG4/TYiCFC3cb2driP7+Q==')
+    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
 
 WebUI.click(findTestObject('MÓDULOS/RealizarCambioContraseña/a_Actualizar'))
 

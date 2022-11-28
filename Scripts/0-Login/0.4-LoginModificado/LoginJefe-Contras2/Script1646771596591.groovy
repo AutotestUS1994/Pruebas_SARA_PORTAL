@@ -38,38 +38,40 @@ connection.setRequestMethod('GET')
 connection.setReadTimeout(2 * 1000)
 
 try {
-	connection.connect()
+    connection.connect()
 }
 catch (Exception ex) {
-	println('No se pudo conectar a la URL' + i)
-}
+    println('No se pudo conectar a la URL' + i)
+} 
 
 boolean flag = connection.connected
 
 println('Valor_ori: ' + flag)
 
 if (flag) {
-	WebUI.navigateToUrl(i)
+    WebUI.navigateToUrl(i)
 
-	a( //    break
-		//} else {
-		) //    println('No conecta a: ' + i)
-	//aqui coloca el wait y el clic a l modulo Actos
-	//TODO: revisar y quitar esto
+    a( //    break
+        //} else {
+        //    println('No conecta a: ' + i)
+        //aqui coloca el wait y el clic a l modulo Actos
+        //TODO: revisar y quitar esto
+        )
 }
 
 def a() {
-	WebUI.setText(findTestObject('Login/input_Usuario Portal_loginusuario'), GlobalVariable.G_UsuarioJefe)
+    WebUI.setText(findTestObject('Login/input_Usuario Portal_loginusuario'), GlobalVariable.G_UsuarioJefe)
 
-	WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'MkG4/TYiCFBY97LGcUg2WA==')
+    WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhfEDgSL1u5w8')
 
-	WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
+    WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
 
-	WebUI.click(findTestObject('Login/a_Ingresar'))
-	
-	WebUI.callTestCase(findTestCase('Elegir Empresa/Elegir_Empresa'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.navigateToUrl("http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave")
-	WebUI.navigateToUrl("http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave")
-	
-}	
+    WebUI.click(findTestObject('Login/a_Ingresar'))
+
+    WebUI.callTestCase(findTestCase('Elegir Empresa/Elegir_Empresa'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
+
+    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
+}
+
