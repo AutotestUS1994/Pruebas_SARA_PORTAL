@@ -21,20 +21,25 @@ WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.S
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a'))
 
+if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/a_EJECUTAR'), 1)) {
+    WebUI.click(findTestObject('MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/a_EJECUTAR'), FailureHandling.STOP_ON_FAILURE)
+}
+
 String titulo = WebUI.getText(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/div_entradas_popupEntradaReporteVisor_formdialogPopupEntradaReporte_modal'))
 
 WebUI.getText(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/label_entradas'))
 
-if (titulo =='Visor General Reporte') {
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a_Ejecutar'))
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/span_Sueldo'))
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a_2'))
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a_3'))
-	
-	WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/label_entradas'))
 
+if (titulo == 'Visor General Reporte') {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a_Ejecutar'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/span_Sueldo'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a_2'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/VisorGeneralReporteEntrada/a_3'))
+
+    WebUI.closeBrowser()
 }
+

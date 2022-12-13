@@ -21,8 +21,8 @@ WebUI.comment('ESTA PRUEBA DEBERIA EJECUTARSE ANTES DE EMPEZAR LAS PRUEBAS, SOLO
 
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'),
-	'Aplicacion Nov. Empleado')
+WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'), 
+    'Aplicacion Nov. Empleado')
 
 WebUI.click(findTestObject('Object Repository/Login/LoginModificado/LoginSara/span_Aplicacion Nov. Empleado'))
 
@@ -137,11 +137,12 @@ String novLeg = WebUI.getText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNove
 
 while (novLeg != 'No se encontró registros') {
     WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954_reg'))
-	//Antes era Eliminar el xpath, se cambio a "No Legalizar"
+
+    //Antes era Eliminar el xpath, se cambio a "No Legalizar"
     WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Eliminar'))
 
     //Antes era Aceptar el xpath, se cambio a "Cancelar"
-	WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
+    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
 
     String novLeg1 = WebUI.getText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_No se encontr registros'))
 
@@ -169,9 +170,9 @@ String legAus = WebUI.getText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNove
 while (legAus != 'No se encontró registros') {
     WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954_reg'))
 
-    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Eliminar Directo'))
+    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Eliminar'))
 
-    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
+    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/span_Si'))
 
     String legAus1 = WebUI.getText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_No se encontr registros'))
 
@@ -179,6 +180,28 @@ while (legAus != 'No se encontró registros') {
 }
 
 WebUI.comment('Por Legalizar Solicitud')
+
+WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_AusentismoPorLeg'))
+
+WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/span_Tipo Novedad_ui-icon ui-icon-plusthick'))
+
+WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Nombre Funcionario_aplicaNovedadProcesoj_idt167'))
+
+WebUI.setText(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/input_Filtro Empleado_form_popupEmpleadoj_idt4291'), 
+    '80769954')
+
+WebUI.sendKeys(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/input_Filtro Empleado_form_popupEmpleadoj_idt4291'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954'))
+
+if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954PorLeg'), 1)) {
+    WebUI.doubleClick(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954PorLeg'))
+
+    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_EliminarSol'))
+
+    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
+}
 
 WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_SolicitudLeg'))
 

@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandli
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/VisualizarIngresosRetenciones/a'))
 
+WebUI.click(findTestObject('MÓDULOS/VisualizarIngresosRetenciones/a_historico Publicaciones'))
+
 WebUI.click(findTestObject('Object Repository/MÓDULOS/VisualizarIngresosRetenciones/span_CIR - CERTIFICADO DE INGRESOS Y RETENCIONES'))
 
 WebUI.closeBrowser()

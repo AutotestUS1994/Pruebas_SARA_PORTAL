@@ -177,12 +177,28 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
 
         WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_1'))
 
+        String respuesta = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_No se encontro registros'))
+
+        if (respuesta == 'No se encontró registros') {
+            WebUI.click(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_Actividades Historicas'))
+        }
+        
         WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/select_-- Seleccione --Incapacidad'), 
             'I', true)
 
-        String incapa = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad'))
+        String incapa = ''
 
-        String fech1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
+        String fech1 = ''
+
+        if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad'), 
+            1)) {
+            incapa = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad'))
+        }
+        
+        if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'), 
+            1)) { 
+                fech1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
+            }
 
         if ((incapa == 'Incapacidad') && (fech1 == 'Incapacidad de HOJAVIDA. 1502 EMPLEADO PPRUEBA')) {
             WebUI.click(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))

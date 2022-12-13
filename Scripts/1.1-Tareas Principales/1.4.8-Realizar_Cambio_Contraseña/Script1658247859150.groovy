@@ -21,6 +21,12 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginJefeCambioContraseña'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
+    0)
+
+WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
+    0)
+
 WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'SoloAutomaticas20222')
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 

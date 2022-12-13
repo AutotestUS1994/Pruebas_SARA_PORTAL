@@ -102,13 +102,19 @@ if (consecutivo == 'BOG-2022-0001') {
         WebUI.setText(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/input_Notificar Citacin_popupCitacion_formj_d4bc1e'), 
             'Realizar Evaluacion Proceso Seleccion Portal')
 
+        WebUI.check(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_check'))
+
         WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_Generar'))
 
         String confirm = WebUI.getText(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/p_Las citaciones han sido generadas correctamente'))
 
         if (confirm == 'Las citaciones han sido generadas correctamente') {
             WebUI.closeBrowser()
-        }else {WebUI.acceptAlert()}
+        } else {
+            WebUI.acceptAlert()
+        }
     }
+} else {
+    WebUI.acceptAlert()
 }
 

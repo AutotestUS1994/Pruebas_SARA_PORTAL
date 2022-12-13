@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div/div[2]</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>1293fc41-05c2-4d1f-a156-747dac2e7acc</webElementGuid>
+      <webElementGuid>db218dba-0b65-4f0d-a9b0-2245ca44dee1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formComprobantePop:j_idt2461</value>
-      <webElementGuid>f3097e8f-b7c2-46eb-af1f-9f2b3c870c84</webElementGuid>
+      <webElementGuid>4573c1e4-bff5-42b6-959e-9e98edc91c66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formComprobantePop:j_idt2461</value>
-      <webElementGuid>6b87f458-4e95-47ec-888a-46ee189e0d81</webElementGuid>
+      <webElementGuid>7e43722d-d29b-48af-852b-f645a36ceddb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>f0774c23-cbf7-489c-93cb-cd2f4d7df713</webElementGuid>
+      <webElementGuid>72305da1-4c6e-4d46-ac7b-a26876ddb6bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6acc3e64-5b13-4ef3-901b-bf6fffeeecc8</webElementGuid>
+      <webElementGuid>00f894d7-f07b-4f59-9f54-82c686abdb22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;formComprobantePop&quot;,p:&quot;formComprobantePop:j_idt2461&quot;,u:&quot;formComprobantePop&quot;});</value>
-      <webElementGuid>d52e8e39-ae1a-45b8-9b07-9ef5c5571735</webElementGuid>
+      <webElementGuid>3f17ce76-5bf9-42be-8b18-373ad53e5218</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <value>	-- Seleccione --
 	Comprobante de Nomina
 </value>
-      <webElementGuid>7c5baa71-7330-431c-9af3-2d7b3ecad6e4</webElementGuid>
+      <webElementGuid>e4de6fac-9425-41ec-9800-7df4a93c3ad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formComprobantePop:j_idt2461&quot;)</value>
-      <webElementGuid>de36d3a7-9d67-4034-9df5-a31bc87d7ea0</webElementGuid>
+      <webElementGuid>59d43734-41b3-4c29-bd6e-55a855b60fb3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formComprobantePop:j_idt2461']</value>
-      <webElementGuid>f2303226-eb43-486a-8c93-748a48435b87</webElementGuid>
+      <webElementGuid>32fdcaf7-1621-4817-b70d-8603ba6bf6cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formComprobantePop:j_idt2453_content']/div[2]/table[2]/tbody/tr/td[2]/select</value>
-      <webElementGuid>854d28af-76e6-4f36-9c73-8b791f76e257</webElementGuid>
+      <webElementGuid>4990cbf7-8349-410d-a7dc-9e9733161734</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo *'])[1]/following::select[1]</value>
-      <webElementGuid>22fe9e4b-4e01-424f-ab34-042f32c73428</webElementGuid>
+      <webElementGuid>fb1b1aec-9490-48e4-a12f-d927ab1eb67e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Todos'])[1]/following::select[1]</value>
-      <webElementGuid>ff532e4e-423b-49fa-8198-2d598472c8f8</webElementGuid>
+      <webElementGuid>9e4ffb9f-8206-469a-b637-8beae017a0ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/preceding::select[1]</value>
-      <webElementGuid>221dd746-d49b-4379-8881-6423e8bb493e</webElementGuid>
+      <webElementGuid>bbf88ccb-82b7-447b-b282-f79b5c87bcc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba'])[1]/preceding::select[1]</value>
-      <webElementGuid>32029056-4a67-48c8-a543-87086b400b24</webElementGuid>
+      <webElementGuid>cfa78d31-9f8e-4a9f-9ee4-0a5d49160511</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td[2]/select</value>
-      <webElementGuid>dbe47aec-5499-4d7e-be3f-93e0efa2c885</webElementGuid>
+      <webElementGuid>a0c7adb1-dc49-4e57-9fe1-b17f549ac3a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +147,6 @@
 ' or . = '	-- Seleccione --
 	Comprobante de Nomina
 ')]</value>
-      <webElementGuid>98741d28-5e5e-4738-ac8a-5e7b3f6f716e</webElementGuid>
+      <webElementGuid>a72e0ec1-ce89-4bca-9f3d-3ac0e176364c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

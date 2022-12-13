@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='us-interfaz-q44y']/div/label</value>
+         <value>/html/body/div[1]/div/div[1]/label</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>9b89ee06-d3c8-4c9d-b994-0893ccfa8a6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Descripción Cargo Sub Alterno</value>
+      <webElementGuid>2775c859-b00c-4bb9-9fa0-e8040fac634a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,13 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;us-interfaz-q44y&quot;)/div[@class=&quot;panel-heading&quot;]/label[1]</value>
+      <webElementGuid>f0a48421-0725-4afb-a6c9-8125b016e457</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7</value>
+      <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</value>
+      <webElementGuid>8a2c745a-c656-4476-8f2c-0d6ba4994db3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='us-interfaz-q44y']/div/label</value>
+      <webElementGuid>7e220dfd-0d8c-439b-8699-cefae4a8fa1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[1]/preceding::label[1]</value>
+      <webElementGuid>f606448d-a70e-43a4-ad12-e40cfc2cddc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/preceding::label[1]</value>
+      <webElementGuid>8cecf7e4-54bc-4c3f-864a-79e608ba19be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Descripción Cargo Sub Alterno']/parent::*</value>
+      <webElementGuid>0855a953-33d2-4241-9242-4bc82e5c41ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
+      <webElementGuid>945cd8a9-6fae-40e1-b10d-fe7476b0e612</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Descripción Cargo Sub Alterno' or . = 'Descripción Cargo Sub Alterno')]</value>
+      <webElementGuid>dd8c4a94-fa5b-4a02-a55c-cc132beadcbe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

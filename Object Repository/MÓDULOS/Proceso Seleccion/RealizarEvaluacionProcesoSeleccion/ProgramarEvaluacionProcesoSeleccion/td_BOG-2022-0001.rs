@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='filtro_procesoseleccion:tabla_data']/tr/td[5]</value>
+         <value>//*/text()[normalize-space(.)='BOG-2022-0001']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>c692854e-ffbf-4a5f-8619-e0c2a822e329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>087cbd38-384d-4690-a66e-03ba50e8fa32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>BOG-2022-0001</value>
+      <webElementGuid>1a6d0691-369e-467e-b15e-1a8c092b12b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtro_procesoseleccion:tabla_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[5]</value>
+      <webElementGuid>0ca3b14a-5573-4e8c-843c-073bd54beb1b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='filtro_procesoseleccion:tabla_data']/tr/td[5]</value>
+      <webElementGuid>153c0766-6ef4-44b9-963d-22026ef028e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tecnologia'])[1]/following::td[3]</value>
+      <webElementGuid>9792c654-2b72-4d0d-a0c5-363bb9f2f151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calidad'])[1]/following::td[4]</value>
+      <webElementGuid>08b1aec6-fcfa-42bd-97c4-26f1fa2c66b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud'])[2]/preceding::td[2]</value>
+      <webElementGuid>d19b3d16-5cd4-445b-a51f-196991e9718a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[8]</value>
+      <webElementGuid>a5328737-f267-4f34-ba73-c2caa5103ad8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='BOG-2022-0001']/parent::*</value>
+      <webElementGuid>2825e271-eda8-4b2b-8bc5-593e80998667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr/td[5]</value>
+      <webElementGuid>87fd7f26-e200-4139-a399-5fcc24e3abc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'BOG-2022-0001' or . = 'BOG-2022-0001')]</value>
+      <webElementGuid>23c693d3-3095-4035-9027-4d38c389bd16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

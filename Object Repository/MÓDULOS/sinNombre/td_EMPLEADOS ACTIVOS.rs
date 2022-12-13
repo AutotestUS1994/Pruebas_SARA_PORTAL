@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_EMPLEADOS ACTIVOS</name>
+   <tag></tag>
+   <elementGuidId>44647b78-61d1-4200-b4e5-d1110818da6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div/div/div/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>7f715b87-abc8-4809-967f-e2c22e885d17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1670623457853</value>
+      <webElementGuid>bd68b57a-74b2-430e-9312-abb412681783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/sinNombre/ifrm_component_A_3</value>
+      <webElementGuid>88058c95-5291-48ac-8b15-465fd522fe70</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

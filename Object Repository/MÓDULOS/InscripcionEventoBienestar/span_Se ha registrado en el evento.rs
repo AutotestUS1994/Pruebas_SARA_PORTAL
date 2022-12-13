@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='j_idt339']/div/ul/li/span[2]</value>
+         <value>/html/body/div[1]/div/div[2]/div/table/tbody/tr/td/div/div/ul/li</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>36c9ccd7-55a5-47b9-86c5-da2c48955ae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>0b0d7de5-8eb1-449d-957c-181ddbfdb11d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Se ha registrado en el evento.</value>
+      <webElementGuid>05d6f56e-202f-4e9f-8438-47816bac4e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt339&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>eda83fe4-f4f5-4345-9b14-4a8c13cf3f6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/InscripcionEventoBienestar/iframe_Mis eventos_7F07D451F09D4B35813735F5_55247e</value>
+      <webElementGuid>6556017a-974d-46ef-8fb0-35ec06a7ef5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt339']/div/ul/li/span[2]</value>
+      <webElementGuid>1c82d8de-0a53-48f5-89d9-88930a6beb3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>18b53f2e-fba8-46d3-b71e-bf7c23052b81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENTO DE SALUD SI'])[1]/following::span[4]</value>
+      <webElementGuid>4c0b770b-ba5b-44c8-b7af-b056ded446b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
+      <webElementGuid>16aaf68f-714d-4bfe-8d55-166765e39f37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
+      <webElementGuid>3b0f42b7-8816-42dd-9c31-376ea711eb3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Se ha registrado en el evento.']/parent::*</value>
+      <webElementGuid>a8008eac-a612-473f-be01-72d80be50b6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
+      <webElementGuid>1bb794fe-ed81-472d-8af1-1c7c54f9687b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Se ha registrado en el evento.' or . = 'Se ha registrado en el evento.')]</value>
+      <webElementGuid>ec74685b-4e18-4997-85bf-15fad09b6af2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

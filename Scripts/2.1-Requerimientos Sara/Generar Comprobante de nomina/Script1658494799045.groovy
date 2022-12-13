@@ -43,8 +43,9 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/GenerarComprobanteNomina/
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/GenerarComprobanteNomina/label_Publicar'))
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/GenerarComprobanteNomina/select_-- Seleccione --Comprobante de Nomina'), 
-    1, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/MÓDULOS/GenerarComprobanteNomina/select_-- Seleccione --Comprobante de Nomina'))
+
+WebUI.click(findTestObject('MÓDULOS/GenerarComprobanteNomina/a_comprobante_de_nomina'))
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/GenerarComprobanteNomina/a_Publicar'))
 

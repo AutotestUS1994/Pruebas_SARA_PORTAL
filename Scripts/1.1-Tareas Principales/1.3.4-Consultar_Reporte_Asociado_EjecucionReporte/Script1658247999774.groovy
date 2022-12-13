@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('0-Login/0.1-LoginFun'), [:], FailureHandling.ST
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/a'))
 
+WebUI.click(findTestObject('MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/a_EJECUTAR'))
+
 WebUI.getText(findTestObject('Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/td_REPORTE DE NOMINA'))
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/td_REPORTE DE NOMINA'))

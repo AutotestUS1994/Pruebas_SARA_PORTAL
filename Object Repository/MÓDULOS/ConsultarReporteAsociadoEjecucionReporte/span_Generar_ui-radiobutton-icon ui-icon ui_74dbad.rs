@@ -6,12 +6,12 @@
    <elementGuidId>38d9b64c-9642-4d13-8ecf-ddfb704a14f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ui-radiobutton-icon.ui-icon.ui-icon-blank.ui-c</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//td/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-radiobutton-icon.ui-icon.ui-icon-blank.ui-c</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ae36965e-ae14-4b92-85b5-877c62fa7dbf</webElementGuid>
+      <webElementGuid>e68fe6da-9fb9-4e42-9dac-65d57c4ba16f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-radiobutton-icon ui-icon ui-icon-blank ui-c</value>
-      <webElementGuid>96146570-18c3-4ecb-92c7-170a8b785dbe</webElementGuid>
+      <webElementGuid>c23d727b-e2ee-4dcd-af65-9d050657dc8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt393&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]/span[@class=&quot;ui-radiobutton-icon ui-icon ui-icon-blank ui-c&quot;]</value>
-      <webElementGuid>feb91eb7-7e8b-4c17-9f43-03627da3a99c</webElementGuid>
+      <webElementGuid>f36c5984-0c8f-4eec-a613-01d0920dcc4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/iframe_Mis Cesantas_7F07D451F09D4B35813735F_d2f30f</value>
-      <webElementGuid>75913a83-efb1-47e4-806e-0b30837906ce</webElementGuid>
+      <webElementGuid>0d2b037b-a557-49e6-849f-144b6f39f15b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt393']/tbody/tr/td/div/div[2]/span</value>
-      <webElementGuid>836c152a-be78-4429-98b3-62f1b0db3abc</webElementGuid>
+      <webElementGuid>36f849f8-5475-4bc9-8259-2b7b0bfc66d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div[2]/span</value>
-      <webElementGuid>883986d4-c306-4c5a-af98-cecea8685b0d</webElementGuid>
+      <webElementGuid>60482d6c-7cba-4389-af7b-d37be06954f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

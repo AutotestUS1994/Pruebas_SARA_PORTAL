@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Generar</name>
+   <tag></tag>
+   <elementGuidId>2760f810-95c0-4857-b99d-58caeee2b07e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr[2]/td/table/tbody/tr/td[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>fa9887f6-d0c2-4a7b-85d1-4ffb6a7c7bb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1670624827718</value>
+      <webElementGuid>5877bdef-fa28-48c8-aa53-bab217aa4276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/sinNombre/ifrm_component_A_3</value>
+      <webElementGuid>6ed35a1a-95be-4da8-a8ad-e610a767e9b8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ejecutar</name>
+   <tag></tag>
+   <elementGuidId>c537cd6b-79ab-463d-9ccc-557381c1e8ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[2]/div/div[2]/table/tbody/tr/td/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>55c32cd8-8958-4f44-a35b-46029d63ad5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1670622559130</value>
+      <webElementGuid>34c72685-3953-4884-be7e-9d982df0262a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/sinNombre/ifrm_component_A_2</value>
+      <webElementGuid>cf6f8ad8-84c9-4be0-8240-18c647b7c5d9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

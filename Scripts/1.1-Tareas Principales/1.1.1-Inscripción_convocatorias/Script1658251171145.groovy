@@ -24,9 +24,13 @@ String correo = WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.0-In
 
 println(correo)
 
+String Documento = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_documento'))
+
+WebUI.refresh()
+
 WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/Span_RRHH'))
 
-WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
+WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
 
 WebUI.switchToWindowIndex(2)
 
@@ -50,7 +54,7 @@ if (text == 'Asistente') {
     WebUI.acceptAlert()
 }
 
-WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_identificacion'), identificacion())
+WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_identificacion'), Documento)
 
 WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/Input_Fecha'), fecha())
 
@@ -104,7 +108,6 @@ if (Result0 == 'Se ha inscrito correctamente.') {
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Ingresar'))
 
     //WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Ir'))
-
     WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Empresa 1_form_templatej_idt24_input'), 'proceso de seleccion (tal)')
 
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/li_Proceso de Seleccion (tal)'))
@@ -201,19 +204,14 @@ def fecha() {
 
     Año = sumaA
 
-    if (Dia < 10 && Mes > 10 ) {
+    if ((Dia < 10) && (Mes > 10)) {
         String fecha = (((('0' + Dia) + '/') + Mes) + '/') + Año
-    } 
-	else if( Dia < 10 && Mes < 10 ){
-	String fecha = ((('0'+ Dia + '/')+'0'+ Mes + '/'+ Año))
-	}
-	else if (Mes <= 10) {
+    } else if ((Dia < 10) && (Mes < 10)) {
+        String fecha = ((((('0' + Dia) + '/') + '0') + Mes) + '/') + Año
+    } else if (Mes <= 10) {
         String fecha = ((((Dia + '/') + '0') + Mes) + '/') + Año
-    } 
-	
-	else {
+    } else {
         String fecha = (((Dia + '/') + Mes) + '/') + Año
     }
 }
-
 

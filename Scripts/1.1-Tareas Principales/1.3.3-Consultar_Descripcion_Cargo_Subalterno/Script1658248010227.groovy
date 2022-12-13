@@ -21,6 +21,10 @@ WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.S
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/a'))
 
+if(WebUI.waitForElementVisible(findTestObject('MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/a_EJECUTAR'), 1))
+{
+WebUI.click(findTestObject('MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/a_EJECUTAR'))
+}
 String sec = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/label_Descripcin Cargo Sub Alterno'))
 
 if (sec == 'Descripción Cargo Sub Alterno') {

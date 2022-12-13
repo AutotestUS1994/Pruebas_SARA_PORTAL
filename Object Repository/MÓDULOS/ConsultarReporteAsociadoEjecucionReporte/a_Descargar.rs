@@ -6,12 +6,12 @@
    <elementGuidId>648add39-a3ee-4c47-b760-81271b668d9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-boton.btn-descargar</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Descargar')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.us-boton.btn-descargar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>b38eca41-281b-4002-94ca-47ba86b6618c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/PortalSara/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c31c34c62c35c32c62c63c39c31c38c63c34c66c63c33c62c34c34c65c32c64c35c61c33c36c65c34c30c64c61c32&amp;E=REPORTE_DE_NOMINA.xlsx</value>
+      <webElementGuid>60515f5a-e103-4f88-80c0-9b3917f4762b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_black</value>
+      <webElementGuid>89736821-155d-40c5-8c31-6bac7194f0d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton  btn-descargar</value>
+      <webElementGuid>dcd97e56-baa3-4198-856a-9f534b689c07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Descargar</value>
+      <webElementGuid>80832d23-52f3-42c2-a659-7ee6840a796c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:dialogPopupReporte_content&quot;)/table[@class=&quot;popupBody&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton  btn-descargar&quot;]</value>
+      <webElementGuid>8fa1fadc-b710-45a8-bc74-f899c7066116</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/iframe_Mis Cesantas_7F07D451F09D4B35813735F_d2f30f</value>
+      <webElementGuid>41e01b83-22cf-4a6e-87c6-977d1a6159af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupReporte:dialogPopupReporte_content']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>202fb684-4072-4ae4-9ce8-e4a3023b6130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Descargar')]</value>
+      <webElementGuid>cd315d7a-55ae-4b2a-8004-3e34056ccc04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes Generales'])[1]/following::a[1]</value>
+      <webElementGuid>fd0bb13a-b08c-4a37-900a-b1b59fe427e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::a[2]</value>
+      <webElementGuid>3adcf48a-eb88-4bf2-b9f6-4b1ddf8b6bf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>9ca3f23b-9a74-4867-8804-fe2dcc10a39c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>cabcd26a-171a-467b-90fb-a334e72d7de3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Descargar']/parent::*</value>
+      <webElementGuid>228dc527-6ae8-4275-8f13-0f974aae4458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/PortalSara/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c31c34c62c35c32c62c63c39c31c38c63c34c66c63c33c62c34c34c65c32c64c35c61c33c36c65c34c30c64c61c32&amp;E=REPORTE_DE_NOMINA.xlsx')]</value>
+      <webElementGuid>655fe89d-4e90-4d22-b6cd-af6dc22125c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td/a</value>
+      <webElementGuid>3a41c043-2ce7-4d03-8e90-f8ca6e340ad2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/PortalSara/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c31c34c62c35c32c62c63c39c31c38c63c34c66c63c33c62c34c34c65c32c64c35c61c33c36c65c34c30c64c61c32&amp;E=REPORTE_DE_NOMINA.xlsx' and (text() = 'Descargar' or . = 'Descargar')]</value>
+      <webElementGuid>195d752b-a0d3-4261-a29c-a8159d5a5a93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

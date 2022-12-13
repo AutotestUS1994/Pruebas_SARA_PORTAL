@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>c90930b3-f5de-428d-a450-cd3ae518b849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover</value>
+      <webElementGuid>1500b9d0-8c9d-466a-9a3b-94053fb9ca6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCitacion_form:j_idt1961:0:j_idt1965&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]</value>
+      <webElementGuid>ecff3f00-7c4c-41f6-88d1-b1883b0e536f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupCitacion_form:j_idt1961:0:j_idt1965']/div[2]</value>
+      <webElementGuid>2d8f5fe3-3379-43a1-a87b-789b9ba2ad3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrevista Telefónica'])[1]/following::div[3]</value>
+      <webElementGuid>eb7d8cff-2db8-4ced-9229-7dd406e30573</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Medio'])[2]/following::div[3]</value>
+      <webElementGuid>7996e435-0763-4768-af30-67d0f4edd116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Competencia Selección'])[1]/preceding::div[10]</value>
+      <webElementGuid>13e98ae0-4124-40d9-aedc-99ef62adc332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Competencia*'])[1]/preceding::div[11]</value>
+      <webElementGuid>a194e2ef-042e-471e-aaef-66b5ad97d8a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/div[2]</value>
+      <webElementGuid>bcb2bea4-7b3d-43e5-9667-dfe228dbce78</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

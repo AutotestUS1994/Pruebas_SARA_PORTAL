@@ -6,12 +6,12 @@
    <elementGuidId>8f0e903e-4f65-47d0-8d1b-75d3d042c0f8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ifrm_component_A_4</value>
+         <key>XPATH</key>
+         <value>//iframe[@id='ifrm_component_A_2']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//iframe[@id='ifrm_component_A_4']</value>
+         <key>CSS</key>
+         <value>#ifrm_component_A_4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>227c835a-d4c2-457d-ade1-383d119957b9</webElementGuid>
+      <webElementGuid>3c76446d-0293-4a3c-afee-040ad6e7d63f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ifrm_component_A_4</value>
-      <webElementGuid>f7fc115a-adda-4f09-9821-1dd6a3bd6406</webElementGuid>
+      <webElementGuid>ecfbed57-f3af-47ea-974d-78c3b018aa0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSara/Funcionalidades/visorreporte/visorGeneralReporte.xhtml?us_id=us-interfaz-64z1</value>
-      <webElementGuid>c0b11437-b7aa-4a52-91f1-19195646befb</webElementGuid>
+      <webElementGuid>7c9abedd-ebef-40b5-8c8b-556b0030389f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>7553588b-d433-439f-8af9-bb766d5b03d4</webElementGuid>
+      <webElementGuid>4e5353ce-9868-4f70-b19f-6434a9561e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>SPW7D451709D4B45813735F552B36005</value>
-      <webElementGuid>e46be364-8f5e-4c3c-9182-d46473e89e54</webElementGuid>
+      <webElementGuid>d4053b83-bc25-406f-815b-12fb1a16aa3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>0410cc44-31d1-4cdf-8c77-f2dafeca6b60</webElementGuid>
+      <webElementGuid>34c4d94e-565d-4047-aa2b-dfa442ab20da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>9f138bcb-487a-4596-98f0-b011085306a7</webElementGuid>
+      <webElementGuid>7f4dde48-7a91-4b25-a2e3-81c7aced6466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>2c8631b6-62a5-41ee-9d2a-67c843e76a7d</webElementGuid>
+      <webElementGuid>998d39d1-7aac-429c-8571-b42a231d313d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
-      <webElementGuid>7f4d1368-6884-46c9-ad3d-2d2f8133e334</webElementGuid>
+      <webElementGuid>ec9d37e5-d43f-4812-b41a-53331cb25ef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4c9c51ca-0e64-4bf8-9488-7f16bf6cb70d</webElementGuid>
+      <webElementGuid>1d0917bd-8a41-41d6-bbbf-cabd13c8cbad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8fb68c7c-471c-445e-b4f4-6974fe673eb7</webElementGuid>
+      <webElementGuid>4375f382-720f-49e4-8e7c-dd6082e1d9e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b594d9d0-23d1-4f73-896b-1361e3922ef2</webElementGuid>
+      <webElementGuid>231234eb-3e73-48d7-91e5-c72b9d10421b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ifrm_component_A_4&quot;)</value>
-      <webElementGuid>718ba88f-14f5-45d7-a60d-e4768ceb5b87</webElementGuid>
+      <webElementGuid>2a1b3ac2-b31e-41cc-b2cc-473ad1e95e48</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='ifrm_component_A_4']</value>
-      <webElementGuid>b77beaff-9b9d-442c-86a6-1645c2ed9541</webElementGuid>
+      <webElementGuid>5e0c1af0-251a-4d18-b3f6-768be25581e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div/div/div[5]/iframe</value>
-      <webElementGuid>4c8e1294-4afe-4379-ac33-9c5b79680363</webElementGuid>
+      <webElementGuid>eede55eb-b1c9-4a17-ad77-a72451596656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/iframe</value>
-      <webElementGuid>8d753754-8f5b-4bb7-8e62-cbb191ab2dd5</webElementGuid>
+      <webElementGuid>cc8bc3ae-bee9-4b30-ba46-e8b456a75fc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'ifrm_component_A_4' and @src = '/PortalSara/Funcionalidades/visorreporte/visorGeneralReporte.xhtml?us_id=us-interfaz-64z1' and @name = 'SPW7D451709D4B45813735F552B36005']</value>
-      <webElementGuid>ae7d2cdd-17e8-48eb-a65b-b04f9646ed05</webElementGuid>
+      <webElementGuid>ae6117ce-dc68-48ab-920e-d02a8be6742b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

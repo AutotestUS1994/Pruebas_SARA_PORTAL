@@ -6,12 +6,12 @@
    <elementGuidId>3b70cce1-9905-4c1a-b936-a8ee87b33a8e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.us-head-popup.us-popup-img > label</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/form[1]/div/table[2]/tbody/tr[2]/td/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popupEntradaReporteVisor_form:dialogPopupEntradaReporte_content']/div/label</value>
+         <key>CSS</key>
+         <value>div.us-head-popup.us-popup-img > label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>d4814c52-55bc-4124-8641-e4f0e97e418d</webElementGuid>
+      <webElementGuid>88327aab-f35f-4306-8b44-b44d25f7ef87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>��entradas!!</value>
-      <webElementGuid>402094fe-1592-48a6-9a2d-ce3de19113f6</webElementGuid>
+      <webElementGuid>326a606f-bf3d-47d1-8f52-012f9b4df980</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupEntradaReporteVisor_form:dialogPopupEntradaReporte_content&quot;)/div[@class=&quot;us-head-popup us-popup-img&quot;]/label[1]</value>
-      <webElementGuid>d79a7836-1492-49b7-aec7-34228a2031ab</webElementGuid>
+      <webElementGuid>478e0df7-fb63-445c-9f00-e946f045e36b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
-      <webElementGuid>df2683ff-8579-45e8-ae87-498885deda6a</webElementGuid>
+      <webElementGuid>0b93ad53-a1fc-4ea2-a740-daad1aa91e4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupEntradaReporteVisor_form:dialogPopupEntradaReporte_content']/div/label</value>
-      <webElementGuid>09cc771b-f0f0-4aa3-bbe6-c682440955f2</webElementGuid>
+      <webElementGuid>ae922c59-4eb8-40e6-8c38-9e2063528f62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::label[1]</value>
-      <webElementGuid>320eecb8-9185-44ba-ba7f-472245faab1f</webElementGuid>
+      <webElementGuid>ee440704-7ae5-4a95-988e-0ef2b8c11026</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Visor General Reporte'])[1]/following::label[1]</value>
-      <webElementGuid>e22333a8-db84-4408-b2fa-dac0344a9fae</webElementGuid>
+      <webElementGuid>09ca6610-f669-4aa7-aeaa-d68031ad1f47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
-      <webElementGuid>3116dcef-bed3-418a-be1f-f589bcd2cf35</webElementGuid>
+      <webElementGuid>d9c16fa7-3139-446c-a73c-0bbe27aa12ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::label[1]</value>
-      <webElementGuid>bb3b74e7-2d8e-4afb-860e-013da9b90f74</webElementGuid>
+      <webElementGuid>486e5263-de76-4804-b084-49e8f63d0d30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/label</value>
-      <webElementGuid>a8ba788b-0583-4581-9764-ac86c302f705</webElementGuid>
+      <webElementGuid>b56bc3d2-9faa-4189-aa3a-0eded176a3e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = '��entradas!!' or . = '��entradas!!')]</value>
-      <webElementGuid>0a2f76ec-95cd-46ba-8faa-1ca38676bcbc</webElementGuid>
+      <webElementGuid>0798e56b-8774-4bbd-ac39-10a1d142fcbd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

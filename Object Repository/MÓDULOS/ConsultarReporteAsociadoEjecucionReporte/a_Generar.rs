@@ -6,11 +6,11 @@
    <elementGuidId>0977b269-95f9-4c85-bef4-f7fc3b36d100</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Generar')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d47cc1f8-abcf-42ed-8d13-b740f4a3f06e</webElementGuid>
+      <webElementGuid>bde2a849-3236-421a-96da-22913c87e5aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupReporte:j_idt411</value>
-      <webElementGuid>7009c8ab-6caf-4b5e-baee-a13f150cefe1</webElementGuid>
+      <webElementGuid>80f1af0a-ee60-4562-9cdb-f3b1218f0a78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>4acdbab7-c87d-4754-9113-ad40c0c3986c</webElementGuid>
+      <webElementGuid>b48757c4-8a2d-4a61-813f-43c58f88e957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-solo</value>
-      <webElementGuid>0f80bd71-6736-4da5-9da1-062d086812f7</webElementGuid>
+      <webElementGuid>4641430f-d6c1-417d-9a11-42a27cb23551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt411&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte:j_idt411&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>5906804b-5c93-4eba-8b59-1608dbca62f3</webElementGuid>
+      <webElementGuid>9ed40083-791d-4a07-9f04-86fe20f43bb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generar</value>
-      <webElementGuid>765a2398-30d8-4a00-85e8-d59bd4c368d2</webElementGuid>
+      <webElementGuid>b3fb5ba7-8883-4af2-a407-7cc6966a0de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt411&quot;)</value>
-      <webElementGuid>026b9c07-0eed-4b1f-bb75-72cb319f4f19</webElementGuid>
+      <webElementGuid>db2c5668-f4a0-42a2-bb90-4d7b86a07dd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/iframe_Mis Cesantas_7F07D451F09D4B35813735F_d2f30f</value>
-      <webElementGuid>73054919-f2c0-4161-bbe2-9e94e16f6bd5</webElementGuid>
+      <webElementGuid>7a303a73-e7ba-42a7-b63d-573340ff6a99</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupReporte:j_idt411']</value>
-      <webElementGuid>b34d3808-7a2b-4b4b-94e9-08ed5135c6d2</webElementGuid>
+      <webElementGuid>929df27a-71ce-4b9b-af97-4dd28ffc8eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td/a</value>
-      <webElementGuid>4ea3aeaf-5c15-4439-8db9-831c903168ed</webElementGuid>
+      <webElementGuid>a6618561-b9fb-4c4b-be18-21c94852acc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Generar')]</value>
-      <webElementGuid>f7ee1c86-0778-40c8-932f-77f708b93247</webElementGuid>
+      <webElementGuid>051905dc-a336-4555-b7d1-c825f5c03358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/following::a[1]</value>
-      <webElementGuid>2322f6af-615f-4d97-aa91-4db20e2fa8d4</webElementGuid>
+      <webElementGuid>3ebe61ab-6eb8-4aa8-be1c-4ccefc0b8ed2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descargar'])[1]/following::a[1]</value>
-      <webElementGuid>9941d6f9-be17-49fe-b9be-7e1e1fb41258</webElementGuid>
+      <webElementGuid>e2ed044f-c4ae-480c-bb0a-1f4c298988dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
-      <webElementGuid>1955c387-2b6f-4a14-8e91-f3b188803b49</webElementGuid>
+      <webElementGuid>17bb7a9b-742c-4a33-8be7-53f2db77c5d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
-      <webElementGuid>a0830cc4-f749-476e-b484-bc26d80783f6</webElementGuid>
+      <webElementGuid>0223d48a-c5e1-4bbd-a96e-d1c88771cffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[9]</value>
-      <webElementGuid>ac5d2a88-f0ce-4ca4-9959-1276feeaef7e</webElementGuid>
+      <webElementGuid>992e15cb-8790-40ed-b536-b2826c844fed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td/a</value>
-      <webElementGuid>b6d1460e-7408-4ce2-aa61-9d739452161f</webElementGuid>
+      <webElementGuid>67f8e6d8-ca4b-45ae-b5fe-54ba1e0e74a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupReporte:j_idt411' and @href = '#' and (text() = 'Generar' or . = 'Generar')]</value>
-      <webElementGuid>3d9ad4b9-d98e-4a4d-8510-480387c7bfb5</webElementGuid>
+      <webElementGuid>ad44b1af-2e54-45b6-a978-656c789a7199</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

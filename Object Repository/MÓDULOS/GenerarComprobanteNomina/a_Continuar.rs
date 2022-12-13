@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='frmInfo_popupEspera:j_idt2398']</value>
+         <value>//a[contains(text(),'Continuar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9366c1ef-9915-4cbc-ba3d-0da3a0104e11</webElementGuid>
+      <webElementGuid>d2066196-25ed-4579-9b5e-3def4901f0f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>frmInfo_popupEspera:j_idt2398</value>
-      <webElementGuid>ef28f3f5-e604-4466-a9e2-fb16df8460a4</webElementGuid>
+      <webElementGuid>865048ad-76c8-4081-ac7a-60ea3ecc1ec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>d3bd8ea1-de54-4b2f-b4b6-39f8e01015b6</webElementGuid>
+      <webElementGuid>1d94f3ac-3417-43e2-aa53-d9528905c517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-continuar</value>
-      <webElementGuid>ebe51590-e837-42f7-ad1f-bb5709bed314</webElementGuid>
+      <webElementGuid>c0a02964-4862-4ebc-9a72-e3526961578b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;frmInfo_popupEspera:j_idt2398&quot;,f:&quot;frmInfo_popupEspera&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindowIFrame();;}});return false;</value>
-      <webElementGuid>67ebe3c9-2385-4e71-a8db-048239ef51ef</webElementGuid>
+      <webElementGuid>f7b8047a-cc19-4fd7-a7e9-c9cd1654c897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continuar</value>
-      <webElementGuid>a248a9fe-72eb-45dc-a028-5f6accffd06a</webElementGuid>
+      <webElementGuid>b26225d6-6388-413b-89a5-23accf565479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmInfo_popupEspera:j_idt2398&quot;)</value>
-      <webElementGuid>2e136fe4-4077-4a60-967b-7714d952385f</webElementGuid>
+      <webElementGuid>5362a87c-a2d5-4e80-aa31-f7a60873b89c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='frmInfo_popupEspera:j_idt2398']</value>
-      <webElementGuid>79cc4aeb-f793-4d9f-aaa4-353d50187c8e</webElementGuid>
+      <webElementGuid>f376192b-4ee2-45fe-9074-d71b42b6472f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr[2]/td/div/a</value>
-      <webElementGuid>b91019c8-62e4-476b-bd14-b892ec7cf0da</webElementGuid>
+      <webElementGuid>038e65b3-f10e-4688-ab15-0dad1e0129ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Continuar')]</value>
-      <webElementGuid>6bdb036c-8a9c-45fd-b22d-4008ffea2da0</webElementGuid>
+      <webElementGuid>7e92fbaa-3b63-4824-9f30-b883e649208e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='se publicaron los comprobantes'])[1]/following::a[1]</value>
-      <webElementGuid>9b91f6d9-4b15-4a82-ad45-e101bab5cb7f</webElementGuid>
+      <webElementGuid>ea415d3d-5e5e-4b89-9cc0-daa84609db66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato'])[3]/following::a[3]</value>
-      <webElementGuid>6b3389ae-c9bb-480d-8a62-aeba2b73cee3</webElementGuid>
+      <webElementGuid>01ecefdb-c2a0-45cb-a71c-4fa82e56fddc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'frmInfo_popupEspera:j_idt2398', '&quot;', ')')])[1]/preceding::a[1]</value>
-      <webElementGuid>f6bb32d1-654f-4f6c-b3ec-e6749b4cabf4</webElementGuid>
+      <webElementGuid>b5189834-971b-4f3a-a4bc-88ed4d6f41d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
-      <webElementGuid>f827f87e-6571-4fcb-b266-b057333bd09b</webElementGuid>
+      <webElementGuid>59aa5e53-de53-4d48-bab9-b8957877faf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>2b03e6a1-4813-4244-85cf-9135951b143e</webElementGuid>
+      <webElementGuid>44112702-69c6-4f69-afef-1e21522aab15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[109]</value>
-      <webElementGuid>711f8494-730d-487c-94ef-5e4bd5e836e9</webElementGuid>
+      <webElementGuid>ce20857c-ba03-42ab-90bb-a7fc9af2480a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr[2]/td/div/a</value>
-      <webElementGuid>6428cad0-ca7a-41a6-a09a-a36046618a7c</webElementGuid>
+      <webElementGuid>b80f2fb4-9b96-4576-9369-313bb2a90364</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'frmInfo_popupEspera:j_idt2398' and @href = '#' and (text() = 'Continuar' or . = 'Continuar')]</value>
-      <webElementGuid>890079c2-a097-415d-8aad-22e4b03426d4</webElementGuid>
+      <webElementGuid>d016eaeb-005a-4cf0-a399-75617c11f49a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

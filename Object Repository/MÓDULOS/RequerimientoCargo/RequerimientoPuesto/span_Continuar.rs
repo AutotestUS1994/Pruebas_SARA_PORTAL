@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c61dda2a-8c6f-4aa6-b854-d5b16bfed837</webElementGuid>
+      <webElementGuid>207fb1a0-8f24-4934-8e7c-449917988486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continuar</value>
-      <webElementGuid>f2f693b3-1100-49dd-b154-5c4fe09dda29</webElementGuid>
+      <webElementGuid>1560087a-435f-4618-afd9-601ceff61524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;requerimientoPersonalPM_form:j_idt218&quot;)/span[1]</value>
-      <webElementGuid>4273ce16-2b1b-4943-953c-d5857bdeba09</webElementGuid>
+      <webElementGuid>08562e76-c0e3-47b7-a0e4-df3243cf3363</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoPuesto/iframe_Puesto de trabajo_7F07D451F09D4B3581_e1732d</value>
-      <webElementGuid>486420c2-197c-45d1-9caa-ea97e66321ee</webElementGuid>
+      <webElementGuid>3cc16a51-f21b-4c9e-bc9b-1704ad54bca2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='requerimientoPersonalPM_form:j_idt218']/span</value>
-      <webElementGuid>ee3e09ef-febc-4e84-b6fa-f9565cb6995c</webElementGuid>
+      <webElementGuid>177c35da-a3a5-4fb6-9bb5-924268fecb34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Convocatoria'])[1]/following::span[1]</value>
-      <webElementGuid>ad78874c-82a2-4d6d-8dd6-fc69d1ea3b99</webElementGuid>
+      <webElementGuid>670ea217-7b99-4e2f-b61c-b96b97cde01d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo'])[1]/preceding::span[3]</value>
-      <webElementGuid>0886ecf2-d7c1-4d4c-b8ea-3542d1bb2df9</webElementGuid>
+      <webElementGuid>5ef84fc3-6ada-4279-929c-0228daa3d310</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo'])[2]/preceding::span[3]</value>
-      <webElementGuid>f49fa20e-469f-44e0-a911-6f48e809ba62</webElementGuid>
+      <webElementGuid>abfc8ad2-ae1e-46d8-9b99-f1d6cfd17755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>c11205c0-032e-4934-a973-79bd1c19e7e0</webElementGuid>
+      <webElementGuid>d282df95-6ee0-4e7c-b30e-63a258b2200b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span</value>
-      <webElementGuid>fb114579-a147-4062-96be-f9902045b701</webElementGuid>
+      <webElementGuid>f4c7f0b6-e967-4851-a48c-60914ccae778</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Continuar' or . = 'Continuar')]</value>
-      <webElementGuid>6819c273-b20d-4afc-a78c-9183c7d4ec8b</webElementGuid>
+      <webElementGuid>e8c91d2a-d0b5-41bb-a728-46be9617a637</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

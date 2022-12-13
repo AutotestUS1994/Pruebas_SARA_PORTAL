@@ -49,8 +49,11 @@ if (noEvaluacion == 'No se encontró registros') {
 }
 
 def realizar() {
-    WebUI.getText(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/td_80769954 - Mendoza 1502 Empleado'))
-
+    if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/td_80769954 - Mendoza 1502 Empleado'), 
+        1)) {
+        WebUI.getText(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/td_80769954 - Mendoza 1502 Empleado'))
+    }
+    
     WebUI.click(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/td_80769954 - Mendoza 1502 Empleado'))
 
     WebUI.selectOptionByIndex(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/select_--Seleccione--NoSi'), 

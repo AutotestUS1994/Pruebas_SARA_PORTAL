@@ -291,4 +291,11 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.2-Visor_General_Reporte_Entrada</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>01392192-0ceb-48cc-8d6d-2e5970447435</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.4-xls_visor_reportes_</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

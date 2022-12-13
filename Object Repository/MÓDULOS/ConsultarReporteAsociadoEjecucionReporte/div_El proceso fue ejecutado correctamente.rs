@@ -6,12 +6,12 @@
    <elementGuidId>d6f1ad83-04dc-4858-8c32-2624b476d3b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.us-margin-popup</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr/td/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-margin-popup</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>12a2f124-8b33-4f66-901d-4fad345e849f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-margin-popup</value>
+      <webElementGuid>af52fdec-a6e8-4b4a-bc0c-ce4868d7b931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>El proceso fue ejecutado correctamente</value>
+      <webElementGuid>abef0093-d7a9-4c9d-9e2d-ab2dc9d6b8cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmInfo_popupEspera:contenedorEspera&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;us-margin-popup&quot;]</value>
+      <webElementGuid>93f7f4d3-a8d2-4e4c-8a33-c06c9a952186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ConsultarReporteAsociadoEjecucionReporte/iframe_Mis Cesantas_7F07D451F09D4B35813735F_d2f30f</value>
+      <webElementGuid>6e35c1a8-6157-4995-95ef-1f308d0df083</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr/td/div</value>
+      <webElementGuid>5bf0b042-97a7-4cbd-8980-91d92ddbe271</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::div[6]</value>
+      <webElementGuid>39cf5563-afc1-4667-ad0e-0782064ae7fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='N'])[1]/following::div[6]</value>
+      <webElementGuid>c46eb20c-110d-4e94-babe-371c01503559</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[8]</value>
+      <webElementGuid>9c0c3885-d65e-462d-9040-6c61e3a4e701</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::div[8]</value>
+      <webElementGuid>0046a549-4712-4b46-b8eb-2edbc62dc938</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='El proceso fue ejecutado correctamente']/parent::*</value>
+      <webElementGuid>8821ec9b-afcf-4d1c-903f-f2ca34209fb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/div</value>
+      <webElementGuid>43d41f58-313f-4c08-ab81-5933a5981c13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'El proceso fue ejecutado correctamente' or . = 'El proceso fue ejecutado correctamente')]</value>
+      <webElementGuid>8dadf80c-156a-4304-8a1d-0294c8d75542</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

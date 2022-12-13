@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_empresa</name>
+   <tag></tag>
+   <elementGuidId>b88771db-950b-4a71-92a0-6572e684f4ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/span/form[4]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[3]/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/select
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>6bf6e20a-8de2-410b-abe1-def4dfd56f86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1670623678084</value>
+      <webElementGuid>5f020bdc-39ff-4368-aa08-6e89572d8d5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/sinNombre/ifrm_component_A_3</value>
+      <webElementGuid>47e484be-3925-45e6-816d-bc2d0680497a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

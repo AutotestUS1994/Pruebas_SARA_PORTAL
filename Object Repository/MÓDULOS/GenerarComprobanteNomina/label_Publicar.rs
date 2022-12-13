@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='formComprobantePop:tipo']/tbody/tr[2]/td/label</value>
+         <value>//table[@id='formComprobantePop:tipo']/tbody/tr[3]/td/label
+</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>924a4504-6bee-47ea-bf51-c2e98c3fb75e</webElementGuid>
+      <webElementGuid>3be68fba-5de6-49cd-ae75-7ed4c83b98e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>formComprobantePop:tipo:1</value>
-      <webElementGuid>1254e680-f4ec-4d71-a542-7097c3ce1e76</webElementGuid>
+      <webElementGuid>48b8acbf-d783-4448-b6bd-3a3938b034bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Publicar</value>
-      <webElementGuid>9e6b7305-94ad-4c87-bffb-a6dcffe2b7d5</webElementGuid>
+      <webElementGuid>edeb15ff-c0a9-4b60-b6ee-5304839f43ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formComprobantePop:tipo&quot;)/tbody[1]/tr[2]/td[1]/label[1]</value>
-      <webElementGuid>0b9e8fc9-b083-4c5c-a279-041f6645c53e</webElementGuid>
+      <webElementGuid>62d7f240-07d7-4041-abb1-a126c3b4a2dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formComprobantePop:tipo']/tbody/tr[2]/td/label</value>
-      <webElementGuid>eb5fb0da-d869-4a55-8432-f1908337d567</webElementGuid>
+      <webElementGuid>01b8d96b-bdd4-44af-91fa-2a172920caf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar Correo'])[1]/following::label[1]</value>
-      <webElementGuid>3721033a-9c47-41ce-871e-20727615b129</webElementGuid>
+      <webElementGuid>18e6ab87-f78f-4b7a-b380-e0e2226675f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprobante De Pago'])[1]/following::label[2]</value>
-      <webElementGuid>d73b998a-0419-43ed-b1b6-342411c981e7</webElementGuid>
+      <webElementGuid>ecc46ce0-5f26-4101-af18-02c0b9f1a24c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Todos'])[1]/preceding::label[1]</value>
-      <webElementGuid>6a180950-1a69-4e0c-9403-d70aba205967</webElementGuid>
+      <webElementGuid>b67085ca-6452-455c-b1cb-ff975eb30ce7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'formComprobantePop:tipo', '&quot;', ')/tbody[1]/tr[2]/td[1]/label[1]')])[1]/preceding::label[2]</value>
-      <webElementGuid>d29c6f18-e520-496b-a3b8-059303756978</webElementGuid>
+      <webElementGuid>7da40a50-405d-42a1-8948-833732be5428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Publicar']/parent::*</value>
-      <webElementGuid>6ae1fc31-a86c-4a38-a59d-d5164bd57330</webElementGuid>
+      <webElementGuid>7b27884e-5dd7-40d4-84d2-dc884be4319a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/label</value>
-      <webElementGuid>1514f5e8-ff00-4ffc-b520-1ffa804968fe</webElementGuid>
+      <webElementGuid>e409617a-2654-4fc3-ac7a-db3da1d9ed21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = ' Publicar' or . = ' Publicar')]</value>
-      <webElementGuid>33db78ed-da21-47ab-9758-727595fc04cb</webElementGuid>
+      <webElementGuid>e86ac2f7-07fa-46bf-833f-75cfe8c92c9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

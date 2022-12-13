@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>4de667e2-7d31-4d33-9df8-9f61e6ec53b8</webElementGuid>
+      <webElementGuid>06a07ceb-24ed-4ecf-846f-eb88c7e636b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ifrm_component_A_2</value>
-      <webElementGuid>9f07ca7c-07bb-4fa2-9631-3bf5243f2a63</webElementGuid>
+      <webElementGuid>c312e88e-4d0f-4e53-84bc-ebc0b41f3483</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSara/talento/descripcioncargo/uiDescripcionCargoSubAlterno.xhtml?us_id=us-interfaz-q44y</value>
-      <webElementGuid>8794122b-d342-4c5e-adb3-78515caf05de</webElementGuid>
+      <webElementGuid>674e9300-a5b5-400d-afbf-73edba02967e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>924357c1-5ccb-4098-bed7-cb12e7ba9a2b</webElementGuid>
+      <webElementGuid>9bfb30ed-3512-489e-8cf0-78e9730dda1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>descripcionCargoSubAlternoB36402</value>
-      <webElementGuid>9c4ca83e-b076-4efa-bad7-0d3c05c47a01</webElementGuid>
+      <webElementGuid>411731c8-93af-48a7-86e3-2ac72712c1ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>e7f3ff02-e943-47ae-9ccc-7d57220f732d</webElementGuid>
+      <webElementGuid>aea25e7e-b9d7-4c82-9581-cb056ba38ba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>02c62432-821a-4c93-9da7-afaa78104d19</webElementGuid>
+      <webElementGuid>e1e00031-a2e1-4e5d-b863-896bff09e0eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>35c4c4f4-d5fa-4ddc-9755-ae2c623a5ba3</webElementGuid>
+      <webElementGuid>7cb2821f-ddbc-4bc1-9055-a15c948822dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
-      <webElementGuid>9e536125-3b08-445d-907d-8d3a55769a50</webElementGuid>
+      <webElementGuid>f5c669bd-a5e0-4721-acc4-6dff978050db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2d45fa74-901b-44bf-a9b5-3d0784fbef29</webElementGuid>
+      <webElementGuid>5ae48b41-f95b-401e-b527-6c1025454ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ccb8b5de-648c-4c81-a4ed-a1d01573243a</webElementGuid>
+      <webElementGuid>ba8fd5d8-df12-49e3-aa5b-b1104fba66ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>500b6e8d-eaab-4bfc-ba5c-30533a4431d6</webElementGuid>
+      <webElementGuid>3a6f15f1-d984-4863-898b-87c23dfeda22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ifrm_component_A_2&quot;)</value>
-      <webElementGuid>56caa7dd-6c19-4058-97d2-ada7601b72c7</webElementGuid>
+      <webElementGuid>49eabf31-11a6-427b-ad8b-9144cc9c4064</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='ifrm_component_A_2']</value>
-      <webElementGuid>7b9a638a-2740-447c-8a88-cbb3aac00e8d</webElementGuid>
+      <webElementGuid>a4dcbf16-361e-4e4f-b287-6f357f54b948</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div/div/div[3]/iframe</value>
-      <webElementGuid>d947f6b2-49a4-4280-8595-e5cf26366d80</webElementGuid>
+      <webElementGuid>ef2711bd-e4f3-4a84-a1d8-dc42840c4659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/iframe</value>
-      <webElementGuid>c8f257ef-645e-41c6-a9dd-968eb034b5c3</webElementGuid>
+      <webElementGuid>4ce2fadb-e09a-47f9-95a5-a0c5c6fdf176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'ifrm_component_A_2' and @src = '/PortalSara/talento/descripcioncargo/uiDescripcionCargoSubAlterno.xhtml?us_id=us-interfaz-q44y' and @name = 'descripcionCargoSubAlternoB36402']</value>
-      <webElementGuid>29d83457-99cb-4bc0-b5be-2f25ae860b20</webElementGuid>
+      <webElementGuid>a6fbf777-3e2f-4bfb-9b0a-cc2fb1e94fa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

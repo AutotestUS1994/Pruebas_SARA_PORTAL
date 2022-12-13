@@ -55,7 +55,8 @@ if (flag) {
         //} else {
         //    println('No conecta a: ' + i)
         //aqui coloca el wait y el clic a l modulo Actos
-        ) //TODO: revisar y quitar esto
+        //TODO: revisar y quitar esto
+        )
 }
 
 def a() {

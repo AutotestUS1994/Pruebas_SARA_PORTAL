@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cerrar</name>
+   <tag></tag>
+   <elementGuidId>238e25c7-c0b5-4e7e-89b1-ab4a5e004c34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/span/form[4]/div/div[1]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>30ccc871-b816-4982-ae31-c63ec06dfe40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1670625432987</value>
+      <webElementGuid>fb02b4d7-fe1b-423b-b6f5-05c798c03377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/sinNombre/ifrm_component_A_3</value>
+      <webElementGuid>b12c7bb4-e3a9-47f5-bb65-b8195e57b315</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
