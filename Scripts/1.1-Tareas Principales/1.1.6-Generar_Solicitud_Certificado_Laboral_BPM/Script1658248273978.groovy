@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,7 +29,41 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisCertificados/G
 
 String P = WebUI.getText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/input_Seleccionar Archivo_popupDocumentoNov_909a6f'))
 
-String ruta = GlobalVariable.g_rutaarchivos + 'ActaBachiller.pdf'
+String RTA = ''
+
+def System(def RTA) {
+	
+	String RutaA = System.getProperty('os.name')
+	
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW =  RunConfiguration.getProjectDir() +'/1.requerimiento/DocumentosPruebas/'
+		
+		rutaW = rutaW.replace('/','\\')
+		
+		println('Esta es la ruta:' + rutaW)
+		
+		RTA = rutaW
+	}
+	else if(RutaA == 'Linux') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
+		
+		println('Esta es la ruta'+ rutaW)
+		
+		RTA = rutaW
+	}
+	else {
+		RTA = 'ERROR'
+		WebUI.acceptAlert()
+	}
+}
+
+System(RTA)
+
+println(System(RTA))
+
+String ruta = System(RTA) + 'ActaBachiller.pdf'
 
 WebUI.uploadFile(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/input_Seleccionar Archivo_popupDocumentoNov_909a6f'), 
     ruta)

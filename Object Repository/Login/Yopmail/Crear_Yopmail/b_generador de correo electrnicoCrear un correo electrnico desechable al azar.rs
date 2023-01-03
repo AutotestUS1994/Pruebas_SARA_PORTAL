@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='generador de correo electrónico']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Generador de correo electrónico']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>dca22431-478d-44f8-b496-fb707c57f094</webElementGuid>
+      <webElementGuid>2c78302a-20bb-421b-815a-9707136c5e3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>generador de correo electrónicoCrear un correo electrónico desechable al azar</value>
-      <webElementGuid>2b8dd801-f021-4939-97ff-e058b6817b1e</webElementGuid>
+      <webElementGuid>6066a50e-55c7-469d-a57f-688af031c05f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listeliens&quot;)/a[1]/div[@class=&quot;txtlien&quot;]/b[1]</value>
-      <webElementGuid>783dd46d-fd56-46d0-8ab1-3b31414beadc</webElementGuid>
+      <webElementGuid>19fa0548-3ccd-4104-b834-e40b16cdc5fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='listeliens']/a/div[2]/b</value>
-      <webElementGuid>2f9577ef-ef61-41e3-8d3f-426c02c1dbf5</webElementGuid>
+      <webElementGuid>1193222c-367a-402b-8526-b2bafcc5b6b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[2]/following::b[1]</value>
-      <webElementGuid>e6510b78-60f7-4e79-bae7-0d3f3fec406f</webElementGuid>
+      <webElementGuid>27b2c69a-8052-40ea-a227-a4a6b154ea3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::b[1]</value>
-      <webElementGuid>a68a7b37-ba02-4e7c-a37b-1a8f50054264</webElementGuid>
+      <webElementGuid>8aae80c6-f460-40a9-b714-002919762a94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[2]/preceding::b[1]</value>
-      <webElementGuid>66abd32a-d602-4933-858e-7d195904fa8b</webElementGuid>
+      <webElementGuid>e27b4fd7-b70f-4b4d-acf3-d2f09bb8fbf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='generador de correo electrónico']/parent::*</value>
-      <webElementGuid>43850703-fc02-40a1-845e-1fb09b01d2de</webElementGuid>
+      <webElementGuid>aea9616a-2de7-4a64-9da5-88e29289773d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/b</value>
-      <webElementGuid>c24fa745-d3a8-474e-89ab-2a710cf2188f</webElementGuid>
+      <webElementGuid>520da4a1-826b-4f5b-ba01-9b614768de3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'generador de correo electrónicoCrear un correo electrónico desechable al azar' or . = 'generador de correo electrónicoCrear un correo electrónico desechable al azar')]</value>
-      <webElementGuid>6ca2fd6b-69fa-4409-9deb-7d860cc5943d</webElementGuid>
+      <webElementGuid>22adc703-c89f-41c2-a311-8c25b5a743fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
