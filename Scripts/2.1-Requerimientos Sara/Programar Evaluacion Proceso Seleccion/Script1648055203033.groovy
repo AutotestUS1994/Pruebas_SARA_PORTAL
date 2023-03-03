@@ -52,15 +52,15 @@ if (consecutivo == 'BOG-2022-0001') {
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/td_Contacto Gestin Humana'))
 
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_17'))
-
+    if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_17'), 
+        1)) {
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_17'))
+    }
+    
     WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/tbody_Ver CalendarioFechaHora--010203040506_e3a44f'))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/input_Fecha_popupCitacion_formfecha_inicial_input'), 
         '30/03/2030')
-
-    WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/input_Fecha_popupCitacion_formfecha_inicial_input'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/select_--010203040506070809101112'), 
         3, FailureHandling.STOP_ON_FAILURE)

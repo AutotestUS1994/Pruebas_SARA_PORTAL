@@ -29,14 +29,8 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/ServicioMis
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/input__form_solicitudesEmpleadoj_idt1520tab_89c254'), 
     '28/03/2022')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/input__form_solicitudesEmpleadoj_idt1520tab_89c254'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/input__form_solicitudesEmpleadoj_idt1520tab_2c5832'), 
     '14/04/2022')
-
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/input__form_solicitudesEmpleadoj_idt1520tab_2c5832'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisCensantias/SolicitarAutorizarCesantiasBPM/input__form_solicitudesEmpleadoj_idt1520tab_c1746f'), 
     '500000')

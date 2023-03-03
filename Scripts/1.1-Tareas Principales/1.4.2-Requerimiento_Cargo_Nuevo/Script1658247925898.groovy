@@ -58,7 +58,7 @@ WebUI.setText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/Requ
     '1500000')
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/input_Fecha esperada para el cubrimiento de_4c2800'), 
-    '30/04/2022')
+    '30/04/2024')
 
 WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/input_Fecha esperada para el cubrimiento de_4c2800'), 
     Keys.chord(Keys.TAB))
@@ -157,4 +157,6 @@ if (continuar == 'Se han guardado los datos satisfactoriamente.') {
         WebUI.closeBrowser()
     }
 }
+
+WebUI.closeBrowser()
 

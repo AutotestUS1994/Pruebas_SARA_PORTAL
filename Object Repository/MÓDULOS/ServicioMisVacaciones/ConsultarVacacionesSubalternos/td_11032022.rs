@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//fieldset[2]/div/table/tbody/tr/td/div/div/table/tbody/tr/td[2]</value>
+         <value>//fieldset[1]/div/table/tbody/tr/td/div/div/table/tbody/tr/td[2]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>9509bf3b-ffd5-4761-a7d4-a3e4a2183a1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>790b4d64-149d-4b86-ad3a-73db656172e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>11/03/2022</value>
+      <webElementGuid>06527cb4-3acf-4e1f-bcd1-411e0d1da942</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_vacacionesEmpleado:tabsVacaciones:j_idt136_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
+      <webElementGuid>ae7ec635-1781-4968-b742-4c6592ad2c3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisVacaciones/ConsultarVacacionesSubalternos/iframe_Mis Cesantas_B7B969ED535F4273BCFF89C_c53f51</value>
+      <webElementGuid>262f7242-6456-46ea-aee3-faa7bdab5694</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_vacacionesEmpleado:tabsVacaciones:j_idt136_data']/tr/td[2]</value>
+      <webElementGuid>3626449f-b448-4958-962f-05fa5ac77df1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::td[2]</value>
+      <webElementGuid>57725536-ed57-4510-babf-262ca6c61294</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::td[2]</value>
+      <webElementGuid>a272312e-865c-4b2a-8cda-2e28073f2ab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Autorizada'])[1]/preceding::td[2]</value>
+      <webElementGuid>260ce5d9-434e-4300-9de3-7689d832543f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Interrupción'])[1]/preceding::td[5]</value>
+      <webElementGuid>77b23502-08c9-42ef-84f6-a7b7e56e3951</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='11/03/2022']/parent::*</value>
+      <webElementGuid>2eaf12d3-39a0-438b-a0b6-e57cf6091764</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[2]/div/table/tbody/tr/td/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>d101026e-20a2-40ac-a707-595f53d708eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '11/03/2022' or . = '11/03/2022')]</value>
+      <webElementGuid>bc38a456-45c9-453b-8115-f4adf1183a23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

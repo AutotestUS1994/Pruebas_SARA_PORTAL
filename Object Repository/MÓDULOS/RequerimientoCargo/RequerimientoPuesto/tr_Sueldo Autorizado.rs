@@ -6,12 +6,13 @@
    <elementGuidId>d921b4e3-0a16-4dee-8715-8bdcf09681c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr.ui-widget-content.ui-datatable-even.tabla-sin-bordes-pf</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/div/table[2]/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/input
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/div/table[2]/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/input</value>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.tabla-sin-bordes-pf</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>tr</value>
+      <webElementGuid>e8ea6a17-3a10-4439-8313-ba33e46263ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>data-ri</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>08ac7136-4046-4b46-be27-50e883762d04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-widget-content ui-datatable-even tabla-sin-bordes-pf</value>
+      <webElementGuid>e44732e5-b561-4ec9-b924-bcdb7600fad1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>role</name>
       <type>Main</type>
       <value>row</value>
+      <webElementGuid>1e6282f1-b8ad-476b-9355-9fc34e945f78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sueldo Autorizado*</value>
+      <webElementGuid>4e645afe-0ad7-4c5d-8fdd-d9f3cdab872a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;requerimientoPersonalPM_form:j_idt976:0:tablaCamHijo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even tabla-sin-bordes-pf&quot;]</value>
+      <webElementGuid>6dc5a304-8c96-42fa-a914-615860f36bbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +71,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoPuesto/iframe_Puesto de trabajo_7F07D451F09D4B3581_e1732d</value>
+      <webElementGuid>3de0e4a6-8f89-43dc-94e6-a69d2815f4fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='requerimientoPersonalPM_form:j_idt976:0:tablaCamHijo_data']/tr</value>
+      <webElementGuid>bdacb44f-308c-49c3-a82c-30300eae6726</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='REQUERIMIENTO'])[2]/following::tr[2]</value>
+      <webElementGuid>96248bf4-8b84-4413-ab5f-00658f9f4076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cantidad'])[1]/following::tr[6]</value>
+      <webElementGuid>1cdc8b43-8605-41ad-ac88-a2f0d0a74307</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div[2]/table/tbody/tr</value>
+      <webElementGuid>3ebc1b56-c1dd-4b2a-b365-d9c4adce8584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//tr[(text() = 'Sueldo Autorizado*' or . = 'Sueldo Autorizado*')]</value>
+      <webElementGuid>f09e044e-e36e-4bd9-881f-d22c86eecd90</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

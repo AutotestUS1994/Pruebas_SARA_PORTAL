@@ -27,10 +27,10 @@ WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/i
 WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
     0)
 
-WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'SoloAutomaticas20222')
+WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'SoloAutomaticas20232*')
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 
-    'SlAwMcyRKqrwbnzhAs8HhfEDgSL1u5w8')
+    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
 WebUI.click(findTestObject('MÓDULOS/RealizarCambioContraseña/a_Actualizar'))
 
@@ -48,7 +48,7 @@ if (WebUI.waitForElementNotVisible(findTestObject('MÓDULOS/RealizarCambioContra
 }
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 
-    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
 WebUI.click(findTestObject('MÓDULOS/RealizarCambioContraseña/a_Actualizar'))
 

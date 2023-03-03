@@ -131,7 +131,7 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
         'Se ha enviado la solicitud de viatico correctamente')) {
         WebUI.closeBrowser()
     }
-}
+} //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
 
 def iniciar() {
     WebUI.openBrowser('')
@@ -171,14 +171,12 @@ def iniciar() {
 def a() {
     WebUI.setText(findTestObject('Login/input_Usuario Portal_loginusuario'), GlobalVariable.G_UsuarioFun)
 
-    WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
     WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
 
     WebUI.click(findTestObject('Login/a_Ingresar'))
 
-	WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
-	
-//	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
 }
 

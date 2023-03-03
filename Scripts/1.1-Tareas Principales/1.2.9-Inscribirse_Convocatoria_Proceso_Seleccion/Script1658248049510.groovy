@@ -41,6 +41,7 @@ def inscribir() {
         if (termin == 'Se ha inscrito correctamente.') {
             WebUI.closeBrowser()
         }
+		else {WebUI.acceptAlert()}
     } else {
         b()
     }

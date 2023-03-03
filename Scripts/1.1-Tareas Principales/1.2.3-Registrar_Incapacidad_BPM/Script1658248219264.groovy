@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,40 +25,11 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/
 
 String RTA = ''
 
-def System(def RTA) {
-	
-	String RutaA = System.getProperty('os.name')
-	
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW =  RunConfiguration.getProjectDir() +'/1.requerimiento/DocumentosPruebas/'
-		
-		rutaW = rutaW.replace('/','\\')
-		
-		println('Esta es la ruta:' + rutaW)
-		
-		RTA = rutaW
-	}
-	else if(RutaA == 'Linux') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
-		
-		println('Esta es la ruta'+ rutaW)
-		
-		RTA = rutaW
-	}
-	else {
-		RTA = 'ERROR'
-		WebUI.acceptAlert()
-	}
-}
-
 System(RTA)
 
 println(System(RTA))
 
-
-String ruta = System(RTA)+ 'DocumentoLicencia.pdf'
+String ruta = System(RTA) + 'DocumentoLicencia.pdf'
 
 String textIncapacidad = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/div_Incapacidad'))
 
@@ -222,6 +191,8 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
             WebUI.click(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_Actividades Historicas'))
         }
         
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/select_-- Seleccione --Incapacidad'))
+
         WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/select_-- Seleccione --Incapacidad'), 
             'I', true)
 
@@ -235,10 +206,10 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
         }
         
         if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'), 
-            1)) { 
-                fech1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
-            }
-
+            1)) {
+            fech1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
+        }
+        
         if ((incapa == 'Incapacidad') && (fech1 == 'Incapacidad de HOJAVIDA. 1502 EMPLEADO PPRUEBA')) {
             WebUI.click(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
 
@@ -252,6 +223,30 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
                 WebUI.closeBrowser()
             }
         }
+    }
+}
+
+def System(def RTA) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.requerimiento/DocumentosPruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        RTA = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
+
+        println('Esta es la ruta' + rutaW)
+
+        RTA = rutaW
+    } else {
+        RTA = 'ERROR'
+
+        WebUI.acceptAlert()
     }
 }
 

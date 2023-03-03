@@ -102,7 +102,7 @@ Assert.assertTrue(archivoDescargado(rutaA, Archivo,Archivo1, peso))
 
 
 boolean archivoDescargado(def rutaA, def Archivo,def Archivo1, def peso) {
-    
+	WebUI.delay(1)
 	println(rutaA)
 	println(Archivo)
 	println(peso)

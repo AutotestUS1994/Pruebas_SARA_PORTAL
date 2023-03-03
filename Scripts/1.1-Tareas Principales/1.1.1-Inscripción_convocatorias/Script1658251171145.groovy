@@ -58,8 +58,6 @@ WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_identific
 
 WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/Input_Fecha'), fecha())
 
-WebUI.sendKeys(findTestObject('MÓDULOS/Inscripcion_convocatorias/Input_Fecha'), Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/Input_Nombre Completo'), 'test katalon inscripcion convocatorias')
 
 WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/Input_Celular'), '319' + identificacion())

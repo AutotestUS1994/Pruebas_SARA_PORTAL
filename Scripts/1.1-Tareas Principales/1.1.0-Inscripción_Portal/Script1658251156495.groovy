@@ -40,24 +40,22 @@ WebUI.sendKeys(findTestObject('MÓDULOS/InscripcionPortal/input_correo electrnic
 
 String recivido = '1'
 
-if(WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscripcionPortal/a_Clic aqui'), 1))
-{
-WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Clic aqui'))
+if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscripcionPortal/a_Clic aqui'), 1)) {
+    WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Clic aqui'))
+} else {
+    while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscripcionPortal/a_actualizar'), 2) && (recivido == '1')) {
+        if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscripcionPortal/a_Correo recibido'), 2)) {
+            recivido = '2'
+
+            WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Correo recibido'))
+
+            WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Clic aqui'))
+        } else {
+            WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_actualizar'))
+        }
+    }
 }
-else {
-while(WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscripcionPortal/a_actualizar'), 2) && recivido =='1') {
-	
-	if(WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscripcionPortal/a_Correo recibido'),2)){
-		
-		recivido = '2'
-	
-		WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Correo recibido'))
-	
-		WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Clic aqui'))
-	}
-	else {WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_actualizar'))}
-}
-}
+
 WebUI.maximizeWindow()
 
 WebUI.switchToWindowTitle('Portal SARA')
@@ -136,8 +134,6 @@ WebUI.setText(findTestObject('MÓDULOS/InscripcionPortal/Input_semestre Aprobado
 
 WebUI.setText(findTestObject('MÓDULOS/InscripcionPortal/Input_Fecha inicio'), fecha())
 
-WebUI.sendKeys(findTestObject('MÓDULOS/InscripcionPortal/Input_Fecha inicio'), Keys.chord(Keys.ESCAPE))
-
 WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Guardar'))
 
 WebUI.click(findTestObject('MÓDULOS/InscripcionPortal/a_Aceptar - Copy'))
@@ -175,8 +171,6 @@ def fecha() {
 
     if ((Dia < 10) && (Mes > 10)) {
         String fecha = (((('0' + Dia) + '/') + Mes) + '/') + Año
-
-        
     } else if ((Dia < 10) && (Mes < 10)) {
         String fecha = ((((('0' + Dia) + '/') + '0') + Mes) + '/') + Año
     } else if (Mes < 10) {

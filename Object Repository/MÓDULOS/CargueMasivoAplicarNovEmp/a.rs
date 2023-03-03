@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[11]/div/figure/figcaption/a</value>
+         <value>/html/body/div[1]/div/div/div/div[1]/div/div[2]/div/div[11]/div/figure/figcaption/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>95d979c2-d0e4-497f-b04a-82baa34522fe</webElementGuid>
+      <webElementGuid>44b20008-20b6-49a6-a92c-af95551fdaa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/PortalSara/sitio/portalEmpleados/solicitudpuntaje-calidad</value>
-      <webElementGuid>6577f00a-320b-4211-9ed6-ec6cd49ecf29</webElementGuid>
+      <webElementGuid>d72de3fa-fef9-4de4-b1de-4e824b2028f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;areaAplicacion&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-md-offset-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-lg-12&quot;]/div[@class=&quot;container-fluid-prime&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-4 col-lg-3&quot;]/div[@class=&quot;grid&quot;]/figure[@class=&quot;effect-bubba&quot;]/figcaption[1]/a[1]</value>
-      <webElementGuid>aa42793d-9b54-42b9-a090-6342650981d7</webElementGuid>
+      <webElementGuid>94452b6a-ab79-436f-9556-d1a17aebd2f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[11]/div/figure/figcaption/a</value>
-      <webElementGuid>c5438831-ca44-43ed-8138-742dc17ea80a</webElementGuid>
+      <webElementGuid>8b898cd6-c00c-47c1-a537-7de6667f4884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta y aprueba novedades'])[1]/following::a[1]</value>
-      <webElementGuid>6bd9f3cc-f197-49e4-9425-ee100f3b2da7</webElementGuid>
+      <webElementGuid>897704b1-ace3-4c02-bb69-6e7c6799d8b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='novedades'])[1]/following::a[1]</value>
-      <webElementGuid>ab428355-8f34-496d-bd93-ba1617666e27</webElementGuid>
+      <webElementGuid>6eed1876-83fe-462c-bb16-0c34beffbe05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Puntaje Docente'])[1]/preceding::a[1]</value>
-      <webElementGuid>912a9b4f-6e58-408b-afde-f70c97c7f0ff</webElementGuid>
+      <webElementGuid>b07c7309-4d56-489f-b86e-28ff90e303fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisa tus solicitudes'])[1]/preceding::a[1]</value>
-      <webElementGuid>8619e587-6d4a-4ec0-9591-c5a92034755f</webElementGuid>
+      <webElementGuid>4a45c6fe-83c8-49ba-af71-3706e9b597be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/PortalSara/sitio/portalEmpleados/solicitudpuntaje-calidad')]</value>
-      <webElementGuid>eb4dc785-6ab9-4c24-82ba-aba358bd336b</webElementGuid>
+      <webElementGuid>c6aa61f3-a325-4c2f-966d-36169797272d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/figure/figcaption/a</value>
-      <webElementGuid>a3f45be2-fd80-465f-b3d0-9415977cf27a</webElementGuid>
+      <webElementGuid>6f1771cb-909e-4b2a-9d61-c6e50d48f58d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/PortalSara/sitio/portalEmpleados/solicitudpuntaje-calidad']</value>
-      <webElementGuid>4a562d9e-1475-4a07-87f1-faeabb2e40af</webElementGuid>
+      <webElementGuid>e6e71f8e-f228-41d7-ba6f-b1e8410a5cad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

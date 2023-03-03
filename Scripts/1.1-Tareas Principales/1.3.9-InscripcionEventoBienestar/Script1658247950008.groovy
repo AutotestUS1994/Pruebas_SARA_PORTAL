@@ -30,13 +30,18 @@ WebUI.switchToWindowIndex(1)
 String evento = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/span_Inscripcin Promocin y prevencin de la salud portal'))
 
 if (evento == 'Inscripción Promoción y prevención de la salud portal') {
-    //WebUI.click(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/span_Inscripcin Promocin y prevencin de la salud portal'))
+    WebUI.scrollToElement(findTestObject('MÓDULOS/InscripcionEventoBienestar/iframe_Mis eventos_7F07D451F09D4B35813735F5_55247e'), 
+        1)
 
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/a_Inscripcin'))
+    WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/a_Inscripcin'))
+
+    
+    if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMarta Por_bc0c62'), 
+        1, FailureHandling.STOP_ON_FAILURE)) {
 
     WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMarta Por_bc0c62'), 
         1, FailureHandling.STOP_ON_FAILURE)
-
+    }
     WebUI.click(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/a_Guardar'))
 
     String inscrito = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/span_Se ha registrado en el evento'))

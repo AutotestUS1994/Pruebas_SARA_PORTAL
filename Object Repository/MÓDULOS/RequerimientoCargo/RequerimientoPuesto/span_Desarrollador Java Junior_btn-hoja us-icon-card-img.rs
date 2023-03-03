@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>4b15979c-5e71-4066-96ed-821b8bbb4bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-hoja us-icon-card-img</value>
+      <webElementGuid>53794dff-092a-43af-adc0-7198574bc8ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contratosEmpleado:j_idt47:1:j_idt65&quot;)/span[@class=&quot;btn-hoja us-icon-card-img&quot;]</value>
+      <webElementGuid>1525ee62-e2ad-4b84-b729-f512b739cfad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoPuesto/iframe_Puesto de trabajo_7F07D451F09D4B3581_e1732d</value>
+      <webElementGuid>60e12d4d-c425-4a24-9ee4-80f362f44a54</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='contratosEmpleado:j_idt47:1:j_idt65']/span</value>
+      <webElementGuid>4d4725b5-b8e7-456a-8d67-cdc58968ac19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,5 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/a/span</value>
+      <webElementGuid>595bd0cd-4967-4abf-9a34-6c4a03e68cfd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

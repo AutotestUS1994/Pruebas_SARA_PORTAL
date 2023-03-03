@@ -41,47 +41,17 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMas
 WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'))
+WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'))
 
 /*WebUI.click(findTestObject('MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'))
 */
 /*WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'))
 */
-
 String RTA = ''
-
-def System(def RTA) {
-	
-	String RutaA = System.getProperty('os.name')
-	
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW =  RunConfiguration.getProjectDir() +'/1.requerimiento/DocumentosPruebas/'
-		
-		rutaW = rutaW.replace('/','\\')
-		
-		println('Esta es la ruta:' + rutaW)
-		
-		RTA = rutaW
-	}
-	else if(RutaA == 'Linux') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
-		
-		println('Esta es la ruta'+ rutaW)
-		
-		RTA = rutaW
-	}
-	else {
-		RTA = 'ERROR'
-		WebUI.acceptAlert()
-	}
-}
 
 System(RTA)
 
 println(System(RTA))
-
 
 String ruta = System(RTA) + 'ActualizacionJefe.txt'
 
@@ -125,7 +95,7 @@ WebUI.setText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovE
 WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
+WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), 1)
 
@@ -190,6 +160,30 @@ if (a.equals('Se cargo el archivo') || a.equals('procesando el archivo')) {
                 }
             }
         }
+    }
+}
+
+def System(def RTA) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.requerimiento/DocumentosPruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        RTA = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
+
+        println('Esta es la ruta' + rutaW)
+
+        RTA = rutaW
+    } else {
+        RTA = 'ERROR'
+
+        WebUI.acceptAlert()
     }
 }
 

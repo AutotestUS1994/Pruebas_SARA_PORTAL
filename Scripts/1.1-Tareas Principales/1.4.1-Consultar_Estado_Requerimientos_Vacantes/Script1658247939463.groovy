@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('SE OMITE  POR QUE NO SE PUEDE ELIMINAR O MODIFICAR PRODESO DE SELECCIÓN')
+
 WebUI.comment('Ejecutar despues de 1.4.1 y 1.4.2')
 
 WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -33,9 +33,6 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha Salida_form_licenciaEmpleadotab_bcf304'), 
         '28/03/2022')
 
-    WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha Salida_form_licenciaEmpleadotab_bcf304'), 
-        Keys.chord(Keys.ESCAPE))
-
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input__form_licenciaEmpleadotabsLicenciaspa_c41560'), 
         '1')
 
@@ -44,9 +41,6 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha 1_form_licenciaEmpleadotabsLice_f3aa7f'), 
         '28/03/2022')
-
-    WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha 1_form_licenciaEmpleadotabsLice_f3aa7f'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Horas adicionales_form_licenciaEmplea_d3d67d'), 
         '03:00')
@@ -79,9 +73,6 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha Salida_form_licenciaEmpleadotab_bcf304'), 
                 '28/03/2022')
 
-            WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha Salida_form_licenciaEmpleadotab_bcf304'), 
-                Keys.chord(Keys.ESCAPE))
-
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input__form_licenciaEmpleadotabsLicenciaspa_c41560'), 
                 '1')
 
@@ -90,9 +81,6 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
 
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha 1_form_licenciaEmpleadotabsLice_f3aa7f'), 
                 '28/03/2022')
-
-            WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Fecha 1_form_licenciaEmpleadotabsLice_f3aa7f'), 
-                Keys.chord(Keys.ESCAPE))
 
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/input_Horas adicionales_form_licenciaEmplea_d3d67d'), 
                 '03:00')

@@ -62,7 +62,7 @@ if (flag) {
 def a() {
     WebUI.setText(findTestObject('Login/input_Usuario Portal_loginusuario'), GlobalVariable.G_UsuarioJefe)
 
-    WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
     WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
 

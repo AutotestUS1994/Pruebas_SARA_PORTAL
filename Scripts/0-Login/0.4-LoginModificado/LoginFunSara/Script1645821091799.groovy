@@ -51,9 +51,9 @@ if (flag) {
         //} else {
         //    println('No conecta a: ' + i)
         //aqui coloca el wait y el clic a l modulo Actos
-        ) //TODO: revisar y quitar esto
-} // WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ir'))
-/*
+        //TODO: revisar y quitar esto
+        ) // WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ir'))
+} /*
     WebUI.setText(findTestObject('Object Repository/Login/LoginModificado/LoginSara/input_Empresa 1_form_templatej_idt24_input'), 
         'Aplicacion Nov. Empleado')
 
@@ -63,7 +63,7 @@ if (flag) {
 def a() {
     WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), GlobalVariable.G_UsuarioFun)
 
-    WebUI.setEncryptedText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    WebUI.setEncryptedText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
     WebUI.waitForElementClickable(findTestObject('Login/LoginModificado/LoginSara/a_Ingresar'), 0)
 
