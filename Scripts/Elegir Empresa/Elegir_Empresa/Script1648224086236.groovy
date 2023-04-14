@@ -3,7 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -17,12 +18,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String profileName = RunConfiguration.getExecutionProfile() 
 
-if (GlobalVariable.G_UsuarioFun.equals('weblogic')) {
-    WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
-//	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))
-} else {
-    WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))
-//	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
+println(profileName)
+
+if(profileName == "default") {
+	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
 }
+else if(profileName == "default_Weblogic")
+{WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))}
+else {
+	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
+}
+
 

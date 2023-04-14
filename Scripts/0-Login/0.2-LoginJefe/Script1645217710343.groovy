@@ -66,7 +66,8 @@ def a() {
 
     WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
 
-    WebUI.click(findTestObject('Login/a_Ingresar'))
+   
+	WebUI.click(findTestObject('Login/a_Ingresar'))
 
     WebUI.callTestCase(findTestCase('Elegir Empresa/Elegir_Empresa'), [:], FailureHandling.STOP_ON_FAILURE)
 }

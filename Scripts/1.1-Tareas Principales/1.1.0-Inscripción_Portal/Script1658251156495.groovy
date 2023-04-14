@@ -3,7 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -20,10 +21,19 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
+String profileName = RunConfiguration.getExecutionProfile()
+
+println(profileName)
 String correo = ((WebUI.callTestCase(findTestCase('0-Login/0.5-Yopmail/Crear_Yopmail'), [:], FailureHandling.STOP_ON_FAILURE)) as String)
 
+if(profileName == "default") {
 WebUI.openBrowser('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/acceso')
-
+}
+else if(profileName == "default_Weblogic")
+{
+	WebUI.openBrowser('http://192.168.2.19:7001/PortalSara/sitio/portalEmpleados/acceso')
+}
+else {WebUI.openBrowser('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/acceso')}	
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('MÓDULOS/InscripcionPortal/input_Identificacin'), idenficacion())

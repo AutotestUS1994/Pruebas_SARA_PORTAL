@@ -61,7 +61,7 @@ if (flag) {
 */
 
 def a() {
-    WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), GlobalVariable.G_UsuarioFun)
+    WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), "saraadmin")
 
     WebUI.setEncryptedText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 

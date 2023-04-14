@@ -32,6 +32,9 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/Requerimien
 WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/select_Seleccionar40 Mil Staff (20145)Aboga_2f7a39'), 
     98, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/select_SeleccionarPlanta Dinamica          _bb6977'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/select_SeleccionarPlanta Dinamica          _bb6977'), 
     1, FailureHandling.STOP_ON_FAILURE)
 
@@ -45,7 +48,8 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/Requer
 String ver1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/span_Se han guardado los datos satisfactoriamente'))
 
 String ver2 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/span_Ha finalizado el proceso'))
-if(ver1 == 'Se han guardado los datos satisfactoriamente.' && ver2 == 'Ha finalizado el proceso.') {
-	WebUI.closeBrowser()
+
+if ((ver1 == 'Se han guardado los datos satisfactoriamente.') && (ver2 == 'Ha finalizado el proceso.')) {
+    WebUI.closeBrowser()
 }
 

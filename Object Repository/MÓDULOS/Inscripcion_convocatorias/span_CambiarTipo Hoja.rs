@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Sarads_jboss (compensacionds)</name>
+   <name>span_CambiarTipo Hoja</name>
    <tag></tag>
-   <elementGuidId>35fafa23-f760-451b-8987-354bda308b7e</elementGuidId>
+   <elementGuidId>17d118a9-7af6-4c9d-9e2a-89711f26023f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div/div[2]/div/form[1]/div/div/div/table/tbody/tr[2]/td[2]/span</value>
+         <value>//span[(text() = 'CambiarTipo Hoja' or . = 'CambiarTipo Hoja')]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>a.ui-menuitem-link.ui-corner-all.ui-state-hover > span.ui-menuitem-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,102 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>eb5c16e4-89d3-4ae0-93a8-ad394d7f2728</webElementGuid>
+      <webElementGuid>4f9fd524-dd27-4ab4-8f15-238700b3418c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>valor_campo_estandar_estandar</value>
-      <webElementGuid>ce18d3ae-945e-47da-9255-51a6c6688347</webElementGuid>
+      <value>ui-menuitem-text</value>
+      <webElementGuid>b8b1faac-ee91-408a-9aad-b0989d3f5c4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sarads_jboss (compensacionds)</value>
-      <webElementGuid>db883acf-0091-412a-b196-2c063d26a5d8</webElementGuid>
+      <value>CambiarTipo Hoja</value>
+      <webElementGuid>91538ef8-f5e8-40ac-bff2-e26434354895</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login:accesosAutorizados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo_estandar_estandar&quot;]</value>
-      <webElementGuid>a3e7a3cc-3f38-4db5-8a12-1aa813f20d43</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/ElegirEmpresa/iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
-      <webElementGuid>c6b5be32-f251-4588-ba66-b9fbc4784464</webElementGuid>
+      <value>id(&quot;hojaVida:j_idt138&quot;)/ul[@class=&quot;ui-menu-list ui-helper-reset&quot;]/li[@class=&quot;ui-menuitem ui-widget ui-corner-all&quot;]/a[@class=&quot;ui-menuitem-link ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-menuitem-text&quot;]</value>
+      <webElementGuid>e6025373-e489-4215-9164-386f9024bac1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='login:accesosAutorizados_data']/tr/td[2]/span</value>
-      <webElementGuid>7e347b69-52c1-47b5-abe4-07e5fc497b33</webElementGuid>
+      <value>//div[@id='hojaVida:j_idt138']/ul/li[4]/a/span[2]</value>
+      <webElementGuid>167975bb-bd96-4cec-8874-486cc2da2efc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[1]/following::span[1]</value>
-      <webElementGuid>2103b122-1dc4-4b6e-8a2f-909518153acc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Imprimir'])[1]/following::span[2]</value>
+      <webElementGuid>24a5d0e7-4130-408c-9048-2075a5b28677</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rol'])[1]/following::span[2]</value>
-      <webElementGuid>6146f772-cee0-49a4-8a2c-d0eab49c6ea8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar'])[1]/following::span[4]</value>
+      <webElementGuid>dea0c9b6-70fa-4bb1-b07b-4927c57bf06b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado'])[1]/preceding::span[1]</value>
-      <webElementGuid>d7106fd7-c2e3-4d14-a49d-ad75870ead86</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regresar'])[1]/preceding::span[2]</value>
+      <webElementGuid>70e47397-21b8-473f-aae8-70436219e920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[2]/preceding::span[2]</value>
-      <webElementGuid>2446cf38-a7f9-4e48-876e-dc30910b705c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRUEBA INSCRIPCION KATALON'])[1]/preceding::span[3]</value>
+      <webElementGuid>f25ee7cb-4fa7-4c36-a07a-f543e57a63b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sarads_jboss (compensacionds)']/parent::*</value>
-      <webElementGuid>22a25fc3-eb6a-4a4b-85fe-b5d54db34c56</webElementGuid>
+      <value>//*/text()[normalize-space(.)='CambiarTipo Hoja']/parent::*</value>
+      <webElementGuid>13ee49b5-68f1-4f9c-8516-9ae989cf7ce0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/span</value>
-      <webElementGuid>7fb733cd-626a-45cd-a9c8-0bd4b3763953</webElementGuid>
+      <value>//li[4]/a/span[2]</value>
+      <webElementGuid>8651f4ad-ec58-46ac-a1d9-bcac3f17ddc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Sarads_jboss (compensacionds)' or . = 'Sarads_jboss (compensacionds)')]</value>
-      <webElementGuid>f9102b59-7a44-4d30-821e-d4a1b1883dcc</webElementGuid>
+      <value>//span[(text() = 'CambiarTipo Hoja' or . = 'CambiarTipo Hoja')]</value>
+      <webElementGuid>722f1d7f-59fa-476a-b99a-82215ab2a7bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

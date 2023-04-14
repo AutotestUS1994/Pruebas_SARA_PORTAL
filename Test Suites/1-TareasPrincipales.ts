@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5140a32e-25e6-4528-891c-e031b4bf033e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.1-Inscripción_convocatorias</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8b9aaf50-a023-4ec0-973e-da6159aa1ab9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -212,13 +205,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.3-Requerimiento_Cargo_Existe</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>684506e5-8de7-4ce1-8129-74412d323ae6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.4.1-Consultar_Estado_Requerimientos_Vacantes</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

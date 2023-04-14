@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
 
 String correo = WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.0-Inscripción_Portal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -28,11 +30,13 @@ String Documento = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocator
 
 WebUI.refresh()
 
+WebUI.comment('apartir  de aqui se agrega el cambio de estado a aspirante')
+
 WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/Span_RRHH'))
 
 WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
 
-WebUI.switchToWindowIndex(2)
+WebUI.switchToWindowIndex(3)
 
 String text = WebUI.getText(findTestObject('MÓDULOS/DiligenciarHV/a_fila0'))
 
@@ -211,5 +215,61 @@ def fecha() {
     } else {
         String fecha = (((Dia + '/') + Mes) + '/') + Año
     }
+}
+
+def cambioAspirante() {
+    Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_T)
+	
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+	
+	robot.keyRelease(KeyEvent.VK_T)
+	
+
+    WebUI.switchToWindowIndex(2, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.navigateToUrl(GlobalVariable.G_LoginSara)
+
+    WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), GlobalVariable.G_UsuarioFun)
+
+    WebUI.setEncryptedText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
+
+    WebUI.waitForElementClickable(findTestObject('Login/LoginModificado/LoginSara/a_Ingresar'), 0)
+
+    WebUI.click(findTestObject('Login/LoginModificado/LoginSara/a_Ingresar'))
+
+    WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Empresa 1_form_templatej'), 'Listado Hojas de Vida (hoj)')
+
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/Inscripcion_convocatorias/li_Listado Hojas de Vida (hoj)'), 0)
+
+    WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/li_Listado Hojas de Vida (hoj)'))
+
+    WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+
+    String Documento = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_documento'))
+
+    WebUI.switchToWindowIndex(2, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Identificacin_listado_hojaVidaj_idt68'), Documento)
+
+    WebUI.sendKeys(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Identificacin_listado_hojaVidaj_idt68'), Keys.chord(
+            Keys.ENTER))
+
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Katalon  Prueba Inscripcionsara'), 
+        0)
+
+    WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Katalon  Prueba Inscripcionsara'))
+
+    WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_CambiarTipo Hoja'))
+
+    WebUI.selectOptionByIndex(findTestObject('MÓDULOS/Inscripcion_convocatorias/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico'), 
+        2)
+
+    WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Aplicar'))
+
+    WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 }
 
