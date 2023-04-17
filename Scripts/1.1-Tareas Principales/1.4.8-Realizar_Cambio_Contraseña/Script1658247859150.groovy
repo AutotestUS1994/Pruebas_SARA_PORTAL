@@ -30,7 +30,7 @@ WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/i
 WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'SoloAutomaticas20232*')
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 
-    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
+    'SlAwMcyRKqrwbnzhAs8HhapExP8FopFu')
 
 WebUI.click(findTestObject('MÓDULOS/RealizarCambioContraseña/a_Actualizar'))
 

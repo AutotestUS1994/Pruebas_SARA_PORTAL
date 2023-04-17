@@ -8,8 +8,7 @@
       <entry>
          <key>XPATH</key>
          <value>
-//body/div[1]/div/div[2]/div/form[1]/div/div/div/table/tbody/tr[2]/td[1]/span
-</value>
+//body/div[1]/div/div[2]/div/form[1]/div/div/div/table/tbody/tr[1]/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>41140a5e-9099-43be-af82-9a5badbb7e68</webElementGuid>
+      <webElementGuid>3c454206-8972-4404-901e-2493c01e42e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar_estandar</value>
-      <webElementGuid>fc378114-ed9c-499d-b4f3-daafa0c8cbbd</webElementGuid>
+      <webElementGuid>0a2e8325-443f-4917-9dc8-9f64f7984d7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Jdbc/compensacionds</value>
-      <webElementGuid>69cb130c-3ee6-4aee-9417-96ee1316b620</webElementGuid>
+      <webElementGuid>20b737e9-8e2f-4e55-8d4c-b50d26281d40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login:accesosAutorizados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo_estandar_estandar&quot;]</value>
-      <webElementGuid>183acf51-ed22-4647-b427-00f4dc48efd0</webElementGuid>
+      <webElementGuid>2a15486f-fd29-4ca8-b74c-863410bbeddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/ElegirEmpresa/iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
-      <webElementGuid>50b207f5-17a5-48ae-80c1-7baf5b3087ba</webElementGuid>
+      <webElementGuid>ed3a877b-6053-476e-8122-9375637bd05c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='login:accesosAutorizados_data']/tr[2]/td[2]/span</value>
-      <webElementGuid>465d0e90-abd7-4678-ae35-f293503e5d08</webElementGuid>
+      <webElementGuid>4111a106-a523-4cda-b68f-7de2cba73b6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[2]/following::span[1]</value>
-      <webElementGuid>a472c62f-3f6e-4d45-8d64-7ef5379451b7</webElementGuid>
+      <webElementGuid>a6980801-d964-4cfd-83fc-fa767f6e3697</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado'])[1]/following::span[2]</value>
-      <webElementGuid>ad77065c-4721-45b2-b6a1-9d4527765147</webElementGuid>
+      <webElementGuid>14139b3e-d77b-4338-a575-f6c91b42429e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado'])[2]/preceding::span[1]</value>
-      <webElementGuid>cc06962a-8466-44a9-9437-9dca68db8451</webElementGuid>
+      <webElementGuid>2434ab87-481f-40c3-a862-173186ad595c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[7]</value>
-      <webElementGuid>fc4ddc31-49a6-4e8a-96f5-366d10bf915d</webElementGuid>
+      <webElementGuid>d7465e9d-0ad4-42d8-a60a-ecdddc2e4d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Jdbc/compensacionds']/parent::*</value>
-      <webElementGuid>58efd4b0-dc84-4558-98dc-34369e126064</webElementGuid>
+      <webElementGuid>ec8ca861-7244-4e68-aec1-a2cf9a199ebd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/span</value>
-      <webElementGuid>798c4508-b948-4dee-a068-460786a734c9</webElementGuid>
+      <webElementGuid>9929de3e-ac0a-4c23-a38b-a004716b8b05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Jdbc/compensacionds' or . = 'Jdbc/compensacionds')]</value>
-      <webElementGuid>94c988a6-a817-4685-8dc8-9d1da1b4cd07</webElementGuid>
+      <webElementGuid>bd32187d-905b-4998-af65-ff4e52f942c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
