@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/Requer
 
 String ver1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/span_Se han guardado los datos satisfactoriamente'))
 
+WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/a_Continuar_1'))
+
 String ver2 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/span_Ha finalizado el proceso'))
 
 if ((ver1 == 'Se han guardado los datos satisfactoriamente.') && (ver2 == 'Ha finalizado el proceso.')) {

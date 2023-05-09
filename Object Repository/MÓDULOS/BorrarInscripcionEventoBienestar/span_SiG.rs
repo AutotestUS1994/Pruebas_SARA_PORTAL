@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Si</name>
+   <name>span_SiG</name>
    <tag></tag>
    <elementGuidId>25b7572d-08be-4819-8289-47c6d6f27772</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[(text() = 'Si' or . = 'Si')]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Si' or . = 'Si')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ea8f43dc-c146-41b9-b112-efb249ad4b32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button-text ui-c</value>
+      <webElementGuid>b0ccd5fb-4c31-4e28-b725-05f437ce15f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,27 +38,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>de62ed31-5586-44bb-ac02-5ce74d8d0863</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt2214:j_idt2217&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <value>id(&quot;j_idt658:j_idt661&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>1523ad18-be55-43d6-9812-7c4143998a25</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='j_idt2214:j_idt2217']/span</value>
+      <value>//button[@id='j_idt658:j_idt661']/span</value>
+      <webElementGuid>3ca998fe-afa3-4b56-a71a-1dae6b4f4dff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::span[1]</value>
+      <webElementGuid>09032b4e-24a9-4a9b-a761-ca44cb0b7805</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,13 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DESEA CONFIRMAR'])[1]/following::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>9eb4008e-8401-4b1e-8343-878265c56639</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span</value>
+      <webElementGuid>312ea073-83f9-4a93-938b-1330c42aec79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Si' or . = 'Si')]</value>
+      <webElementGuid>225dec65-4d2e-4dce-923d-2a39e75b41e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

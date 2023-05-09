@@ -6,12 +6,12 @@
    <elementGuidId>d52ea27f-736a-43a9-8de7-ec6263168b25</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/table/tbody/tr/td/div/div/ul/li/span[2]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='j_idt47']/div/ul/li[2]/span[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>bc4d1c66-4370-43d5-a758-51ded4f4cac5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>aeb7459d-5f0e-424b-8bcd-3810800eda7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ha finalizado el proceso.</value>
+      <webElementGuid>eddbc089-2e09-47ac-a53e-b708103afb2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt47&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[2]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>3d3520fd-fe3f-4540-ab7c-a76e33865a26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/iframe_Cargo existente_7F07D451F09D4B358137_cb7a64</value>
+      <webElementGuid>ab85fc19-a181-4670-ada2-73a203e5156b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt47']/div/ul/li[2]/span[2]</value>
+      <webElementGuid>2253fa7c-f291-40e6-b1ba-2b8de512baf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[2]/following::span[1]</value>
+      <webElementGuid>0a60eb4a-6502-4e6e-8a9f-57dea0b7272a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Se han guardado los datos satisfactoriamente.'])[1]/following::span[2]</value>
+      <webElementGuid>ac3c1ef7-c98d-4b80-8696-4ae8c43f6c1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
+      <webElementGuid>e2506caf-7693-47b7-85b2-4f7af958de56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
+      <webElementGuid>61f076f8-0a74-4cf9-8c07-f5eaaa068324</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ha finalizado el proceso.']/parent::*</value>
+      <webElementGuid>2ee60ecc-f3b3-4f45-a39b-7fed303532b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/span[2]</value>
+      <webElementGuid>1c502c2d-afdc-4939-a2be-134523dd89f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Ha finalizado el proceso.' or . = 'Ha finalizado el proceso.')]</value>
+      <webElementGuid>6b5a4219-f745-4899-9486-44b3b050965f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

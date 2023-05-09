@@ -179,14 +179,14 @@ def a() {
     WebUI.click(findTestObject('Login/a_Ingresar'))
 	
 	String profileName = RunConfiguration.getExecutionProfile()
-	
+	String i = GlobalVariable.G_Login
 	println(profileName)
 	if(profileName == "default") {
-		WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
+		WebUI.navigateToUrl(i)
 		} 
 	else if(profileName == "default_Weblogic"){
-		WebUI.navigateToUrl('http://192.168.2.19:7001/PortalSara/sitio/portalEmpleados/solicitudViatico')
-	} else {WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')}
+		WebUI.navigateToUrl(i)
+	} else {WebUI.navigateToUrl(i)}
     
 }
 

@@ -6,11 +6,12 @@
    <elementGuidId>35fafa23-f760-451b-8987-354bda308b7e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div/div[2]/div/form[1]/div/div/div/table/tbody/tr[2]/td[2]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[1]/div/div/div/table/tbody/tr[2]/td[2]/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>eb5c16e4-89d3-4ae0-93a8-ad394d7f2728</webElementGuid>
+      <webElementGuid>702330ee-3dcf-4f83-ba28-7c999e95cec8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar_estandar</value>
-      <webElementGuid>ce18d3ae-945e-47da-9255-51a6c6688347</webElementGuid>
+      <webElementGuid>f4e1aa2f-db4e-4390-86fc-ca0d009c9c7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sarads_jboss (compensacionds)</value>
-      <webElementGuid>db883acf-0091-412a-b196-2c063d26a5d8</webElementGuid>
+      <webElementGuid>ff11e9fe-9437-494f-9cbd-451c5d1638dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login:accesosAutorizados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo_estandar_estandar&quot;]</value>
-      <webElementGuid>a3e7a3cc-3f38-4db5-8a12-1aa813f20d43</webElementGuid>
+      <webElementGuid>17ff8536-78aa-42d5-8922-061d4bde6b91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/ElegirEmpresa/iframe_Ver ms_7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
-      <webElementGuid>c6b5be32-f251-4588-ba66-b9fbc4784464</webElementGuid>
+      <webElementGuid>c43641b7-7ef6-4315-8e82-19e0165d968f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='login:accesosAutorizados_data']/tr/td[2]/span</value>
-      <webElementGuid>7e347b69-52c1-47b5-abe4-07e5fc497b33</webElementGuid>
+      <webElementGuid>75138f3e-1ff5-449c-87d5-fd0ae59fc4a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[1]/following::span[1]</value>
-      <webElementGuid>2103b122-1dc4-4b6e-8a2f-909518153acc</webElementGuid>
+      <webElementGuid>1118091c-6617-4871-a673-dde13a270369</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rol'])[1]/following::span[2]</value>
-      <webElementGuid>6146f772-cee0-49a4-8a2c-d0eab49c6ea8</webElementGuid>
+      <webElementGuid>a15b3d35-a9f5-4fa9-97a9-9cbe5b6830cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado'])[1]/preceding::span[1]</value>
-      <webElementGuid>d7106fd7-c2e3-4d14-a49d-ad75870ead86</webElementGuid>
+      <webElementGuid>1c0c0e02-2eda-4c26-8a78-d2081f5f40f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[2]/preceding::span[2]</value>
-      <webElementGuid>2446cf38-a7f9-4e48-876e-dc30910b705c</webElementGuid>
+      <webElementGuid>eb10d2de-72f4-4884-add5-bed4d48e5d18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sarads_jboss (compensacionds)']/parent::*</value>
-      <webElementGuid>22a25fc3-eb6a-4a4b-85fe-b5d54db34c56</webElementGuid>
+      <webElementGuid>d96cd891-4c19-45ff-a38c-31b0504c9465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span</value>
-      <webElementGuid>7fb733cd-626a-45cd-a9c8-0bd4b3763953</webElementGuid>
+      <webElementGuid>f3025596-0ba9-4b7c-b570-7f35aec0129c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Sarads_jboss (compensacionds)' or . = 'Sarads_jboss (compensacionds)')]</value>
-      <webElementGuid>f9102b59-7a44-4d30-821e-d4a1b1883dcc</webElementGuid>
+      <webElementGuid>a44c3375-f318-4cff-abc0-1994c4ca3e0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

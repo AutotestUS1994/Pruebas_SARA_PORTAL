@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_competencias</name>
+   <tag></tag>
+   <elementGuidId>e7f23911-7e41-47b9-a9cc-6b0bc8847135</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[1]/tbody/tr[1]/td/table/tbody/tr/td/div/div[2]/table[5]/tbody/tr/td/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
+      <webElementGuid>29c7377a-a340-4b3f-b496-4f07f9a326a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+      <webElementGuid>38f21445-ab1a-4279-bbfa-a2ac5e6dc5c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

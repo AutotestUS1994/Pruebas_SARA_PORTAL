@@ -20,12 +20,14 @@ import org.openqa.selenium.Keys as Keys
 
 String profileName = RunConfiguration.getExecutionProfile()
 
+String i = GlobalVariable.G_Login
+
 println(profileName)
 
 WebUI.openBrowser('')
 
 if (profileName == 'default_Weblogic') {
-    WebUI.navigateToUrl('http://192.168.2.19:7001/PortalSara/sitio/portalEmpleados/acceso')
+    WebUI.navigateToUrl(i) 
 
     WebUI.setText(findTestObject('MÓDULOS/VerificadorPinCertificacion/input_Identificacin_from_validarcertificaci_a5efec'), 
         '90798514')
@@ -36,7 +38,7 @@ if (profileName == 'default_Weblogic') {
 
     a() /*WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/acceso')*/
 } else {
-    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/acceso')
+    WebUI.navigateToUrl(i)
 
     WebUI.setText(findTestObject('MÓDULOS/VerificadorPinCertificacion/input_Identificacin_from_validarcertificaci_a5efec'), 
         '90798514')

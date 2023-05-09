@@ -25,39 +25,14 @@ WebUI.click(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCer
 
 WebUI.click(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/span_CERTIFICADO PERSONAL PLANTA'))
 
+WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/a_Acta De Grado   Diploma_form_solicitudesE_bf87f8'), 
+    0)
+
 WebUI.click(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/a_Acta De Grado   Diploma_form_solicitudesE_bf87f8'))
 
 String P = WebUI.getText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/input_Seleccionar Archivo_popupDocumentoNov_909a6f'))
 
 String RTA = ''
-
-def System(def RTA) {
-	
-	String RutaA = System.getProperty('os.name')
-	
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW =  RunConfiguration.getProjectDir() +'/1.requerimiento/DocumentosPruebas/'
-		
-		rutaW = rutaW.replace('/','\\')
-		
-		println('Esta es la ruta:' + rutaW)
-		
-		RTA = rutaW
-	}
-	else if(RutaA == 'Linux') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
-		
-		println('Esta es la ruta'+ rutaW)
-		
-		RTA = rutaW 
-	}
-	else {
-		RTA = 'ERROR'
-		WebUI.acceptAlert()
-	}
-}
 
 System(RTA)
 
@@ -84,7 +59,30 @@ WebUI.click(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCer
 String confirmaGuardar = WebUI.getText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/span_Se actualizo el registro satisfactoriamente'))
 
 if ((confirmaGuardar == 'Registro guardado') | (confirmaGuardar == 'SE PROCESARÁ SU SOLICITUD')) {
- 
     WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+}
+
+def System(def RTA) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.requerimiento/DocumentosPruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        RTA = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimiento/DocumentosPruebas/'
+
+        println('Esta es la ruta' + rutaW)
+
+        RTA = rutaW
+    } else {
+        RTA = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
 }
 

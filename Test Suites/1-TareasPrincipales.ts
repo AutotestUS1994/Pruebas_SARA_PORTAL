@@ -277,4 +277,11 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.4-xls_visor_reportes_</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9eb99e38-0f28-4dc0-b21e-6df397396ba6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.5-Requerimiento_puesto_existente</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

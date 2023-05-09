@@ -6,11 +6,11 @@
    <elementGuidId>273ccd3f-c3da-4f39-90ad-764f2899fa10</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Cargue Masivo')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/div[3]/div/form/table/tbody/tr/td[1]/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5c05fd89-525d-4006-a9c1-26fb129e7062</webElementGuid>
+      <webElementGuid>6bbef76b-7713-4064-8584-64a34ca6b9a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>aplicaNovedadProceso:j_idt104:j_idt109</value>
-      <webElementGuid>62a95bd5-d37e-4538-84c7-9e468958996a</webElementGuid>
+      <webElementGuid>bebb9969-3266-422e-b685-6a1dcc800b96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>506fcc91-1aea-468e-ba8f-b48c65d35d42</webElementGuid>
+      <webElementGuid>479e8032-97ba-47db-9105-dd736a4c21eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-cargue</value>
-      <webElementGuid>a82132de-24d0-45cc-9a1e-9dcb0e276575</webElementGuid>
+      <webElementGuid>00a0b3b4-c551-4717-883a-b88d8358c726</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;aplicaNovedadProceso:j_idt104:j_idt109&quot;,f:&quot;aplicaNovedadProceso&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>be7f3650-2906-4f18-bb1c-746f5d9d4b5a</webElementGuid>
+      <webElementGuid>bfd7570f-af72-43c8-b738-29caab2c23b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cargue Masivo</value>
-      <webElementGuid>cdb278aa-0e64-423c-b015-929622522eb2</webElementGuid>
+      <webElementGuid>8feb51d8-e491-4e61-a08d-f5afd0f8a01c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;aplicaNovedadProceso:j_idt104:j_idt109&quot;)</value>
-      <webElementGuid>323dda30-1977-4a73-aa6e-19e198a80daf</webElementGuid>
+      <webElementGuid>f0dbe4b8-cbcb-45da-8044-42b4f2ce4412</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
-      <webElementGuid>8540da3f-ca36-49b7-8e73-18c6f352a6c0</webElementGuid>
+      <webElementGuid>41199777-d300-4156-ba6f-f14aa83a2211</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='aplicaNovedadProceso:j_idt104:j_idt109']</value>
-      <webElementGuid>1a51abec-5753-4573-a9a0-a4bc82b7c5e4</webElementGuid>
+      <webElementGuid>a4b7973c-ffe2-43be-a0e7-8d9aea9ecbfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='aplicaNovedadProceso']/table/tbody/tr/td/table/tbody/tr[4]/td/table/tbody/tr/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>a4fe0b60-2c56-4ca8-95bc-1648debafbe9</webElementGuid>
+      <webElementGuid>02913ff9-af58-4455-bfec-9ff5879b7af5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cargue Masivo')]</value>
-      <webElementGuid>f76ea140-6243-40ba-bf7c-195c8daebf83</webElementGuid>
+      <webElementGuid>5fddda6e-abbc-4d09-86b3-36020853903e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Legalizar'])[1]/following::a[6]</value>
-      <webElementGuid>e50be0f1-ea35-4e17-8345-f428e759cdb2</webElementGuid>
+      <webElementGuid>97ce5639-b338-44d8-a901-646468e54701</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Por Autorizar'])[1]/following::a[10]</value>
-      <webElementGuid>835a8074-9e0c-4bfa-b1f4-631a31b9d3a8</webElementGuid>
+      <webElementGuid>2a98849a-50af-4d08-98ec-63a1f889fb0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrar Novedades'])[1]/preceding::a[1]</value>
-      <webElementGuid>8cc7e959-d87e-4603-ba71-c1d8e0a4e262</webElementGuid>
+      <webElementGuid>19f94331-50ac-44d9-b9ac-7d45c147171e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Novedad'])[1]/preceding::a[1]</value>
-      <webElementGuid>0ea3c572-d82c-491e-922e-8dbc90511de3</webElementGuid>
+      <webElementGuid>cc09f669-3fbb-41e1-829b-dd8fa406a333</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cargue Masivo']/parent::*</value>
-      <webElementGuid>1bc4b890-0b68-4eec-b0c6-802c357517eb</webElementGuid>
+      <webElementGuid>59cad3d4-cb59-431d-80f2-72928faef8ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
-      <webElementGuid>d293b7e3-1c57-4469-b456-3ef90bd47c05</webElementGuid>
+      <webElementGuid>08b11cd5-bc69-4796-88da-20cf1a799790</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
-      <webElementGuid>b14c1037-f922-4391-b7d2-326871e6f8f5</webElementGuid>
+      <webElementGuid>7797837f-e185-4de0-ba94-76452c70c72a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'aplicaNovedadProceso:j_idt104:j_idt109' and @href = '#' and (text() = 'Cargue Masivo' or . = 'Cargue Masivo')]</value>
-      <webElementGuid>f82d504c-f7f8-4238-8ddb-c8222772a3d7</webElementGuid>
+      <webElementGuid>8f50661f-c304-4a9c-a1b8-c3c8147037e6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

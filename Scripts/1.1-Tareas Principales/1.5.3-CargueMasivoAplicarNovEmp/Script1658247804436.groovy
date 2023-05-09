@@ -23,25 +23,26 @@ WebUI.callTestCase(findTestCase('0-Login/0.1-LoginFun'), [:], FailureHandling.ST
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'), 0)
+
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
+
+while (WebUI.waitForElementNotVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 
+    1) == true) {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
+}
 
 WebUI.comment('Cargue Actualizar Jefe Proceso Base De Datos')
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 'Actualizar Jefe Proceso Base De Datos')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
-    Keys.chord(Keys.ENTER))
+WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
+    1)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'), 
-    0)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'), 
-    0)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'), 
-    0)
-
-WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'))
+while (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 1) == 
+true) {
+    WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'))
+}
 
 /*WebUI.click(findTestObject('MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'))
 */
@@ -90,16 +91,27 @@ WebUI.comment('Cargue Actualizar Jefe Proceso Aplicacion')
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
 
+while (WebUI.waitForElementNotVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 
+    1)) {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
+}
+
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 'Actualizar Jefe Proceso Aplicacion')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
-    Keys.chord(Keys.ENTER))
+WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
+    1)
 
 WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
 
+
+while(WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 1)){
+	WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
+}
 WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), 1)
 
 WebUI.uploadFile(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), ruta)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Importar'), 0)
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Importar'))
 

@@ -27,12 +27,14 @@ println(profileName)
 
 String correo = ((WebUI.callTestCase(findTestCase('0-Login/0.5-Yopmail/Crear_Yopmail'), [:], FailureHandling.STOP_ON_FAILURE)) as String)
 
+String i = GlobalVariable.G_Login
+
 if (profileName == 'default') {
-    WebUI.openBrowser('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/acceso')
+    WebUI.openBrowser(i)
 } else if (profileName == 'default_Weblogic') {
-    WebUI.openBrowser('http://192.168.2.19:7001/PortalSara/sitio/portalEmpleados/acceso')
+    WebUI.openBrowser(i)
 } else {
-    WebUI.openBrowser('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/acceso')
+    WebUI.openBrowser(i)
 }
 
 WebUI.maximizeWindow()

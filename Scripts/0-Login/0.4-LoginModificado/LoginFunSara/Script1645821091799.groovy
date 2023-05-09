@@ -3,7 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -61,8 +62,18 @@ if (flag) {
 */
 
 def a() {
+	
+	String profileName = RunConfiguration.getExecutionProfile()
+	
+	println(profileName)
+	
+	if(profileName == 'default') {
     WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), "saraadmin")
-
+	}
+	else if(profileName == 'default_Weblogic') {
+		
+		WebUI.setText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginusuario'), "weblogic")
+	}
     WebUI.setEncryptedText(findTestObject('Login/LoginModificado/LoginSara/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
     WebUI.waitForElementClickable(findTestObject('Login/LoginModificado/LoginSara/a_Ingresar'), 0)

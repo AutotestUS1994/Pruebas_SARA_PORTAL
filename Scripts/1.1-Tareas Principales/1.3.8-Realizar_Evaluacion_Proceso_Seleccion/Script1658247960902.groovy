@@ -81,6 +81,9 @@ def realizar() {
 
     WebUI.click(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/span_Si'))
 
+    WebUI.scrollToElement(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/a_Regresar'), 
+        0)
+
     String termino = WebUI.getText(findTestObject('MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/RealizarEvaluacionPS/a_Regresar'))
 
     if (termino == 'Regresar') {

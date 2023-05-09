@@ -23,12 +23,16 @@ String profileName = RunConfiguration.getExecutionProfile()
 println(profileName)
 
 if(profileName == "default") {
-	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
+		
+	WebUI.doubleClick(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
+
 }
 else if(profileName == "default_Weblogic")
-{WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))}
+{
+	WebUI.doubleClick(findTestObject('Object Repository/ElegirEmpresa/span_Sarads_jboss (compensacionds)'))
+	}
 else {
-	WebUI.click(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
-}
+	WebUI.doubleClick(findTestObject('Object Repository/ElegirEmpresa/span_Jdbccompensacionds'))
+	}
 
 

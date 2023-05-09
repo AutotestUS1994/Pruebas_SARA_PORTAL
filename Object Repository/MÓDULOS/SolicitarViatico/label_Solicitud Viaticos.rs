@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='us-interfaz-7vsk']/div/label</value>
+         <value>//label[(text() = 'Solicitud Viaticos' or . = 'Solicitud Viaticos')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>647f6c25-5c45-40d8-8869-7a413de1d121</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitud Viaticos</value>
+      <webElementGuid>5c77afe6-b6de-4ab7-b43f-1dcb77d855d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;us-interfaz-7vsk&quot;)/div[@class=&quot;panel-heading&quot;]/label[1]</value>
+      <webElementGuid>9ba83cd6-124c-4f1f-a652-2dd2f109728f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
+      <webElementGuid>b38ca44b-b8f1-4aeb-869f-c9f9d2232a27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='us-interfaz-7vsk']/div/label</value>
+      <webElementGuid>fcd6bb8c-a800-4324-95ba-8426fd353c65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro'])[1]/preceding::label[1]</value>
+      <webElementGuid>55bfd9df-099d-4425-9906-b8467159b789</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[1]/preceding::label[1]</value>
+      <webElementGuid>9797a0cf-4e13-4124-a827-32d505af00b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Solicitud Viaticos']/parent::*</value>
+      <webElementGuid>67c8575d-0695-479a-8e72-68bb37f65fee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
+      <webElementGuid>cbc4357c-7d29-493c-af4c-5b3fe1766fc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Solicitud Viaticos' or . = 'Solicitud Viaticos')]</value>
+      <webElementGuid>5025f8c3-0487-4f30-9648-472a4ecfc065</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

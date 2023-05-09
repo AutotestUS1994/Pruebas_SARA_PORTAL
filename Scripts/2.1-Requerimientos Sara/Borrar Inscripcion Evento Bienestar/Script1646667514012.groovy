@@ -48,7 +48,7 @@ if (evento == 'Promocion y prevencion de la salud portal') {
 
         WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/a_Eliminar'))
 
-        WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/span_Si'))
+        WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/span_SiG'))
 
         WebUI.closeBrowser()
     }

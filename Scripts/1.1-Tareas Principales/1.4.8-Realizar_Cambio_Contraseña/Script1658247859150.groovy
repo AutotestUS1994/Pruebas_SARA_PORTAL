@@ -27,6 +27,9 @@ WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/i
 WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
     0)
 
+WebUI.waitForElementVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
+    0)
+
 WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 'SoloAutomaticas20232*')
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 
@@ -41,10 +44,10 @@ if (WebUI.waitForElementNotVisible(findTestObject('MÓDULOS/RealizarCambioContra
     WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
 
     WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
-        'SoloAutomaticas2022')
+        'SoloAutomaticas2023*')
 } else {
     WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
-        'SoloAutomaticas2022')
+        'SoloAutomaticas2023*')
 }
 
 WebUI.setEncryptedText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Confirmar Clave_form_cambioContraseni_852154'), 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/div[3]/div/form/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/div/div[3]/div/div[3]/div[2]/div/a/span</value>
+         <value>/html/body/div[1]/div/div[2]/div/div[3]/div/form/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/div/div[3]/div/div[4]/div[2]/div/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c45318f7-54a4-4d84-9e14-43c0c695033a</webElementGuid>
+      <webElementGuid>38737f9e-ce8b-4e81-b8bc-376c62d1b1a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-hoja us-icon-card-img</value>
-      <webElementGuid>522644ff-8a4c-4dfa-b709-24357cb1c64c</webElementGuid>
+      <webElementGuid>f712ae9f-56b7-408c-a7b6-4bd418c1b05a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contratosEmpleado:j_idt46:0:j_idt64&quot;)/span[@class=&quot;btn-hoja us-icon-card-img&quot;]</value>
-      <webElementGuid>c07820e0-94fa-4b6b-8147-a284641e9869</webElementGuid>
+      <webElementGuid>3075f009-50d8-48d8-a4cb-b14187267fde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ConsultarDescripcionCargoSubalterno/iframe_Mis Cesantas_descripcionCargoSubAlte_3904b7 - Copy</value>
-      <webElementGuid>e5bef283-aa6d-488b-88e8-003c854400ee</webElementGuid>
+      <webElementGuid>3f282d67-5517-4144-89e3-5463ef2abaac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='contratosEmpleado:j_idt46:0:j_idt64']/span</value>
-      <webElementGuid>c4c21b31-7223-4524-afb5-69a8af9c41f3</webElementGuid>
+      <webElementGuid>cdd7aa22-090d-486c-811e-28e5913c2aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/span</value>
-      <webElementGuid>1a80bbbd-cfb7-49b2-913b-8ed9b9cda1b1</webElementGuid>
+      <webElementGuid>ad170caf-63e2-46b6-8c86-d9593dd55426</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
