@@ -38,14 +38,10 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/RegistrarAutorizarLegaliz
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/input_Vigencia_aplicaNovedadProcesofechaVig_d35d75'), 
     '02/03/2022')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/input_Vigencia_aplicaNovedadProcesofechaVig_d35d75'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/input_Hasta_aplicaNovedadProcesohastaVariab_be8481'), 
     '02/03/2022')
 
-WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/input_Hasta_aplicaNovedadProcesohastaVariab_be8481'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/RegistrarAutorizarLegalizarAplicacionNovedad_ServicioSolicitudPuntajeDocente/input_Base_aplicaNovedadProcesovalorcambioV_9f0762'), 
     '7000')

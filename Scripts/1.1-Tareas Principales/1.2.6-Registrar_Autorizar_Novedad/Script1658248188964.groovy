@@ -31,14 +31,10 @@ if (nov == 'Novedad') {
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/button_ui-button'), 
         '01/03/2022')
 
-    WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/button_ui-button'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/span_Hasta_ui-button-icon-left ui-icon ui-i_791b9d'), 
         '01/03/2022')
 
-    WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/span_Hasta_ui-button-icon-left ui-icon ui-i_791b9d'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/input_Base_form_novedadesEmpleadotabsNoveda_ff9ec9'), 
         '8000')

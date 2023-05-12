@@ -6,12 +6,11 @@
    <elementGuidId>7c6762db-059d-4715-96eb-1e8ccc622bcb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popupInfoDialog:j_idt939_content']/div/label</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span/form/div/div[2]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>91da70b2-7457-42a9-b9a7-96dbaf3ff121</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Advertencia</value>
+      <webElementGuid>b7fad7fb-e06c-4010-849a-1bd00327d9ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupInfoDialog:j_idt939_content&quot;)/div[@class=&quot;us-head-popup us-popup-img&quot;]/label[1]</value>
+      <webElementGuid>c90ea4ff-0638-4715-bf47-abf6b59a0a2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/iframe_Mis Cesantas_7F07D451F09D4B35813735F_666b9f</value>
+      <webElementGuid>67bdb7e0-ef6b-42b4-81fe-54b90db53e71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupInfoDialog:j_idt939_content']/div/label</value>
+      <webElementGuid>c1a31341-4d8f-4f8c-9f4d-8c5e177a0d80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato'])[1]/following::label[1]</value>
+      <webElementGuid>bd42f368-84b0-41b3-be83-5d011f44393c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/following::label[1]</value>
+      <webElementGuid>03df4f02-da0e-49b1-aa73-b22b84e5ed1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::label[2]</value>
+      <webElementGuid>ebd891e1-8b71-46fe-ab6b-94875319a9eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::label[2]</value>
+      <webElementGuid>b752894a-3c27-46e1-afbb-0df1ffff4ff2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Advertencia']/parent::*</value>
+      <webElementGuid>bd452899-9bd4-4798-b6fb-956b990e10d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/form/div/div[2]/div/label</value>
+      <webElementGuid>d93940cc-7567-4beb-bc1b-10e6c2f59e16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Advertencia' or . = 'Advertencia')]</value>
+      <webElementGuid>4212a022-7d4e-48a9-81be-9c06849ab0d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

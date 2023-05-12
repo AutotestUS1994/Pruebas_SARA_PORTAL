@@ -6,12 +6,12 @@
    <elementGuidId>78894828-0332-491c-97d9-605569af2043</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>
-//*[@id=&quot;actividades_form:TabDatBasEmpresa:estadoHistorico&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;actividades_form:TabDatBasEmpresa:estado&quot;]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>79a3784b-e482-41db-b38c-6510430078c0</webElementGuid>
+      <webElementGuid>de13f336-8d0f-4905-8f9c-446577b42926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>actividades_form:TabDatBasEmpresa:estado</value>
-      <webElementGuid>0b604146-dd67-4f7a-be94-f2dbb0dd46cf</webElementGuid>
+      <webElementGuid>7da42931-13ac-471f-8ffe-42ef4175a7b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>actividades_form:TabDatBasEmpresa:estado</value>
-      <webElementGuid>4de66a81-4414-41fc-9df3-1f1afa442883</webElementGuid>
+      <webElementGuid>939443a7-c412-4600-96fe-43f8a4e8d4dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>2883e26d-e89f-43db-a028-3ee105b7d282</webElementGuid>
+      <webElementGuid>2565b9c0-8a1d-47a5-97ab-7aef7cf6eafc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>5dfc296f-2ac2-4248-a451-452a25542c68</webElementGuid>
+      <webElementGuid>79ab2202-f087-4f4e-b1bc-3afe76166116</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;actividades_form&quot;,p:&quot;actividades_form:TabDatBasEmpresa:estado&quot;,u:&quot;actividades_form:TabDatBasEmpresa:tabla_roles&quot;});</value>
-      <webElementGuid>dc6095d0-5ae3-4325-ba53-ea753b620e92</webElementGuid>
+      <webElementGuid>cf5fcdc9-3413-4606-a9a1-79f0c81b1091</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <value>	-- Seleccione --
 	Incapacidad
 </value>
-      <webElementGuid>6aa7b037-977e-4762-b5ba-39c3867f1ffd</webElementGuid>
+      <webElementGuid>b284f4fc-e544-4cfc-bbc8-08ddf2b51707</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;actividades_form:TabDatBasEmpresa:estado&quot;)</value>
-      <webElementGuid>2a7623ae-bfd0-4d3d-b35b-764646835fc0</webElementGuid>
+      <webElementGuid>14b55909-34a4-426c-b271-bc9eb0a5e71a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -88,7 +88,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/iframe_Mis aprobaciones_7F07D451709D4B45813_70d15d</value>
-      <webElementGuid>002d4685-89c7-41ce-b7dc-eb78a53c9f9a</webElementGuid>
+      <webElementGuid>d47995e4-f8e9-469a-9fce-3a2594c13e53</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='actividades_form:TabDatBasEmpresa:estado']</value>
-      <webElementGuid>8a4ebe41-d1d1-46a3-bf0a-ef85bcc4179a</webElementGuid>
+      <webElementGuid>38ca0b80-4178-4997-ad73-cfb91e91e2cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='actividades_form:TabDatBasEmpresa:panel_filtro']/tbody/tr/td[4]/select</value>
-      <webElementGuid>758d8bae-a331-46d0-8669-30473fa05ec3</webElementGuid>
+      <webElementGuid>11ac0665-6d72-472d-aeeb-4aaea3c5e191</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Origen'])[1]/following::select[1]</value>
-      <webElementGuid>7b135c7b-21dd-450e-83d6-54562eedbff0</webElementGuid>
+      <webElementGuid>84e217c0-874a-4cf7-8e08-f1cdb635419f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::select[1]</value>
-      <webElementGuid>79b4fa8b-59f8-49e5-8c87-22d38df32245</webElementGuid>
+      <webElementGuid>8e2e1708-ac67-4810-98c9-f9d459d108e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicita'])[1]/preceding::select[1]</value>
-      <webElementGuid>f3b47443-b3b7-4bbe-8a7a-a24e6d2aa3e1</webElementGuid>
+      <webElementGuid>9ddc7ca9-fb6b-4c99-8f66-81b7ec434ed9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cantidad Por Pagina'])[1]/preceding::select[1]</value>
-      <webElementGuid>1ea33f3a-8189-48fd-ad2a-2f76fc5c5c2f</webElementGuid>
+      <webElementGuid>aba2e548-be02-4f2d-a346-2934ad282ff8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>e406b35f-a5de-4968-bd44-4aa41b2e9a55</webElementGuid>
+      <webElementGuid>e80fa839-b8b5-4d5e-a50d-87b61bbf9a6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -156,6 +156,6 @@
 ' or . = '	-- Seleccione --
 	Incapacidad
 ')]</value>
-      <webElementGuid>6899b72f-36f8-4bb8-814c-3283c64414d4</webElementGuid>
+      <webElementGuid>ff00001b-70af-450f-96d5-db5994a3cac0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

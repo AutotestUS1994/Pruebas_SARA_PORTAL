@@ -45,8 +45,6 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Fecha Salida_form_incapacidadesEmplea_4ee979'), 
         '01/04/2022')
 
-    WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Fecha Salida_form_incapacidadesEmplea_4ee979'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/textarea_Observacin_form_incapacidadesEmple_360c6a'), 
         'PruebaIncapacidadKatalon')
@@ -72,8 +70,6 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
     WebUI.setText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
         '02/04/2022')
 
-    WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/textarea_Observacin_popupDocumentoNovedad_f_a49cf7'), 
         'PruebaArchivoKatalon')
@@ -111,8 +107,6 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Fecha Salida_form_incapacidadesEmplea_4ee979'), 
                 '01/04/2022')
 
-            WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Fecha Salida_form_incapacidadesEmplea_4ee979'), 
-                Keys.chord(Keys.ESCAPE))
 
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/textarea_Observacin_form_incapacidadesEmple_360c6a'), 
                 'PruebaIncapacidadKatalon')
@@ -138,8 +132,6 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
             WebUI.setText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
                 '02/04/2022')
 
-            WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
-                Keys.chord(Keys.ESCAPE))
 
             WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/textarea_Observacin_popupDocumentoNovedad_f_a49cf7'), 
                 'PruebaArchivoKatalon')

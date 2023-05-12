@@ -71,9 +71,6 @@ WebUI.uploadFile(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicit
 WebUI.setText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
     '04/03/2022')
 
-WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboralBPM/textarea_Observacin_popupDocumentoNovedad_f_a49cf7'), 
     'PruebaAutoK1')
 

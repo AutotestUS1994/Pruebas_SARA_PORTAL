@@ -30,9 +30,6 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
     WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Salida Nomina_form_vacacionesEmpleado_2729a1'), 
         '5/03/2022')
 
-    WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Salida Nomina_form_vacacionesEmpleado_2729a1'), 
-        Keys.chord(Keys.ESCAPE))
-
     /*WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_7'))*/
     WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Disfrute_form_vacacionesEmpleadotabsV_1e3fdd'), 
         '5')
@@ -61,8 +58,6 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
             WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Salida Nomina_form_vacacionesEmpleado_2729a1'), 
                 '5/03/2022')
 
-            WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Salida Nomina_form_vacacionesEmpleado_2729a1'), 
-                Keys.chord(Keys.ESCAPE))
 
             /*WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_7'))*/
             WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Disfrute_form_vacacionesEmpleadotabsV_1e3fdd'), 
