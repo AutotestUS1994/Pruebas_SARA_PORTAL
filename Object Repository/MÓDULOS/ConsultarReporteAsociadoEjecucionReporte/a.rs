@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[12]/div/figure/figcaption/a</value>
+         <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[13]/div/figure/figcaption/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>5f30f23f-e496-4acf-8d32-e3e45325e4da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/PortalSara/sitio/portalEmpleados/solicitudpunto-calidad</value>
+      <webElementGuid>a5056374-ccd2-44d0-8364-9bd157a83480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;areaAplicacion&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-md-offset-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-lg-12&quot;]/div[@class=&quot;container-fluid-prime&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-4 col-lg-3&quot;]/div[@class=&quot;grid&quot;]/figure[@class=&quot;effect-bubba&quot;]/figcaption[1]/a[1]</value>
+      <webElementGuid>2fa4066c-bd82-413f-8aa8-580ad96d14c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/div/div[12]/div/figure/figcaption/a</value>
+      <webElementGuid>3ee3337c-5491-44c2-b17a-d50c257b3d2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisa tus solicitudes'])[1]/following::a[1]</value>
+      <webElementGuid>b12c8d86-d2b8-4ce3-974c-e2e750d1ec1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Puntaje Docente'])[1]/following::a[1]</value>
+      <webElementGuid>6ba90589-a409-40a1-a209-2a176033e587</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Punto'])[1]/preceding::a[1]</value>
+      <webElementGuid>216fb390-8037-43b4-9c3e-d8606e644d7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisa tus solicitudes'])[2]/preceding::a[1]</value>
+      <webElementGuid>60c66827-c490-4224-b7a7-55ec946d826f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/PortalSara/sitio/portalEmpleados/solicitudpunto-calidad')]</value>
+      <webElementGuid>d565bc8e-4041-45ab-a83e-14cdbe48211d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[12]/div/figure/figcaption/a</value>
+      <webElementGuid>59b634f6-6833-4511-8a80-c114f4a2c80a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/PortalSara/sitio/portalEmpleados/solicitudpunto-calidad']</value>
+      <webElementGuid>ef392d51-c0e1-491e-8d3a-6520bf5a9ba6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -46,8 +46,6 @@ WebUI.uploadFile(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicit
 WebUI.setText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/input_Vigencia_popupDocumentoNovedad_formvi_b61a2e'), 
     '02/03/2022')
 
-
-
 WebUI.setText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/textarea_Observacin_popupDocumentoNovedad_f_a49cf7'), 
     'PruebaPortal2/22/2022')
 
@@ -55,10 +53,18 @@ WebUI.click(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCer
 
 WebUI.click(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/a_Guardar_1'))
 
+WebUI.scrollToElement(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/span_Se actualizo el registro satisfactoriamente'), 0)
+
 String confirmaGuardar = WebUI.getText(findTestObject('MÓDULOS/ServicioMisCertificados/GenerarSolicitudCertificadoLaboral/span_Se actualizo el registro satisfactoriamente'))
 
 if ((confirmaGuardar == 'Registro guardado') | (confirmaGuardar == 'SE PROCESARÁ SU SOLICITUD')) {
+    println(confirmaGuardar)
+
     WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+} else {
+    println(confirmaGuardar)
+
+    WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
 }
 
 def System(def RTA) {

@@ -117,9 +117,13 @@ def tituloACP() {
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Guardar'))
 
-    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
-
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+    if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 
+        1)) {
+        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+    } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar3'), 
+        1)) {
+        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar3'))
+    }
 }
 
 def conocimientosE() {
@@ -130,6 +134,8 @@ def conocimientosE() {
     WebUI.setText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/input_Conocimientos'), 'Conocimientos katalon')
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Guardar'))
+
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
 
@@ -171,9 +177,12 @@ def TituloCCP() {
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Guardar'))
 
-    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
-
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+    if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 
+        1)) {
+        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+    } else {
+        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar3'))
+    }
 }
 
 def descripcionGeneral() {
@@ -386,103 +395,65 @@ def eliminarR() {
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_Aceptar'))
 
     if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/label_advertencia'), 
-        1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/label_advertencia')) == 'No es posible efectuar elimninacion, proceso seleccion relacionados')) {
-        WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
+        1)) {
+        if (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/label_advertencia')) == 'No es posible efectuar elimninacion, proceso seleccion relacionados') {
+            WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.setText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/input_Empresa 1_form_templatej_idt24_input'), 
-            'Proceso de Seleccion (tal)')
+            WebUI.setText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/input_Empresa 1_form_templatej_idt24_input'), 
+                'Proceso de Seleccion (tal)')
 
-        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/li_Proceso de Seleccion (tal)'))
+            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/li_Proceso de Seleccion (tal)'))
 
-        while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_20117    - Abogado Junior'), 
-            1)) {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_20117    - Abogado Junior'))
+            while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_20117    - Abogado Junior'), 
+                1)) {
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_20117    - Abogado Junior'))
 
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Medio'))
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Medio'))
 
-            while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones'), 
-                1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones')) != 
-            'No se encontró registros')) {
-                WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones'))
+                while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones'), 
+                    1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones')) != 
+                'No se encontró registros')) {
+                    WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones'))
 
-                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones'))
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_No genera Evaluaciones'))
 
-                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Eliminar'))
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Eliminar'))
+
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/span_Si'))
+                }
+                
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Etapa'))
+
+                while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_Etapa Inscripcion Convocatoria Btn'), 
+                    1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_Etapa Inscripcion Convocatoria Btn')) != 
+                'No se encontró registros')) {
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_Etapa Inscripcion Convocatoria Btn'))
+
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Eliminar - Copy'))
+
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/span_Si'))
+                }
+                
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Registro Proceso'))
+
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_EliminarG'))
 
                 WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/span_Si'))
             }
             
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Etapa'))
-
-            while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_Etapa Inscripcion Convocatoria Btn'), 
-                1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_Etapa Inscripcion Convocatoria Btn')) != 
-            'No se encontró registros')) {
-                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/td_Etapa Inscripcion Convocatoria Btn'))
-
-                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Eliminar - Copy'))
-
-                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/span_Si'))
-            }
-            
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_Registro Proceso'))
-
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/a_EliminarG'))
-
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatosSara/span_Si'))
-        }
-        
-        WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/a_RRHH'))
-
-        WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/img'))
-
-        String campo1
-
-        String campo2
-
-        String campo3
-
-        String campo4
-
-        if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo1'), 1) & 
-        (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo1')) == 'Abogado Junior')) {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag'))
-        } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo2'), 
-            1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo2')) == 'Abogado Junior')) {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag1'))
-        } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo3'), 
-            1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo3')) == 'Abogado Junior')) {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag2'))
-        } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo4'), 
-            1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo4')) == 'Abogado Junior')) {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag3'))
-        } else {
-            WebUI.acceptAlert()
-        }
-        
-        if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/td_REQUERIMIENTO PUESTO PPORTAL'), 
-            1)) {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/td_REQUERIMIENTO PUESTO PPORTAL'))
-
-            WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_menu Requerimiento'), 
-                1)
-        } else {
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_eliminar'))
-
-            WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_Aceptar'))
+            WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
 
             WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/a_RRHH'))
 
             WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/img'))
 
-            String campo01
+            String campo1
 
-            String campo02
+            String campo2
 
-            String campo03
+            String campo3
 
-            String campo04
+            String campo4
 
             if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo1'), 
                 1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo1')) == 'Abogado Junior')) {
@@ -506,6 +477,46 @@ def eliminarR() {
 
                 WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_menu Requerimiento'), 
                     1)
+            } else {
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_eliminar'))
+
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_Aceptar'))
+
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/a_RRHH'))
+
+                WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/img'))
+
+                String campo01
+
+                String campo02
+
+                String campo03
+
+                String campo04
+
+                if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo1'), 
+                    1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo1')) == 'Abogado Junior')) {
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag'))
+                } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo2'), 
+                    1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo2')) == 'Abogado Junior')) {
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag1'))
+                } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo3'), 
+                    1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo3')) == 'Abogado Junior')) {
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag2'))
+                } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo4'), 
+                    1) & (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_campo4')) == 'Abogado Junior')) {
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/usuario/span_btn-hoja us-icon-card-imag3'))
+                } else {
+                    WebUI.acceptAlert()
+                }
+                
+                if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/td_REQUERIMIENTO PUESTO PPORTAL'), 
+                    1)) {
+                    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/td_REQUERIMIENTO PUESTO PPORTAL'))
+
+                    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_menu Requerimiento'), 
+                        1)
+                }
             }
         }
     } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/li_se elimino el registro correctamente'), 

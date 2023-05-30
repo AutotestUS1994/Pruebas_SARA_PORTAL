@@ -79,7 +79,9 @@ if (Result0 == 'Se ha inscrito correctamente.') {
 
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
 
-    WebUI.switchToWindowIndex(3)
+    WebUI.switchToWindowIndex(4)
+
+	String text03 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
 
     String text4 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
 
@@ -87,25 +89,27 @@ if (Result0 == 'Se ha inscrito correctamente.') {
 
     String text6 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
 
-    if (text4 == 'Dir. Corp. Senior Digital') {
-        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
+    if (text03 == 'Dir. Corp. Senior Digital') {
+        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
+    } else if (text4 == 'Dir. Corp. Senior Digital') {
+        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
     } else if (text5 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
-    } else if (text6 == 'Dir. Corp. Senior Digital') {
-        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
-    } else {
+    } else if(text6 == 'Dir. Corp. Senior Digital'){
+		WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
+		}else {
         WebUI.acceptAlert()
     }
     
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Inscribirse2'))
 
-    WebUI.openBrowser('http://192.168.2.19:8380/saraweb/')
+    WebUI.openBrowser(GlobalVariable.G_LoginSara)
 
     WebUI.maximizeWindow()
 
     WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Olvide Mi Clave_loginusuario'), 'saraadmin')
 
-    WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Olvide Mi Clave_loginpassword'), 'saraadmin1')
+    WebUI.setText(findTestObject('MÓDULOS/Inscripcion_convocatorias/input_Olvide Mi Clave_loginpassword'), 'SoloAutomaticas2023*')
 
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Ingresar'))
 
@@ -223,11 +227,10 @@ def cambioAspirante() {
     robot.keyPress(KeyEvent.VK_CONTROL)
 
     robot.keyPress(KeyEvent.VK_T)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_T)
-	
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_T)
 
     WebUI.switchToWindowIndex(2, FailureHandling.STOP_ON_FAILURE)
 

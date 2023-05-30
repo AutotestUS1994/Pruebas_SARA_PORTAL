@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continuar</name>
+   <name>input_nombres</name>
    <tag></tag>
-   <elementGuidId>ee77362d-697d-4295-bc92-cb99a0c9f6eb</elementGuidId>
+   <elementGuidId>70bab62d-ed0a-43ff-8715-baaa9dc7ee80</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+         <value>
+/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[2]/tbody/tr[4]/td/div/div/table/tfoot/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[1]/td/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>363c3ac5-42c8-4253-b266-b2cb668eea2f</webElementGuid>
+      <webElementGuid>25d4b17b-1a72-4cec-9c13-423d1c16b6e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_uiRequermientoCargo:j_idt45</value>
-      <webElementGuid>eb5a8118-3d5d-4dad-8241-14824a1627c3</webElementGuid>
+      <webElementGuid>e494bef1-0035-4ca1-bf0c-f0cde5775b3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>7ef08578-68d3-4c89-946b-6404143f446c</webElementGuid>
+      <webElementGuid>80f62913-9759-4c10-a52f-c82e471841ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-continuar</value>
-      <webElementGuid>06449e86-74f9-4e4c-8420-364e7efcefef</webElementGuid>
+      <webElementGuid>b6947115-1fb3-4c76-bbe1-2970302720c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_uiRequermientoCargo:j_idt45&quot;,f:&quot;form_uiRequermientoCargo&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
-      <webElementGuid>104f348e-955e-42ad-b702-b1eb10bf8dd2</webElementGuid>
+      <webElementGuid>86b93041-a15e-4c2c-9a58-e77e04b715d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continuar</value>
-      <webElementGuid>d37096f6-7854-4b42-934e-f70db2a848cf</webElementGuid>
+      <webElementGuid>0fada044-e6c3-400d-aaae-f2dbc4c90245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_uiRequermientoCargo:j_idt45&quot;)</value>
-      <webElementGuid>5dc1a306-087b-48ce-90f6-003b481efee8</webElementGuid>
+      <webElementGuid>53d807be-a474-4470-80f0-c4dc7a6c50fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +78,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/iframe_Nuevo cargo_7F07D451F09D4B35813735F5_66e4dc</value>
-      <webElementGuid>36198033-d41f-40c7-a497-8bce153bc167</webElementGuid>
+      <webElementGuid>c5e0bbd2-6122-4435-8b7a-1e956be8e1ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_uiRequermientoCargo:j_idt45']</value>
-      <webElementGuid>fac98166-4849-458c-9f82-d5d00c4bc214</webElementGuid>
+      <webElementGuid>d8c24b74-f29f-462c-9a4f-68a62a8572e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_uiRequermientoCargo']/a</value>
-      <webElementGuid>5955e0da-c83f-419c-91a0-5cff5006ef37</webElementGuid>
+      <webElementGuid>b3532059-4cf3-4a6e-9c4b-7937b9adc300</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Continuar')]</value>
-      <webElementGuid>d13892cf-39b6-440d-af5e-9efa2e835420</webElementGuid>
+      <webElementGuid>5412d3f2-8607-4655-865e-7cd02dcd50a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clasificación'])[1]/following::a[1]</value>
-      <webElementGuid>cc87c049-a394-4cae-8985-3fd2c1406de6</webElementGuid>
+      <webElementGuid>2bafba27-9164-434a-8289-f00bfc8f9138</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo Vacante'])[1]/following::a[1]</value>
-      <webElementGuid>6fb072fb-ce09-4c0e-8afc-ae521833e152</webElementGuid>
+      <webElementGuid>d880e3bc-919b-4510-a25d-fbd188b443ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
-      <webElementGuid>1e4e0162-5597-4f58-9e9d-13139161c2e8</webElementGuid>
+      <webElementGuid>7acb35e4-7377-4297-94ec-b692148ae900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
-      <webElementGuid>dbd03eaf-f86d-4ce0-bcdb-71ba1f45d423</webElementGuid>
+      <webElementGuid>e5dd5b01-6b3a-4a51-892d-66cad3025f0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>508f1b59-3759-4038-87c8-9fca66b3448e</webElementGuid>
+      <webElementGuid>a4e8d7cf-e841-4cc5-a8fc-c7f17a7630fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +150,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>eb984b1c-93ac-4e45-a075-381a675e1aa1</webElementGuid>
+      <webElementGuid>f584f371-c8fb-4dcc-b107-85a5a375f67e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +158,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>cdee49aa-1ebc-4f3d-a4b9-acc182fdedcc</webElementGuid>
+      <webElementGuid>69e7b0fd-8c87-43b1-9f21-fdcabe05b01c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +166,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_uiRequermientoCargo:j_idt45' and @href = '#' and (text() = 'Continuar' or . = 'Continuar')]</value>
-      <webElementGuid>6459a700-c7c6-4cc6-9bdf-5785775c47e0</webElementGuid>
+      <webElementGuid>d0d1c33c-a6b1-455e-9970-d6dae3d1e3b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

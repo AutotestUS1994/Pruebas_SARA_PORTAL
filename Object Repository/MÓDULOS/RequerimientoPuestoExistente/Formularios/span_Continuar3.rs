@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Continuar2</name>
+   <name>span_Continuar3</name>
    <tag></tag>
-   <elementGuidId>2601cb5e-506c-46d0-b53b-7f4ab9fa96a3</elementGuidId>
+   <elementGuidId>0908dc3c-5c93-4fcd-b9fa-1cd16ca19782</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[2]/tbody/tr[4]/td/table/tbody/tr/td[2]/a/span
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>
-//span[(text() = 'Continuar' or . = 'Continuar')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,13 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
-      <webElementGuid>764cc0de-01fb-42b0-954d-23f78754738d</webElementGuid>
+      <webElementGuid>4c61117b-ce80-4b5d-b7e2-37dfcedfd967</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>928458da-3b65-45cb-891a-91847be9aa0c</webElementGuid>
+      <webElementGuid>d80ccf69-0794-44cf-838e-6a384d468e51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

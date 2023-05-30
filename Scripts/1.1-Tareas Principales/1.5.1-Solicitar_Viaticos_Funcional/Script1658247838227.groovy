@@ -3,8 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -21,6 +21,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Solicitud Viatico'), [:], FailureHandling.STOP_ON_FAILURE)
 
 iniciar()
+
+WebUI.click(findTestObject('MÓDULOS/SolicitarViatico/a_Servicios'))
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'))
 
@@ -130,8 +132,8 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
 
     if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Se ha enviado la solicitud de viatico correctamente')) {
-        WebUI.closeBrowser()
-    } //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+    }
 }
 
 def iniciar() {
@@ -170,23 +172,26 @@ def iniciar() {
 }
 
 def a() {
-    WebUI.setText(findTestObject('Login/input_Usuario Portal_loginusuario'),GlobalVariable.G_UsuarioFun)
+    WebUI.setText(findTestObject('Login/input_Usuario Portal_loginusuario'), GlobalVariable.G_UsuarioFun)
 
     WebUI.setEncryptedText(findTestObject('Login/input_Clave_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
     WebUI.waitForElementClickable(findTestObject('Login/a_Ingresar'), 0)
 
     WebUI.click(findTestObject('Login/a_Ingresar'))
-	
-	String profileName = RunConfiguration.getExecutionProfile()
-	String i = GlobalVariable.G_Login
-	println(profileName)
-	if(profileName == "default") {
-		WebUI.navigateToUrl(i)
-		} 
-	else if(profileName == "default_Weblogic"){
-		WebUI.navigateToUrl(i)
-	} else {WebUI.navigateToUrl(i)}
-    
+
+    String profileName = RunConfiguration.getExecutionProfile()
+
+    String i = GlobalVariable.G_Login
+
+    println(profileName)
+
+    if (profileName == 'default') {
+        WebUI.navigateToUrl(i)
+    } else if (profileName == 'default_Weblogic') {
+        WebUI.navigateToUrl(i)
+    } else {
+        WebUI.navigateToUrl(i)
+    }
 }
 

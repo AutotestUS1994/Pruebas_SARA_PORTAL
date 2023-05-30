@@ -21,8 +21,10 @@ WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Solicitud Viatic
 
 iniciar()
 
+if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'), 1))
+{
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'))
-
+}
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Nuevo'))
 
 if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL')).equals('BRASIL')) {
@@ -121,9 +123,8 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
 
     if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Se ha enviado la solicitud de viatico correctamente')) {
-        WebUI.closeBrowser()
-    } //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
-    else if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
+        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+    } else if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Registro guardado')) {
         WebUI.acceptAlert()
     }

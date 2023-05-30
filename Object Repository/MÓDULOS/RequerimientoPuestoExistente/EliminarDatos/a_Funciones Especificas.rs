@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[1]/tbody/tr[1]/td/table/tbody/tr/td/div/div[2]/table[13]/tbody/tr/td/a</value>
+         <value>
+//td/div/div[2]/table[13]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,27 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
-      <webElementGuid>34f9f256-811e-409f-b0f3-2a4f45c9d682</webElementGuid>
+      <webElementGuid>6975c47a-bcdb-45aa-bd74-fef188dffde1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>6fef9c7d-f941-4293-90dc-db1fd13d2784</webElementGuid>
+      <webElementGuid>57186ad9-f5be-4f3e-840d-faa67b107959</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[13]/tbody/tr/td/a</value>
+      <webElementGuid>27eb1ba7-649e-4a6f-b4c3-4a124e446c4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[1]/table[1]/tbody/tr[1]/td/table/tbody/tr/td/div/div[2]/table[13]/tbody/tr/td/a</value>
+      <webElementGuid>a2fbb65b-b522-4a3f-8eea-242c7368ce58</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

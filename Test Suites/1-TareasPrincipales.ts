@@ -19,6 +19,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>3046c7fa-ac7e-4d52-bc58-921c9384e63c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.1-Inscripción_convocatorias</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2ee5ba02-f868-4251-8e96-0113f1da79a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

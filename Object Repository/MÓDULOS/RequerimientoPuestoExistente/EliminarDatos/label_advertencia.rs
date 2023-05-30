@@ -6,11 +6,12 @@
    <elementGuidId>a0778f3f-a65d-46a2-87ff-5902d9274543</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/span/form[1]/div/div[2]/div[2]/label</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/span/form[1]/div/div[2]/div[2]/label
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
-      <webElementGuid>006c8ac3-5d31-4660-aa46-cfbba01aeb4c</webElementGuid>
+      <webElementGuid>50a7338f-87d4-4299-ad93-51ae1ed6bc1a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

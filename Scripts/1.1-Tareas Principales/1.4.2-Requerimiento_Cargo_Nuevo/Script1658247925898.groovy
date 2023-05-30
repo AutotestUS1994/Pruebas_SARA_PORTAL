@@ -54,6 +54,8 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/Requer
 WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/select_-- Seleccione --.APRENDIZ ETAPA LECT_67422e'), 
     8, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/input_Cantidad'), '1')
+
 WebUI.setText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/input_Sueldo Autorizado_requerimientoPerson_739563'), 
     '1500000')
 
@@ -87,13 +89,15 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/Requerimien
 WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/select_Interna AbiertaInterna CerradaExtern_507970'), 
     4, FailureHandling.STOP_ON_FAILURE)
 
-String cont = WebUI.getText(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/a_Continuar -1'))
-
 WebUI.click(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/a_Continuar -1'))
 
 String continuar = WebUI.getText(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Se han guardado los datos satisfactoriamente'))
 
 if (continuar == 'Se han guardado los datos satisfactoriamente.') {
+    WebUI.setText(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/input_nombres'), 'katalon cargo nuevo')
+
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/icon_ mas'))
+
     WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Continuar'))
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Continuar'))
@@ -145,6 +149,8 @@ if (continuar == 'Se han guardado los datos satisfactoriamente.') {
 
     WebUI.waitForElementClickable(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Continuar - Copy (3)'), 
         0)
+
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Continuar - Copy (3)'))
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Continuar - Copy (3)'))
 
