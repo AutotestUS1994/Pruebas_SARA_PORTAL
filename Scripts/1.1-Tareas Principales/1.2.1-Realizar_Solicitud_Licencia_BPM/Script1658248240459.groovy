@@ -103,7 +103,7 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
 
                     WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/a_Autorizar'))
 
-                    WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/span_Si'))
+                    WebUI.click(findTestObject('MÓDULOS/ServicioMisNovedades/RegistrarAutorizarNovedad/span_Si'))
 
                     String terminado = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/span_La respuesta se ha guardado correctame_13122f'))
 

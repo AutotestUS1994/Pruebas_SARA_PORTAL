@@ -6,12 +6,12 @@
    <elementGuidId>2601cb5e-506c-46d0-b53b-7f4ab9fa96a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Continuar']/parent::*
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>
-//span[(text() = 'Continuar' or . = 'Continuar')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,13 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
-      <webElementGuid>764cc0de-01fb-42b0-954d-23f78754738d</webElementGuid>
+      <webElementGuid>4f215944-db23-4bf9-997a-545e8a9a85f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>928458da-3b65-45cb-891a-91847be9aa0c</webElementGuid>
+      <webElementGuid>775c0448-9f5a-4ea7-a252-480c3527a02a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Beneficio ya existe para beneficiario</name>
+   <name>span_Si - Copy</name>
    <tag></tag>
-   <elementGuidId>0fa85ebb-d776-4a3d-a017-980f36ef3575</elementGuidId>
+   <elementGuidId>659a14ee-a615-42d3-9e2d-3a0e04640fb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.us-margin-popup > label</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/span/form[1]/div/div[2]/div[2]/label</value>
+         <value>/html/body/div[7]/div[3]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +20,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>span</value>
+      <webElementGuid>c2bcacd0-e8fe-4774-b354-af19d0102218</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-button-text ui-c</value>
+      <webElementGuid>adb43de3-e829-42ea-846f-d9e2d16820b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Desea eliminar el registro</value>
+      <value>Si</value>
+      <webElementGuid>8dbd806b-5a08-4876-a672-4d726842303f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupConfirmacionDialog:j_idt1192_content&quot;)/div[@class=&quot;us-margin-popup&quot;]/label[1]</value>
+      <value>id(&quot;j_idt643:j_idt646&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>e6128071-3097-422e-9edd-15afa2f3e7e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupConfirmacionDialog:j_idt1192_content']/div[2]/label</value>
+      <value>//button[@id='j_idt643:j_idt646']/span</value>
+      <webElementGuid>0ad10912-f337-4356-9907-943f87326e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::span[1]</value>
+      <webElementGuid>2a57b738-5bde-4238-8bb8-ce23c8302379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actualizar'])[4]/following::label[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Desea eliminar el registro']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DESEA CONFIRMAR'])[1]/following::span[2]</value>
+      <webElementGuid>6a4bafa1-0c17-4683-8e67-97fa9c98963d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/label</value>
+      <value>//button[2]/span</value>
+      <webElementGuid>8d4e1697-1d3f-4fc4-84b2-6e528e96ead1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Desea eliminar el registro' or . = 'Desea eliminar el registro')]</value>
+      <value>//span[(text() = 'Si' or . = 'Si')]</value>
+      <webElementGuid>25e4f93b-c5dc-446f-bd52-85f7ee6889d7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

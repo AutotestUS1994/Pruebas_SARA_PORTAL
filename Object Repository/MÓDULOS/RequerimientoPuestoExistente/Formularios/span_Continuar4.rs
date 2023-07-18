@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Descripcion General</name>
+   <name>span_Continuar4</name>
    <tag></tag>
-   <elementGuidId>380396f3-cee3-46c6-93da-66ea12c2d0b4</elementGuidId>
+   <elementGuidId>b6696a04-1362-442a-8d87-49f598316dfd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[1]/tbody/tr/td/div/span[4]/a</value>
+         <value>//body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[2]/tbody/tr[4]/td/table/tbody/tr/td[2]/a/span
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,13 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
-      <webElementGuid>e22ee23f-56ff-4d39-a6bf-4cdef5f11968</webElementGuid>
+      <webElementGuid>c1d0cb3e-664d-4e7d-ae46-e366b290deff</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+      <webElementGuid>63d74d88-e09d-4f1c-a52f-8868542a4ff6</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

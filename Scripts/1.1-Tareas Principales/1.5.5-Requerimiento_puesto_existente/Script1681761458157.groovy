@@ -64,6 +64,8 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExis
 formularios()
 
 def funcionesE() {
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+
     WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo'), 0)
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo'))
@@ -94,13 +96,13 @@ def entretenimiento() {
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar4'), 0)
 
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.doubleClick(findTestObject('MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar4'), 0)
 
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar4'), FailureHandling.STOP_ON_FAILURE)
 }
 
 def tituloACP() {
@@ -153,9 +155,11 @@ def solucionDP() {
 
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Guardar'))
 
-    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
+    WebUI.scrollToElement(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'), 0)
 
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar4'), 0)
+
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar4'))
 }
 
 def TituloCCP() {

@@ -125,6 +125,9 @@ if (continuar == 'Se han guardado los datos satisfactoriamente.') {
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/a_Continuar_1'))
 
+    WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/a_Continuar_1'), 
+        0)
+
     WebUI.click(findTestObject('Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/a_Continuar_1'))
 
     WebUI.waitForElementClickable(findTestObject('MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/span_Continuar - Copy (2)'), 
