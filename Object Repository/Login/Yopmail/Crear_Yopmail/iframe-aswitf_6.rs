@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Convocatorias vigentes</name>
+   <name>iframe-aswitf_6</name>
    <tag></tag>
-   <elementGuidId>1191a417-a916-4326-b8ba-66d30525f491</elementGuidId>
+   <elementGuidId>d7ef2053-85ce-4ed6-9e1c-d8cad481634a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>
-//body/div[1]/div/div/div/div[3]/div/div[4]/div/div[2]/a/img</value>
+         <value>/html/ins/div/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

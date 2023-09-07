@@ -1,26 +1,26 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as KeyEvent
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import internal.GlobalVariable as GlobalVariable
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 
 String correo = WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.0-Inscripción_Portal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -77,27 +77,40 @@ String Result0 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatoria
 if (Result0 == 'Se ha inscrito correctamente.') {
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/Span_RRHH'))
 
-    WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
+    WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
+
+    String text03
+
+    String text04
+
+    String text05
+
+    String text06
 
     WebUI.switchToWindowIndex(4)
 
-	String text03 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
+    text03 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
 
-    String text4 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
+    text4 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
 
-    String text5 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
+    text5 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
 
-    String text6 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
-
+    try {
+        text6 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
+    }
+    catch (Exception e) {
+        text6 = ''
+    } 
+    
     if (text03 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
     } else if (text4 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
     } else if (text5 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
-    } else if(text6 == 'Dir. Corp. Senior Digital'){
-		WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
-		}else {
+    } else if (text6 == 'Dir. Corp. Senior Digital') {
+        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
+    } else {
         WebUI.acceptAlert()
     }
     
@@ -128,12 +141,15 @@ if (Result0 == 'Se ha inscrito correctamente.') {
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/div_Citacion'))
 
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Registro Citacin'))
+	zoom()
 
     while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Katalon  Prueba Inscripcion'), 
         1)) {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Katalon  Prueba Inscripcion'))
 
-        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Eliminar'))
+        WebUI.scrollToPosition(0, 0)
+
+        WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Eliminar'))
 
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Si'))
     }
@@ -170,7 +186,9 @@ if (Result0 == 'Se ha inscrito correctamente.') {
 
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Eliminar'))
 
-        WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Si'))
+        if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Si'), 1)) {
+            WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Si'))
+        }
     }
     
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/div_Candidato'))
@@ -275,4 +293,24 @@ def cambioAspirante() {
 
     WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 }
-
+def zoom(){
+	Robot robot = new Robot()
+	
+	robot.keyPress(KeyEvent.VK_CONTROL)
+	
+	robot.keyPress(KeyEvent.VK_SUBTRACT)
+	
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+	
+	robot.keyRelease(KeyEvent.VK_SUBTRACT)
+	
+	robot.keyPress(KeyEvent.VK_CONTROL)
+	
+	robot.keyPress(KeyEvent.VK_SUBTRACT)
+	
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+	
+	robot.keyRelease(KeyEvent.VK_SUBTRACT)
+	
+	
+}

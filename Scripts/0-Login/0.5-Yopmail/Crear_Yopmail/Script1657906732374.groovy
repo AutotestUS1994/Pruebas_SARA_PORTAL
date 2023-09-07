@@ -23,7 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Login/Yopmail/Crear_Yopmail/b_generador de correo electrnicoCrear un correo electrnico desechable al azar'))
 
+
+if(WebUI.waitForElementVisible(findTestObject('Login/Yopmail/Crear_Yopmail/a_cerrar'), 1))
+{
+
+WebUI.click(findTestObject('Login/Yopmail/Crear_Yopmail/a_cerrar'))
+}
 String correo = WebUI.getText(findTestObject('Login/Yopmail/Crear_Yopmail/div_yessucrequiza-4541yopmail.comloginyessucrequiza-4541'))
 
 WebUI.closeBrowser()
+
 return correo
+

@@ -64,7 +64,7 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExis
 formularios()
 
 def funcionesE() {
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar2'))
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar5'))
 
     WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo'), 0)
 
@@ -129,9 +129,9 @@ def tituloACP() {
 }
 
 def conocimientosE() {
-    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo'), 0)
+    WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo - Copy'), 0)
 
-    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo'))
+    WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/a_Nuevo - Copy'))
 
     WebUI.setText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/input_Conocimientos'), 'Conocimientos katalon')
 

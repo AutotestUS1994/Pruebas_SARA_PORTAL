@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Continuar5</name>
+   <tag></tag>
+   <elementGuidId>da2445e1-a9b3-49bd-9ef1-d8e3689e9fb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[2]/tbody/tr[6]/td/table/tbody/tr/td[2]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
+      <webElementGuid>5fe774b3-1727-4414-b2b5-ebf418e40070</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+      <webElementGuid>8bd4f8fe-6868-4d02-93c7-7aaede5f5086</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

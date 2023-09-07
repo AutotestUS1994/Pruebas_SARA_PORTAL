@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='formListadoEvento:tablaEventos_data']/tr[5]/td[4]</value>
+         <value>//div[2]/div/table/tbody/tr[5]/td[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>043d6640-c64d-4869-9a88-805e6e95be35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>5c8e8b0f-90ff-46ec-9d45-797f94390030</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Curso de Ingles Básico Para Portal</value>
+      <webElementGuid>3d6afb9c-b80a-4067-ab2e-7065d21118cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEvento:tablaEventos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[4]</value>
+      <webElementGuid>6d850d86-6423-4fc8-bf1d-9690e796836f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formListadoEvento:tablaEventos_data']/tr[5]/td[4]</value>
+      <webElementGuid>600340eb-3a7d-43df-a54d-636c081cbdb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Curso De Inglés Básico'])[1]/following::td[1]</value>
+      <webElementGuid>c093d1d7-625a-4b7b-a5e0-9ebcd64af635</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Programado'])[5]/following::td[4]</value>
+      <webElementGuid>4e7c4b2b-da2b-4570-bff1-b6d90494e570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOGOTA'])[5]/preceding::td[1]</value>
+      <webElementGuid>bfe88b1a-862b-4186-b39a-b5ac3cadcc3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOGOTÁ'])[3]/preceding::td[2]</value>
+      <webElementGuid>c888ae57-2bcf-4596-baef-7bb517596669</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Curso de Ingles Básico Para Portal']/parent::*</value>
+      <webElementGuid>bac6d8ee-d306-4248-a366-90945d24243f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr[5]/td[4]</value>
+      <webElementGuid>5840364b-3959-4a89-ae80-e31cd5025a91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Curso de Ingles Básico Para Portal' or . = 'Curso de Ingles Básico Para Portal')]</value>
+      <webElementGuid>066faaee-0fdc-4ecb-8770-52dc8860d340</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

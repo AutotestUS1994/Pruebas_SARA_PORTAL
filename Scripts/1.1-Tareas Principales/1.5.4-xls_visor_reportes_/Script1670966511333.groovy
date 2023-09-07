@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('MÓDULOS/sinNombre/input_reporteExternoFormj_idt22
 
 WebUI.sendKeys(findTestObject('MÓDULOS/sinNombre/input_reporteExternoFormj_idt22'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('MÓDULOS/sinNombre/td_EMPLEADOS ACTIVOS'))
+WebUI.doubleClick(findTestObject('MÓDULOS/sinNombre/td_EMPLEADOS ACTIVOS'))
 
 WebUI.selectOptionByIndex(findTestObject('MÓDULOS/sinNombre/select_empresa'), 1)
 
@@ -60,31 +60,29 @@ WebUI.click(findTestObject('MÓDULOS/sinNombre/img_xls'))
 
 String RutaA = System()
 
-
-
 //---------------------
-
 if (RutaA == 'Windows 10') {
-	def rutaW = System.getProperty('user.home') + '/Downloads/'
+    def rutaW = System.getProperty('user.home') + '/Downloads/'
 
-	rutaW = rutaW.replace('/', '\\')
+    rutaW = rutaW.replace('/', '\\')
 
-	println('ESTAES LA RUTA ' + rutaW)
+    println('ESTAES LA RUTA ' + rutaW)
 
-	RutaA = rutaW
-	println(RutaA)
+    RutaA = rutaW
+
+    println(RutaA)
 } else if (RutaA == 'Linux') {
-	def rutaW = System.getProperty('user.home') + '/Descargas/'
+    def rutaW = System.getProperty('user.home') + '/Descargas/'
 
-	println('ESTA ES LA RUTA' + rutaW)
+    println('ESTA ES LA RUTA' + rutaW)
 
-	RutaA = rutaW
-	
-	println(RutaA)
+    RutaA = rutaW
+
+    println(RutaA)
 } else {
-	RutaA = 'Error'
-	
-	println(RutaA)
+    RutaA = 'Error'
+
+    println(RutaA)
 }
 
 //----------------------
@@ -95,42 +93,43 @@ println(rutaA)
 String Archivo = 'MIC.xls'
 
 String Archivo1 = 'MIC.xls.crdownload'
+
 String peso = ''
 
-Assert.assertTrue(archivoDescargado(rutaA, Archivo,Archivo1, peso)) 
-//--------------------------------------------------------------------------------------------------
+Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1, peso)) //--------------------------------------------------------------------------------------------------
 
+boolean archivoDescargado(def rutaA, def Archivo, def Archivo1, def peso) {
+    WebUI.delay(1)
 
-boolean archivoDescargado(def rutaA, def Archivo,def Archivo1, def peso) {
-	WebUI.delay(1)
-	println(rutaA)
-	println(Archivo)
-	println(peso)
-	
-	File dir = new File(rutaA)
+    println(rutaA)
+
+    println(Archivo)
+
+    println(peso)
+
+    File dir = new File(rutaA)
 
     File[] dirContenidos = dir.listFiles()
-	
-	println(dirContenidos)
-    for (int i = 0; i < dirContenidos.length; i++)  {
-		
-        if ((dirContenidos[i]).getName().equals(Archivo)||(dirContenidos[i]).getName().equals(Archivo1)) {
+
+    println(dirContenidos)
+
+    for (int i = 0; i < dirContenidos.length; i++) {
+        if ((dirContenidos[i]).getName().equals(Archivo) || (dirContenidos[i]).getName().equals(Archivo1)) {
             peso = (dirContenidos[i]).length()
 
             (dirContenidos[i]).delete()
 
             System.out.println(peso)
 
-			if(peso != '0' ) {
-				WebUI.closeBrowser()
-				return true
-			}else {WebUI.acceptAlert()}
-			
-			
+            if (peso != '0') {
+                WebUI.closeBrowser()
+
+                return true
+            } else {
+                WebUI.acceptAlert()
+            }
         }
     }
-    
-   
 }
 
 def System() {
@@ -144,16 +143,16 @@ def zoom() {
 
     robot.keyPress(KeyEvent.VK_SUBTRACT)
 
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
-	
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
     robot.keyPress(KeyEvent.VK_CONTROL)
 
     robot.keyPress(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
 }
 

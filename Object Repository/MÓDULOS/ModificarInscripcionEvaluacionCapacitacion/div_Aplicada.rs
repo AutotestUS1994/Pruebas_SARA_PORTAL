@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[5]/div/div</value>
+         <value>//td[5]/div/div
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>baa3065d-862e-4dbd-b2f6-c7d1e05539f4</webElementGuid>
+      <webElementGuid>38baa325-993a-44d4-a9dd-5fe0f535573f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-cell-editor-output</value>
-      <webElementGuid>65c7e975-1a21-485c-976b-c57de182190a</webElementGuid>
+      <webElementGuid>6c442e54-7b63-4390-8938-632ea36123d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicada</value>
-      <webElementGuid>d9b041c5-0ac6-41ca-a7cf-e53985edd4e3</webElementGuid>
+      <webElementGuid>8df12b01-c9c4-4fe7-b127-0e662c3807ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt743&quot;)/div[@class=&quot;ui-cell-editor-output&quot;]</value>
-      <webElementGuid>1be66ee4-e546-4a47-845b-9f8eb6e58294</webElementGuid>
+      <webElementGuid>c31bd51a-c0cf-4f6c-84ca-b0300540cfc6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt743']/div</value>
-      <webElementGuid>a4dfddc0-157c-4eea-97b3-bb2f3fa21443</webElementGuid>
+      <webElementGuid>71ff4043-532a-4946-a761-bdf0bbd5bc25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación Capacitación'])[2]/following::div[2]</value>
-      <webElementGuid>01f905de-7062-4b60-bc6a-3ff8947f2b7e</webElementGuid>
+      <webElementGuid>d102ce6d-f9f7-4617-bd27-d86767935bb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Programa'])[1]/preceding::div[5]</value>
-      <webElementGuid>32a3aa28-8ba8-4b0b-a190-20c58e3d45f8</webElementGuid>
+      <webElementGuid>0d8c1914-d392-4677-a401-af67e39a44e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[1]/preceding::div[6]</value>
-      <webElementGuid>199ba78f-c3cb-44b4-82a4-e031436ed01e</webElementGuid>
+      <webElementGuid>55d2e418-d983-4572-8012-aceda0d90561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/div/div</value>
-      <webElementGuid>a39f2796-3fa2-4b49-9834-8c91d2a99c23</webElementGuid>
+      <webElementGuid>53519317-deff-4e0a-af12-008c836aaba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Aplicada' or . = 'Aplicada')]</value>
-      <webElementGuid>d5bc392d-ffda-429a-9807-1a3870a9bf87</webElementGuid>
+      <webElementGuid>2cab8bba-3209-4bb8-9a15-a6dc06ad93bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
