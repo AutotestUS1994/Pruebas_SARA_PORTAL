@@ -8,7 +8,8 @@
       <entry>
          <key>XPATH</key>
          <value>
-/html/body/div[1]/div/div[2]/div/div[3]/table/tbody/tr/td/form/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[4]/td/table/tbody/tr/td/div/div/div/table/tbody/tr[2]/td/table/tbody/tr/td[3]/a</value>
+
+/html/body/div[1]/div/div[2]/div/div[3]/table/tbody/tr/td/form/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[4]/td/table/tbody/tr/td/div/div/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +20,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>c63e1f36-c6ef-4cad-8133-6701135487a6</webElementGuid>
+      <webElementGuid>83173827-0085-4ae1-af3d-8bf90c76191d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +28,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1658154100618</value>
-      <webElementGuid>8f0a7c5c-dd5c-4844-b281-11952c75a62b</webElementGuid>
+      <webElementGuid>ec82ae6f-2289-4a3c-93c4-baf3229dbeeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +36,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/InscripcionPortal/iframe_ifrm_component_A_2</value>
-      <webElementGuid>c17bfe38-258c-41d4-8176-d8206a4718c0</webElementGuid>
+      <webElementGuid>01118ab1-ea28-4cfd-be84-518b125dfc49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>a0916f32-29d2-4dde-887a-6aba87c9c26a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//th[10]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//th[@id='from_visorreporte:lista_reporte:j_idt530']/span</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a187b42f-ae3e-4170-bff9-b7ef424ca857</webElementGuid>
+      <webElementGuid>22bf0546-18f8-48aa-933f-24b6d2329f99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-column-title</value>
-      <webElementGuid>60b43a5a-85d1-46ae-9543-12d0821a5dc7</webElementGuid>
+      <webElementGuid>3c6ed7cf-8bb6-4173-bb10-b0abfed06fc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sueldo</value>
-      <webElementGuid>b4436922-4850-4e4c-bf24-159f50da5de9</webElementGuid>
+      <webElementGuid>761e2e9e-a9e7-4596-8996-70571aaf87d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;from_visorreporte:lista_reporte:j_idt530&quot;)/span[@class=&quot;ui-column-title&quot;]</value>
-      <webElementGuid>79752bbc-5a25-49b8-a97f-c8fbf923bec9</webElementGuid>
+      <webElementGuid>9e270b40-9f1e-49d2-b105-d4cf2625f1c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
-      <webElementGuid>d65fe656-5b56-4de4-bbce-b43e367fe43c</webElementGuid>
+      <webElementGuid>a940d173-8319-4a4b-96e8-909eb624406f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//th[@id='from_visorreporte:lista_reporte:j_idt530']/span</value>
-      <webElementGuid>fcd430ee-a0ab-4c10-9b63-dafb9aa4a033</webElementGuid>
+      <webElementGuid>c2ae1492-4990-464f-8068-19d57e332b21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargo'])[1]/following::span[1]</value>
-      <webElementGuid>94f1c72b-8051-496f-9b89-1d9dfeb6c2ce</webElementGuid>
+      <webElementGuid>decbdbf5-3edd-4317-8cd7-cbfc5c2ca786</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lineacosto'])[1]/following::span[2]</value>
-      <webElementGuid>b2a1ed41-2cef-49a3-a63f-2bf4e021f171</webElementGuid>
+      <webElementGuid>76994112-6ef4-47a2-8d15-ba931333267e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sueldoantes'])[1]/preceding::span[1]</value>
-      <webElementGuid>8018b925-8dff-431c-9bef-81ff42aa15af</webElementGuid>
+      <webElementGuid>883ec352-7d7e-468d-b28c-0f3bf334ce53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombreddddddds'])[1]/preceding::span[2]</value>
-      <webElementGuid>917e04f5-5ef9-40d4-824c-f56954c316f7</webElementGuid>
+      <webElementGuid>ab216aa7-b60f-4bd6-8fa1-31e4b1094840</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sueldo']/parent::*</value>
-      <webElementGuid>16a46538-7c3d-4eb7-bb43-479b46a5199f</webElementGuid>
+      <webElementGuid>3e3199fc-bb5b-4047-8156-fee2d23b4345</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[10]/span</value>
-      <webElementGuid>3141355f-00fb-4d80-a416-5a6a9e0cb428</webElementGuid>
+      <webElementGuid>ddd34783-3310-4dd8-82ff-1ef5ea9ed831</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Sueldo' or . = 'Sueldo')]</value>
-      <webElementGuid>7c312632-c086-4fa6-a25f-fa4ea9e10d6f</webElementGuid>
+      <webElementGuid>a5bb1efd-811c-498f-a011-e8090a3f3bf6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
