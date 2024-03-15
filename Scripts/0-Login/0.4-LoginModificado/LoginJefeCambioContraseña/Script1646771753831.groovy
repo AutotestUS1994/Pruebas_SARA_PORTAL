@@ -70,6 +70,6 @@ def a() {
 
     WebUI.callTestCase(findTestCase('Elegir Empresa/Elegir_Empresa'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
+    WebUI.navigateToUrl('http://192.168.20.44:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
 }
 

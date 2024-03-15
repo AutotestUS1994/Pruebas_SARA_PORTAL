@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f19b9d83-9b61-430e-a45e-15ae06c4d49a</webElementGuid>
+      <webElementGuid>6568e04c-d11a-4f18-ba95-7a08097acd99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grupoEvento:j_idt594</value>
-      <webElementGuid>fafec46f-0d73-4b1c-b3c3-c134ee64818d</webElementGuid>
+      <webElementGuid>230716d4-11ac-48db-ad9c-c48400f66bd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>015bab68-d995-4dc0-9c80-8348ece9d468</webElementGuid>
+      <webElementGuid>04c27ca0-f3be-4717-b1d0-ebfe37f72043</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
-      <webElementGuid>c847a3b4-84a3-4324-85b8-1ee86ceac7f3</webElementGuid>
+      <webElementGuid>0c423707-6507-4994-8a19-e0b1ae340c26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;grupoEvento:j_idt594&quot;,f:&quot;grupoEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>484a09a2-94a9-4b17-8cd1-d9137614ca0d</webElementGuid>
+      <webElementGuid>8589d65d-e7d2-4c7f-a0fe-f25772a9e3ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cambiar Datos</value>
-      <webElementGuid>e42d1873-8a64-4317-ba76-77968a59405d</webElementGuid>
+      <webElementGuid>4b3e843c-8fa7-4e56-9d44-6d2a41bfe059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:j_idt594&quot;)</value>
-      <webElementGuid>ff1c9cbe-b280-4621-956b-1019c5586fd3</webElementGuid>
+      <webElementGuid>1671dbf1-a13a-4726-9596-9b1168929353</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='grupoEvento:j_idt594']</value>
-      <webElementGuid>2b139bbf-c893-4c58-9b67-93bd442c6508</webElementGuid>
+      <webElementGuid>29d5da6e-1153-4a4c-b1e7-ba5d5cd926d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grupoEvento:j_idt385_content']/div[2]/table[2]/tbody/tr/td/a</value>
-      <webElementGuid>4edb39b5-5835-408e-b641-f684dfbde12e</webElementGuid>
+      <webElementGuid>4de37ba9-35dd-4779-a0f6-987df618c01d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cambiar Datos')]</value>
-      <webElementGuid>3a6da925-7fe8-4442-91bd-51edc5208ac7</webElementGuid>
+      <webElementGuid>66803d0c-5f5a-4d4c-a2b7-cd2cf9a62098</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente *'])[1]/following::a[1]</value>
-      <webElementGuid>1b2b6b77-ece3-477a-9653-6b430cb7aeed</webElementGuid>
+      <webElementGuid>9901c293-6ba7-4907-b8f8-602e6d48696d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::a[1]</value>
-      <webElementGuid>fd5b88e4-5613-4ca6-a1f2-c284cc1b6b1d</webElementGuid>
+      <webElementGuid>ce720f9e-487d-4a1c-aadb-b5f57f9e5bbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::a[4]</value>
-      <webElementGuid>4e9e8b2a-d917-4979-a3be-2fed1f228cc7</webElementGuid>
+      <webElementGuid>1daa7c3b-f766-493b-82a7-89ad38b90323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[4]</value>
-      <webElementGuid>48cbe9d4-62d7-45ff-981f-f82998ed9be4</webElementGuid>
+      <webElementGuid>bd252986-45e9-42bd-bc12-fef954492bed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cambiar Datos']/parent::*</value>
-      <webElementGuid>e79128b3-518c-4e80-ae42-843b589a3f8a</webElementGuid>
+      <webElementGuid>84226c72-e5ee-43d1-9823-dd0ac2b0cbf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[103]</value>
-      <webElementGuid>e7a95815-e3b8-427a-a22b-7c79e3f4c051</webElementGuid>
+      <webElementGuid>547239ce-e776-47ba-a633-47ab1f343694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/table[2]/tbody/tr/td/a</value>
-      <webElementGuid>5e8af048-1999-4342-b720-799d1747302b</webElementGuid>
+      <webElementGuid>51996576-6d5f-48d9-b3b3-59492b759f7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'grupoEvento:j_idt594' and @href = '#' and (text() = 'Cambiar Datos' or . = 'Cambiar Datos')]</value>
-      <webElementGuid>61ee7ba5-6b73-4e7a-85e4-2c3d5f2967dc</webElementGuid>
+      <webElementGuid>86937b5d-a675-4a40-8620-d6b4eb16eaa1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

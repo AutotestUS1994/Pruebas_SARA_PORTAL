@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('MÓDULOS/ModificarInscripcionEvaluacionCapacitacion/input_Empresa 1_form_templatej_idt24_input'), 
-    'evento')
+    'evento capacitacion')
 
 WebUI.click(findTestObject('MÓDULOS/ModificarInscripcionEvaluacionCapacitacion/li_Control Evento Capacitacion (cap)'))
 

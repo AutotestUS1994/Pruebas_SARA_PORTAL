@@ -6,12 +6,11 @@
    <elementGuidId>63e8b640-84ba-48d0-83bf-1c7ac1b264f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='form_evaluacion_proceso_seleccion:j_idt54_data']/tr/td[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[1]/span/table/tbody/tr[2]/td/span/div/div/table/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>c1e2befa-2cf1-46f8-8214-eb9340cdd919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>2d096f6d-4653-4246-80ad-ed86df19f415</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Evaluación Capacitación</value>
+      <webElementGuid>98ee3db8-c267-4ed7-acad-b9504af4df32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_evaluacion_proceso_seleccion:j_idt54_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
+      <webElementGuid>e4b1514e-e5f8-433e-9abe-637e1fb32cc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/EvaluarEventoCapacitacion/iframe_Evaluaciones de capacitacin_7F07D451_2549c9</value>
+      <webElementGuid>483daa5f-fbce-4b39-b583-aef5600c53b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_evaluacion_proceso_seleccion:j_idt54_data']/tr/td[2]</value>
+      <webElementGuid>88e8cd65-6dba-420e-8b54-6ffc20c815ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::td[1]</value>
+      <webElementGuid>a795a498-598e-48e1-b144-580e5c98ef71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Curso de Inglés Básico'])[1]/following::td[2]</value>
+      <webElementGuid>6af4c2ec-7f20-4da0-a5e9-c6193dd6b808</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Diligenciada'])[2]/preceding::td[1]</value>
+      <webElementGuid>63ecf7ab-79a7-4eef-8764-1d141798d04e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>cc7c5126-87f8-4a91-869d-4c13d07b5945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Evaluación Capacitación' or . = 'Evaluación Capacitación')]</value>
+      <webElementGuid>8ff390da-4858-449f-8cf0-7629b1cbcaba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

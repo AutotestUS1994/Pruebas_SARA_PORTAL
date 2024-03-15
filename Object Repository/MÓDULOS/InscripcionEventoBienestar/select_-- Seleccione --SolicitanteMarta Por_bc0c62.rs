@@ -6,12 +6,11 @@
    <elementGuidId>9e93c431-2511-4312-bec8-f7c9a51a0d14</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='formListadoEventos:pariente']
-</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//select[@id='formListadoEventos:pIMomentoEvento']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>e4832c1f-39b7-497a-b332-41655f80f6a7</webElementGuid>
+      <webElementGuid>0d2118a0-1008-4130-b085-f82aed39b115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoEventos:pariente</value>
-      <webElementGuid>63761275-dba2-4d59-b956-b82e6289bc1c</webElementGuid>
+      <webElementGuid>de87495e-dfa5-4207-a880-51a3251fd6bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formListadoEventos:pariente</value>
-      <webElementGuid>db8d75df-0fc4-473b-adb9-ab3fb95bb77f</webElementGuid>
+      <webElementGuid>3cbf70c9-7e40-4117-9318-b5b0892dea1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>33846d96-ac23-4ed9-9fbd-40b4f6efcbca</webElementGuid>
+      <webElementGuid>12b34315-2de4-4275-91fb-05777963d162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>7039bb0b-91d5-424f-8fde-e408f35c2852</webElementGuid>
+      <webElementGuid>b239de59-538a-48aa-ab97-a1d9f2e307f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;formListadoEventos&quot;,p:&quot;formListadoEventos&quot;,u:&quot;areaAplicacion&quot;});</value>
-      <webElementGuid>73aa955e-2683-4e94-a83a-ee2ce7f0fbd9</webElementGuid>
+      <webElementGuid>1c26d161-f745-47fb-8d1b-2871587dbc6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +72,7 @@
 	Solicitante
 	Marta Portal Noborrar
 </value>
-      <webElementGuid>0a58a091-f5b4-4e8d-8244-8b56351c8512</webElementGuid>
+      <webElementGuid>cf9bd4e9-6ae0-4af3-8191-be09f6b4be2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEventos:pariente&quot;)</value>
-      <webElementGuid>092729cd-c6bf-4f18-b078-1cdbada2f0dc</webElementGuid>
+      <webElementGuid>4d2ec812-d6f7-4f71-8b12-45e7eaf226c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,7 +88,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/InscripcionEventoBienestar/iframe_Mis eventos_7F07D451F09D4B35813735F5_55247e</value>
-      <webElementGuid>54a398fd-0db1-4d7c-95da-9be92683c509</webElementGuid>
+      <webElementGuid>383a1a0e-4e8c-4278-9a08-83395c06b3bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formListadoEventos:pariente']</value>
-      <webElementGuid>584125f7-1578-4a7b-8969-35df3b35d8ee</webElementGuid>
+      <webElementGuid>28a4a179-f1e4-492b-b8c7-64cfb23f7cdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +104,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formListadoEventos:j_idt102_content']/div[2]/table/tbody/tr[6]/td[2]/select</value>
-      <webElementGuid>5ebd9720-3928-4a80-9aad-dfb49a09846b</webElementGuid>
+      <webElementGuid>f417499d-4453-4f33-896a-cd7b8af4e479</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente *'])[1]/following::select[1]</value>
-      <webElementGuid>10285015-85fd-45f6-a85c-94d6aee296dc</webElementGuid>
+      <webElementGuid>d09779f9-2682-4653-a8ce-0cf310de4fab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::select[1]</value>
-      <webElementGuid>b466deda-5512-4ffb-9655-f24bc98bd26b</webElementGuid>
+      <webElementGuid>2cae13a7-8232-4e3e-b198-7b64c8072f03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'formListadoEventos:pariente', '&quot;', ')')])[1]/preceding::select[1]</value>
-      <webElementGuid>c0b01b57-0730-4f44-96ed-b49891ccd51b</webElementGuid>
+      <webElementGuid>fed1e57f-ca94-4cb2-9a6d-022f867f9d96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::select[1]</value>
-      <webElementGuid>3420f2a8-f1eb-4cf4-877b-1cd17f027967</webElementGuid>
+      <webElementGuid>2434b7e2-d538-4924-a61f-22d4364c24bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +144,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td[2]/select</value>
-      <webElementGuid>fb04cace-3e0c-4f1e-b4d8-539c543d1e8a</webElementGuid>
+      <webElementGuid>d78423db-bf9d-4c16-851b-3327a7fc1329</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +158,6 @@
 	Solicitante
 	Marta Portal Noborrar
 ')]</value>
-      <webElementGuid>c4d9ec54-251e-4eae-9aef-c305630f581b</webElementGuid>
+      <webElementGuid>58dcb1ef-2bda-4880-bb0c-cdd2d5c5d811</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

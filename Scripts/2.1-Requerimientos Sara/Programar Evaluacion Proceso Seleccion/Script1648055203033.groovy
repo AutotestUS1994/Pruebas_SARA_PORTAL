@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
 
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -39,6 +41,8 @@ if (consecutivo == 'BOG-2022-0001') {
     WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/div_Candidato'))
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/a_Registro Candidato'))
+
+	zoom()
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/Proceso Seleccion/RealizarEvaluacionProcesoSeleccion/ProgramarEvaluacionProcesoSeleccion/td_80769954'))
 
@@ -116,5 +120,25 @@ if (consecutivo == 'BOG-2022-0001') {
     }
 } else {
     WebUI.acceptAlert()
+}
+
+def zoom() {
+	Robot robot = new Robot()
+
+	robot.keyPress(KeyEvent.VK_CONTROL)
+
+	robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+
+	robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+	robot.keyPress(KeyEvent.VK_CONTROL)
+
+	robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+
+	robot.keyRelease(KeyEvent.VK_SUBTRACT)
 }
 

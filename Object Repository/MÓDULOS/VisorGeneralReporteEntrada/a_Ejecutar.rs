@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='popupEntradaReporteVisor_form:j_idt98']</value>
+         <value>//body/div[1]/div/div[2]/div/form[2]/div/div[2]/table/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>345a70cd-b77b-4655-bc1f-055e4b6be28c</webElementGuid>
+      <webElementGuid>29a618d9-f9b9-46f3-aa70-64c34686acd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupEntradaReporteVisor_form:j_idt98</value>
-      <webElementGuid>2643495c-2d49-4355-80f4-79d17bd03e6f</webElementGuid>
+      <webElementGuid>791002eb-6bdc-412a-86c0-70d070117c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>834b7fbb-b235-4378-b09c-c3214e480a6a</webElementGuid>
+      <webElementGuid>39849ac4-f821-4f67-a46e-1132e6f366c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-ejecutar</value>
-      <webElementGuid>b7e633a3-7054-404f-9ccb-38b3c60e2e69</webElementGuid>
+      <webElementGuid>541a4b0f-4da9-420d-a176-8101714d647f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupEntradaReporteVisor_form:j_idt98&quot;,f:&quot;popupEntradaReporteVisor_form&quot;,p:&quot;popupEntradaReporteVisor_form&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();}});return false;</value>
-      <webElementGuid>6a122312-1052-4e7e-b11f-e1aa3ac24c94</webElementGuid>
+      <webElementGuid>b4a4427a-edcc-4c49-9861-9a70fc09346a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ejecutar</value>
-      <webElementGuid>2b1073a2-6b36-491b-a5fe-afa64fb68956</webElementGuid>
+      <webElementGuid>77f21670-de50-4d80-ae6e-c4d187fe732c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupEntradaReporteVisor_form:j_idt98&quot;)</value>
-      <webElementGuid>1e569e8f-0b2d-460a-a90e-272bd02976c5</webElementGuid>
+      <webElementGuid>c1b35f2e-5b00-4563-aac9-b70c52b51e87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/VisorGeneralReporteEntrada/iframe_Mis Cesantas_SPW7D451709D4B45813735F_3b68a4</value>
-      <webElementGuid>5a5ebe33-70fb-4013-93b3-209b3c8932bd</webElementGuid>
+      <webElementGuid>9ed08857-c825-4bb6-a0a7-3683ebaec854</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupEntradaReporteVisor_form:j_idt98']</value>
-      <webElementGuid>bdfbc3b2-7ec5-4b99-aabc-36ce58bc1b99</webElementGuid>
+      <webElementGuid>cbb70344-b4dc-4b73-9254-b4d074957034</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupEntradaReporteVisor_form:panelTabla']/tbody/tr/td/a</value>
-      <webElementGuid>2a982cff-868d-4d08-a025-d54110ec273f</webElementGuid>
+      <webElementGuid>e2dfdd83-f90e-4546-8eaa-f33a4b2f03e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ejecutar')]</value>
-      <webElementGuid>a1a92788-34a8-4ec7-8260-0201e479f42e</webElementGuid>
+      <webElementGuid>86420f96-9dd8-4078-998f-60105335d5d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='��entradas!!'])[2]/following::a[1]</value>
-      <webElementGuid>2bd8d30f-469a-4de6-b58e-fd14ac347fd2</webElementGuid>
+      <webElementGuid>7bd75331-076d-4b3d-a500-1048a8a86437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[3]</value>
-      <webElementGuid>4478e839-6ce2-4edb-971e-6fb4215343c9</webElementGuid>
+      <webElementGuid>1d1838b7-ba45-4511-8181-c97584638ca6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
-      <webElementGuid>6d70832c-dbca-4a41-ace3-0249b5bcf1da</webElementGuid>
+      <webElementGuid>092d3f64-1af2-4d99-895d-3908782f8a6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
-      <webElementGuid>fbbded21-a6ba-4e83-92f1-003875de08d7</webElementGuid>
+      <webElementGuid>842d89f8-fd16-4723-bda8-3b5db327ee6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ejecutar']/parent::*</value>
-      <webElementGuid>36ed0a88-94ba-48f1-9483-b91b0769c979</webElementGuid>
+      <webElementGuid>5d532419-950f-4d8b-889a-02ad5b4fd96a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[7]</value>
-      <webElementGuid>018cdb05-ffcd-40c8-be50-fb61903db406</webElementGuid>
+      <webElementGuid>4b78245b-3cc8-4afd-9aad-256664c0eadd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/a</value>
-      <webElementGuid>8533056e-8ea9-440d-9e7e-eb02e8990644</webElementGuid>
+      <webElementGuid>a6b38bac-0ff3-4674-b45e-5521415057d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupEntradaReporteVisor_form:j_idt98' and @href = '#' and (text() = 'Ejecutar' or . = 'Ejecutar')]</value>
-      <webElementGuid>4d7d4f57-48be-4a01-83fd-12b3e83c607a</webElementGuid>
+      <webElementGuid>249f923c-294e-4223-9246-de49b96a97ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -36,7 +36,7 @@ if (profileName == 'default_Weblogic') {
 
     WebUI.click(findTestObject('MÓDULOS/VerificadorPinCertificacion/a_Enviar'))
 
-    a() /*WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/acceso')*/
+    a() /*WebUI.navigateToUrl('http://192.168.20.44:8580/PortalSara/sitio/portalEmpleados/acceso')*/
 } else {
     WebUI.navigateToUrl(i)
 

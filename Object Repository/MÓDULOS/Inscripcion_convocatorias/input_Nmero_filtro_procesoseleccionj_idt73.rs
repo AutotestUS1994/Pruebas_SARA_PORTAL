@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[6]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/span/div[1]/div[2]/table/tbody/tr[2]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1746826c-01a9-4dec-8629-2b999802f841</webElementGuid>
+      <webElementGuid>75ea9896-785d-41b8-9f8a-51181508d7fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:j_idt73</value>
-      <webElementGuid>26c2e65b-ff82-4d2c-8e7b-24e39c39c8a6</webElementGuid>
+      <webElementGuid>c1b531ee-cb34-41cd-ac36-749d94ea2f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e9868e2b-dbb2-4fd4-9ebd-fe153402ce61</webElementGuid>
+      <webElementGuid>51572ef6-6632-457f-a5e1-d270c43e3ff7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:j_idt73</value>
-      <webElementGuid>e79dd730-2e9a-4f83-a29a-14ca3000b4e0</webElementGuid>
+      <webElementGuid>e7b2c43b-462b-4c05-8de6-61937570df86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>1e608cc9-c885-47f1-b167-c370154970b7</webElementGuid>
+      <webElementGuid>2371e42d-49a6-4b96-b0ba-fc22e9c4199a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
-      <webElementGuid>a56a6249-42b2-4f14-8722-2e6433524c3d</webElementGuid>
+      <webElementGuid>199997b5-5579-4279-afc3-ad8a3130f74a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>1b610582-38f5-4639-aef9-59dbaec91323</webElementGuid>
+      <webElementGuid>f158b02f-a706-4d83-9bdc-1fca334064fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;filtro_procesoseleccion&quot;,p:&quot;filtro_procesoseleccion:j_idt73&quot;,u:&quot;filtro_procesoseleccion:tabla&quot;});</value>
-      <webElementGuid>084a95cc-8eb3-411e-b37b-9cc60ce9394e</webElementGuid>
+      <webElementGuid>ae2ed37d-dc77-41fc-b604-e3049d04467f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtro_procesoseleccion:j_idt73&quot;)</value>
-      <webElementGuid>786ea9f0-aa8b-4edf-ae17-8b0da3eb3cb9</webElementGuid>
+      <webElementGuid>cf26b0b0-948d-45d2-8985-2c6efe926db9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='filtro_procesoseleccion:j_idt73']</value>
-      <webElementGuid>79625a6c-7ba0-4ee1-bd6b-2170f15bd04a</webElementGuid>
+      <webElementGuid>cce4ad47-42dd-408f-b036-722e1d7f2640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='filtro_procesoseleccion:formPanel_content']/table/tbody/tr/td[6]/input</value>
-      <webElementGuid>7465a4a3-267f-4cc3-ba5c-9773c5c49a86</webElementGuid>
+      <webElementGuid>6529be03-77c7-4a68-a464-1adc3c33359b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[6]/input</value>
-      <webElementGuid>191801e0-4630-4de6-a69f-60a285e05eab</webElementGuid>
+      <webElementGuid>508fa33b-ea18-49f1-a676-9b67cd6e6d0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'filtro_procesoseleccion:j_idt73' and @type = 'text' and @name = 'filtro_procesoseleccion:j_idt73']</value>
-      <webElementGuid>9d11e2cb-dad5-4f23-96fa-978eea4d3b41</webElementGuid>
+      <webElementGuid>14a07f06-da2e-410b-ad21-918477f0d2ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

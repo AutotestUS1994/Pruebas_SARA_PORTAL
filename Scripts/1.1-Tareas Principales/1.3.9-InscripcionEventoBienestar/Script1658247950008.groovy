@@ -35,13 +35,17 @@ if (evento == 'Inscripción Promoción y prevención de la salud portal') {
 
     WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/a_Inscripcin'))
 
-    
-    if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMarta Por_bc0c62'), 
-        1, FailureHandling.STOP_ON_FAILURE)) {
+    WebUI.comment('Se cambia el ID del objeto que sigue: Antes: //select[@id=\'formListadoEventos:pariente\']')
 
-    WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMarta Por_bc0c62'), 
-        1, FailureHandling.STOP_ON_FAILURE)
-    }
+    if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMarta Por_bc0c62'), 
+        1, FailureHandling.STOP_ON_FAILURE)) {
+        WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMarta Por_bc0c62'), 
+            1, FailureHandling.STOP_ON_FAILURE)
+    } else if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMartaPariente'), 
+        1, FailureHandling.STOP_ON_FAILURE)) {
+		WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/select_-- Seleccione --SolicitanteMartaPariente'),
+			2, FailureHandling.STOP_ON_FAILURE)
+	}
     WebUI.click(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/a_Guardar'))
 
     String inscrito = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscripcionEventoBienestar/span_Se ha registrado en el evento'))

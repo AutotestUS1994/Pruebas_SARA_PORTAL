@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div/div/div/div[1]/div/div[2]/div/div[11]/div/figure/figcaption/a</value>
+         <value>//body/div[1]/div/div/div/div[1]/div/div[2]/div/div[11]/div/figure/figcaption/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>aa8a0ac4-5f0e-4252-b4b3-93312e22b4d5</webElementGuid>
+      <webElementGuid>1ee282f9-03f5-49f3-8d19-724d7b451004</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitud Viaticos</value>
-      <webElementGuid>29717f65-d7c4-411e-99b1-86346a54229e</webElementGuid>
+      <webElementGuid>39f64d94-660e-43d0-8f36-e0caef22e985</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;us-interfaz-7vsk&quot;)/div[@class=&quot;panel-heading&quot;]/label[1]</value>
-      <webElementGuid>533af278-a2a2-4a88-821b-1b63313a9ee4</webElementGuid>
+      <webElementGuid>45a82b16-a7de-486f-97d3-1ee084621ee7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='us-interfaz-7vsk']/div/label</value>
-      <webElementGuid>03873472-12e6-4fb2-b570-45b1fcb13103</webElementGuid>
+      <webElementGuid>12f0f6bf-cf40-467b-ab72-2ea3f25a67fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro'])[1]/preceding::label[1]</value>
-      <webElementGuid>db54d58e-db78-4ca2-9d65-06b4579ab577</webElementGuid>
+      <webElementGuid>ec746306-5567-477d-a03c-52668968b8b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[1]/preceding::label[1]</value>
-      <webElementGuid>bea7edbe-ef8c-4742-bfa1-d77bd284f831</webElementGuid>
+      <webElementGuid>285cddfd-6731-4340-8315-b62c69837b57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Solicitud Viaticos']/parent::*</value>
-      <webElementGuid>faf9acd4-1509-42f6-afff-f3ece2ccc3d7</webElementGuid>
+      <webElementGuid>9e78a6cf-0bca-49ac-9027-d4c5ed1d8238</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>7a197ee8-7c39-4378-83c3-14df8460cdfc</webElementGuid>
+      <webElementGuid>ca2c23ab-6b6b-47ce-8bdb-0c4ecaaa6928</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Solicitud Viaticos' or . = 'Solicitud Viaticos')]</value>
-      <webElementGuid>7e36b6ea-e9c4-4ac1-ac37-416f7692a071</webElementGuid>
+      <webElementGuid>1554edc2-d700-4afd-9ee4-cbef8b46f896</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

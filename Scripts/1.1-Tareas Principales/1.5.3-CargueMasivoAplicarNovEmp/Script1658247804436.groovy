@@ -27,9 +27,20 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMas
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
 
+int number = 0
+
 while (WebUI.waitForElementNotVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 
     1) == true) {
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
+    
+    println(number)
+
+    if (number == 4) {
+        println(('Se ha intentado ' + number) + ' veces dar clic en btn Cargue Masivo')
+
+        WebUI.acceptAlert()
+    }
+	number++
+    WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
 }
 
 WebUI.comment('Cargue Actualizar Jefe Proceso Base De Datos')
@@ -39,9 +50,19 @@ WebUI.setText(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovE
 WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/input_Fuente_formFuentesj_idt4419'), 
     1)
 
+number = 0
+
 while (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 1) == 
 true) {
-    WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'))
+    println(number)
+
+    if (number == 4) {
+        println(('Se ha intentado ' + number) + ' veces dar clic en cargue Proceso BD')
+
+        WebUI.acceptAlert()
+    }
+	number++
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Base De Datos'))
 }
 
 /*WebUI.click(findTestObject('MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'))
@@ -91,8 +112,18 @@ WebUI.comment('Cargue Actualizar Jefe Proceso Aplicacion')
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
 
+number = 0
+
 while (WebUI.waitForElementNotVisible(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 
     1)) {
+    println(number)
+
+    if (number == 4) {
+        println(('Se ha intentado ' + number) + ' veces dar clic en btn Cargue Masivo')
+
+        WebUI.acceptAlert()
+    }
+	number++
     WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/a_Cargue Masivo'))
 }
 
@@ -103,10 +134,21 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueM
 
 WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
 
+number = 0
 
-while(WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 1)){
-	WebUI.doubleClick(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
+while (WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/popup-fuente'), 
+    1)) {
+    println(number)
+
+    if (number == 4) {
+        println(('Se ha intentado ' + number) + ' veces dar clic en cargue Proceso Apli.')
+
+        WebUI.acceptAlert()
+    }
+	number++
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/td_Actualizar Jefe Proceso Aplicacion'))
 }
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), 1)
 
 WebUI.uploadFile(findTestObject('Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/span_Cargar'), ruta)

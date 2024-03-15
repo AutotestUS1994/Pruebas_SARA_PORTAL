@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div/div[2]/div/table[2]/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[1]/td/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>291cf6aa-1099-4bda-b114-a1fa9fbcd781</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formPopUpUbicacion:j_idt947</value>
+      <webElementGuid>e06bea6b-802d-4d56-b710-4f41ecd883af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formPopUpUbicacion:j_idt947</value>
+      <webElementGuid>a3df7c2e-5a47-4ade-a5d0-90f1cf1a8cbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>c3590ecc-098a-4a3b-a660-14146b56cad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-focus</value>
+      <webElementGuid>237132a8-2757-44f5-8e22-982a0a2eefd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Ciudad</value>
+      <webElementGuid>b8d3466b-9c66-46a8-899c-337baa816f34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>25</value>
+      <webElementGuid>e11794c3-9e1d-4d0d-a783-134ac2b41787</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formPopUpUbicacion:j_idt947&quot;,e:&quot;valueChange&quot;,f:&quot;formPopUpUbicacion&quot;,p:&quot;formPopUpUbicacion:j_idt947&quot;,u:&quot;formPopUpUbicacion:tabla_ubicaciones&quot;});</value>
+      <webElementGuid>30fa1892-deb5-469f-bf10-ba65ac64dfbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>8c0cffc9-79ee-40c3-acd2-acd3fafbdd6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>f0753bd3-20d4-4e3f-b8a8-2222281d070b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>ba359388-a142-4f97-88b0-19e04a411766</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopUpUbicacion:j_idt947&quot;)</value>
+      <webElementGuid>558ff131-2c67-471d-9ef8-16090ef17375</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,6 +117,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
+      <webElementGuid>facc5d85-e9a8-4f43-9cb9-890a4bc42321</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formPopUpUbicacion:j_idt947']</value>
+      <webElementGuid>e314dbe0-d2c9-410b-9bb5-20b2bd312eb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formPopUpUbicacion:filtroBase']/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>460b52c2-543f-4ad1-a7f0-9035ff92a1eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>84a4a7ad-527b-4690-aba3-bbd64da1e417</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formPopUpUbicacion:j_idt947' and @name = 'formPopUpUbicacion:j_idt947' and @type = 'text' and @placeholder = 'Ciudad']</value>
+      <webElementGuid>54d1099d-2243-458b-aee7-f4eb5a5108b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

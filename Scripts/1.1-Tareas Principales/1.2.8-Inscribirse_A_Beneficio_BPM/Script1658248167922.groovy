@@ -18,83 +18,86 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
-	
+
 WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_RRHH'))
-	
+
 WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/font_Ver ms'))
-	
+
 WebUI.switchToWindowIndex(1)
-	
+
 String ven = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/label_Convocatoria Beneficio'))
-	
+
 String Ben = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Beneficio Prueba Portal'))
-	
+
 if ((ven == 'Convocatoria Beneficio') && (Ben == 'Beneficio Prueba Portal')) {
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Solicitar'))
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Solicitar'))
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/select_-- Seleccione --SolicitanteMartina M_00defa'), 
+        '.', true)
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Guardar'))
+
+   if(WebUI.waitForElementVisible(findTestObject('MÓDULOS/InscribirseABeneficioBPM/span_Se Guard el registro correctamente'), 
+        0)) {
+
+	    String insc = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Se Guard el registro correctamente'))
 	
-	WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/select_-- Seleccione --SolicitanteMartina M_00defa'), 
-	        '.', true)
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Guardar'))
-	
-	String insc = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Se Guard el registro correctamente'))
-	
-	if (insc == 'Se Guardó el registro correctamente') {
-	    a()
+	    if (insc == 'Se Guardó el registro correctamente') {
+	        a()
+	    }
 	} else {
-	    WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Registro Inscripcion Beneficio BPM'), [:], FailureHandling.STOP_ON_FAILURE)
-		
-		WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
-		
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_RRHH'))
-		
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/font_Ver ms'))
-		
-		WebUI.switchToWindowIndex(1)
-		
-		String ven1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/label_Convocatoria Beneficio'))
-		
-		String Ben1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Beneficio Prueba Portal'))
-		
-		if ((ven1 == 'Convocatoria Beneficio') && (Ben1 == 'Beneficio Prueba Portal')) {
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Solicitar'))
-		
-			WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/select_-- Seleccione --SolicitanteMartina M_00defa'),
-				'.', true)
-		
-			WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Guardar'))
-		
-			String insc1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Se Guard el registro correctamente'))
-		
-			if (insc1 == 'Se Guardó el registro correctamente') {
-				a()
-			}
-		}
-	}
+        WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Registro Inscripcion Beneficio BPM'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_RRHH'))
+
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/font_Ver ms'))
+
+        WebUI.switchToWindowIndex(1)
+
+        String ven1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/label_Convocatoria Beneficio'))
+
+        String Ben1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Beneficio Prueba Portal'))
+
+        if ((ven1 == 'Convocatoria Beneficio') && (Ben1 == 'Beneficio Prueba Portal')) {
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Solicitar'))
+
+            WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/select_-- Seleccione --SolicitanteMartina M_00defa'), 
+                '.', true)
+
+            WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Guardar'))
+
+            String insc1 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Se Guard el registro correctamente'))
+
+            if (insc1 == 'Se Guardó el registro correctamente') {
+                a()
+            }
+        }
+    }
 }
 
-	
 def a() {
-	WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a'))
-	
-	String desc = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Beneficio Prueba Portal'))
-	
-	String soli = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Mendoza 1502 Empleado Port'))
-	
-	if ((desc == 'Beneficio 1552 Beneficio Prueba Portal') && (soli == 'Beneficio 1552 Mendoza 1502 Empleado Pprueba')) {
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Mendoza 1502 Empleado Port'))
-	
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Autorizar'))
-	
-		WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Si'))
-	
-		String fin = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_La respuesta se ha guardado correctame_13122f'))
-	
-		if (fin == 'La respuesta se ha guardado correctamente. Autorizar.') {
-			WebUI.closeBrowser()
-		}
-	}
+    WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a'))
+
+    String desc = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Beneficio Prueba Portal'))
+
+    String soli = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Mendoza 1502 Empleado Port'))
+
+    if ((desc.contains('Beneficio 1552 ')) && (soli.contains('Beneficio 1552 '))) {
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/td_Beneficio 1552 Mendoza 1502 Empleado Port'))
+
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/a_Autorizar'))
+
+        WebUI.click(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_Si'))
+
+        String fin = WebUI.getText(findTestObject('Object Repository/MÓDULOS/InscribirseABeneficioBPM/span_La respuesta se ha guardado correctame_13122f'))
+
+        if (fin == 'La respuesta se ha guardado correctamente. Autorizar.') {
+            WebUI.closeBrowser()
+        }
+    }
 }
 

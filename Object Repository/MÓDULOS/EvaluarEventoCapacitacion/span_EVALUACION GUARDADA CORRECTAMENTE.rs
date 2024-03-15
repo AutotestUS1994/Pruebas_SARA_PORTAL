@@ -6,12 +6,12 @@
    <elementGuidId>1cdcb99f-3946-4f7e-9d00-600596bc3979</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='j_idt182']/div/ul/li/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-messages-info-detail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/table/tbody/tr/td/div/div/ul/li/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>90154262-7be2-4e8c-8481-71179e954d15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>278fff38-f8d0-4e0c-b36e-32e2304c08e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EVALUACION GUARDADA CORRECTAMENTE</value>
+      <webElementGuid>1d64eaee-d098-4ba7-ae46-0c6cbfcbcbae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt182&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>ce9f3631-8d1d-4a6c-a8c4-9eba545981e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/EvaluarEventoCapacitacion/iframe_Evaluaciones de capacitacin_7F07D451_2549c9</value>
+      <webElementGuid>3c9213dc-e03c-47c1-a853-9468338188e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt182']/div/ul/li/span[2]</value>
+      <webElementGuid>d492c440-b982-49f0-8eb6-39a943c53f09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>72020459-8355-42e5-8daf-ae5f7e211ed0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontraron registros.'])[1]/following::span[4]</value>
+      <webElementGuid>b13faa75-9512-4b1b-9511-d7a0ef7596cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[6]</value>
+      <webElementGuid>d17f9f64-b98e-41e0-9283-12ed6c14ad03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[7]</value>
+      <webElementGuid>2d7e7f1f-b124-48e4-b444-4db4825c3cce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='EVALUACION GUARDADA CORRECTAMENTE']/parent::*</value>
+      <webElementGuid>9be62af3-10f6-4bd6-abfd-fe2dd7cb6ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/span[2]</value>
+      <webElementGuid>41bd4cad-7c82-4834-aadf-27bb0cfc1766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'EVALUACION GUARDADA CORRECTAMENTE' or . = 'EVALUACION GUARDADA CORRECTAMENTE')]</value>
+      <webElementGuid>40756f41-f8dd-4b74-8204-188e163525a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

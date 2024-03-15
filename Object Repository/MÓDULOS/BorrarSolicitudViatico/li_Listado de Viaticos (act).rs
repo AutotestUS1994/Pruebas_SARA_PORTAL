@@ -6,12 +6,12 @@
    <elementGuidId>4bce5b44-ddb5-45c9-af27-b35c9f53ecb3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.ui-autocomplete-item.ui-autocomplete-list-item.ui-corner-all.ui-state-highlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/span/ul/li/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
+      <webElementGuid>4af76e77-c2b0-4787-9134-348c4e2d37f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>7b9a3dbc-2e47-46cf-b9a2-6a5edd06de1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-item-label</name>
       <type>Main</type>
       <value>Listado de Viaticos (act)</value>
+      <webElementGuid>0b30db20-f008-4a51-9514-28b9066095d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-item-value</name>
       <type>Main</type>
       <value>Listado de Viaticos (act)</value>
+      <webElementGuid>e9be6516-1605-4988-8a54-e7abe719ef91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
+      <webElementGuid>07308aef-3cf0-48c2-b6f6-88933a2a6903</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Listado de Viaticos (act)</value>
+      <webElementGuid>0211607a-474f-479f-87d6-1eddea51d369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>cae93275-951c-4dea-adbb-e74a26f44c4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+      <webElementGuid>70e7344e-ffcb-48b0-852a-80cd725355f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administración Compensación'])[1]/following::li[1]</value>
+      <webElementGuid>125230ed-5b47-4b88-ba5c-cca9e32cde2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bienvenido a'])[1]/following::li[1]</value>
+      <webElementGuid>442f6d5b-8c4c-47f4-b692-25b9d9ddb3d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::li[1]</value>
+      <webElementGuid>f27236e0-9eb6-4277-92af-f43f050ea586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='(act)']/parent::*</value>
+      <webElementGuid>0d669058-aed0-4d7f-8f36-41e0cd488d2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li</value>
+      <webElementGuid>a02ddf68-9a30-4fe3-bb33-6344925399f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Listado de Viaticos (act)' or . = 'Listado de Viaticos (act)')]</value>
+      <webElementGuid>dc2a1f0e-6122-4f73-89a4-e69263ee2180</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

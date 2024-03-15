@@ -6,13 +6,12 @@
    <elementGuidId>5d5e178c-8217-4b1a-855f-70c360c6f8f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div[2]/table/tbody/tr[2]/td/div/div/table/tbody/tr
-</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div[2]/table/tbody/tr[2]/td/div/div/table/tbody/tr
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ea499671-d159-447b-9f1e-bf4fe973f4fc</webElementGuid>
+      <webElementGuid>d87e44d2-279a-4bb8-aea8-d2327a2a4654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>664506e6-a287-4bf0-a045-57ac0ebceb25</webElementGuid>
+      <webElementGuid>c7c635f4-c4d6-4869-9a26-ce3894a96696</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>80769954</value>
-      <webElementGuid>bed36a22-1e8a-4c47-8df0-3817d7d08b67</webElementGuid>
+      <webElementGuid>42a7d6ef-ff68-4da1-8630-db5d8dcfb1fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;seleccion_proceso:tabla_etapa_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>5be8aeff-011c-443e-9702-a3074b10a8d8</webElementGuid>
+      <webElementGuid>71b373d8-706b-4480-9e68-326d9d05f49e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='seleccion_proceso:tabla_etapa_data']/tr/td[2]</value>
-      <webElementGuid>1a0fe6a1-b3d8-4783-beb7-8665339f999a</webElementGuid>
+      <webElementGuid>55d6785a-2b96-4481-a76d-642f03e83fdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::td[2]</value>
-      <webElementGuid>652e60f2-58c8-4aaf-bccf-f3f2e54a40e4</webElementGuid>
+      <webElementGuid>28a0c85c-9883-4968-9a6a-7078d59f03a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha'])[1]/following::td[2]</value>
-      <webElementGuid>f672e4ec-1713-4ebe-902c-ed477c0cc48b</webElementGuid>
+      <webElementGuid>356b2810-bd78-4507-aa52-45d8b0730bd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza 1502 Empleado'])[1]/preceding::td[1]</value>
-      <webElementGuid>252097f0-1287-44fd-bbf8-cf116417210b</webElementGuid>
+      <webElementGuid>7e6b8706-d334-43e4-a0df-ae508a56022b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacto Gestión Humana'])[2]/preceding::td[2]</value>
-      <webElementGuid>d47177f4-ae3b-4fde-9743-2ea16b6df2a4</webElementGuid>
+      <webElementGuid>f4050a6c-0195-4b2b-8dbb-1051aa1e14c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>ef425d4a-b49d-4138-b345-50ffacb08ff8</webElementGuid>
+      <webElementGuid>bc261a37-1f18-428b-8984-07649ee64068</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '80769954' or . = '80769954')]</value>
-      <webElementGuid>a2825317-7a8d-4be6-ad4a-e2b87998aba4</webElementGuid>
+      <webElementGuid>ac88c3dc-6396-49d2-bd57-7d421d5464a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>1f64bc9b-8208-4b99-b816-00dbd11eede2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div/div[2]/div/form/table/tbody/tr[3]/td/div/div/table/tbody/tr[10]/td/table[1]/tbody/tr[3]/td/table/tbody/tr[1]/td[1]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>243ea426-cacb-4c10-90f1-b2ea173dece2</webElementGuid>
+      <webElementGuid>2aed901c-e550-47d2-9fee-f551d809eb59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleSolicitudViatico:j_idt502</value>
-      <webElementGuid>1f1b3691-433a-4ec8-8c6d-1032d4298106</webElementGuid>
+      <webElementGuid>648db971-5416-418a-a2fd-20c42610e79b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>3acd5e83-bc1e-4805-80f2-daec27098f54</webElementGuid>
+      <webElementGuid>6351750b-b130-4406-a0e0-e4baadcda5f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-guardar</value>
-      <webElementGuid>770a4a4d-7e3f-4949-b152-be6761e81675</webElementGuid>
+      <webElementGuid>557eca05-91c7-4806-ace8-263c60d972ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleSolicitudViatico:j_idt502&quot;,f:&quot;form_detalleSolicitudViatico&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
-      <webElementGuid>b55bdca6-cf44-44d5-ae16-dd2788affdd8</webElementGuid>
+      <webElementGuid>3c423bed-1229-4f97-8220-bed0b84c3ddc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
-      <webElementGuid>b524a619-0b26-400b-9d9b-1dea4d37f591</webElementGuid>
+      <webElementGuid>29bf6341-5408-4837-851f-976d179ed5c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleSolicitudViatico:j_idt502&quot;)</value>
-      <webElementGuid>86beb7a2-06ce-4069-aa57-66cd6a72d23b</webElementGuid>
+      <webElementGuid>89a8abd9-fa1a-4b57-a070-6e6569262831</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
-      <webElementGuid>1016ce5b-833e-4103-bee5-e9a40d7f3d75</webElementGuid>
+      <webElementGuid>cf1c1e3f-82e1-4008-823f-4e07da0c0c96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleSolicitudViatico:j_idt502']</value>
-      <webElementGuid>673d0af4-2dfb-4881-8199-187d02e2bdb2</webElementGuid>
+      <webElementGuid>d262f983-6e95-47fa-b9d5-255e856fcd33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_detalleSolicitudViatico:tablaProductos:9:todo']/tbody/tr[3]/td/table/tbody/tr/td/a</value>
-      <webElementGuid>3e4c078d-0478-48d7-94a3-4127b3ffc47f</webElementGuid>
+      <webElementGuid>c3c24953-b9d3-49aa-8cd2-fbd807f0e73d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
-      <webElementGuid>21ef248c-9e7e-498b-809e-c284bd788d7f</webElementGuid>
+      <webElementGuid>c6db65da-d0f3-487c-8b2b-1fd246e9f05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='de'])[1]/following::a[1]</value>
-      <webElementGuid>9f3de8bd-5415-49f3-8380-c378f08076fa</webElementGuid>
+      <webElementGuid>345eeef5-9b5c-4d20-b865-246e1356912e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valor Seguro'])[1]/following::a[2]</value>
-      <webElementGuid>f8fd3921-a755-41d4-bb5c-a0e6fde69f90</webElementGuid>
+      <webElementGuid>bc987091-8631-41a5-8fe8-762d4e815719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'form_detalleSolicitudViatico:j_idt502', '&quot;', ')')])[1]/preceding::a[3]</value>
-      <webElementGuid>cd202749-c8dd-4fb9-8730-969484029918</webElementGuid>
+      <webElementGuid>cbec95a5-ea08-4974-a67b-7025d7ee1aaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[3]</value>
-      <webElementGuid>cb7618ac-140a-47d5-848b-8a53527fac34</webElementGuid>
+      <webElementGuid>dddcbbaf-a770-40c3-8c9d-b9559744142f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
-      <webElementGuid>783e4281-4fd4-49e8-9d51-2a3da4cb226b</webElementGuid>
+      <webElementGuid>27a7db77-d988-4200-9b72-ded638ab5f54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[9]</value>
-      <webElementGuid>6b989e71-8ca8-4113-8fda-ea783f225be0</webElementGuid>
+      <webElementGuid>bd15f7a8-682c-48d8-a7bd-f7fdb6937b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/table/tbody/tr/td/a</value>
-      <webElementGuid>74d528fc-27d5-459e-a945-1debc78b1d4d</webElementGuid>
+      <webElementGuid>02a0eaff-c178-44d9-8ceb-a4e3ce2c1393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_detalleSolicitudViatico:j_idt502' and @href = '#' and (text() = 'Guardar' or . = 'Guardar')]</value>
-      <webElementGuid>28ce98f3-adc3-41b3-8bea-c3b84de3cdd5</webElementGuid>
+      <webElementGuid>df829ea0-d012-4bc9-9fbb-82c6d3fad73d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

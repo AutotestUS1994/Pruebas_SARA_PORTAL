@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Eliminar Directo</name>
+   <tag></tag>
+   <elementGuidId>23277cfb-a62f-4d4f-94ae-8e6e9173e4c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar Directo')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3bc50cd9-9ab0-4e6a-adab-9d85370d4ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt2199</value>
+      <webElementGuid>44da80f2-e99b-4a2d-935d-b07172557ea6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>2b453fec-a8f7-4ecf-93af-207f58bc3533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-eliminarExtendido</value>
+      <webElementGuid>a33ab127-b0bf-45c1-b3e1-4e2015e3f49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt2199&quot;,f:&quot;form_licenciaEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>f4be650e-d2d0-4453-b50b-4a91d20693a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Eliminar Directo</value>
+      <webElementGuid>974095d3-58a6-4539-9c3a-cde32beae3aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt2199&quot;)</value>
+      <webElementGuid>09b38ff8-02ca-483f-94f2-6f5e10a04d6c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt2199']</value>
+      <webElementGuid>fcef2941-70fe-4fdc-a241-cbc8e023ce09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt1913']/table[7]/tbody/tr/td[3]/a</value>
+      <webElementGuid>5ffa6623-df39-43be-a228-ca6a46528090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Eliminar Directo')]</value>
+      <webElementGuid>a8a6f4ab-3a6d-4035-bfb9-bedcfb6bf132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[3]</value>
+      <webElementGuid>0c461f17-3beb-41ad-b020-2dbfb91b8004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRUEBA'])[1]/following::a[3]</value>
+      <webElementGuid>1d677a92-7e61-47c7-90be-48eed36af32d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recuperar Incapacidad'])[1]/preceding::a[3]</value>
+      <webElementGuid>abbd646c-b632-4bef-9dd4-0e485e1d468e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::a[3]</value>
+      <webElementGuid>c1c1c541-1b4c-4dba-b08e-870f92c7b92d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Eliminar Directo']/parent::*</value>
+      <webElementGuid>b86c0d92-33cf-4ce6-8b87-b69c301e3735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[117]</value>
+      <webElementGuid>dadf8b49-89f8-4c58-b98c-b580294355be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[7]/tbody/tr/td[3]/a</value>
+      <webElementGuid>2d68ebf2-2e9e-47f6-856f-4b8806d80523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_licenciaEmpleado:tabsLicencias:panelLicencia:j_idt2199' and @href = '#' and (text() = 'Eliminar Directo' or . = 'Eliminar Directo')]</value>
+      <webElementGuid>99863d20-f06b-4b72-b3c8-696ec21ada46</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

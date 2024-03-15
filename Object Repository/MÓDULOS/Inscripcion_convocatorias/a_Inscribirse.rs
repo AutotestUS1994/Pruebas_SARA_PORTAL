@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/div[3]/table/tbody/tr/td/form/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/a/span</value>
+         <value>//body/div[1]/div/div[2]/div/div[3]/table/tbody/tr/td/form/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/Inscripcion_convocatorias/Iframe_ifrm_component_A_2</value>
-      <webElementGuid>945b20c5-b17c-450c-974e-bfa373b0aa70</webElementGuid>
+      <webElementGuid>39754f90-df06-4258-9011-402dcea3aa93</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>0d456aeb-8fa0-4391-af0e-fe1fdd434ef1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[4]/td[3]/table/tbody/tr</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;form_listadoviaticos:anio&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>tr</value>
+      <webElementGuid>d35209f4-99f6-412a-95ac-91d61587dcf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +32,7 @@
 Año
 
 </value>
+      <webElementGuid>7539af4b-96be-4fd5-a0dd-d78adcaf28f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +40,7 @@ Año
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:panelFiltroMultiple_content&quot;)/table[1]/tbody[1]/tr[4]/td[3]/table[1]/tbody[1]/tr[1]</value>
+      <webElementGuid>79659901-683e-434f-b164-f9bc56ab0f77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +48,7 @@ Año
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[4]/td[3]/table/tbody/tr</value>
+      <webElementGuid>07223673-a053-47cd-996d-e991a8052aeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +56,7 @@ Año
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/following::tr[1]</value>
+      <webElementGuid>89cc126c-8f55-4890-a0bf-fcfa118d3967</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +64,7 @@ Año
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::tr[2]</value>
+      <webElementGuid>8e27c64f-79b1-42db-a277-113ee93af60e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +72,7 @@ Año
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Documento'])[2]/preceding::tr[2]</value>
+      <webElementGuid>2bb1b6cf-2954-4ce8-9032-3240b1c7680c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +80,7 @@ Año
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/table/tbody/tr</value>
+      <webElementGuid>d4d5478c-ccd1-497e-977b-2993f2240838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,5 +94,6 @@ Año
 Año
 
 ')]</value>
+      <webElementGuid>377fad58-f7b3-4bbd-98c1-f9187630df6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

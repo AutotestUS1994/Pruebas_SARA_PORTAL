@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Solicitud Viatic
 
 iniciar()
 
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'), 1))
-{
-WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'))
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'), 1)) {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'))
 }
+
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Nuevo'))
 
-if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL')).equals('BRASIL')) {
+if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL')).equals('Brasil')) {
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL'))
 
     WebUI.waitForElementClickable(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Continuar'), 1)
@@ -36,6 +36,8 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/input_Numero_form_detalleSolicitudViaticota_54fae5'), 
         '2549')
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Ciudad Origen_form_detalleSolicitudViatic_0b2cab'))
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Ciudad Origen_form_detalleSolicitudViatic_0b2cab'))
 
@@ -120,10 +122,11 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
     WebUI.click(findTestObject('MÓDULOS/SolicitarViatico/a_agregarRegistroCostos'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'))
+	
+	String guardado = WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0'))
 
-    if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
-        'Se ha enviado la solicitud de viatico correctamente')) {
-        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+    if (guardado.contains('Se ha enviado la solicitud de viatico correctamente')) {
+        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.20.44:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
     } else if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Registro guardado')) {
         WebUI.acceptAlert()
@@ -176,6 +179,6 @@ def a() {
 
     WebUI.callTestCase(findTestCase('Elegir Empresa/Elegir_Empresa'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
+    WebUI.navigateToUrl('http://192.168.20.44:8480/PortalSara/sitio/portalEmpleados/solicitudViatico')
 }
 

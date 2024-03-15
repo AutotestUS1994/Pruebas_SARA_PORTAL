@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div[2]/div/div/div/table/tbody/tr[1]/td[2]
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div[2]/div/div/div/table/tbody/tr[1]/td[2]
 </value>
       </entry>
    </selectorCollection>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>68749a2a-53d7-4bc5-a6f3-0d9adbcbf71f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>5a4abacc-af9c-4537-86cd-ecd39d064c21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>80769954</value>
+      <webElementGuid>f26701e8-9044-4fba-a5c6-ef6898761dc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;seleccion_proceso:tabla_etapa_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
+      <webElementGuid>ddb0efe4-0b60-4de7-8279-2eede83342c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='seleccion_proceso:tabla_etapa_data']/tr/td[2]</value>
+      <webElementGuid>2f57fc6c-fd3d-4bdc-a67b-bb4c1e2847c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::td[2]</value>
+      <webElementGuid>b86869b5-1f22-46bf-aa21-00672f4543c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha'])[1]/following::td[2]</value>
+      <webElementGuid>803f5241-cbc1-48fd-823e-3a89f96fdeda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza 1502 Empleado'])[1]/preceding::td[1]</value>
+      <webElementGuid>b658eab0-473d-4401-a682-ccdfa402646f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacto Gestión Humana'])[2]/preceding::td[2]</value>
+      <webElementGuid>9b8f4401-d8e3-47d0-8517-483e1f635aec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>164275df-dbe3-4e29-a014-2633fde6d0ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '80769954' or . = '80769954')]</value>
+      <webElementGuid>6fc7c8d7-98f1-406b-bd1b-8c453d59edfa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

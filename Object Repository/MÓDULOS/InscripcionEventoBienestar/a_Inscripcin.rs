@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div/div[2]/div/div[3]/form/table/tbody/tr/td/div/div[2]/table/tbody/tr[1]/td[2]/a</value>
+         <value>//body/div[1]/div/div[2]/div/div[3]/form/table/tbody/tr/td/div/div[2]/table/tbody/tr[2]/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>116fd35b-878e-4a81-b981-fe677fa99682</webElementGuid>
+      <webElementGuid>2dd88104-9bad-490a-acc1-f60de64946e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoEventos:tabla_ventana:1:j_idt28</value>
-      <webElementGuid>12844c2f-a702-4073-b87c-5ebbe9e5046a</webElementGuid>
+      <webElementGuid>ac367c54-6089-49f2-be00-4c6601cf829c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>2d655f39-3cc5-4f76-9e98-506942e4a480</webElementGuid>
+      <webElementGuid>14a57cf7-dab7-4113-89d8-69db72c580a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-enviar</value>
-      <webElementGuid>43096208-61e5-45b6-b7a0-13f8a3f80d8b</webElementGuid>
+      <webElementGuid>cb84f6eb-59ab-4fd3-a002-3285f3c5a3e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formListadoEventos:tabla_ventana:1:j_idt28&quot;,f:&quot;formListadoEventos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>8fdfa50d-7ef9-42e6-b1ec-60032e3038c6</webElementGuid>
+      <webElementGuid>a67440f7-faf2-494c-993e-0fd210b8264e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Inscripción</value>
-      <webElementGuid>ffe29d57-a42d-45fb-97df-526958397c6e</webElementGuid>
+      <webElementGuid>4c939570-13a5-41bc-8fd5-d35947874ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEventos:tabla_ventana:1:j_idt28&quot;)</value>
-      <webElementGuid>6be469ab-9861-4732-8e64-1d89912a79c2</webElementGuid>
+      <webElementGuid>9e448c39-579c-4037-93c6-6800ce415c46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/InscripcionEventoBienestar/iframe_Mis eventos_7F07D451F09D4B35813735F5_55247e</value>
-      <webElementGuid>9ea8638e-6356-42a9-80f4-de10b09497be</webElementGuid>
+      <webElementGuid>d1d9d97a-4147-4f1a-8c3b-00af3bbf5158</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formListadoEventos:tabla_ventana:1:j_idt28']</value>
-      <webElementGuid>31abffe1-b35e-43a8-8bc8-6ca5546c5be6</webElementGuid>
+      <webElementGuid>8fab2c23-d326-4cce-98ce-e873c6233224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formListadoEventos:tabla_ventana_data']/tr[2]/td[2]/a</value>
-      <webElementGuid>fd14a402-5d6c-466f-8cd1-eaf0d229901b</webElementGuid>
+      <webElementGuid>f71b594b-b937-4c63-8cb6-ec6d04efb71a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Inscripción')])[2]</value>
-      <webElementGuid>39bb972e-d7dc-4fc6-8a1b-0b7a09c813b9</webElementGuid>
+      <webElementGuid>c51a2194-2dcb-4f03-9459-0f1c7d27f3fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inscripción Promoción y prevención de la salud portal'])[1]/following::a[1]</value>
-      <webElementGuid>7af9b771-dc08-4b63-80cf-2b3cd7f35f96</webElementGuid>
+      <webElementGuid>317b3e34-f932-4d63-ad84-d2bbe3e6e5ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Convocatoria'])[1]/following::a[2]</value>
-      <webElementGuid>d019de55-684b-4176-8397-f3a29761eb91</webElementGuid>
+      <webElementGuid>b82f0b94-52bf-48fc-b594-2aab73622623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENTO DE SALUD SI'])[1]/preceding::a[2]</value>
-      <webElementGuid>3fd413e7-23ec-4afc-b0be-527a696da7d6</webElementGuid>
+      <webElementGuid>538692b5-4ae8-4d1d-803a-7307841e1a2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[4]</value>
-      <webElementGuid>54a789c6-ded8-493c-913d-9bf8343fce98</webElementGuid>
+      <webElementGuid>d3c9e8ce-5fe3-4b01-8eeb-3fe9e2778cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
-      <webElementGuid>a2eb0939-e550-401b-96d3-508bbaaf22c2</webElementGuid>
+      <webElementGuid>ac2a27d2-8110-4072-bf1f-26851b823fd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/a</value>
-      <webElementGuid>c0ce54f6-bad7-4e12-9b1b-26d9d243d2fd</webElementGuid>
+      <webElementGuid>48dacd50-6af9-4fba-b144-91e9c6a369be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'formListadoEventos:tabla_ventana:1:j_idt28' and @href = '#' and (text() = 'Inscripción' or . = 'Inscripción')]</value>
-      <webElementGuid>bd41b76a-0c65-428b-b87e-a38a8d345fc9</webElementGuid>
+      <webElementGuid>bd59c469-886d-478d-b768-b7dd424563ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

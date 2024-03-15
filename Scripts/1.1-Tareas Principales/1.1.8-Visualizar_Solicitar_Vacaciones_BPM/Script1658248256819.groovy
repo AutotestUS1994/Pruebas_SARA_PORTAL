@@ -43,7 +43,10 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
         1)) {
         String verTexto = WebUI.getText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/label_Advertencia'))
 
+        //Limpiar solicitudes para evitar cruce
         WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Limpiar Datos Aplicacion Novedad Sara'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Licencia Historico'), [:], FailureHandling.STOP_ON_FAILURE)
 
         WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -57,7 +60,6 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
 
             WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Salida Nomina_form_vacacionesEmpleado_2729a1'), 
                 '5/03/2022')
-
 
             /*WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_7'))*/
             WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/input_Disfrute_form_vacacionesEmpleadotabsV_1e3fdd'), 
@@ -77,9 +79,15 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
 
                 WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/a_1'))
 
+                WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                    'Vacaciones', FailureHandling.STOP_ON_FAILURE)
+
+                WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                    Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+
                 String soliVacaciones = WebUI.getText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
-                if (soliVacaciones == 'Vacaciones 1552 HOJAVIDA. 1502 EMPLEADO PPRUEBA') {
+                if (soliVacaciones.contains('Vacaciones 1552 ')) {
                     WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
                     WebUI.selectOptionByValue(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/select_SeleccionarSiNo'), 
@@ -105,9 +113,15 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/V
 
             WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/a_1'))
 
+            WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                'Vacaciones', FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+
             String soliVacaciones = WebUI.getText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
-            if (soliVacaciones == 'Vacaciones 1552 HOJAVIDA. 1502 EMPLEADO PPRUEBA') {
+            if (soliVacaciones.contains('Vacaciones 1552 ')) {
                 WebUI.click(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_Vacaciones 1552 MENDOZA 1502 EMPLEADO'))
 
                 WebUI.waitForElementVisible(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/select_SeleccionarSiNo'), 

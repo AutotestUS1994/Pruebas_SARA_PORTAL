@@ -6,11 +6,12 @@
    <elementGuidId>4e822d35-8292-4f90-b92d-671c280a7547</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/span/form[6]/div/div[2]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div/div[2]/div/span/form[6]/div/div[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8cedb450-2f84-4b96-9da3-15ea68b6dce5</webElementGuid>
+      <webElementGuid>ee05ee21-96a7-429b-a5a7-d20bf4fd1836</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formFuentes:j_idt4419</value>
-      <webElementGuid>479c0906-925d-4343-9fc1-2e65f95b9828</webElementGuid>
+      <webElementGuid>fcbd35b2-b224-420e-9555-d34fa1fa2ecc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>afd59395-7b42-40b4-80b4-2db29927e615</webElementGuid>
+      <webElementGuid>cf080afe-3d65-45da-8928-6645f2c60be4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formFuentes:j_idt4419</value>
-      <webElementGuid>0f4df3db-f87f-4081-a547-5cb23f583095</webElementGuid>
+      <webElementGuid>e1106e92-a60c-4b59-869f-63e339e794a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>4277b164-6175-49f8-918b-981d74b5c199</webElementGuid>
+      <webElementGuid>ff02ef99-d218-4919-a83d-c3a26c3402e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>6f87d8a2-c5ce-4274-b65a-998536eee3f1</webElementGuid>
+      <webElementGuid>091fd18a-689a-449e-9992-0d69bed616ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;formFuentes&quot;,p:&quot;formFuentes:j_idt4419&quot;,u:&quot;formFuentes:tablaFuentes&quot;});</value>
-      <webElementGuid>c3efd8bc-752c-4f1e-8ab8-c4eeb99b1a4b</webElementGuid>
+      <webElementGuid>a562f006-dce3-466c-9f68-8dd92192dd3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formFuentes:j_idt4419&quot;)</value>
-      <webElementGuid>65527452-a499-4230-93cc-902c9af7c085</webElementGuid>
+      <webElementGuid>96484db6-6838-43a7-beee-9d7dd2084398</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +86,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/CargueMasivoAplicarNovEmp/iframe_Mis Cesantas_7F07D451F09D6B35813735F_5fd111</value>
-      <webElementGuid>e1939cd6-7d48-4806-a755-21ac2b829408</webElementGuid>
+      <webElementGuid>5c9b755e-26e7-407b-8921-702c87fcbf16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formFuentes:j_idt4419']</value>
-      <webElementGuid>fff15a7b-c5de-4759-807c-72dc09690387</webElementGuid>
+      <webElementGuid>44786876-1bef-44f9-80d4-852808dee569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formFuentes:j_idt4413_content']/div[2]/div/table/tbody/tr/td/input</value>
-      <webElementGuid>7a46b8fe-639f-470b-a129-acd2ee836e44</webElementGuid>
+      <webElementGuid>f1df9dac-cbe5-410f-a7b5-835690e840d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr/td/input</value>
-      <webElementGuid>390a68e5-f6b2-470c-b119-dd55cb458d69</webElementGuid>
+      <webElementGuid>88654ac3-42a5-4ae8-85ca-52bbf110b441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formFuentes:j_idt4419' and @type = 'text' and @name = 'formFuentes:j_idt4419']</value>
-      <webElementGuid>bd1cb661-b426-47cd-9e4d-cccabaa041f3</webElementGuid>
+      <webElementGuid>153d1988-f036-4c24-a330-d191477bf27f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

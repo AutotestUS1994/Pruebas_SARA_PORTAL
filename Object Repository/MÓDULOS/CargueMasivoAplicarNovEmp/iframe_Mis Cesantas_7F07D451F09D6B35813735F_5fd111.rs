@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-//*[@id=&quot;ifrm_component_A_1&quot;]</value>
+         <value>//iframe[@id='ifrm_component_A_1']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>c20dd4bc-e1ef-4a3c-adbc-21e0278d7688</webElementGuid>
+      <webElementGuid>59dc92c2-f2f8-4863-a711-6b9bfa173f67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ifrm_component_A_1</value>
-      <webElementGuid>f72b7800-dce8-45ca-9d2e-27e69b8fe63a</webElementGuid>
+      <webElementGuid>1b9486db-62f6-4346-bc01-2a0b3369dea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSara/compensacion/ausentismos/uiAplicacionNovedad.xhtmll?us_id=us-interfaz-3eej</value>
-      <webElementGuid>1eeee058-2b42-4622-8920-b99f62eb9a1a</webElementGuid>
+      <webElementGuid>822cb579-2903-44a0-995b-82155a7a2622</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>c878f228-7cf0-406c-851a-c7afec1926ce</webElementGuid>
+      <webElementGuid>194fb52e-cf8f-4fde-8f38-75a4572a924f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>7F07D451F09D6B35813735F552B36402</value>
-      <webElementGuid>2967551e-af2d-466e-ae0d-ace680c6ed21</webElementGuid>
+      <webElementGuid>6247d22e-1644-4ec7-ada6-f21f84493d2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>b0169c50-714a-4e18-95c0-d08138cd9df0</webElementGuid>
+      <webElementGuid>da33ad62-c8d1-4877-9313-c26a5357f6d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>31c23f54-98ef-412d-943f-856774bfab12</webElementGuid>
+      <webElementGuid>f3336457-a8cb-4d99-909d-500707b65173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>af65cdb7-bc10-4e87-b843-c9cc1568eaad</webElementGuid>
+      <webElementGuid>d3d7456c-1fc5-4d5a-ba2d-d82ee2cac891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
-      <webElementGuid>79897dac-f484-4c56-b3ec-0c1a5609c550</webElementGuid>
+      <webElementGuid>68adddd2-c93b-4d1f-b19e-27a2455f6feb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d3ef90f5-936a-47e6-856e-ecf9c75434b2</webElementGuid>
+      <webElementGuid>d3359729-0477-42bf-a3e5-76157e028768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d4b8be6d-f7c9-43c4-9254-7ae7b1f2680b</webElementGuid>
+      <webElementGuid>4714bfc6-2ce5-4cb4-add3-ce2b14cc0a8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ae5ac916-4dc6-4278-a742-b71f4d322fa1</webElementGuid>
+      <webElementGuid>9c5f89cc-bc2a-4dfa-8592-18e4738e3dcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ifrm_component_A_1&quot;)</value>
-      <webElementGuid>c3a3fadc-b875-4be9-92ef-ec1dad6ad217</webElementGuid>
+      <webElementGuid>ce415dc8-173f-4aad-bcb2-8e838df32e46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='ifrm_component_A_1']</value>
-      <webElementGuid>fabdf87b-2e64-4eb7-bdec-8526ffe56968</webElementGuid>
+      <webElementGuid>ffb8a65a-93e1-493f-b04e-246f3cc24526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div/div/div[2]/iframe</value>
-      <webElementGuid>93635aa4-9840-4218-baef-dbd60273c01b</webElementGuid>
+      <webElementGuid>e93b9888-6f57-4023-b453-debcda344dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>5b06109c-e771-4b84-8bf1-7a2a36449eeb</webElementGuid>
+      <webElementGuid>a1930812-4ffc-46b1-ab1a-d5d0243a9676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'ifrm_component_A_1' and @src = '/PortalSara/compensacion/ausentismos/uiAplicacionNovedad.xhtmll?us_id=us-interfaz-3eej' and @name = '7F07D451F09D6B35813735F552B36402']</value>
-      <webElementGuid>fa3eba0e-dba2-41be-9394-ff566b5c1f6c</webElementGuid>
+      <webElementGuid>5d52cd21-83b9-413b-85c1-44e53dc07d22</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

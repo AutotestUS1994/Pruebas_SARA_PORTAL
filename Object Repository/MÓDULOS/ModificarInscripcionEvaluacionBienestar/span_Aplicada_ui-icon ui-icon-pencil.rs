@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/fieldset/div/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[9]/div/a[1]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/fieldset/div/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[9]/div/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2ca67a5d-3366-42d5-99e7-2296bbfe484e</webElementGuid>
+      <webElementGuid>fc2e6855-663e-45f4-8b41-a8eb5fe6d1c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-pencil</value>
-      <webElementGuid>6fd531eb-cc27-4e7a-b79d-12984f31b849</webElementGuid>
+      <webElementGuid>935a4386-055b-4b86-b852-f3129f6950d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt861&quot;)/a[@class=&quot;ui-row-editor-pencil ui-row-editor-outline&quot;]/span[@class=&quot;ui-icon ui-icon-pencil&quot;]</value>
-      <webElementGuid>c7df4523-6936-4315-a479-2a2c7270a028</webElementGuid>
+      <webElementGuid>92a76d74-6578-44b8-b058-d3e04bd975d5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion:0:j_idt861']/a/span</value>
-      <webElementGuid>f876eeeb-48c9-4222-bf95-c46d77ed3866</webElementGuid>
+      <webElementGuid>3608d038-c57c-4047-9da9-172719f37b3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[9]/div/a/span</value>
-      <webElementGuid>fc1bb0ac-34c8-4b1b-b9d2-e3940c592b2c</webElementGuid>
+      <webElementGuid>ea3cedee-a3ff-4c28-9e0d-e9f2ba7c425f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

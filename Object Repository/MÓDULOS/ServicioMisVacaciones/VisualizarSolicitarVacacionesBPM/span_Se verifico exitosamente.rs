@@ -6,12 +6,12 @@
    <elementGuidId>b5780664-465a-4d39-8348-367aba554dd0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='j_idt178']/div/ul/li/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-messages-info-detail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/table/tbody/tr/td/div/div/ul/li/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>f1acea5d-3c1c-4e26-8662-1ae91db4c1d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>ce0257d7-ced4-46a2-ac5c-984e1ef498f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Se verifico exitosamente.</value>
+      <webElementGuid>00b36f5b-bf58-4f49-988d-d72cefb472cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt178&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>aa6f2967-6f35-40ef-8bec-54d7c00b3956</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/iframe_Mis Cesantas_7F07D451F09D4B35813735F_85b2a2</value>
+      <webElementGuid>7962a384-4bb9-4079-91b5-d44c7944f446</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt178']/div/ul/li/span[2]</value>
+      <webElementGuid>57362975-8d87-4936-9277-fb6d103988e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>6d4d48df-e1d6-4b85-9796-002fb916597f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pruebaautok'])[1]/following::span[5]</value>
+      <webElementGuid>ddb1a45f-ddc0-413c-9074-fa806265a8a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/preceding::span[2]</value>
+      <webElementGuid>220eab48-afd4-4ffd-9e49-7944dce4ce82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[3]</value>
+      <webElementGuid>207d2e75-e046-40f2-a062-8c8391d5524a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Se verifico exitosamente.']/parent::*</value>
+      <webElementGuid>4ec108ba-9f51-4c3e-9e4a-59116bb9a830</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
+      <webElementGuid>68925141-7ba9-41c9-b162-7e0ce1fe1805</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Se verifico exitosamente.' or . = 'Se verifico exitosamente.')]</value>
+      <webElementGuid>f158ff78-1e93-4d78-b433-de9c0b80ba06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

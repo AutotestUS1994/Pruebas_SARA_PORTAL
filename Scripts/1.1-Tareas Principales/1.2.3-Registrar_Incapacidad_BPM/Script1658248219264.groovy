@@ -88,7 +88,8 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
         WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/label_Advertencia'))
 
         WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Limpiar Datos Aplicacion Novedad Sara'), [:], FailureHandling.STOP_ON_FAILURE)
-
+		WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Licencia Historico'), [:], FailureHandling.STOP_ON_FAILURE)
+		
         WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a'))
@@ -158,7 +159,7 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
 
             String fech1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
 
-            if ((incapa == 'Incapacidad') && (fech1 == 'Incapacidad de HOJAVIDA. 1502 EMPLEADO PPRUEBA')) {
+            if ((incapa == 'Incapacidad') && (fech1.contains('Incapacidad de '))) {
                 WebUI.click(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
 
                 WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_Autorizar'))
@@ -202,7 +203,7 @@ if ((textIncapacidad == 'Incapacidad') && (textSolicitud == 'Solicitudes')) {
             fech1 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
         }
         
-        if ((incapa == 'Incapacidad') && (fech1 == 'Incapacidad de HOJAVIDA. 1502 EMPLEADO PPRUEBA')) {
+        if ((incapa == 'Incapacidad') && (fech1.contains('1502'))) {
             WebUI.click(findTestObject('MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/td_Incapacidad de MENDOZA 1502 EMPLEADO'))
 
             WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisIncapacidades/RegistrarIncapacidadBPM/a_Autorizar'))

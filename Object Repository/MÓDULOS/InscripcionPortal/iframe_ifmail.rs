@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div/main/div[2]/div[3]/div/div[1]/iframe</value>
+         <value>//body/div[1]/div/div/main/div[2]/div[3]/div/div[1]/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>IFRAME</value>
-      <webElementGuid>fede1044-d8ce-48d6-bbf8-6c00c6e45069</webElementGuid>
+      <webElementGuid>487caaaa-8908-470e-a7c2-e5118a54c186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1657918290557</value>
-      <webElementGuid>7ed58acf-1591-4006-9930-ef0ee6852010</webElementGuid>
+      <webElementGuid>186bea88-3006-43bf-ae38-20027376ac88</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

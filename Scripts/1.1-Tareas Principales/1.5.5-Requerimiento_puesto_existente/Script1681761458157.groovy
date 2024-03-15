@@ -56,12 +56,13 @@ if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExis
 
     WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_menu Requerimiento'), 
         1)
+	formularios()
 } else if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_menu Requerimiento'), 
     1)) {
     eliminarR()
 }
 
-formularios()
+
 
 def funcionesE() {
     WebUI.click(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/span_Continuar5'))
@@ -245,10 +246,11 @@ def candidato() {
 }
 
 def Requerimiento() {
-    if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/input_Cantidad'), 1)) {
+
+	if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/input_Cantidad'), 1)) {
         WebUI.setText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/input_Cantidad'), '1')
     }
-    
+	
     WebUI.setText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/input_Sueldo Autorizado'), '1500000')
 
     println(fecha())
@@ -295,7 +297,8 @@ def formularios() {
     WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/li_alert'), 0)
 
     if (WebUI.getText(findTestObject('MÓDULOS/RequerimientoPuestoExistente/Formularios/li_alert')) == 'Ha finalizado el proceso.') {
-        WebUI.closeBrowser()
+        println('Se ha creado el requerimiento')
+		WebUI.closeBrowser()
     }
 }
 
@@ -561,7 +564,7 @@ def eliminarR() {
             WebUI.waitForElementVisible(findTestObject('MÓDULOS/RequerimientoPuestoExistente/EliminarDatos/a_menu Requerimiento'), 
                 1)
         }
-        
+       
         formularios()
     }
 }

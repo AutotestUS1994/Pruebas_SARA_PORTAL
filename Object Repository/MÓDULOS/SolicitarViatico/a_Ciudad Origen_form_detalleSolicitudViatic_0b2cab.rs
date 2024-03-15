@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a</value>
+         <value>//body/div[1]/div/div[2]/div/form[1]/table/tbody/tr[3]/td/div/div[1]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f37911d2-5439-419c-b4b5-c173dd59078e</webElementGuid>
+      <webElementGuid>2a88c8dd-0eed-4487-a686-ca439cb600d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleSolicitudViatico:tablaProductos:1:j_idt125</value>
-      <webElementGuid>14e609e7-067f-4df6-86b3-7a3ed73aa4e2</webElementGuid>
+      <webElementGuid>05f9b697-9e2f-4667-b662-8fc6ef337fe5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>f718d680-7807-4044-92a9-0177ac74c319</webElementGuid>
+      <webElementGuid>a5e15029-524e-49ec-85d0-b759a1769765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
-      <webElementGuid>443d4de2-d96f-4fca-862a-6cbd7a98fa91</webElementGuid>
+      <webElementGuid>83065c09-6b20-425c-b10c-86354b46f201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>buscaPosicion(this.id);;PrimeFaces.ab({s:&quot;form_detalleSolicitudViatico:tablaProductos:1:j_idt125&quot;,f:&quot;form_detalleSolicitudViatico&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>c326654b-e50d-40fb-9b26-1f2b7ff54feb</webElementGuid>
+      <webElementGuid>00039474-9eca-49b2-8c49-ffb24300730e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleSolicitudViatico:tablaProductos:1:j_idt125&quot;)</value>
-      <webElementGuid>5ef15973-bbfc-41c3-809d-519f407e0a88</webElementGuid>
+      <webElementGuid>07510d98-c0c1-48eb-8fd3-c904de04d8e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/SolicitarViatico/iframe_Codigo QR_911a2456a5b74376e050007f01005e0b</value>
-      <webElementGuid>e93b0a2a-1826-47ac-8953-8128e0bced7a</webElementGuid>
+      <webElementGuid>81a0440a-0d2c-4ebb-b1e1-e6d448c4fd6c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleSolicitudViatico:tablaProductos:1:j_idt125']</value>
-      <webElementGuid>64bd998c-f850-4a32-ae76-b5a20133ace0</webElementGuid>
+      <webElementGuid>0b4bf04d-5dd4-4a20-83ae-cb02a649a926</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_detalleSolicitudViatico:tablaProductos:1:campo']/tbody/tr[4]/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>9086c3a9-0a79-4e6e-b321-27bbd51a8f11</webElementGuid>
+      <webElementGuid>d9715cea-df43-4e10-9b3d-4827bf7bb5bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>60de113c-0630-40c9-b95d-cfb9ea6c2c34</webElementGuid>
+      <webElementGuid>c70197d0-a6a0-49a2-b9e6-8309ee8b5adc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>9d549ba2-6e44-4303-ab8b-027f5e2b4294</webElementGuid>
+      <webElementGuid>4e35b4c1-0ee9-403d-94f6-6923b019e854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_detalleSolicitudViatico:tablaProductos:1:j_idt125' and @href = '#']</value>
-      <webElementGuid>2870a0a9-2565-4da2-a7a1-6ee96f716a17</webElementGuid>
+      <webElementGuid>032ca58f-ee81-4fbe-8ab9-cd5ecddd868d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

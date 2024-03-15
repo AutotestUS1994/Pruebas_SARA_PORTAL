@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoPuestoExistente/iframe_coponent_A_2</value>
-      <webElementGuid>5f5f52db-e231-4fef-aced-2a276cf22ff8</webElementGuid>
+      <webElementGuid>3b5adaf9-6586-47be-9d64-7134cbdb09f7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

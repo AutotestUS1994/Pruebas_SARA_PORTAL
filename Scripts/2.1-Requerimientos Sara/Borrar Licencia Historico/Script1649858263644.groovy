@@ -32,17 +32,19 @@ WebUI.sendKeys(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistoric
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/span_80769954'))
 
+WebUI.comment('Borrar Licencia e Historico de Licencia')
+
 WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Licencia'))
 
 String sol = WebUI.getText(findTestObject('MÓDULOS/BorrarLicenciaHistorico/legend_Solicitudes'))
 
-if(sol == 'Solicitudes' && WebUI.waitForElementVisible(findTestObject('MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'), 1)) {
-	
-	WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'))
-	
-	WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Eliminar Directo'))
-	
-	WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
+if ((sol == 'Solicitudes') && WebUI.waitForElementVisible(findTestObject('MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'), 
+    1)) {
+    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/span_Licencia Remunerada'))
+
+    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Eliminar Directo'))
+
+    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
 }
 
 WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Histrico'))
@@ -59,19 +61,41 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/Borra
 } else {
     WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Vacacin'))
 
+    WebUI.comment('Eliminar Solicitud Vacaciones ')
+
     String sol1 = WebUI.getText(findTestObject('MÓDULOS/BorrarLicenciaHistorico/legend_SolicitudesVac'))
 
-    
-    if(sol1=='Solicitudes' && WebUI.waitForElementVisible(findTestObject('MÓDULOS/BorrarLicenciaHistorico/td_11032022'), 1)) {
+    if ((sol1 == 'Solicitudes') && WebUI.waitForElementVisible(findTestObject('MÓDULOS/BorrarLicenciaHistorico/td_11032022'), 
+        1)) {
+        WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/td_11032022'))
 
-	    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/td_11032022'))
-	
-	    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Eliminar Directo_1'))
-	
-	    WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
-		
+        WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Eliminar Directo_1'))
+
+        WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
     } else {
-		WebUI.closeBrowser()
+        println('No habia vacaciones para eliminar')
     }
 }
+
+WebUI.comment('Eliminar Incapacidad Historico')
+
+WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/BorrarSolicitudIncapacidadHistorico/a_Incapacidad'))
+
+WebUI.click(findTestObject('MÓDULOS/BorrarLicenciaHistorico/a_Histrico'))
+
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/BorrarSolicitudIncapacidadHistorico/span_Incapacidad'),
+	1)) {
+	WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/BorrarSolicitudIncapacidadHistorico/span_Incapacidad'))
+
+	WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Eliminar'))
+
+	WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/label_Desea eliminar el registro'))
+
+	WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarLicenciaHistorico/a_Aceptar'))
+	println('Se ha eliminado la incapacidad')
+}
+else {
+	WebUI.closeBrowser()
+}
+
 

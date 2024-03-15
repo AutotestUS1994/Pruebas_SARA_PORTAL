@@ -6,12 +6,12 @@
    <elementGuidId>26aeee45-dada-44ce-b124-2b870ebe1e55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-autocomplete-query</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/span/ul/li/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>729c8686-d860-44ad-be5b-5e7f9718a8d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-query</value>
+      <webElementGuid>0008aa37-fd7c-41d5-b39a-281a9b7762d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Listado He</value>
+      <webElementGuid>5ad4180e-179b-4034-a6ce-b9ab8e81f2d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
+      <webElementGuid>a583a221-9257-4753-9882-07d7665d2e1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
+      <webElementGuid>1781d93a-abc0-452d-a49e-eec0b720ce86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administración Compensación'])[1]/following::span[3]</value>
+      <webElementGuid>70eaaef8-066e-4e0b-b0ff-ebfbb65ac655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[5]</value>
+      <webElementGuid>a71e1536-fa90-4fbe-adff-e9926760682d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[6]</value>
+      <webElementGuid>c0743d42-5bec-401c-8b8b-8b7b2fe0bb0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Listado He']/parent::*</value>
+      <webElementGuid>008e0c63-0585-4d65-9ded-7f9b144f316c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li/span</value>
+      <webElementGuid>79f3b902-86c0-459a-8c36-79ca451ca964</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Listado He' or . = 'Listado He')]</value>
+      <webElementGuid>38e46ffa-ede4-43b0-b3ac-3d5763598f9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

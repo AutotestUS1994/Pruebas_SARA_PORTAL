@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_So
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Nuevo'))
 
-if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL')).equals('BRASIL')) {
+if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL')).equals('Brasil')) {
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_BRASIL'))
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Continuar'))
@@ -37,7 +37,8 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
         '2549')
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Ciudad Origen_form_detalleSolicitudViatic_0b2cab'))
-
+	WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Ciudad Origen_form_detalleSolicitudViatic_0b2cab'))
+	
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/input_Ubicacin Geogrfica_formPopUpUbicacion_7ff27d'), 
         'bog')
 
@@ -129,10 +130,10 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
     WebUI.scrollToElement(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'), 0)
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
-
-    if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
-        'Se ha enviado la solicitud de viatico correctamente')) {
-        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.2.19:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+	WebUI.delay(3)
+	String guardado = WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0'))
+    if (guardado.contains('Se ha enviado la solicitud de viatico correctamente')) {
+        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.20.44:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
     }
 }
 

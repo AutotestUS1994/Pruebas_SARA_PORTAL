@@ -6,11 +6,11 @@
    <elementGuidId>c404dce7-4fea-45e2-9fef-4b79ef598d48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[(text() = 'MENDOZA 1502 EMPLEADO' or . = 'HOJAVIDA. 1502 EMPLEADO PRUEBA')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//td[(text() = 'MENDOZA 1502 EMPLEADO' or . = 'HOJAVIDA. 1502 EMPLEADO PRUEBA' or . = 'NOBORRAR 1502 EMPLEADO PPRUEBA')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ebeb30e4-8061-4cb7-b67e-0b8d23c8c662</webElementGuid>
+      <webElementGuid>e9c8be3a-942d-42a0-b58a-2920325ba399</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>e18e786d-4a64-4c60-9e64-a06e812d0607</webElementGuid>
+      <webElementGuid>5a530e87-0ef7-4402-97ca-bb9e4496e436</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>MENDOZA 1502 EMPLEADO</value>
-      <webElementGuid>e06ec008-9c27-43b3-9eca-ff1c466a602e</webElementGuid>
+      <webElementGuid>ab76edbe-0a19-44c3-a05f-1a6b0751846d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:j_idt256_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>3ad0676c-8f29-42b0-9b09-93a3ac21213f</webElementGuid>
+      <webElementGuid>39136b11-8cc9-4afd-bdfd-ee37f08a78be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_detalleviaticos:j_idt256_data']/tr/td[2]</value>
-      <webElementGuid>90609fe4-c14f-4e65-b87a-2ed332312b57</webElementGuid>
+      <webElementGuid>d4e9cedf-17ad-45db-8014-e8fc6fc4f226</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::td[2]</value>
-      <webElementGuid>0f06e3e5-fc77-4225-bde2-b73a06652f78</webElementGuid>
+      <webElementGuid>cdc44744-a367-4da1-9e4b-6cd2b2ce3919</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[1]/following::td[2]</value>
-      <webElementGuid>cf003453-5143-4cb7-960d-44d6abc3ece7</webElementGuid>
+      <webElementGuid>ce0abf10-a7da-497c-9347-d019494caafe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Días:'])[1]/preceding::td[3]</value>
-      <webElementGuid>8f6878c6-4377-435b-a911-8898d2c46c08</webElementGuid>
+      <webElementGuid>9719dbc3-231a-431d-ab0e-1ae97bffdd6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Base:'])[1]/preceding::td[5]</value>
-      <webElementGuid>370d99a0-4b06-40c5-b07d-a10c418d296f</webElementGuid>
+      <webElementGuid>6e365668-40d7-4ded-8f36-02c5aaf01c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MENDOZA 1502 EMPLEADO']/parent::*</value>
-      <webElementGuid>2d0d99c2-d1c6-4231-a2bf-94c989f08e12</webElementGuid>
+      <webElementGuid>ba3e0265-d7a9-4782-befb-56226a0e7d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>18f74d53-de6c-4bdb-bdec-488fa850515c</webElementGuid>
+      <webElementGuid>a5b18540-f9c6-4191-9e12-d010d06ec1df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'MENDOZA 1502 EMPLEADO' or . = 'MENDOZA 1502 EMPLEADO')]</value>
-      <webElementGuid>9648d06c-8d70-4457-96fe-1b54325ad623</webElementGuid>
+      <webElementGuid>7ea717fb-55fc-41e3-a434-e395c8cbb7f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

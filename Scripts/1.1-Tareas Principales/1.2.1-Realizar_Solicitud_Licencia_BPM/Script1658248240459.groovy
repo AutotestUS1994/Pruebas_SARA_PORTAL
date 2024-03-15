@@ -94,6 +94,12 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
 
                 WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/a_1'))
 
+                WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                    'Licencia')
+
+                WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                    Keys.chord(Keys.ENTER))
+
                 String conf2 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/td_Licencia'))
 
                 String conf3 = WebUI.getText(findTestObject('MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/td_LICENCIAS 1552  Licencia Remunerada'))
@@ -120,6 +126,12 @@ if ((licencia == 'Licencia') && (solicitud == 'Solicitudes')) {
             WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
 
             WebUI.click(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/a_1'))
+
+            WebUI.setText(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                'Licencia')
+
+            WebUI.sendKeys(findTestObject('MÓDULOS/ServicioMisVacaciones/VisualizarSolicitarVacacionesBPM/td_FiltroAutorizarVacaciones'), 
+                Keys.chord(Keys.ENTER))
 
             String conf2 = WebUI.getText(findTestObject('Object Repository/MÓDULOS/ServicioMisLicencias/RealizarSolicitudLicenciaBPM/td_Licencia'))
 

@@ -6,11 +6,11 @@
    <elementGuidId>3af39f91-be90-4ba5-911f-71e499bd9374</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[(text() = 'SEGURO' or . = 'SEGURO')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//span[(text() = 'SEGURO' or . = 'Seguro')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>2a766866-3174-4831-a340-ee30a206ba15</webElementGuid>
+      <webElementGuid>76c754e8-4f5d-4349-8d16-92445d4d237e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>f4a1683f-beeb-4db4-9cf4-e1585f95afa7</webElementGuid>
+      <webElementGuid>61a163c1-67cd-4dad-8e0b-f2376b5c6210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SEGURO</value>
-      <webElementGuid>bd642471-656e-4919-8fb0-8fdda750cd6d</webElementGuid>
+      <webElementGuid>418b396d-a3ca-43f8-bda4-1ceeff4ae9e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:j_idt282_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]</value>
-      <webElementGuid>0afc0884-f3f4-4bc6-9910-03cef77dc44a</webElementGuid>
+      <webElementGuid>29531e99-81e3-4990-a9b8-ac7c5db5b28c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_detalleviaticos:j_idt282_data']/tr/td[3]</value>
-      <webElementGuid>3c2455ff-4c08-4b27-9b6e-dd59e5f6b0ae</webElementGuid>
+      <webElementGuid>33595226-d3fd-4e1b-8aa2-c29e8a1286f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MENDOZA 1502 EMPLEADO'])[1]/following::td[1]</value>
-      <webElementGuid>67c27868-ad14-40f3-9258-b38cc0d65ea0</webElementGuid>
+      <webElementGuid>622ce69a-8507-4a04-8c66-3409a85c2756</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modificación'])[1]/following::td[3]</value>
-      <webElementGuid>b3886ef9-18b2-40b7-9810-4da23c7ad5e8</webElementGuid>
+      <webElementGuid>2772394c-5660-41c2-b116-5540cb7cf7e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::td[4]</value>
-      <webElementGuid>ad0d08a1-c955-4ea3-81e1-f0dc7f8cb44a</webElementGuid>
+      <webElementGuid>22c80184-ee98-440e-9c62-5da3ef44c1c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>92a30c24-cd8a-4cb1-a9ab-b828e079b326</webElementGuid>
+      <webElementGuid>8681db5a-5dac-4b3a-8bf7-a0f8808e10ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'SEGURO' or . = 'SEGURO')]</value>
-      <webElementGuid>835a4932-9e2b-4dc8-91bf-4727943e64cd</webElementGuid>
+      <webElementGuid>52459512-d25a-49cf-97d7-63ecd560f673</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

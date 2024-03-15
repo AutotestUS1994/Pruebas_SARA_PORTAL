@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='j_idt47']/div/ul/li/span[2]</value>
+         <value>//body/div[1]/div/div[2]/div/table/tbody/tr/td/div/div/ul/li/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>88f0e9e2-38d1-41c4-b565-f6f3d2d625ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-messages-info-detail</value>
+      <webElementGuid>27e5853b-5101-4f98-b806-eaa98f46701c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Se han guardado los datos satisfactoriamente.</value>
+      <webElementGuid>b61ae707-e69c-49c7-a437-c0ad4f63b5a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt47&quot;)/div[@class=&quot;ui-messages-info ui-corner-all&quot;]/ul[1]/li[1]/span[@class=&quot;ui-messages-info-detail&quot;]</value>
+      <webElementGuid>f71b9e78-0ead-4f17-9f50-7e7f9288ccfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoExiste/iframe_Cargo existente_7F07D451F09D4B358137_cb7a64</value>
+      <webElementGuid>bad24012-d953-4eb9-b714-1916e27c1b68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt47']/div/ul/li/span[2]</value>
+      <webElementGuid>2adacd74-3ca1-47ff-9486-30dc7af0aa76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[1]/following::span[1]</value>
+      <webElementGuid>f2d6b56e-9806-476b-a36a-dd07f8ad9887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo Vacante'])[1]/following::span[4]</value>
+      <webElementGuid>94a3d79d-9d4b-4fb6-87e7-fd266bbc033c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFO:'])[2]/preceding::span[1]</value>
+      <webElementGuid>f5fb4169-bc16-4543-82e8-6c95af07014f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ha finalizado el proceso.'])[1]/preceding::span[2]</value>
+      <webElementGuid>a6feb038-a338-41d1-ae6d-86e08dd82070</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Se han guardado los datos satisfactoriamente.']/parent::*</value>
+      <webElementGuid>55517d32-cb9b-4c79-9e64-dd2374f43212</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
+      <webElementGuid>2a51e98d-6a50-45e4-8fe3-ee65d83807a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Se han guardado los datos satisfactoriamente.' or . = 'Se han guardado los datos satisfactoriamente.')]</value>
+      <webElementGuid>f55a7c60-d03e-4f86-ae1b-cfa22a95529b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

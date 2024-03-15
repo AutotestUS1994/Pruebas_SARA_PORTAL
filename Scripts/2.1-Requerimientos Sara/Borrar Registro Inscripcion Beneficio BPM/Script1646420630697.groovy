@@ -48,16 +48,17 @@ if (conv == 'CONVOCATORIA BENEFICIO PRUEBA PORTAL') {
 
 	    String emp = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'))
 	
-	    if (emp == 'MENDOZA 1502 EMPLEADO PPRUEBA') {
+	    if (emp.contains('1502 EMPLEADO PPRUEBA')) {
 	        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/span_Mendoza 1502 Empleado Port'))
 	
-	        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Cambiar Datos'))
+	        //WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Cambiar Datos'))
 	
 	        WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Eliminar'))
 	
 	        String borrar = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/label_Desea eliminar el registro'))
 	
-	        if (borrar == 'Desea eliminar el registro') {
+	        if (borrar == 'DESEA CONFIRMAR') {
+				//Se cambio texto Aceptar por Si
 	            WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarRegistroInscripcionBeneficioBPM/a_Aceptar'))
 	
 	            WebUI.closeBrowser()

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>c50c4dcb-f349-4717-944a-45e7dc92e138</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formPopupHojaVida:j_idt2135</value>
+      <webElementGuid>fa726489-02d5-44b1-8923-e914fcf2f965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formPopupHojaVida:j_idt2135</value>
+      <webElementGuid>dca5b7bc-f9f8-4a78-ae88-e08c95dd9bab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ad237b2b-f9f7-4570-954f-331ded72f8ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-hover ui-state-focus</value>
+      <webElementGuid>571ef222-c221-48be-a7d8-bad546f15145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>size</name>
       <type>Main</type>
       <value>30</value>
+      <webElementGuid>cd67a572-22f6-456f-b4fa-30ff161ca5cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formPopupHojaVida:j_idt2135&quot;,e:&quot;valueChange&quot;,f:&quot;formPopupHojaVida&quot;,p:&quot;formPopupHojaVida:j_idt2135&quot;,u:&quot;formPopupHojaVida&quot;});</value>
+      <webElementGuid>bcd259b9-c620-4778-987c-2dce3c44652d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>57717704-5429-41b3-8976-b654226f3e82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>35d5f6f5-07f4-48f9-860d-25098e23a460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>0ad7b108-2878-4cc2-9e5c-ca8315573265</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupHojaVida:j_idt2135&quot;)</value>
+      <webElementGuid>f2f3db28-f35a-49ec-8738-2e28c9e1dc89</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formPopupHojaVida:j_idt2135']</value>
+      <webElementGuid>a4888166-a41c-41d9-b0c1-41a9504b1c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formPopupHojaVida:dialog_popupHojaVida_content']/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>72af6075-8f9d-4528-83b0-ef475ba96bfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>77d9e436-576c-44a6-847a-b01c3342b338</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formPopupHojaVida:j_idt2135' and @name = 'formPopupHojaVida:j_idt2135' and @type = 'text']</value>
+      <webElementGuid>a15a4c47-c862-41da-bed4-ff43e3ad049b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

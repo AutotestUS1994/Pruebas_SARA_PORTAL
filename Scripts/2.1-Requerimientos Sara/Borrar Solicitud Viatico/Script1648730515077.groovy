@@ -58,7 +58,7 @@ if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/Borra
 } else {
     String emp = WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Mendoza 1502 Empleado'))
 
-    if ((emp == 'Mendoza 1502 Empleado') || (emp == 'Hojavida. 1502 Empleado Prueba')) {
+    if ((emp.contains('1502 Empleado')) || (emp == 'Hojavida. 1502 Empleado Prueba')) {
         WebUI.click(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/span_Mendoza 1502 Empleado'))
 
         if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/BorrarSolicitudViatico/a_Costos')).equals('Costos')) {

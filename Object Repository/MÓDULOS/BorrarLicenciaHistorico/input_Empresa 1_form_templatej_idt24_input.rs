@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='form_template:j_idt24_input']</value>
+         <value>//body/div[1]/div[2]/form/span[1]/div[2]/div/span[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5f9f5b89-6012-4b3f-ac37-7e39867a1b3d</webElementGuid>
+      <webElementGuid>02e493bf-5b89-41af-8bf0-6ae45a84fdea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_template:j_idt24_input</value>
-      <webElementGuid>c7e1a95c-c446-4bd5-89a4-735a7013db45</webElementGuid>
+      <webElementGuid>12cd4766-1834-4324-a6b4-ef312becc2b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_template:j_idt24_input</value>
-      <webElementGuid>f3455637-68d0-4d97-b6cb-bc6e7c380642</webElementGuid>
+      <webElementGuid>79cd212e-705d-4721-9e39-135a609c6d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9f76c7b0-690d-4e03-9249-ce2c5128928b</webElementGuid>
+      <webElementGuid>104dc5a8-3ca6-43d0-9e27-07c3ae0dad64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
-      <webElementGuid>1199bc4e-cefa-4f5e-909c-9ecb04a9b3c4</webElementGuid>
+      <webElementGuid>2639f1a5-669a-457e-8ab5-01402d06a2d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>265290dc-1a9f-4c90-8a3a-6c327101a924</webElementGuid>
+      <webElementGuid>e97f24ba-7e26-4fae-a7ed-9c1b8aa5119d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>305</value>
-      <webElementGuid>8591351c-51fd-402f-9cc5-4f9007eee551</webElementGuid>
+      <webElementGuid>fb5e7cc6-63e6-4e72-9ae8-92b7c5ce7326</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>this.value='';</value>
-      <webElementGuid>996f9fe0-efe7-43f0-8dc6-2550957397be</webElementGuid>
+      <webElementGuid>0c2a5689-8518-45c5-94f2-e538bddabb12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>c8214e8f-d11e-47af-8ac6-9262b5e25f86</webElementGuid>
+      <webElementGuid>4521bd00-3a21-458f-9c62-57313a258583</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ecec45bb-875b-4e28-9120-b6ba0c77e2d4</webElementGuid>
+      <webElementGuid>eb241c01-56aa-467e-916f-1be594193106</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1b16a987-449a-4394-b7e5-741ffef7ce27</webElementGuid>
+      <webElementGuid>871a7740-273e-400d-98b3-491bc041958e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>fc452746-eb5c-4dbf-af53-b019f6cb2992</webElementGuid>
+      <webElementGuid>17f5ef21-c1e7-4c89-b943-7f2ba4416ab8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_input&quot;)</value>
-      <webElementGuid>976737b0-9d5d-4390-a77a-4876fe0af1f1</webElementGuid>
+      <webElementGuid>af8a4bee-f9c4-43dd-be19-bef05da0a20e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_template:j_idt24_input']</value>
-      <webElementGuid>e464fb70-ff86-4209-8813-0ecc587521d6</webElementGuid>
+      <webElementGuid>52164514-a3a4-4920-af10-246824e680d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24']/input</value>
-      <webElementGuid>8c8c178d-79f8-41c0-845a-723c8010374b</webElementGuid>
+      <webElementGuid>be393369-703c-4e0a-aa50-1a00763386c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
-      <webElementGuid>514756c1-10e7-445c-ae30-485d2e9c0048</webElementGuid>
+      <webElementGuid>678e004a-543c-4266-9786-4b54dd9cc367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_template:j_idt24_input' and @name = 'form_template:j_idt24_input' and @type = 'text']</value>
-      <webElementGuid>3db389a9-6e01-4846-b9a4-053dbbf535ae</webElementGuid>
+      <webElementGuid>d571b840-0c14-401b-8db2-770dd8c483d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

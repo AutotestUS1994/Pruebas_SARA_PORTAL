@@ -198,7 +198,7 @@ WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_8076995
 if (WebUI.waitForElementVisible(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954PorLeg'), 1)) {
     WebUI.doubleClick(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/td_80769954PorLeg'))
 
-    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_EliminarSol'))
+    WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Eliminar Directo'))
 
     WebUI.click(findTestObject('MÓDULOS/LimpiaDatosAplicacionNovedadSara/a_Aceptar'))
 }

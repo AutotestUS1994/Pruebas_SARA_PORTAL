@@ -16,10 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.awt.Robot
+import java.awt.event.KeyEvent
 
 WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginFunSara'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/input_Empresa 1_form_templatej_idt24_input'), 'event')
+WebUI.setText(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/input_Empresa 1_form_templatej_idt24_input'), 'evento (bie)')
 
 WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/li_evento (bie)'))
 
@@ -44,6 +46,10 @@ if (evento == 'Promocion y prevencion de la salud portal') {
 
         WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/td_90798514'))
 
+        zoom()
+
+        WebUI.waitForElementClickable(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/a_Cambiar Datos'), 1)
+
         WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/a_Cambiar Datos'))
 
         WebUI.click(findTestObject('MÓDULOS/BorrarInscripcionEventoBienestar/a_Eliminar'))
@@ -52,5 +58,25 @@ if (evento == 'Promocion y prevencion de la salud portal') {
 
         WebUI.closeBrowser()
     }
+}
+
+def zoom() {
+    Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
 }
 

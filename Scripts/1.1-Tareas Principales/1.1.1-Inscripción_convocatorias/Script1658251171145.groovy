@@ -18,9 +18,10 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 String correo = WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.0-Inscripción_Portal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -34,9 +35,9 @@ WebUI.comment('apartir  de aqui se agrega el cambio de estado a aspirante')
 
 WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/Span_RRHH'))
 
-WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
+WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
 
-WebUI.switchToWindowIndex(3)
+WebUI.switchToWindowIndex(2)
 
 String text = WebUI.getText(findTestObject('MÓDULOS/DiligenciarHV/a_fila0'))
 
@@ -77,7 +78,7 @@ String Result0 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatoria
 if (Result0 == 'Se ha inscrito correctamente.') {
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/Span_RRHH'))
 
-    WebUI.doubleClick(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
+    WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Convocatorias vigentes'))
 
     String text03
 
@@ -87,28 +88,28 @@ if (Result0 == 'Se ha inscrito correctamente.') {
 
     String text06
 
-    WebUI.switchToWindowIndex(4)
+    WebUI.switchToWindowIndex(3)
 
     text03 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
 
-    text4 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
+    text04 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
 
-    text5 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
+    text05 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
 
     try {
-        text6 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
+        text06 = WebUI.getText(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
     }
     catch (Exception e) {
-        text6 = ''
+        text06 = ''
     } 
     
     if (text03 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila3'))
-    } else if (text4 == 'Dir. Corp. Senior Digital') {
+    } else if (text04 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila4'))
-    } else if (text5 == 'Dir. Corp. Senior Digital') {
+    } else if (text05 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila5'))
-    } else if (text6 == 'Dir. Corp. Senior Digital') {
+    } else if (text06 == 'Dir. Corp. Senior Digital') {
         WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_fila6'))
     } else {
         WebUI.acceptAlert()
@@ -141,7 +142,8 @@ if (Result0 == 'Se ha inscrito correctamente.') {
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/div_Citacion'))
 
     WebUI.click(findTestObject('MÓDULOS/Inscripcion_convocatorias/a_Registro Citacin'))
-	zoom()
+
+   // zoom()
 
     while (WebUI.waitForElementVisible(findTestObject('MÓDULOS/Inscripcion_convocatorias/span_Katalon  Prueba Inscripcion'), 
         1)) {
@@ -240,7 +242,7 @@ def fecha() {
 }
 
 def cambioAspirante() {
-    Robot robot = new Robot()
+   /* Robot robot = new Robot()
 
     robot.keyPress(KeyEvent.VK_CONTROL)
 
@@ -248,7 +250,13 @@ def cambioAspirante() {
 
     robot.keyRelease(KeyEvent.VK_CONTROL)
 
-    robot.keyRelease(KeyEvent.VK_T)
+    robot.keyRelease(KeyEvent.VK_T)*/
+	
+	WebDriver driver = DriverFactory.getWebDriver()
+	
+	JavascriptExecutor js = ((driver) as JavascriptExecutor)
+	
+	js.executeScript("window.open();")
 
     WebUI.switchToWindowIndex(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -293,24 +301,24 @@ def cambioAspirante() {
 
     WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 }
-def zoom(){
-	Robot robot = new Robot()
-	
-	robot.keyPress(KeyEvent.VK_CONTROL)
-	
-	robot.keyPress(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyPress(KeyEvent.VK_CONTROL)
-	
-	robot.keyPress(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
-	
-	
-}
+/*
+def zoom() {
+    Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+}*/
+

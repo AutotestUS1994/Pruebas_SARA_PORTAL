@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Aqui la ruta de Weblogic</description>
-      <initValue>'http://192.168.2.19:7040/PortalSara/sitio/portalEmpleados/acceso'</initValue>
+      <initValue>'http://192.168.20.44:7040/PortalSara/sitio/portalEmpleados/acceso'</initValue>
       <name>G_Login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Aqui la URL de Sara para requerimientos</description>
-      <initValue>'http://192.168.2.19:7001/saraweb/webcommon/acceso.jsf'</initValue>
+      <initValue>'http://192.168.20.44:7001/saraweb/webcommon/acceso.jsf'</initValue>
       <name>G_LoginSara</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

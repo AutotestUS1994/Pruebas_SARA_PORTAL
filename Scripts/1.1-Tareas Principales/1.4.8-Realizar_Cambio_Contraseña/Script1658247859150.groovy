@@ -41,7 +41,7 @@ WebUI.callTestCase(findTestCase('0-Login/0.4-LoginModificado/LoginJefe-Contras2'
 
 if (WebUI.waitForElementNotVisible(findTestObject('MÓDULOS/RealizarCambioContraseña/iframe_Recuperar Clave Preguntas_7F07D45170_d61892'), 
     1)) {
-    WebUI.navigateToUrl('http://192.168.2.19:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
+    WebUI.navigateToUrl('http://192.168.20.44:8480/PortalSara/sitio/portalEmpleados/cambiarClave')
 
     WebUI.setText(findTestObject('MÓDULOS/RealizarCambioContraseña/input_Nueva Clave_form_cambioContraseniapas_322e59'), 
         'SoloAutomaticas2023*')
