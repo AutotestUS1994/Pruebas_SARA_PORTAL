@@ -6,12 +6,12 @@
    <elementGuidId>8ab1fc9c-5fae-4e1b-805a-5481ab7b94d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:5:j_idt722&quot;]</value>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[2]/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[5]/td[2]/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[6]/td[2]/select</value>
+         <key>CSS</key>
+         <value>select[name=&quot;requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:5:j_idt722&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>60bfc3ec-0eec-4425-a891-24154bbbb2d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:5:j_idt722</value>
+      <webElementGuid>2be52df8-902f-4401-b050-abc371e450db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>3002d3f9-f930-44e7-b315-282e322e48b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>1119c750-663b-4e4f-b65a-69b44843fd08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
 	Administrativo
 	Operativo
 </value>
+      <webElementGuid>b25a27ca-6732-48b3-98e3-0812f30db053</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd tabla-sin-bordes-pf&quot;]/td[2]/select[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>5a05d28d-eb99-4abf-b936-69e5c1905b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,6 +74,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/iframe_Nuevo cargo_7F07D451F09D4B35813735F5_66e4dc</value>
+      <webElementGuid>b3fc357f-9aca-41e7-8094-39ab0f183058</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:5:j_idt722']</value>
+      <webElementGuid>ab2aa629-12e4-4d54-8944-aafc3b191160</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo_data']/tr[6]/td[2]/select</value>
+      <webElementGuid>f54f6951-89ec-488d-83ef-379986f389a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de cargo'])[1]/following::select[1]</value>
+      <webElementGuid>e2bc9515-ec03-4081-8ba4-09c6647e0ead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Duraciòn del Contrato'])[1]/preceding::select[1]</value>
+      <webElementGuid>b680a3a4-559c-43d1-a4f1-4b94530a6f57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td[2]/select</value>
+      <webElementGuid>5bc87aac-1af2-4a8b-887a-2c424609980e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,5 +130,6 @@
 	Administrativo
 	Operativo
 ')]</value>
+      <webElementGuid>a03e1963-1db1-45dd-ba79-8f06a70a1838</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

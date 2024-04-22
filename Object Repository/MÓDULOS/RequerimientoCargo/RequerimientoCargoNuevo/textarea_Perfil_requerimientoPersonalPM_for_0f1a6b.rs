@@ -6,12 +6,12 @@
    <elementGuidId>1d20d915-c0ab-4c7f-9dc7-c04da6b496ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>textarea[name=&quot;requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:7:j_idt718&quot;]</value>
+         <key>XPATH</key>
+         <value>//body/div[1]/div/div[2]/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/table[2]/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[7]/td[2]/textarea</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[8]/td[2]/textarea</value>
+         <key>CSS</key>
+         <value>textarea[name=&quot;requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:7:j_idt718&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>f3558f09-4fe0-451f-ad3b-cdb0ea0c7f7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:7:j_idt718</value>
+      <webElementGuid>7c18e18e-e57c-4e82-bf01-f625edda2ccf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>0d053610-625f-4130-928c-2dd83a060fdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>80</value>
+      <webElementGuid>22acb8ef-48f4-4eb0-9f08-496e0824bd3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return texto (event,this.value,4000);</value>
+      <webElementGuid>2a8f766d-89ba-461c-b12e-d36245405167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>4</value>
+      <webElementGuid>d83c3798-1854-4ea7-8d18-2583584ae1db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd tabla-sin-bordes-pf&quot;]/td[2]/textarea[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>a4c95351-8ece-4df5-a9d3-082a8d539a88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/RequerimientoCargo/RequerimientoCargoNuevo/iframe_Nuevo cargo_7F07D451F09D4B35813735F5_66e4dc</value>
+      <webElementGuid>f7f1ab65-cae0-453e-975d-f2d56759afd6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@name='requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:7:j_idt718']</value>
+      <webElementGuid>3b8d6212-183b-4388-a742-c52685461fbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo_data']/tr[8]/td[2]/textarea</value>
+      <webElementGuid>99c8dcf4-5f4c-46af-b724-aec110a4f82f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/textarea</value>
+      <webElementGuid>6eda6152-0fbf-43b2-950a-6b54e09ae9a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@name = 'requerimientoPersonalPM_form:j_idt706:0:tablaCamHijo:7:j_idt718']</value>
+      <webElementGuid>364cf058-711c-44fc-995e-0b1c0923ae32</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

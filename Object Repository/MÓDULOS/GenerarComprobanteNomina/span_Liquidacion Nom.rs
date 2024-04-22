@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
+         <value>//body/span/ul/li/span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5e9f2101-bd68-413d-b79c-235bf9264687</webElementGuid>
+      <webElementGuid>4535a96d-3cf2-4f48-aa8a-edda392b5521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-query</value>
-      <webElementGuid>6429be8f-5ca2-4cad-b7e7-958a83023f8b</webElementGuid>
+      <webElementGuid>10f8f45e-dd0c-459e-afa2-e0d29e6d9ff1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Liquidacion Nom</value>
-      <webElementGuid>fc77749e-9abd-4c4e-af59-9e2799681160</webElementGuid>
+      <webElementGuid>597fea66-12b8-487c-b920-8a4f8028659e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
-      <webElementGuid>7f8d0640-6beb-43ee-8974-59ec8391e172</webElementGuid>
+      <webElementGuid>a0d09cfe-de2f-4e45-a8a6-7cc082d7bcbd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
-      <webElementGuid>2d09d0d2-df72-4f0a-96fd-66908fe5d8d8</webElementGuid>
+      <webElementGuid>d06fd06b-44a4-40e4-b95e-d89c5b35d71c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administración Compensación'])[1]/following::span[3]</value>
-      <webElementGuid>1b714937-0e78-4434-ac90-6363fa81d92a</webElementGuid>
+      <webElementGuid>1d95257b-6800-4cfc-823d-2b58ea1c41fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[5]</value>
-      <webElementGuid>d818108c-144b-4869-997e-4f2f75455185</webElementGuid>
+      <webElementGuid>61c172f3-6784-49f9-afb6-3721baeb82d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[6]</value>
-      <webElementGuid>beb5a803-6cc5-4606-adbc-4cdf3e0000b3</webElementGuid>
+      <webElementGuid>1797a875-f5fa-49e7-9fd3-24e03ee8d747</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Liquidacion Nom']/parent::*</value>
-      <webElementGuid>6022e0e1-9f84-4409-9370-438075616ff2</webElementGuid>
+      <webElementGuid>816d17a7-62b6-4eb1-9741-725c800d6fb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li/span</value>
-      <webElementGuid>84efe37c-07cd-4b8d-982b-fd29493363e5</webElementGuid>
+      <webElementGuid>25e83de1-4c52-4695-a635-c2764fd8dd2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Liquidacion Nom' or . = 'Liquidacion Nom')]</value>
-      <webElementGuid>116e982e-75ff-40be-8be3-e253b55e5b48</webElementGuid>
+      <webElementGuid>e1f66ad0-e85a-4106-9eaa-f61013079450</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
