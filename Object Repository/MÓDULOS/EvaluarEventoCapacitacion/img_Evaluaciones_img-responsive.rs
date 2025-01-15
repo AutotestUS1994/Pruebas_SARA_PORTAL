@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='areaAplicacion']/div/div/div[2]/div[2]/div[3]/div/div[2]/a/img</value>
+         <value>//div[@id='areaAplicacion']/div/div/div[2]/div[2]/div[3]/div/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
+      <webElementGuid>49f64bd3-a19f-41e3-8832-981402625053</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>img02</value>
+      <webElementGuid>13b4e22a-4c50-47b0-8b2a-d5a41571056f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>img-responsive</value>
+      <webElementGuid>b5458be6-bcc0-4184-9227-5a94c2c8508c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://localhost:8480/PortalSara/repodoc/recursos?uid=7be52b4076e826d9b6d6ac861410788c</value>
+      <webElementGuid>2bd57add-52c3-45db-9a49-92d97484d443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;areaAplicacion&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-md-offset-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-lg-6&quot;]/div[@class=&quot;container-fluid-prime&quot;]/div[@class=&quot;container-fuid&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-6 col-lg-6 contactos&quot;]/a[1]/img[@class=&quot;img-responsive&quot;]</value>
+      <webElementGuid>f2f7b196-1919-4c77-b41d-e81e2a86fe1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div[2]/div[2]/div[3]/div/div[2]/a/img</value>
+      <webElementGuid>c925c6a5-ce7c-4000-8d2c-f1f1b95fde70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[@alt='img02'])[2]</value>
+      <webElementGuid>88150ae6-ecad-4c41-bf86-08be5e786770</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a/img</value>
+      <webElementGuid>ec22cbcd-f1c7-4bff-b65c-3b6dee56ad95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'img02' and @src = 'http://localhost:8480/PortalSara/repodoc/recursos?uid=7be52b4076e826d9b6d6ac861410788c']</value>
+      <webElementGuid>e8b395a2-c830-45b2-b962-2f2428b3aeab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

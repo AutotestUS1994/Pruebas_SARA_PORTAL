@@ -29,36 +29,42 @@ String registro = WebUI.getText(findTestObject('MÓDULOS/EvaluarEventoCapacitaci
 
 if (registro == 'No se encontró registros') {
     WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Modificar Inscripcion Evaluacion Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/a_RRHH'))
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/img_Evaluaciones_img-responsive'))
-	
-	WebUI.switchToWindowIndex(1)
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/td_Evaluacin Capacitacin'))
-	
-	WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/select_--Seleccione--SINO'),
-			'S                   ', true)
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/label_3'))
-	
-	WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/select_--Seleccione--SINO_1'),
-			'S                   ', true)
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/a_Guardar'))
-	
-	WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/span_Si'))
-	
-	String guardo = WebUI.getText(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/span_EVALUACION GUARDADA CORRECTAMENTE'))
-	
-	if (guardo == 'EVALUACION GUARDADA CORRECTAMENTE') {
-		WebUI.closeBrowser()
-	}
+
+    WebUI.callTestCase(findTestCase('0-Login/0.2-LoginJefe'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/a_RRHH'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/img_Evaluaciones_img-responsive'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/img_Evaluaciones_img-responsive'))
+
+    WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/td_Filtro_Evaluacin Capacitacin'), 
+        2)
+
+    WebUI.click(findTestObject('MÓDULOS/EvaluarEventoCapacitacion/td_Registro_Evaluacin Capacitacin'))
+
+    WebUI.selectOptionByValue(findTestObject('MÓDULOS/EvaluarEventoCapacitacion/select_--Seleccione--SINO'), 'S                   ', 
+        true)
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/label_3'))
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/select_--Seleccione--SINO_1'), 
+        'S                   ', true)
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/a_Guardar'))
+
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/span_Si'))
+
+    String guardo = WebUI.getText(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/span_EVALUACION GUARDADA CORRECTAMENTE'))
+
+    if (guardo == 'EVALUACION GUARDADA CORRECTAMENTE') {
+        WebUI.closeBrowser()
+    }
 } else {
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/td_Evaluacin Capacitacin'))
+    WebUI.selectOptionByIndex(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/td_Filtro_Evaluacin Capacitacin'), 
+        2)
+
+    WebUI.click(findTestObject('MÓDULOS/EvaluarEventoCapacitacion/td_Registro_Evaluacin Capacitacin'))
 
     WebUI.selectOptionByValue(findTestObject('Object Repository/MÓDULOS/EvaluarEventoCapacitacion/select_--Seleccione--SINO'), 
         'S                   ', true)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_--Seleccione--SINO</name>
+   <name>select_--Seleccione--Evaluacin Capacitacin</name>
    <tag></tag>
-   <elementGuidId>4c6ed05c-e71e-48f9-bad9-378fd7f20f44</elementGuidId>
+   <elementGuidId>ab545c79-581e-48c8-b177-6a576b8b3950</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>47c38f67-69a2-4b92-b00e-364e887a2368</webElementGuid>
+      <webElementGuid>ebf0985d-f0a3-4261-bab0-54dc29d7aedd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_evaluacion_proceso_seleccion:tablaPreguntasEvalProce:0:ingresoMarca</value>
-      <webElementGuid>ae179871-d580-40a7-a127-1adb1a7f6701</webElementGuid>
+      <webElementGuid>6b652598-e57b-45cc-88d1-cbf320a70d7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_evaluacion_proceso_seleccion:tablaPreguntasEvalProce:0:ingresoMarca</value>
-      <webElementGuid>2ab727e6-8021-4670-abc9-2cd0cd15f91c</webElementGuid>
+      <webElementGuid>aaa3cdb1-0b01-42b5-bd07-05169fef2441</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>eval_opciones long_mitad_campo</value>
-      <webElementGuid>9525f016-a9a8-4989-9daf-3866cef22dfb</webElementGuid>
+      <webElementGuid>bc282dea-00ce-4ed3-99ea-ecfb83fd9464</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6490ea25-5193-4fb0-b23b-b08cd102deee</webElementGuid>
+      <webElementGuid>9e596aa1-3f10-4e5f-92d2-8b0766438f6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
 	SI
 	NO
 </value>
-      <webElementGuid>65f70259-f309-4b62-a5d4-bfd6009d2d62</webElementGuid>
+      <webElementGuid>8eeac4c8-4b28-49d0-8df8-13a62d66b043</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_evaluacion_proceso_seleccion:tablaPreguntasEvalProce:0:ingresoMarca&quot;)</value>
-      <webElementGuid>44e027b2-48c4-45fa-8310-4ea729ecb2f4</webElementGuid>
+      <webElementGuid>87e6f11d-e932-49d9-b700-28d4a18fb740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/MÓDULOS/EvaluarEventoCapacitacion/iframe_Evaluaciones de capacitacin_7F07D451_2549c9</value>
-      <webElementGuid>1fb431d9-a25a-4f4b-80f7-01b8a8b1d359</webElementGuid>
+      <webElementGuid>d41f0a2b-b6e9-43dc-a741-f053c152f08b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_evaluacion_proceso_seleccion:tablaPreguntasEvalProce:0:ingresoMarca']</value>
-      <webElementGuid>acdf8ea2-13ef-4c36-b805-44b38b984d58</webElementGuid>
+      <webElementGuid>dd997da7-89d5-47f2-93e5-8180d46f7509</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_evaluacion_proceso_seleccion:tablaPreguntasEvalProce']/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
-      <webElementGuid>3ea10236-c18e-4e2b-a240-2fd6afa279f6</webElementGuid>
+      <webElementGuid>3f0b9f14-57e7-4da7-bce8-db67d9e5720c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
-      <webElementGuid>e67d9853-8d75-471b-9950-6eb4d8fa95a2</webElementGuid>
+      <webElementGuid>3f9f10c9-24ee-4a7b-80d5-ecbecaed404e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='¿La capacitación cumplió con sus expectativas?'])[1]/following::select[1]</value>
-      <webElementGuid>a30bb06b-7cd4-479e-ad9c-be12399db33d</webElementGuid>
+      <webElementGuid>c3990628-6a61-4698-8e2c-f8f4812cc923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Del 1 al 5. ¿Qué tan completo considera que fue la capacitación?'])[1]/preceding::select[1]</value>
-      <webElementGuid>8954c2cb-7856-4fae-b568-20514f0632f2</webElementGuid>
+      <webElementGuid>2a983e40-9bf2-4b77-abb2-86a1a9a30ce4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::select[1]</value>
-      <webElementGuid>4bf9d363-d496-4e88-b740-e02ddfa60f1d</webElementGuid>
+      <webElementGuid>276f5576-d1e3-4601-94d9-c4b7a640ec9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>5a2d4cb9-ddcc-4cf3-9a88-c3523b4a5ccd</webElementGuid>
+      <webElementGuid>7f78adf7-99b2-46e0-a4c3-8e37ffe97077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
 	SI
 	NO
 ')]</value>
-      <webElementGuid>9ac164b1-8aaf-476a-a508-19f708d18862</webElementGuid>
+      <webElementGuid>fa197581-4a4a-40e0-b199-709c706a44b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

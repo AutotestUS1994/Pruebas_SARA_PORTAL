@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Evaluaciones de capacitacin_7F07D451_2549c9</name>
+   <name>input_FechaProgramacion</name>
    <tag></tag>
-   <elementGuidId>f0aaff9f-e1ed-47de-841a-896e3995af0a</elementGuidId>
+   <elementGuidId>202bf164-d7c3-4937-a96a-9e22bb59664c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='ifrm_component_A_2']</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[2]/td/span[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ifrm_component_A_2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,135 +20,135 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-      <webElementGuid>1ea48b4d-aba6-4ccf-b482-1a90564edfe9</webElementGuid>
+      <value>input</value>
+      <webElementGuid>cfe643f2-de78-4dfe-b655-4c2e76bf7db2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ifrm_component_A_2</value>
-      <webElementGuid>53796120-53b8-4ded-b9b0-1fe0446c6d34</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/PortalSara/capacitacion/evaluacion/uievaluacion.xhtml?us_id=us-interfaz-iwfp</value>
-      <webElementGuid>9a0fc548-119a-4985-838c-66eb096648db</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>scrolling</name>
-      <type>Main</type>
-      <value>no</value>
-      <webElementGuid>b47a3f64-927e-4daa-9123-9aa66e7846fd</webElementGuid>
+      <value>form_template:j_idt24_input</value>
+      <webElementGuid>49859820-a01b-4082-b545-9d6ea6e5eee0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>7F07D451F09D4B35813735F552B36760</value>
-      <webElementGuid>6e0fb36c-e228-4527-a415-c6d10df8df39</webElementGuid>
+      <value>form_template:j_idt24_input</value>
+      <webElementGuid>19d07b47-5d87-4615-9003-138926b545dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>33e1558a-2079-4f8e-b83a-3e35fa3cf9a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginheight</name>
+      <name>class</name>
       <type>Main</type>
-      <value>5</value>
-      <webElementGuid>c5d7c9f8-6acd-4ea2-9bc2-362229950463</webElementGuid>
+      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
+      <webElementGuid>714258d6-01f2-4da5-a198-ec45c4555083</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginwidth</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>5</value>
-      <webElementGuid>5d3d9b79-cfc7-4937-970b-ddc34f58f7be</webElementGuid>
+      <value>off</value>
+      <webElementGuid>8dd5a54a-953b-4375-85e4-dc27d9946996</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>size</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>1f20808b-df01-4bc9-bda8-556e356eff39</webElementGuid>
+      <value>305</value>
+      <webElementGuid>4028c8cc-0ec0-44aa-8c88-42fd2ef8024a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onload</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>resizeIframe(this); </value>
-      <webElementGuid>b5dfe3a8-9643-48a3-9d83-819b0dbe053c</webElementGuid>
+      <value>this.value='';</value>
+      <webElementGuid>fd333abd-b297-44e8-b9f2-337258654837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>allowfullscreen</name>
+      <name>role</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>8cfb0155-323b-4274-b753-91003472b959</webElementGuid>
+      <value>textbox</value>
+      <webElementGuid>fae6abef-382b-4829-835b-ce51492ae1f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>webkitallowfullscreen</name>
+      <name>aria-readonly</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>3593ff35-43ca-4a26-9828-640b6d6f9232</webElementGuid>
+      <value>false</value>
+      <webElementGuid>f3d39ffc-b130-4ecd-809d-7d8a7f107c63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>mozallowfullscreen</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>1c3a6ead-0901-4a24-9908-2b5c6c1e158a</webElementGuid>
+      <value>false</value>
+      <webElementGuid>4d9dda97-01f3-4053-934c-a8c64bcbea15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-autocomplete</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>b8018cf4-6046-463f-a466-b4d04004f44d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ifrm_component_A_2&quot;)</value>
-      <webElementGuid>54fdf7a5-1c43-49c9-99cb-b3f066186cae</webElementGuid>
+      <value>id(&quot;form_template:j_idt24_input&quot;)</value>
+      <webElementGuid>e740a553-cc66-4798-8e50-0109b09375ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='ifrm_component_A_2']</value>
-      <webElementGuid>833d19d6-87b4-4b40-a508-78463e2b6e91</webElementGuid>
+      <value>//input[@id='form_template:j_idt24_input']</value>
+      <webElementGuid>fc4fd906-2fd6-41f1-835d-8075cf0af3fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='areaAplicacion']/div/div/div/div/div[3]/iframe</value>
-      <webElementGuid>90dbc31a-cb4a-4da7-859a-eab623c9a53b</webElementGuid>
+      <value>//span[@id='form_template:j_idt24']/input</value>
+      <webElementGuid>51d363b4-b298-426c-a5c9-6ce05d347036</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
-      <webElementGuid>a17430b9-a64f-4a39-b78d-b88b9d4ad9cb</webElementGuid>
+      <value>//span/input</value>
+      <webElementGuid>b36245dc-767e-4266-826d-55283b14219c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//iframe[@id = 'ifrm_component_A_2' and @src = '/PortalSara/capacitacion/evaluacion/uievaluacion.xhtml?us_id=us-interfaz-iwfp' and @name = '7F07D451F09D4B35813735F552B36760']</value>
-      <webElementGuid>f7e4df86-017b-486d-b25e-4d10bfd98d71</webElementGuid>
+      <value>//input[@id = 'form_template:j_idt24_input' and @name = 'form_template:j_idt24_input' and @type = 'text']</value>
+      <webElementGuid>e98372ae-362d-4e6d-9b9b-3bcca7dfd61d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
