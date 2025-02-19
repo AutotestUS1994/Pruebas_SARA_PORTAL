@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Se realizan pruebas automaticas sobre PORTAL SARA 12.12.00 para certificación en SQL Server 2022 - con Wildlfy14</description>
    <name>1-TareasPrincipales</name>
    <tag></tag>
    <isRerun>false</isRerun>

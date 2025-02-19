@@ -24,7 +24,7 @@ iniciar()
 
 WebUI.click(findTestObject('MÓDULOS/SolicitarViatico/a_Servicios'))
 
-WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'))
+WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Mis solicitudViatico'))
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Nuevo'))
 

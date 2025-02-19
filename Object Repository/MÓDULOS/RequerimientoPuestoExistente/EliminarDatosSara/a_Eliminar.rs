@@ -6,11 +6,11 @@
    <elementGuidId>ba76bcd0-175b-4f74-a3a8-56a35ae023df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[9]/div/div[2]/div[2]/table[2]/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[8]/div/div[2]/div[2]/table[2]/tbody/tr/td[2]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>93a57f41-c432-4ff8-baef-bfb48ed63750</webElementGuid>
+      <webElementGuid>14ba768a-767a-4d6b-8cc2-0775b60af5a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupMedioSeleccion_form:j_idt2407</value>
-      <webElementGuid>f1e17d6a-02fa-4edf-91ee-572a0034ed59</webElementGuid>
+      <webElementGuid>1f4c931a-6d19-4152-9fd8-f2d7462442b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>519eb66f-c68d-4a08-a99c-87efb07c6c2e</webElementGuid>
+      <webElementGuid>ea648c72-c789-43b4-bc5e-f357c06608e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-eliminar</value>
-      <webElementGuid>f05280ff-22cb-4ece-893b-6b0d02a354f0</webElementGuid>
+      <webElementGuid>94ed878d-fc28-4635-b83a-f63be4d29d1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupMedioSeleccion_form:j_idt2407&quot;,f:&quot;popupMedioSeleccion_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>e1cd20a7-9551-4350-b2d1-f465c07818f0</webElementGuid>
+      <webElementGuid>356222c2-a06b-4e91-85ee-94fc441f8151</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;popupMedioSeleccion_form:j_idt2407&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
-      <webElementGuid>7834f5c6-d8dd-4d34-942d-23612808eb42</webElementGuid>
+      <webElementGuid>88a51b1e-3049-4e5d-a1e7-383e59bcb6be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
-      <webElementGuid>7e27af5a-89f7-4f7f-aa0a-3a48502b08ff</webElementGuid>
+      <webElementGuid>19cd93d4-c8b0-4644-8984-76f0f69c56e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupMedioSeleccion_form:j_idt2407&quot;)</value>
-      <webElementGuid>30f23ebd-7657-48df-a533-95dfdfb30593</webElementGuid>
+      <webElementGuid>dab115d5-f55c-4a26-859e-5e67f0b64a82</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupMedioSeleccion_form:j_idt2407']</value>
-      <webElementGuid>1cc8cddb-f11f-47ba-b1e9-0735fbefa167</webElementGuid>
+      <webElementGuid>79f5d961-c00b-4ad5-bb50-6f24d9c49f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupMedioSeleccion_form:j_idt2383_content']/div[2]/table[2]/tbody/tr/td[2]/a</value>
-      <webElementGuid>29f8dec8-9697-4ef6-b400-40e24c106ad7</webElementGuid>
+      <webElementGuid>390eeec6-c5d7-4a03-ad47-4a21d57c4d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Eliminar')])[3]</value>
-      <webElementGuid>8e5f2fb5-997b-40ae-8738-5587942b1b77</webElementGuid>
+      <webElementGuid>a5389886-83c8-43dc-9449-170905ae2561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Máximo*'])[1]/following::a[2]</value>
-      <webElementGuid>bd516184-b173-4e29-add1-82fcdebeb87b</webElementGuid>
+      <webElementGuid>392f6d24-db8d-49a9-a9d6-e8161d57c5a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mínimo*'])[1]/following::a[2]</value>
-      <webElementGuid>30685ba7-35a7-4cd9-a023-cf98b925ece1</webElementGuid>
+      <webElementGuid>b1ccc31f-46f4-484e-838b-34a6543538d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[2]</value>
-      <webElementGuid>1719196c-7bcc-4599-9824-9992f696c7ae</webElementGuid>
+      <webElementGuid>b77a1051-4d80-44fc-8303-af4215ddf42c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::a[2]</value>
-      <webElementGuid>3fcc627b-5f2f-47cb-af8f-4e400614f3a9</webElementGuid>
+      <webElementGuid>8c2adc20-efa3-450c-936f-da2a4ea7005f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[84]</value>
-      <webElementGuid>080c33bf-2afe-40df-9b7e-53ea78bb64af</webElementGuid>
+      <webElementGuid>cbff5061-2294-4cc7-8cf1-e036016eba56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[8]/div/div[2]/div[2]/table[2]/tbody/tr/td[2]/a</value>
-      <webElementGuid>2a546afe-4278-4b1a-a22d-36029940795e</webElementGuid>
+      <webElementGuid>eaed1f72-69c4-4b11-9707-1bf0af2dea42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupMedioSeleccion_form:j_idt2407' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
-      <webElementGuid>8f531c73-936e-4086-8ec4-7f355d3422d5</webElementGuid>
+      <webElementGuid>ac6b2623-9ff4-4858-a80a-47c00e9e4c19</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

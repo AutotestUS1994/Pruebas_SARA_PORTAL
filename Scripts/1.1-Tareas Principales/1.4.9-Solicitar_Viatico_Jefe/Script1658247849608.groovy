@@ -17,12 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('2.1-Requerimientos Sara/Borrar Solicitud Viatico'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.3-LoginEmpleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
 iniciar()
 
-if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'), 1)) {
-    WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Solicitud Viaticos'))
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Mis solicitudViatico'), 
+    1)) {
+    WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/label_Mis solicitudViatico'))
 }
 
 WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Nuevo'))
@@ -56,7 +57,7 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
         1, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.setText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/input_Fecha prevista_form_detalleSolicitudV_f1589c'), 
-        '30/03/2030')
+        '30/04/2030')
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Centro de Costos_form_detalleSolicitudVia_8759c7'))
 
@@ -122,11 +123,12 @@ if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/la
     WebUI.click(findTestObject('MÓDULOS/SolicitarViatico/a_agregarRegistroCostos'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/a_Guardar'))
-	
-	String guardado = WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0'))
+
+    String guardado = WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0'))
 
     if (guardado.contains('Se ha enviado la solicitud de viatico correctamente')) {
-        WebUI.closeBrowser() //	WebUI.navigateToUrl('http://192.168.20.44:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+        WebUI.closeBrowser( //	WebUI.navigateToUrl('http://192.168.20.44:8580/PortalSara/sitio/portalEmpleados/solicitudViatico')
+            )
     } else if (WebUI.getText(findTestObject('Object Repository/MÓDULOS/SolicitarViatico/span_Se ha enviado la solicitud de viatico _60d6d0')).equals(
         'Registro guardado')) {
         WebUI.acceptAlert()

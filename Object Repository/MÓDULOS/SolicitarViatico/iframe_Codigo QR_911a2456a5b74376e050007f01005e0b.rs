@@ -6,12 +6,12 @@
    <elementGuidId>99c28183-223b-4d1d-a835-fa40420945d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ifrm_component_D_0</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div[3]/div/div/iframe</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//iframe[@id = 'ifrm_component_D_0' and @src = '/PortalSara/viaticos/uiSolicitudViatico.xhtml?us_id=us-interfaz-7vsk' and @name = '911a2456a5b74376e050007f01005e0b']</value>
+         <key>CSS</key>
+         <value>#ifrm_component_D_0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
+      <webElementGuid>479994dd-81df-46bd-8b57-42d9d07ccc82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ifrm_component_D_0</value>
+      <webElementGuid>e02dd62f-1992-4433-9509-4addcf5e9fdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSara/viaticos/uiSolicitudViatico.xhtml?us_id=us-interfaz-7vsk</value>
+      <webElementGuid>6328c7cb-ac34-437b-8166-6c2616487435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
+      <webElementGuid>b4cd7af6-ef53-4dd3-9449-af9341eada02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>911a2456a5b74376e050007f01005e0b</value>
+      <webElementGuid>b0407eb1-04a8-4c7c-8fef-5a744f2f2b37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>marginheight</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>98a39a47-9730-4440-8ce1-183843ff4195</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>marginwidth</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>f7c3113a-9dc7-44d1-b946-5a96860db50f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>93e7908f-f115-41eb-8e6f-8e7edf30c085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>onload</name>
       <type>Main</type>
       <value>resizeIframe(this); </value>
+      <webElementGuid>8a8c5f7e-eec3-4fb7-b8d2-eb6e1f4727ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>allowfullscreen</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>8d1834ed-0ad3-4f7f-a2e6-ab04278a4ab7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>webkitallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>a0e12d18-13c8-469f-bcbb-39ad01973c9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>mozallowfullscreen</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>a8482a3c-4edf-4275-b0d3-7f0b623c5714</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ifrm_component_D_0&quot;)</value>
+      <webElementGuid>39eaa17c-b960-40ad-8e1e-10c420f527a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='ifrm_component_D_0']</value>
+      <webElementGuid>af9fe382-02fd-4dd8-88ca-827627e98f9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='areaAplicacion']/div/div/div[3]/div/div/iframe</value>
+      <webElementGuid>8543e015-7a2b-4c0a-a2ad-084fe4ce118e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
+      <webElementGuid>52a45fd2-2d09-4af9-bb07-cda4d65f58d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'ifrm_component_D_0' and @src = '/PortalSara/viaticos/uiSolicitudViatico.xhtml?us_id=us-interfaz-7vsk' and @name = '911a2456a5b74376e050007f01005e0b']</value>
+      <webElementGuid>e9fb5c1c-3491-4697-9757-6ea80498a0ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
